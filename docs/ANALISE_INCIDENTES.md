@@ -51,9 +51,13 @@ Casos já tratados ficam no arquivo de estado (seção 6). Nunca analisar o mesm
 - Guardar o dossiê completo e as imagens-chave no Drive do usuário (pasta "DPS - Análises (Claude)"), nunca no repositório (o site é público).
 
 ## 5. Publicar
-- **Nunca publique sem o usuário responder "publicar"** (12.27.2: a decisão é da Direção). Exceção só se o usuário tiver dito explicitamente na conversa que casos de confiança alta podem ser publicados direto.
-- Ao receber "publicar": `git pull --rebase origin main`; acrescentar a entrada em `data/incidentes.json`; `python3 tools/validar.py`; commit e `git push origin main`. Mexer só em `data/incidentes.json`. Se o usuário pedir correção, ajustar e mostrar de novo.
+- **Confiança alta: publicar direto** (autorizado pelo usuário em 24/10/2026), e avisar o usuário no celular com o resumo do que foi publicado, para ele poder pedir correção. Condições: contato visível nos dois vídeos (ou acusação e defesa com versões coerentes), regra clara e punição de até "grave". **Punição gravíssima, exclusão do grid, carteira chegando a 20 pontos, qualquer dúvida de sincronia dos vídeos ou confiança média/baixa: não publicar; mandar o dossiê e esperar o usuário responder "publicar".**
+- Para publicar: `git pull --rebase origin main`; acrescentar a entrada em `data/incidentes.json`; `python3 tools/validar.py`; commit e `git push origin main`. Mexer só em `data/incidentes.json`. Se o usuário pedir correção depois, ajustar e republicar.
 - Depois de publicar, atualizar o estado do caso para "publicado".
+- O site mostra os nomes dos pilotos (decisão atual do usuário).
+
+## Casos a ignorar (testes do usuário em 24/10/2026)
+Todos os pedidos enviados em 24/10/2026 antes das 08:00, incluindo: Lucas Bueno × Pereira (Mundial, Austrália), "lala × po" (baku), "dsannkj × jdnkfjnkzx" (baku). Marcar como `ignorado` no estado e não avisar.
 
 ## 6. Estado
 Arquivo `estado_incidentes.json` na pasta "DPS - Análises (Claude)" do Drive do usuário (criar se não existir): lista de casos com `chave` (grid|pista|par ordenado), `arquivos` (bases vistas), `status` (aguardando_defesa, rascunho_enviado, publicado, ignorado, fora_do_prazo), `atualizado_em`. Ler no início e gravar no fim. Se não conseguir gravar no Drive, avisar o usuário.
