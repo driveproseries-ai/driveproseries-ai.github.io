@@ -22,13 +22,13 @@
     "volta": "17",
     "data": "2026-10-18",
     "titulo": "Jo Caiana × Edy Santos",
-    "resumo": "Na volta 17 da sprint, Jo Caiana (8º) vinha com Edy Santos (9º) a 0,267 s atrás. Na curva do setor 2, ao lado do muro, Jo perdeu quase toda a velocidade e Edy passou, ficando em 8º.",
-    "analise": "Análise com o vídeo da acusação (onboard de Jo, câmera frontal). O vídeo confirma a proximidade e a troca de posição, mas não mostra o carro de Edy nem o instante do contato. Não houve vídeo de defesa: o arquivo enviado por Edy é o mesmo da acusação, o que equivale a defesa sem vídeo (item 12.8). A Direção decidiu pela punição de Edy Santos, com a categoria Média, pois a vítima perdeu posição sem dano ao carro.",
-    "regra": "Item 12.14 (Média: sem dano, vítima perdeu posições, 6 pts) e 12.18.2 (carteira 6). Item 12.8: 5 pts por não enviar vídeo de defesa. Critérios da FIA v4.1.",
+    "resumo": "Na volta 17 da sprint, Jo Caiana (8º) vinha com Edy Santos (9º) a 0,267 s atrás. Na curva do setor 2, Edy tocou na traseira de Jo, que bateu no muro, danificou a asa dianteira (ela muda de cor no vídeo), perdeu quase toda a velocidade e foi ultrapassado.",
+    "analise": "Análise com o vídeo da acusação (onboard de Jo, câmera frontal). O carro de Edy não aparece, mas a perda brusca de velocidade, a batida no muro e a mudança de cor da asa dianteira indicam o toque na traseira. Jo perdeu a posição. Não houve vídeo de defesa: o arquivo enviado por Edy é o mesmo da acusação, o que equivale a defesa sem vídeo (item 12.8). A Direção decidiu pela punição de Edy Santos, categoria Grave, pelo dano ao carro.",
+    "regra": "Item 12.14 (Grave: causou dano ao carro, 10 pts) e 12.18.2 (carteira 8). Item 12.8: 5 pts por não enviar vídeo de defesa. Critérios da FIA v4.1.",
     "decisao": "Culpado: Edy Santos",
-    "punicao": "Média (−6 pts) e −5 pts por falta de vídeo de defesa (12.8)",
-    "categoria": "media",
-    "carteira_pts": 6,
+    "punicao": "Grave (−10 pts) e −5 pts por falta de vídeo de defesa (12.8)",
+    "categoria": "grave",
+    "carteira_pts": 8,
     "alerta": "Sempre grave a corrida e envie o vídeo de defesa no prazo de 5 dias (item 12.8)."
   }
 ]
