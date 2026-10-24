@@ -7,8 +7,8 @@
   "chave": "visitas"
  },
  "formspree_id": "",
- "email_contato": "",
- "whatsapp": "",
+ "email_contato": "driveproseries@gmail.com",
+ "whatsapp": "https://wa.me/5521968187007",
  "discord": "",
  "youtube": "https://www.youtube.com/@DriveProSeries",
  "instagram": "",
@@ -24,5 +24,6 @@
   "texto": "Quer correr no grid da Drive Pro Series? Fale com a liga e saiba como entrar.",
   "botao": "Quero participar",
   "link": "contato.html?assunto=2027"
- }
+ },
+ "formsubmit": "driveproseries@gmail.com"
 }

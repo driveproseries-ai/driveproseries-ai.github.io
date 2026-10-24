@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "id": "2026-10-23-mundial-texas-expectativa",
+  "tipo": "expectativa",
+  "campeonato": "mundial",
+  "data": "2026-10-23",
+  "autor": "Redação DPS",
+  "titulo": "Tuta chega ao Texas com 53 pontos de vantagem, mas a reta final do Mundial está aberta",
+  "linha_fina": "Domingo, às 21h30, começa a sequência de seis etapas que decide o campeonato; o circuito já teve três vencedores diferentes na história da liga.",
+  "corpo": [
+   "A DPS volta à pista neste domingo, 25 de outubro, às 21h30, para a etapa 19 do Mundial, no circuito dos Estados Unidos (Texas). Faltam seis corridas, contando a de domingo, e o campeonato chega a essa fase com um líder claro, mas sem nada decidido.",
+   "Arthur Tuta lidera com 338 pontos, 53 à frente de Fabinho Luz (285). Gabriel Arruda é o terceiro, com 270, seguido por Cesar Jones (262) e Marcelo (260). Pela classificação do FGC, a briga pelo pódio da temporada reúne cinco pilotos separados por menos de 80 pontos.",
+   "O ritmo recente mostra um campeonato pulverizado. Na última etapa, em Singapura, Renato TVR saiu do 16º lugar no grid e venceu, à frente de Gustavo Gallo e Cesar Jones. Antes disso, Lucas Bueno ganhou no Azerbaijão e Marcelo, na Itália. Marcelo e Arthur Tuta são os que mais venceram em 2026, com três vitórias cada.",
+   "Na pista do Texas, o histórico da liga não aponta um dono: Gustavo Zanon venceu em 2024, Tiago Costa em 2025 no Mundial, e Arthur Tuta ganhou a prova do Elite em 2025."
+  ],
+  "resultado": []
+ },
+ {
+  "id": "2026-10-23-elite-texas-expectativa",
+  "tipo": "expectativa",
+  "campeonato": "elite",
+  "data": "2026-10-23",
+  "autor": "Redação DPS",
+  "titulo": "Requena abre 43 pontos no Elite e encara o Texas como vice-campeão de Singapura",
+  "linha_fina": "Terça-feira, às 21h, a elite da DPS disputa a etapa 19; Gustavo Ferreira e Matheus Gregório correm por fora na perseguição.",
+  "corpo": [
+   "O Mundial DPS Elite chega à etapa 19 na terça-feira, 27 de outubro, às 21h, no circuito dos Estados Unidos (Texas). Restam seis corridas, contando a do Texas, e a tabela está mais apertada do que a diferença no topo sugere.",
+   "Daniel Requena lidera com 310 pontos, 43 à frente de Gustavo Ferreira (267). Matheus Gregório aparece em terceiro, com 254, seguido por Robinho (228) e Jefferson Marchi (226). Requena, que venceu três etapas em 2026, é o piloto com mais vitórias do campeonato.",
+   "Em Singapura, na última etapa, Menezes venceu, com Requena em segundo e Robinho em terceiro. Requena subiu ao pódio também no Azerbaijão e em Madri, o que ajuda a explicar a regularidade que o mantém na frente.",
+   "Entre os construtores, a DPS - Drama, Punição e Sofrimento tem 914 pontos, seguida por Myeggsleft Racing Team (831) e Papayas Verdes F1 Team (803).",
+   "A pista tem lembrança boa para quem corre no Elite: Arthur Tuta venceu aqui em 2025, e foi Leo Oliveira quem terminou em segundo. As punições seguem fora da conta da classificação geral e só entram nos grupos e nos construtores, até o desconto final do campeonato."
+  ],
+  "resultado": []
+ }
+]
