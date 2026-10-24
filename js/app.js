@@ -104,7 +104,7 @@
   }
   function cardNoticia(n) {
     var cor = n.campeonato ? campCor(n.campeonato) : "#10231c";
-    var selo = n.campeonato ? '<span class="selo" style="--c:' + cor + '">' + esc(campNome(n.campeonato)) + "</span> " : '<span class="selo" style="--c:#10231c">DPS</span> ';
+    var selo = n.campeonato ? '<span class="selo" style="--c:' + cor + '">' + esc(campNome(n.campeonato) + (n.tipo === "expectativa" ? " · Expectativa" : "")) + "</span> " : '<span class="selo" style="--c:#10231c">DPS</span> ';
     return '<a class="card" style="--c:' + cor + '" href="materia.html?id=' + encodeURIComponent(n.id) + '">' + selo + '<span class="meta">' + esc(fmtData(n.data)) + "</span><h3>" + esc(n.titulo) + "</h3><p>" + esc(n.linha_fina || "") + "</p></a>";
   }
   function tabelaF1(tb) {
@@ -142,7 +142,7 @@
       var n = ctx.noticias, main = $("#app");
       var dest = n[0], cp = S.camps[0];
       var capa = dest
-        ? '<a class="destaque" style="--c:' + (dest.campeonato ? campCor(dest.campeonato) : "#10231c") + '" href="materia.html?id=' + encodeURIComponent(dest.id) + '"><span class="selo">' + esc(dest.campeonato ? campNome(dest.campeonato) : "DPS") + '</span> <span class="meta">' + esc(fmtData(dest.data, true)) + "</span><h1>" + esc(dest.titulo) + "</h1><p>" + esc(dest.linha_fina || "") + "</p></a>"
+        ? '<a class="destaque" style="--c:' + (dest.campeonato ? campCor(dest.campeonato) : "#10231c") + '" href="materia.html?id=' + encodeURIComponent(dest.id) + '"><span class="selo">' + esc((dest.campeonato ? campNome(dest.campeonato) : "DPS") + (dest.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(dest.data, true)) + "</span><h1>" + esc(dest.titulo) + "</h1><p>" + esc(dest.linha_fina || "") + "</p></a>"
         : '<div class="capa-vazia"><h1>A cobertura da DPS começa aqui.</h1><p>A matéria de cada corrida entra no ar logo depois da etapa. Enquanto isso, confira as tabelas e a próxima largada.</p></div>';
       var ch = S.site.chamada, chamada = ch ? '<section class="chamada" aria-label="Convite"><div><h2>' + esc(ch.titulo) + '</h2><p>' + esc(ch.texto || "") + '</p></div><a class="botao" href="' + esc(ch.link || "contato.html") + '">' + esc(ch.botao || "Quero participar") + "</a></section>" : "";
       var html = '<div class="wrap">' + chamada + '<div class="capa">' + capa + '<aside class="torre" id="torre" aria-label="Classificação"></aside></div>';
@@ -241,7 +241,7 @@
         res = '<div class="res"><h3>Resultado</h3><div class="rolagem"><table style="min-width:0"><thead><tr><th>Pos</th><th>Piloto</th><th>Equipe</th></tr></thead><tbody>' + n.resultado.map(function (r) { return '<tr><td class="p">' + esc(r.pos) + "</td><td>" + esc(r.piloto) + "</td><td>" + esc(r.equipe || "") + "</td></tr>"; }).join("") + "</tbody></table></div></div>";
       }
       var link = location.href.split("#")[0];
-      $("#app").innerHTML = '<div class="wrap"><article class="materia" style="--camp:' + cor + ";--c:" + cor + '"><span class="selo">' + esc(n.campeonato ? campNome(n.campeonato) : "DPS") + '</span> <span class="meta">' + esc(fmtData(n.data, true)) + " · " + esc(n.autor || "Redação DPS") + "</span><h1>" + esc(n.titulo) + '</h1><p class="fina">' + esc(n.linha_fina || "") + '</p><div class="corpo">' + (n.corpo || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div>" + res +
+      $("#app").innerHTML = '<div class="wrap"><article class="materia" style="--camp:' + cor + ";--c:" + cor + '"><span class="selo">' + esc((n.campeonato ? campNome(n.campeonato) : "DPS") + (n.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(n.data, true)) + " · " + esc(n.autor || "Redação DPS") + "</span><h1>" + esc(n.titulo) + '</h1><p class="fina">' + esc(n.linha_fina || "") + '</p><div class="corpo">' + (n.corpo || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div>" + res +
         '<div class="compart"><a class="botao" href="https://wa.me/?text=' + encodeURIComponent(n.titulo + " " + link) + '" rel="noopener">Compartilhar no WhatsApp</a><a class="botao claro" href="jornal.html">Mais matérias</a></div></article></div>';
     },
 
