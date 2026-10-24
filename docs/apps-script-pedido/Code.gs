@@ -5,7 +5,8 @@
  */
 var PASTA_RAIZ = 'DPS - Pedidos de análise';   // pasta criada no seu Drive
 var ORIGEM_SITE = 'https://driveproseries-ai.github.io'; // endereço do site (sem barra no fim)
-var MAX_MB = 600;                               // tamanho máximo do vídeo
+var MAX_MB = 300;                               // tamanho máximo do vídeo
+var PARTE_MB = 8;                               // tamanho das partes para análise (a IA só baixa até 10 MB por arquivo)
 var EMAIL_AVISO = '';                           // vazio = avisa o dono da conta
 
 function doGet() { return ContentService.createTextOutput('DPS pedidos: ativo'); }
@@ -64,13 +65,32 @@ function concluir(d) {
   var txts = alvo.getFilesByName(base + '.txt');
   var tipo = d.tipo === 'defesa' ? 'defesa' : 'acusacao';
   var status = video ? 'RECEBIDO (vídeo ' + Math.round(video.getSize() / 1048576) + ' MB)' : 'VÍDEO NÃO CHEGOU (peça para reenviar)';
-  var texto = relatorio(d, tipo, status, video ? video.getUrl() : '');
+  var partes = 0, aviso = '';
+  if (video) { try { partes = dividir(video, alvo, base); } catch (e) { aviso = 'ATENÇÃO: falha ao gerar as partes de análise: ' + e; } }
+  var texto = relatorio(d, tipo, status, video ? video.getUrl() : '') + (partes ? '\n\nPartes para análise automática: ' + partes + ' (pasta "partes")' : '') + (aviso ? '\n\n' + aviso : '');
   if (txts.hasNext()) txts.next().setContent(texto); else alvo.createFile(base + '.txt', texto, MimeType.PLAIN_TEXT);
   try {
     MailApp.sendEmail(EMAIL_AVISO || Session.getEffectiveUser().getEmail(),
       'DPS: ' + (tipo === 'defesa' ? 'DEFESA' : 'PEDIDO') + ' ' + limpa(d.campeonato, 30) + ' ' + limpa(d.pista, 40) + ' - ' + d.solicitante + ' x ' + d.envolvido, texto + '\n\nPasta: ' + alvo.getUrl());
   } catch (e) {}
   return { ok: !!video, erro: video ? '' : 'Vídeo não encontrado no Drive.' };
+}
+
+// Divide o vídeo em partes de PARTE_MB (arquivos binários, juntar na ordem) para a análise automática,
+// porque o conector do Drive usado pela IA só entrega arquivos de até 10 MB.
+function dividir(video, alvo, base) {
+  var id = video.getId(), total = video.getSize(), tam = PARTE_MB * 1048576, n = Math.ceil(total / tam);
+  var sub = pasta(alvo, 'partes'), tok = ScriptApp.getOAuthToken();
+  for (var i = 0; i < n; i++) {
+    var nome = base + '.parte' + ('00' + (i + 1)).slice(-3);
+    if (sub.getFilesByName(nome).hasNext()) continue;
+    var ini = i * tam, fim = Math.min(total, ini + tam) - 1;
+    var r = UrlFetchApp.fetch('https://www.googleapis.com/drive/v3/files/' + id + '?alt=media', { headers: { Authorization: 'Bearer ' + tok, Range: 'bytes=' + ini + '-' + fim }, muteHttpExceptions: true });
+    var cod = r.getResponseCode();
+    if (!(cod === 206 || (cod === 200 && n === 1))) throw new Error('parte ' + (i + 1) + ' codigo ' + cod);
+    sub.createFile(r.getBlob().setName(nome).setContentType('application/octet-stream'));
+  }
+  return n;
 }
 
 function relatorio(d, tipo, status, link) {

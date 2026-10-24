@@ -33,7 +33,7 @@
   },
   "pedido": {
     "apps_script_url": "https://script.google.com/macros/s/AKfycbwy_Tn4dzWrSa39Kk-aNE_RKiYkq__znpyy4sayW_Xmqbe9JGy1YGvZMgkxe7pPLYbB2A/exec",
-    "max_mb": 600,
+    "max_mb": 300,
     "campeonatos": [
       "Mundial DPS",
       "Mundial DPS Elite"
