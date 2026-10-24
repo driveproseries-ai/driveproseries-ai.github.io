@@ -13,5 +13,22 @@
     "decisao": "Incidente de corrida",
     "punicao": "",
     "alerta": "Alerta ao piloto da McLaren: quem vem atrás só tem direito a espaço se o eixo dianteiro estiver ao lado do retrovisor do carro da frente. Com o eixo dianteiro atrás do eixo traseiro do outro carro, a responsabilidade de evitar o contato é de quem está atrás, principalmente com o muro ao lado. Em caso de repetição, a análise será mais rigorosa."
+  },
+  {
+    "id": "2026-10-18-mundial-singapura-caiana-edy",
+    "campeonato": "mundial",
+    "etapa": 18,
+    "pista": "Singapura",
+    "volta": "17",
+    "data": "2026-10-18",
+    "titulo": "Jo Caiana × Edy Santos",
+    "resumo": "Na volta 17 da sprint, Jo Caiana (8º) vinha com Edy Santos (9º) a 0,267 s atrás. Na curva do setor 2, ao lado do muro, Jo perdeu quase toda a velocidade e Edy passou, ficando em 8º.",
+    "analise": "Análise com o vídeo da acusação (onboard de Jo, câmera frontal). O vídeo confirma a proximidade e a troca de posição, mas não mostra o carro de Edy nem o instante do contato. Não houve vídeo de defesa: o arquivo enviado por Edy é o mesmo da acusação, o que equivale a defesa sem vídeo (item 12.8). A Direção decidiu pela punição de Edy Santos, com a categoria Média, pois a vítima perdeu posição sem dano ao carro.",
+    "regra": "Item 12.14 (Média: sem dano, vítima perdeu posições, 6 pts) e 12.18.2 (carteira 6). Item 12.8: 5 pts por não enviar vídeo de defesa. Critérios da FIA v4.1.",
+    "decisao": "Culpado: Edy Santos",
+    "punicao": "Média (−6 pts) e −5 pts por falta de vídeo de defesa (12.8)",
+    "categoria": "media",
+    "carteira_pts": 6,
+    "alerta": "Sempre grave a corrida e envie o vídeo de defesa no prazo de 5 dias (item 12.8)."
   }
 ]
