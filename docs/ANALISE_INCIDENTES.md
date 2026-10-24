@@ -9,6 +9,8 @@ Este guia é lido pela tarefa agendada "DPS - Análise de incidentes". Regras de
 - Remontar o vídeo: buscar `title contains '<base>.parte'`, baixar cada parte com `download_file_content` (uma por chamada, no máx. 4 em paralelo; o resultado vai para um arquivo JSON com `content` em base64), decodificar, concatenar em ordem (parte001, 002, ...) e conferir que o tamanho total é o do `.mp4` (campo fileSize). Rode python com `-I`. Só tratar como válido se o ffprobe abrir o arquivo.
 - Pedidos de teste: ignorar os que tiverem relato sem sentido (ex.: "teste", letras soltas) ou piloto "lala/po/dsannkj"; avisar o usuário uma vez e marcar como ignorado.
 
+**Critério da Direção (24/10/2026):** na dúvida, e sem vídeo de defesa que comprove a versão do defensor, vale o ponto de vista da acusação (a Direção decide a punição). Falha comprovada de conexão (ex.: queda do lobby) afasta só a perda de 5 pts do 12.8, não esse critério.
+
 **Defesa sem vídeo:** o piloto pode registrar a defesa marcando que não gravou. O .txt vem com `Status: SEM VÍDEO DE DEFESA` e não há .mp4 nem partes. Isso conta como defesa recebida (não aplicar 12.8): analisar só com o vídeo da acusação e o relato dos dois lados. Sem sincronia possível entre vídeos; confiança alta só se o contato e a responsabilidade estiverem claros no vídeo da acusação e o relato da defesa não os contradisser; caso contrário, média (não publicar direto).
 
 ## 2. Quando analisar um caso

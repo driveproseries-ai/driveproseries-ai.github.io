@@ -30,5 +30,22 @@
     "categoria": "grave",
     "carteira_pts": 8,
     "alerta": "Sempre grave a corrida e envie o vídeo de defesa no prazo de 5 dias (item 12.8)."
+  },
+  {
+    "id": "2026-10-13-elite-singapura-marchi-bruno",
+    "campeonato": "elite",
+    "etapa": 18,
+    "pista": "Singapura",
+    "volta": "44",
+    "data": "2026-10-13",
+    "titulo": "Jefferson Marchi × Bruno Fernandes",
+    "resumo": "Na volta 44, Bruno Fernandes (9º) estava por fora, ao lado de Jefferson Marchi (8º), na entrada de uma curva à direita. Houve contato lateral, Marchi caiu para 11º e Bruno rodou.",
+    "analise": "Análise com o vídeo da acusação (onboard de Marchi). Bruno já estava lado a lado, por fora, antes da tangência, mas o instante do toque e quem tocou em quem não aparecem no vídeo. Bruno não enviou vídeo de defesa (queda do lobby; sem punição do item 12.8). Critério da Direção: na dúvida, e sem vídeo de defesa que comprove a versão do defensor, vale o ponto de vista da acusação. Não houve dano visível; Marchi perdeu 3 posições.",
+    "regra": "Item 12.14 (Média: sem dano ao carro, vítima perdeu posições, 6 pts) e 12.18.2 (carteira 6). Critérios da FIA v4.1.",
+    "decisao": "Culpado: Bruno Fernandes",
+    "punicao": "Média (−6 pts)",
+    "categoria": "media",
+    "carteira_pts": 6,
+    "alerta": "Grave sempre a corrida: sem vídeo de defesa, na dúvida vale a versão de quem acusa."
   }
 ]
