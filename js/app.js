@@ -297,11 +297,12 @@
       var s = S.site, canais = [];
       if (s.whatsapp) canais.push('<a class="botao" href="' + esc(safeUrl(s.whatsapp)) + '" rel="noopener">WhatsApp</a>');
       if (s.discord) canais.push('<a class="botao" href="' + esc(safeUrl(s.discord)) + '" rel="noopener">Discord</a>');
+      if (s.email_contato) canais.push('<a class="botao claro" href="mailto:' + esc(s.email_contato) + '">E-mail</a>');
       if (s.instagram) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
       if (s.youtube) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube</a>');
-      var form = s.formspree_id
+      var form = (s.formspree_id || s.formsubmit)
         ? '<form class="form" id="f" novalidate><label>Assunto<select name="assunto"><option>Mundiais DPS 2027: quero participar</option><option>Quero correr na DPS</option><option>Parceria ou patrocínio</option><option>Dúvida sobre os campeonatos</option><option>Outro assunto</option></select></label><label>Seu nome<input name="nome" required autocomplete="name"></label><label>Seu ID no jogo<input name="id_jogo" autocomplete="off"><span class="dica">PSN, Xbox ou o nome que aparece no F1 25.</span></label><label>Plataforma<select name="plataforma"><option>PlayStation</option><option>Xbox</option><option>PC</option></select></label><label>E-mail ou WhatsApp para retorno<input name="retorno" required></label><label>Mensagem<textarea name="mensagem" rows="5" required></textarea><span class="dica">Se quer correr, conte seu nível e há quanto tempo joga online.</span></label><input class="oculto" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"><div><button class="botao" type="submit">Enviar mensagem</button></div><div id="msg" role="status"></div></form>'
-        : '<div class="aviso erro"><strong>Formulário ainda não configurado.</strong> Preencha <code>formspree_id</code> em <code>data/site.json</code> (veja o guia). Enquanto isso, use os botões acima.</div>';
+        : '<div class="aviso erro"><strong>Formulário ainda não configurado.</strong> Preencha <code>formsubmit</code> (e-mail) ou <code>formspree_id</code> em <code>data/site.json</code> (veja o guia). Enquanto isso, use os botões acima.</div>';
       var e27 = qs.get("assunto") === "2027";
       $("#app").innerHTML = '<div class="wrap"><div style="max-width:700px"><h1>' + (e27 ? "Mundiais DPS 2027" : "Fale conosco") + '</h1><p style="font-family:var(--body);font-size:20px">' + (e27 ? "Quer entrar no grid de 2027? Conte quem você é e como corre, e a liga responde com os próximos passos." : "Quer correr na Drive Pro Series, propor uma parceria ou tirar uma dúvida? Escreva para a liga.") + "</p>" + (canais.length ? '<div class="canais">' + canais.join("") + "</div>" : "") + form + "</div></div>";
       var f = $("#f"); if (!f) return;
@@ -312,7 +313,8 @@
         if (dados._gotcha) return;
         if (!dados.nome || !dados.retorno || !dados.mensagem) { m.className = "aviso erro"; m.textContent = "Preencha nome, contato para retorno e mensagem."; return; }
         m.className = "aviso"; m.textContent = "Enviando…";
-        fetch("https://formspree.io/f/" + encodeURIComponent(s.formspree_id), { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(dados) })
+        (s.formspree_id ? fetch("https://formspree.io/f/" + encodeURIComponent(s.formspree_id), { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(dados) })
+          : fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: "Portal DPS: " + (dados.assunto || "novo contato"), _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); }))
           .then(function (r) { if (!r.ok) throw 0; f.reset(); m.className = "aviso"; m.textContent = "Mensagem enviada. A liga responde pelo contato que você informou."; })
           .catch(function () { m.className = "aviso erro"; m.textContent = "Não foi possível enviar agora. Tente de novo ou use um dos botões acima."; });
       });
