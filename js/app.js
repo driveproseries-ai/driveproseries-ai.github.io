@@ -58,7 +58,7 @@
   function ordenar(lista) { return lista.slice().sort(function (a, b) { return real(b) - real(a) || b.pts - a.pts; }); }
 
   /* ---------- estrutura ---------- */
-  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["contato.html", "Fale conosco", "contato"]];
+  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["contato.html", "Fale conosco", "contato"]];
   MENU.splice(1, 0, ["contato.html?assunto=2027", "Mundiais 2027", "mundiais2027"]);
   function montarTopo(noticias) {
     var nav = MENU.map(function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || (PAGE === "materia" && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; }).join("");
@@ -293,11 +293,17 @@
       main.innerHTML = h;
     },
 
+    regulamento: function () {
+      var main = $("#app");
+      main.innerHTML = '<div class="wrap"><h1>Regulamento 2027</h1><p class="meta">Regras do Mundial DPS 2027: grupos, duplas, calendário, lastro, pontuação e incidentes. Versão em rascunho, em avaliação pelos capitães.</p>' +
+        '<p><a class="botao" href="regulamento/Regulamento_Mundial_DPS_2027.pdf" download>Baixar PDF</a> <a class="botao claro" href="regulamento/leitura-2027.html">Abrir em tela cheia</a></p>' +
+        '<iframe title="Regulamento Mundial DPS 2027" src="regulamento/leitura-2027.html" style="width:100%;height:80vh;min-height:480px;border:1px solid var(--linha,#ccc);border-radius:6px;background:#0a0a0c" loading="lazy"></iframe></div>';
+    },
+
     contato: function () {
       var s = S.site, canais = [];
       if (s.whatsapp) canais.push('<a class="botao" href="' + esc(safeUrl(s.whatsapp)) + '" rel="noopener">WhatsApp</a>');
       if (s.discord) canais.push('<a class="botao" href="' + esc(safeUrl(s.discord)) + '" rel="noopener">Discord</a>');
-      if (s.email_contato) canais.push('<a class="botao claro" href="mailto:' + esc(s.email_contato) + '">E-mail</a>');
       if (s.instagram) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
       if (s.youtube) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube</a>');
       var form = (s.formspree_id || s.formsubmit)
