@@ -303,26 +303,41 @@
     },
 
     lastro: function (ctx) {
-      var main = $("#app"), L = ctx.lastro || {}, c = S.camps.filter(function (x) { return x.id === "mundial"; })[0];
-      var head = '<div class="wrap"><h1>Lastro</h1><p class="meta">Quem corre com qual carro na próxima etapa do Mundial DPS. O líder do campeonato fica com o pior carro e o último colocado com o melhor, dois pilotos por carro (regulamento, item 9).</p>';
-      var ordem = L.ordem_ea || [];
-      if (!L.ativo || !c || !ordem.length) {
-        main.innerHTML = head + '<div class="sec">' + vazio("Tabela de lastro de 2027 ainda não publicada", "Ela aparece aqui a partir da primeira etapa da temporada, com a ordem dos carros da EA e a distribuição dos pilotos.") + "</div></div>"; return;
+      var main = $("#app"), L = ctx.lastro || {}, cfg = L.campeonatos || {};
+      var head = '<div class="wrap"><h1>Lastro</h1><p class="meta">' + esc(L.regra || "O líder do campeonato corre com o pior carro e o último colocado com o melhor, dois pilotos por carro.") + "</p>";
+      var ids = S.camps.filter(function (c) { return cfg[c.id] && (cfg[c.id].ordem_ea || []).length; }).map(function (c) { return c.id; });
+      if (!L.ativo || !ids.length) {
+        main.innerHTML = head + '<div class="sec">' + vazio("Tabela de lastro ainda não publicada", "Ela aparece aqui antes de cada etapa, com a ordem dos carros da EA e a distribuição dos pilotos.") + "</div></div>"; return;
       }
-      var pil = ordenarFGC(c.dados.pilotos || []);
-      var prox = proximaEtapa(c), igual = prox && (prox.tipos || []).indexOf("desempenho_igual") >= 0;
-      var h = head;
-      if (prox) h += '<div class="aviso" style="margin:14px 0"><strong>Próxima etapa: ' + esc(prox.pista) + (prox.n ? " (etapa " + prox.n + ")" : "") + "</strong>" + (prox.data ? " · " + esc(fmtData(prox.data, true)) : "") + (igual ? "<br>Etapa de desempenho igual: todos usam o mesmo desempenho, e cada equipe usa o carro definido no regulamento (item 4.5)." : "") + "</div>";
-      if (!igual) {
-        var porCarro = ordem.map(function (nome, i) { return { carro: nome, pilotos: pil.slice(i * 2, i * 2 + 2), pos: [i * 2 + 1, i * 2 + 2] }; });
-        h += '<section class="sec"><h2>Distribuição dos carros</h2><div class="rolagem"><table><thead><tr><th>Carro (do mais fraco ao mais forte)</th><th>Piloto</th><th>Pos. na tabela</th><th>Pontos (FGC)</th></tr></thead><tbody>' +
-          porCarro.map(function (g, i) {
-            var linhas = g.pilotos.length ? g.pilotos : [null, null].slice(0, 1);
-            return (g.pilotos.length ? g.pilotos : [null]).map(function (p, k) { return "<tr>" + (k === 0 ? '<td rowspan="' + (g.pilotos.length || 1) + '"><strong>' + (i + 1) + "º · " + esc(g.carro) + "</strong></td>" : "") + "<td>" + (p ? esc(p.nome) : "–") + "</td><td>" + (p ? g.pos[k] + "º" : "–") + "</td><td>" + (p ? p.pts : "–") + "</td></tr>"; }).join("");
-          }).join("") + "</tbody></table></div></section>";
+      main.innerHTML = head + '<div id="abas"></div><div id="corpo"></div><p class="nota">' + (L.atualizado_em ? "Atualizado em " + esc(fmtData(L.atualizado_em, true)) + ". " : "") + "Pontos do Formula Game Companion, sem desconto de punições (item 12.9)." + (L.fonte ? " Ordem dos carros: " + esc(L.fonte) + "." : "") + ' <a href="regulamento.html">Regulamento 2027</a></p></div>';
+      function desenhar(id) {
+        var c = S.camps.filter(function (x) { return x.id === id; })[0], k = cfg[id], ordem = k.ordem_ea, extra = {};
+        Object.keys(k.las_extra || {}).forEach(function (n) { extra[n.toLowerCase()] = k.las_extra[n]; });
+        var pil = (c.dados.pilotos || []).map(function (p) { var e = extra[(p.nome || "").toLowerCase()] || 0; return { nome: p.nome, pts: p.pts || 0, extra: e, las: (p.pts || 0) + e }; })
+          .map(function (p, i) { p.i = i; return p; }).sort(function (a, b) { return b.las - a.las || b.pts - a.pts || a.i - b.i; });
+        var prox = proximaEtapa(c), igual = prox && (prox.tipos || []).indexOf("desempenho_igual") >= 0;
+        var semLastro = prox && (L.sem_lastro || []).indexOf(prox.pista) >= 0;
+        var h = "";
+        if (prox) h += '<div class="aviso" style="margin:14px 0"><strong>Próxima etapa: ' + esc(prox.pista) + (prox.n ? " (etapa " + prox.n + ")" : "") + "</strong>" + (prox.data ? " · " + esc(fmtData(prox.data, true)) : "") + (igual ? "<br>Etapa de desempenho igual: todos usam o mesmo desempenho." : "") + (semLastro ? "<br>Etapa sem lastro: todos correm com o desempenho igual." : "") + "</div>";
+        if (!igual && !semLastro) {
+          if (pil.length > ordem.length * 2) h += '<div class="aviso erro">Há mais pilotos do que vagas nos carros. Confira a lista.</div>';
+          var temExtra = pil.some(function (p) { return p.extra; });
+          h += '<div class="rolagem"><table><thead><tr><th>Carro (do pior ao melhor)</th><th>Piloto</th><th>Pos.</th><th>Pontos' + (temExtra ? " p/ lastro" : "") + "</th></tr></thead><tbody>" +
+            ordem.map(function (nome, i) {
+              var g = pil.slice(i * 2, i * 2 + 2); if (!g.length) g = [null];
+              return g.map(function (p, kx) { return "<tr>" + (kx === 0 ? '<td rowspan="' + g.length + '"><strong>' + (i + 1) + "º · " + esc(nome) + "</strong></td>" : "") + "<td>" + (p ? esc(p.nome) : "–") + "</td><td>" + (p ? (i * 2 + kx + 1) + "º" : "–") + "</td><td>" + (p ? p.las + (p.extra ? ' <small title="' + p.pts + " + " + p.extra + ' extras">(' + p.pts + " + " + p.extra + ")</small>" : "") : "–") + "</td></tr>"; }).join("");
+            }).join("") + "</tbody></table></div>";
+          if (temExtra) h += '<p class="nota">Pontos extras de lastro: ' + pil.filter(function (p) { return p.extra; }).map(function (p) { return esc(p.nome) + " (+" + p.extra + ")"; }).join(", ") + ".</p>";
+        }
+        $("#corpo").innerHTML = h;
       }
-      h += '<p class="nota">' + (L.atualizado_em ? "Atualizado em " + esc(fmtData(L.atualizado_em, true)) + ". " : "") + "Pontos do Formula Game Companion, sem desconto de punições (item 12.9)." + (L.fonte ? " Ordem dos carros: " + esc(L.fonte) + "." : "") + ' <a href="regulamento.html">Regulamento 2027</a></p></div>';
-      main.innerHTML = h;
+      var sel = ids[0];
+      if (ids.length > 1) {
+        var ab = $("#abas"); ab.className = "abas"; ab.setAttribute("role", "group"); ab.setAttribute("aria-label", "Campeonato");
+        ab.innerHTML = ids.map(function (id) { var c = S.camps.filter(function (x) { return x.id === id; })[0]; return '<button type="button" data-id="' + esc(id) + '" style="--c:' + c.cor + '" aria-pressed="' + (id === sel) + '">' + esc(c.nome) + "</button>"; }).join("");
+        ab.addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (!b) return; [].forEach.call(ab.children, function (x) { x.setAttribute("aria-pressed", x === b); }); desenhar(b.getAttribute("data-id")); });
+      }
+      desenhar(sel);
     },
 
     sorteio: function (ctx) {

@@ -1,7 +1,65 @@
 {
-  "ativo": false,
-  "temporada": "2027",
-  "atualizado_em": "",
-  "fonte": "tela do modo carreira do jogo (EA), versão em vigor",
-  "ordem_ea": []
+  "ativo": true,
+  "temporada": "2026",
+  "atualizado_em": "2026-10-23",
+  "fonte": "tela de desempenho das equipes do jogo (EA), versão de 23/10/2026",
+  "regra": "Os pilotos são ordenados pelos pontos do FGC (mais os pontos extras de lastro, quando houver), sem desconto de punições, e distribuídos 2 por carro: o líder no pior carro e o último no melhor. A Williams fica de fora, então são 10 carros e 20 pilotos.",
+  "sem_lastro": [
+    "Abu Dhabi",
+    "Abu Dabi"
+  ],
+  "campeonatos": {
+    "mundial": {
+      "ordem_ea": [
+        "Aston Martin",
+        "Cadillac",
+        "Racing Bulls",
+        "Audi",
+        "Haas",
+        "Alpine",
+        "Red Bull",
+        "McLaren",
+        "Ferrari",
+        "Mercedes"
+      ],
+      "las_extra": {
+        "Edy Santos": 12,
+        "Brito": 14
+      }
+    },
+    "elite": {
+      "ordem_ea": [
+        "Aston Martin",
+        "Cadillac",
+        "Racing Bulls",
+        "Audi",
+        "Haas",
+        "Alpine",
+        "Red Bull",
+        "McLaren",
+        "Ferrari",
+        "Mercedes"
+      ],
+      "las_extra": {
+        "Arthur Tuta": 73,
+        "Chrys": 104
+      }
+    }
+  },
+  "rascunho_2027": {
+    "ordem_ea": [
+      "Aston Martin",
+      "Cadillac",
+      "Williams",
+      "Racing Bulls",
+      "Audi",
+      "Haas",
+      "Alpine",
+      "Red Bull",
+      "McLaren",
+      "Ferrari",
+      "Mercedes"
+    ],
+    "obs": "11 carros para a temporada 2027; ativar trocando campeonatos e temporada"
+  }
 }
