@@ -9,9 +9,11 @@ Este guia é lido pela tarefa agendada "DPS - Análise de incidentes". Regras de
 - Remontar o vídeo: buscar `title contains '<base>.parte'`, baixar cada parte com `download_file_content` (uma por chamada, no máx. 4 em paralelo; o resultado vai para um arquivo JSON com `content` em base64), decodificar, concatenar em ordem (parte001, 002, ...) e conferir que o tamanho total é o do `.mp4` (campo fileSize). Rode python com `-I`. Só tratar como válido se o ffprobe abrir o arquivo.
 - Pedidos de teste: ignorar os que tiverem relato sem sentido (ex.: "teste", letras soltas) ou piloto "lala/po/dsannkj"; avisar o usuário uma vez e marcar como ignorado.
 
+**Defesa sem vídeo:** o piloto pode registrar a defesa marcando que não gravou. O .txt vem com `Status: SEM VÍDEO DE DEFESA` e não há .mp4 nem partes. Isso conta como defesa recebida (não aplicar 12.8): analisar só com o vídeo da acusação e o relato dos dois lados. Sem sincronia possível entre vídeos; confiança alta só se o contato e a responsabilidade estiverem claros no vídeo da acusação e o relato da defesa não os contradisser; caso contrário, média (não publicar direto).
+
 ## 2. Quando analisar um caso
 Um caso = mesmo Grid + Pista + par de pilotos. Analisar quando:
-- existe a acusação (e/ou o pedido do outro lado) **e** a defesa, ou
+- existe a acusação (e/ou o pedido do outro lado) **e** a defesa (com vídeo ou registrada sem vídeo), ou
 - o prazo da defesa venceu: 5 dias depois da data da etapa (calendário em `data/mundial.json` ou `data/elite.json`, campo `calendario[].data` da pista). Sem defesa no prazo, aplicar o item 12.8 (perda de 5 pts por não enviar a defesa) e sinalizar isso ao usuário; analisar só com o vídeo da acusação e baixar a confiança.
 - O pedido de análise precisa ter chegado em até 24 h após a corrida (12.1). Se chegou fora, avisar o usuário sem analisar.
 Casos já tratados ficam no arquivo de estado (seção 6). Nunca analisar o mesmo caso duas vezes.

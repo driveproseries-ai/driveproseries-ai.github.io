@@ -16,6 +16,7 @@ function doPost(e) {
     var d = JSON.parse(e.postData.contents);
     if (d.acao === 'iniciar') return saida(iniciar(d));
     if (d.acao === 'concluir') return saida(concluir(d));
+    if (d.acao === 'semvideo') return saida(semVideo(d));
     return saida({ ok: false, erro: 'acao invalida' });
   } catch (err) {
     return saida({ ok: false, erro: String(err) });
@@ -74,6 +75,25 @@ function concluir(d) {
       'DPS: ' + (tipo === 'defesa' ? 'DEFESA' : 'PEDIDO') + ' ' + limpa(d.campeonato, 30) + ' ' + limpa(d.pista, 40) + ' - ' + d.solicitante + ' x ' + d.envolvido, texto + '\n\nPasta: ' + alvo.getUrl());
   } catch (e) {}
   return { ok: !!video, erro: video ? '' : 'Vídeo não encontrado no Drive.' };
+}
+
+// Defesa sem vídeo: grava só o .txt (o piloto não gravou). A análise usa apenas o vídeo da acusação.
+function semVideo(d) {
+  var camp = limpa(d.campeonato, 30), pista = limpa(d.pista, 40);
+  var solic = limpa(d.solicitante, 30), env = limpa(d.envolvido, 30);
+  if (d.tipo !== 'defesa' || !camp || !pista || !solic || !env || solic === env) return { ok: false, erro: 'Faltam campos.' };
+  var lock = LockService.getScriptLock(); lock.waitLock(20000);
+  var alvo, base;
+  try {
+    var raiz = pasta(DriveApp.getRootFolder(), PASTA_RAIZ);
+    alvo = pasta(pasta(pasta(raiz, camp), pista), [solic, env].sort().join(' x '));
+    base = 'defesa_' + Utilities.formatDate(new Date(), 'America/Sao_Paulo', 'yyyyMMdd-HHmmss') + '_' + solic + '_x_' + env;
+  } finally { lock.releaseLock(); }
+  d.nome = '';
+  var texto = relatorio(d, 'defesa', 'SEM VÍDEO DE DEFESA (o piloto informou que não gravou)', '');
+  alvo.createFile(base + '.txt', texto, MimeType.PLAIN_TEXT);
+  try { MailApp.sendEmail(EMAIL_AVISO || Session.getEffectiveUser().getEmail(), 'DPS: DEFESA SEM VÍDEO ' + camp + ' ' + pista + ' - ' + solic + ' x ' + env, texto + '\n\nPasta: ' + alvo.getUrl()); } catch (e) {}
+  return { ok: true };
 }
 
 // Divide o vídeo em partes de PARTE_MB (arquivos binários, juntar na ordem) para a análise automática,

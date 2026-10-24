@@ -135,6 +135,7 @@ td.neg{color:#a3121f}
 .barra{display:grid;grid-template-columns:minmax(90px,150px) 1fr 34px;gap:10px;align-items:center;margin:6px 0;font-size:15.5px}
 .barra i{display:block;height:16px;background:var(--camp);min-width:3px}
 .barra b{font-family:var(--head);font-size:20px;text-align:right}
+@media(max-width:600px){.barra{grid-template-columns:1fr 40px;gap:2px 10px;margin:14px 0}.barra span{grid-column:1/-1;font-size:16px;line-height:1.2}.barra i{height:14px}}
 select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);background:#fff;color:var(--ink);border-radius:0;max-width:100%}
 
 /* parceiros e contato */
@@ -212,7 +213,7 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .form .chk{display:flex;gap:10px;align-items:flex-start}
 .form .chk input{width:auto;margin-top:6px}
 
-.barra{height:12px;border-radius:6px;background:rgba(127,127,127,.25);overflow:hidden;margin:10px 0}
-.barra>div{height:100%;width:0;background:var(--camp);transition:width .2s}
-.barra[hidden],.form [hidden]{display:none}
+.progresso{height:12px;border-radius:6px;background:rgba(127,127,127,.25);overflow:hidden;margin:10px 0}
+.progresso>div{height:100%;width:0;background:var(--camp);transition:width .2s}
+.progresso[hidden],.form [hidden]{display:none}
 .form div.chk label{display:inline-flex;flex-direction:row;gap:8px;align-items:center;margin:0 16px 8px 0}

@@ -449,7 +449,7 @@
       var s = S.site, p = s.pedido || {}, main = $("#app"), url = p.apps_script_url || "", maxmb = p.max_mb || 600;
       var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite"; });
       var head = '<div class="wrap"><div style="max-width:700px"><h1>Pedido de análise</h1><p style="font-family:var(--body);font-size:20px">Envie aqui o pedido de análise de incidente ou o vídeo de defesa. O vídeo e o relato seguem juntos para a Comissão de Análise.</p>' +
-        '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida. Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo E.</div>';
+        '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida (se você não gravou, marque a opção \"não tenho vídeo de defesa\"). Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo E.</div>';
       if (!url) { main.innerHTML = head + '<div class="aviso erro"><strong>Envio ainda não configurado.</strong> Enquanto isso, mande o pedido ao capitão da sua equipe, como de costume.</div></div></div>'; return; }
       main.innerHTML = head +
         '<form class="form" id="f" novalidate><div class="chk"><label><input type="radio" name="tipo" value="acusacao" checked> Pedido de análise (acusação)</label> <label><input type="radio" name="tipo" value="defesa"> Vídeo de defesa</label></div>' +
@@ -457,10 +457,11 @@
         '<label>Pista<select name="pista" required></select></label><label>Volta do incidente<input name="volta" inputmode="numeric" required autocomplete="off"></label>' +
         '<label>Você (piloto que está enviando)<select name="solicitante" required></select></label><label>Outro piloto envolvido<select name="envolvido" required></select></label>' +
         '<label>Relato curto do que aconteceu (do seu ponto de vista)<textarea name="relato" rows="4" maxlength="1500" required></textarea></label>' +
-        '<label>Vídeo do trecho (arquivo)<input type="file" name="video" accept="video/*" required><span class="dica">Uns 5 segundos antes e 5 depois do contato, tela inteira, sem narração, celular na horizontal. Máximo ' + maxmb + ' MB.</span></label>' +
+        '<label class="chk" id="semv" hidden><input type="checkbox" name="semvideo"> Não gravei / não tenho vídeo de defesa. A análise será feita só com o vídeo da acusação.</label>' +
+        '<label id="lvid">Vídeo do trecho (arquivo)<input type="file" name="video" accept="video/*" required><span class="dica">Uns 5 segundos antes e 5 depois do contato, tela inteira, sem narração, celular na horizontal. Máximo ' + maxmb + ' MB.</span></label>' +
         '<label class="chk"><input type="checkbox" name="ok"> Declaro que o vídeo foi gravado por mim, na câmera que usei na corrida.</label>' +
         '<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
-        '<div id="barra" class="barra" hidden><div></div></div><button class="botao" type="submit" id="env">Enviar</button><div id="msg" class="aviso" role="status" aria-live="polite" hidden></div></form></div></div>';
+        '<div id="barra" class="progresso" hidden><div></div></div><button class="botao" type="submit" id="env">Enviar</button><div id="msg" class="aviso" role="status" aria-live="polite" hidden></div></form></div></div>';
       var f = $("#f"), m = $("#msg"), barra = $("#barra"), btn = $("#env"), enviando = false;
       function preencher() {
         var g = grids.filter(function (c) { return c.id === f.grid.value; })[0] || grids[0], dd = (g && g.dados) || {};
@@ -471,17 +472,36 @@
       }
       f.grid.addEventListener("change", preencher); preencher();
       var tipoSel = qs.get("tipo"); if (tipoSel === "defesa") f.tipo.value = "defesa";
+      function alternar() {
+        var def = f.tipo.value === "defesa"; $("#semv").hidden = !def;
+        if (!def) f.semvideo.checked = false;
+        var sem = def && f.semvideo.checked; $("#lvid").hidden = sem; f.video.required = !sem; f.ok.parentNode.hidden = sem;
+      }
+      Array.prototype.forEach.call(f.querySelectorAll('input[name="tipo"]'), function (r) { r.addEventListener("change", alternar); });
+      f.semvideo.addEventListener("change", alternar); alternar();
       function aviso(t, erro) { m.hidden = false; m.className = "aviso" + (erro ? " erro" : ""); m.textContent = t; }
       function post(corpo) { return fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(corpo) }).then(function (r) { return r.json(); }); }
       window.addEventListener("beforeunload", function (ev) { if (enviando) { ev.preventDefault(); ev.returnValue = ""; } });
       f.addEventListener("submit", function (ev) {
         ev.preventDefault();
         if (enviando || f._gotcha.value) return;
-        var file = f.video.files[0], d = { acao: "iniciar" };
+        var sem = f.tipo.value === "defesa" && f.semvideo.checked, file = sem ? null : f.video.files[0], d = { acao: "iniciar" };
         ["tipo", "grid", "pista", "volta", "solicitante", "envolvido", "relato"].forEach(function (k) { d[k] = (f.elements[k].value || "").trim(); });
         d.tipo = f.tipo.value; d.campeonato = (grids.filter(function (c) { return c.id === d.grid; })[0] || {}).curto || d.grid;
         if (d.solicitante && d.solicitante === d.envolvido) { aviso("Escolha dois pilotos diferentes.", true); return; }
         if (!d.pista || !d.volta || !d.solicitante || !d.envolvido || !d.relato) { aviso("Preencha todos os campos.", true); return; }
+        if (sem) {
+          enviando = true; btn.disabled = true; d.acao = "semvideo"; d.semvideo = true; aviso("Enviando…");
+          post(d).then(function (r) {
+            enviando = false; btn.disabled = false;
+            if (!r.ok) throw new Error(r.erro || "Falha ao enviar.");
+            f.reset(); alternar(); aviso("Defesa registrada sem vídeo. A análise será feita só com o vídeo da acusação e o seu relato.");
+          }).catch(function (e) {
+            enviando = false; btn.disabled = false;
+            aviso((e && e.message ? e.message : "Não foi possível enviar.") + " Tente de novo; se persistir, avise o capitão ou a Direção.", true);
+          });
+          return;
+        }
         if (!file) { aviso("Anexe o arquivo de vídeo.", true); return; }
         if (!/^video\//.test(file.type)) { aviso("O arquivo precisa ser um vídeo (mp4, mov...).", true); return; }
         if (file.size > maxmb * 1048576) { aviso("O vídeo passa de " + maxmb + " MB. Corte o trecho do incidente e tente de novo.", true); return; }
@@ -505,7 +525,7 @@
         }).then(function (r) {
           enviando = false; btn.disabled = false;
           if (!r.ok) throw new Error(r.erro || "O vídeo não chegou ao Drive.");
-          f.reset(); barra.hidden = true; aviso("Pedido enviado. A Comissão de Análise já recebeu o vídeo e o relato.");
+          f.reset(); alternar(); barra.hidden = true; aviso("Pedido enviado. A Comissão de Análise já recebeu o vídeo e o relato.");
         }).catch(function (e) {
           enviando = false; btn.disabled = false; barra.hidden = true;
           aviso((e && e.message ? e.message : "Não foi possível enviar.") + " Tente de novo; se persistir, avise o capitão ou a Direção.", true);
