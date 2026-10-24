@@ -59,7 +59,7 @@
 
   /* ---------- estrutura ---------- */
   var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["contato.html", "Fale conosco", "contato"]];
-  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"]];
+  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
     var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || (PAGE === "materia" && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
     var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
@@ -404,7 +404,7 @@
 
     incidentes: function (ctx) {
       var main = $("#app"), L = (ctx.incidentes || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || "") || (b.etapa || 0) - (a.etapa || 0); });
-      var head = '<div class="wrap"><h1>Decisões de incidentes</h1><p class="meta">Análises dos incidentes de cada etapa, com a regra aplicada e a decisão da Direção. A análise é feita com os critérios da F1 real e as punições da DPS (regulamento, item 12). Na fase de teste, a IA apoia a análise e não decide.</p>';
+      var head = '<div class="wrap"><h1>Decisões de incidentes</h1><p class="meta">Análises dos incidentes de cada etapa, com a regra aplicada e a decisão da Direção. A análise é feita com os critérios da F1 real e as punições da DPS (regulamento, item 12). Na fase de teste, a IA apoia a análise e não decide.</p><p><a class="botao" href="pedido.html">Fazer pedido de análise ou enviar defesa</a></p>';
       if (!L.length) { main.innerHTML = head + '<div class="sec">' + vazio("Nenhum incidente publicado ainda", "As decisões aparecem aqui depois de cada etapa em que houver pedido de análise.") + "</div></div>"; return; }
       var campos = Array.from(new Set(L.map(function (x) { return x.campeonato; }).filter(Boolean)));
       var h = head + '<div class="abas" id="fil" role="group" aria-label="Filtrar">' + ['todos'].concat(campos).map(function (k) { return '<button type="button" data-k="' + esc(k) + '" aria-pressed="' + (k === "todos") + '" style="--c:' + (k === "todos" ? "#10231c" : campCor(k)) + '">' + esc(k === "todos" ? "Todos" : (campNome(k) || k)) + "</button>"; }).join("") + '</div><div id="lista"></div><p class="nota">Dúvidas sobre uma decisão: fale com o capitão da sua equipe. Ele leva o assunto ao Diretor do Grid.</p></div>';
@@ -413,7 +413,7 @@
         $("#lista").innerHTML = L.filter(function (x) { return k === "todos" || x.campeonato === k; }).map(function (x) {
           var punido = x.decisao && !/sem (a[cç][aã]o|puni)/i.test(x.decisao);
           return '<article class="inc ' + (punido ? "pun" : "") + '" style="--c:' + campCor(x.campeonato) + '"><div class="camp">' + esc(campNome(x.campeonato) || x.campeonato || "") + (x.etapa ? " · etapa " + esc(x.etapa) : "") + (x.pista ? " · " + esc(x.pista) : "") + (x.volta ? " · volta " + esc(x.volta) : "") + '</div><h3>' + esc(x.titulo || (x.acusado ? x.acusador + " × " + x.acusado : "Incidente")) + '</h3>' +
-            (x.resumo ? "<p>" + esc(x.resumo) + "</p>" : "") + (x.analise ? '<p><strong>Análise:</strong> ' + esc(x.analise) + "</p>" : "") + (x.regra ? '<p class="nota"><strong>Regra:</strong> ' + esc(x.regra) + "</p>" : "") +
+            (x.resumo ? "<p>" + esc(x.resumo) + "</p>" : "") + (x.analise ? '<p><strong>Análise:</strong> ' + esc(x.analise) + "</p>" : "") + (x.regra ? '<p class="nota"><strong>Regra:</strong> ' + esc(x.regra) + "</p>" : "") + (x.alerta ? '<div class="aviso" style="margin:10px 0"><strong>Alerta:</strong> ' + esc(x.alerta) + "</div>" : "") +
             '<div class="decisao"><span class="tag">' + esc(x.decisao || "Em análise") + "</span>" + (x.punicao ? " <b>" + esc(x.punicao) + "</b>" : "") + "</div></article>";
         }).join("") || vazio("Nada por aqui", "Nenhum incidente desse campeonato.");
       }
@@ -442,6 +442,65 @@
           : fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: "Portal DPS: Inscrição 2027 - " + dados.nome, _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); }))
           .then(function (r) { if (!r.ok) throw 0; f.reset(); m.className = "aviso"; m.textContent = "Inscrição enviada. A comissão da DPS responde pelo contato que você informou."; })
           .catch(function () { m.className = "aviso erro"; m.textContent = "Não foi possível enviar agora. Tente de novo ou fale com a liga pelo WhatsApp."; });
+      });
+    },
+
+    pedido: function () {
+      var s = S.site, p = s.pedido || {}, main = $("#app"), url = p.apps_script_url || "", maxmb = p.max_mb || 600;
+      var camps = p.campeonatos || ["Mundial DPS", "Mundial DPS Elite"];
+      var head = '<div class="wrap"><div style="max-width:700px"><h1>Pedido de análise</h1><p style="font-family:var(--body);font-size:20px">Envie aqui o pedido de análise de incidente ou o vídeo de defesa. O vídeo e o relato seguem juntos para a Comissão de Análise.</p>' +
+        '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida. Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo E.</div>';
+      if (!url) { main.innerHTML = head + '<div class="aviso erro"><strong>Envio ainda não configurado.</strong> Enquanto isso, mande o pedido ao capitão da sua equipe, como de costume.</div></div></div>'; return; }
+      main.innerHTML = head +
+        '<form class="form" id="f" novalidate><div class="chk"><label><input type="radio" name="tipo" value="acusacao" checked> Pedido de análise (acusação)</label> <label><input type="radio" name="tipo" value="defesa"> Vídeo de defesa</label></div>' +
+        '<label>Campeonato<select name="campeonato">' + camps.map(function (c) { return "<option>" + esc(c) + "</option>"; }).join("") + "</select></label>" +
+        '<label>Etapa (número)<input name="etapa" inputmode="numeric" required autocomplete="off"></label><label>Pista<input name="pista" required autocomplete="off"></label><label>Volta do incidente<input name="volta" inputmode="numeric" required autocomplete="off"></label>' +
+        '<label>Seu nome no jogo (ID)<input name="solicitante" required autocomplete="off"></label><label>ID do outro piloto envolvido<input name="envolvido" required autocomplete="off"></label>' +
+        '<label>Relato curto do que aconteceu (do seu ponto de vista)<textarea name="relato" rows="4" maxlength="1500" required></textarea></label>' +
+        '<label>Vídeo do trecho (arquivo)<input type="file" name="video" accept="video/*" required><span class="dica">Uns 5 segundos antes e 5 depois do contato, tela inteira, sem narração, celular na horizontal. Máximo ' + maxmb + ' MB.</span></label>' +
+        '<label class="chk"><input type="checkbox" name="ok"> Declaro que o vídeo foi gravado por mim, na câmera que usei na corrida.</label>' +
+        '<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
+        '<div id="barra" class="barra" hidden><div></div></div><button class="botao" type="submit" id="env">Enviar</button><div id="msg" class="aviso" role="status" aria-live="polite" hidden></div></form></div></div>';
+      var f = $("#f"), m = $("#msg"), barra = $("#barra"), btn = $("#env"), enviando = false;
+      var tipoSel = qs.get("tipo"); if (tipoSel === "defesa") f.tipo.value = "defesa";
+      function aviso(t, erro) { m.hidden = false; m.className = "aviso" + (erro ? " erro" : ""); m.textContent = t; }
+      function post(corpo) { return fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(corpo) }).then(function (r) { return r.json(); }); }
+      window.addEventListener("beforeunload", function (ev) { if (enviando) { ev.preventDefault(); ev.returnValue = ""; } });
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        if (enviando || f._gotcha.value) return;
+        var file = f.video.files[0], d = { acao: "iniciar" };
+        ["tipo", "campeonato", "etapa", "pista", "volta", "solicitante", "envolvido", "relato"].forEach(function (k) { d[k] = (f.elements[k].value || "").trim(); });
+        d.tipo = f.tipo.value;
+        if (!d.etapa || !d.pista || !d.volta || !d.solicitante || !d.envolvido || !d.relato) { aviso("Preencha todos os campos.", true); return; }
+        if (!file) { aviso("Anexe o arquivo de vídeo.", true); return; }
+        if (!/^video\//.test(file.type)) { aviso("O arquivo precisa ser um vídeo (mp4, mov...).", true); return; }
+        if (file.size > maxmb * 1048576) { aviso("O vídeo passa de " + maxmb + " MB. Corte o trecho do incidente e tente de novo.", true); return; }
+        if (!f.ok.checked) { aviso("Marque a declaração sobre o vídeo.", true); return; }
+        d.mime = file.type; d.size = file.size; d.nome = file.name;
+        enviando = true; btn.disabled = true; barra.hidden = false; barra.firstChild.style.width = "0%"; aviso("Preparando o envio…");
+        post(d).then(function (r) {
+          if (!r.ok) throw new Error(r.erro || "Falha ao iniciar.");
+          return new Promise(function (ok, bad) {
+            var x = new XMLHttpRequest(); x.open("PUT", r.uri);
+            x.setRequestHeader("Content-Type", file.type);
+            x.upload.onprogress = function (e) { if (e.lengthComputable) { var pc = Math.round(e.loaded * 100 / e.total); barra.firstChild.style.width = pc + "%"; aviso("Enviando o vídeo: " + pc + "%. Não feche a página."); } };
+            x.onload = function () { (x.status >= 200 && x.status < 300) ? ok(r) : bad(new Error("O Drive recusou o vídeo (" + x.status + ").")); };
+            x.onerror = function () { bad(new Error("A conexão caiu durante o envio do vídeo.")); };
+            x.send(file);
+          });
+        }).then(function (r) {
+          aviso("Finalizando…");
+          d.acao = "concluir"; d.base = r.base; d.pasta = r.pasta;
+          return post(d);
+        }).then(function (r) {
+          enviando = false; btn.disabled = false;
+          if (!r.ok) throw new Error(r.erro || "O vídeo não chegou ao Drive.");
+          f.reset(); barra.hidden = true; aviso("Pedido enviado. A Comissão de Análise já recebeu o vídeo e o relato.");
+        }).catch(function (e) {
+          enviando = false; btn.disabled = false; barra.hidden = true;
+          aviso((e && e.message ? e.message : "Não foi possível enviar.") + " Tente de novo; se persistir, avise o capitão ou a Direção.", true);
+        });
       });
     },
 

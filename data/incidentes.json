@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "2026-10-18-mundial-singapura-bueno-renato",
+    "campeonato": "mundial",
+    "etapa": 18,
+    "pista": "Singapura",
+    "volta": "1",
+    "data": "2026-10-18",
+    "titulo": "Lucas Bueno × Renato TVR",
+    "resumo": "Os dois andaram lado a lado por cerca de 5 segundos. Na saída de curva, com o muro à direita da McLaren, houve toque entre a roda dianteira esquerda da McLaren e a roda traseira esquerda do Haas, e o Haas bateu no muro e abandonou.",
+    "analise": "Análise por IA com os vídeos dos dois pilotos. O Haas estava à frente, com o eixo traseiro já livre do eixo dianteiro da McLaren. Nenhum quadro mostra o instante exato do toque, e o Haas seguiu a trajetória normal de saída de curva. Sem prova suficiente de culpa de um lado só.",
+    "regra": "Diretrizes de condução da FIA (v4.1) e item 12.13 do regulamento (toque de corrida).",
+    "decisao": "Incidente de corrida",
+    "punicao": "",
+    "alerta": "Alerta ao piloto da McLaren: quem vem atrás só tem direito a espaço se o eixo dianteiro estiver ao lado do retrovisor do carro da frente. Com o eixo dianteiro atrás do eixo traseiro do outro carro, a responsabilidade de evitar o contato é de quem está atrás, principalmente com o muro ao lado. Em caso de repetição, a análise será mais rigorosa."
+  }
+]

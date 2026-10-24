@@ -30,5 +30,13 @@
     "abertas": true,
     "prazo": "",
     "mensagem": ""
+  },
+  "pedido": {
+    "apps_script_url": "",
+    "max_mb": 600,
+    "campeonatos": [
+      "Mundial DPS",
+      "Mundial DPS Elite"
+    ]
   }
 }
