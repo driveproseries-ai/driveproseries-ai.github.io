@@ -6,7 +6,7 @@
 var PASTA_RAIZ = 'DPS - Pedidos de análise';   // pasta criada no seu Drive
 var ORIGEM_SITE = 'https://driveproseries-ai.github.io'; // endereço do site (sem barra no fim)
 var MAX_MB = 300;                               // tamanho máximo do vídeo
-var PARTE_MB = 8;                               // tamanho das partes para análise (a IA só baixa até 10 MB por arquivo)
+var PARTE_MB = 5;                               // tamanho das partes para análise (o conector do Drive da IA só entrega ~7 MB por chamada)
 var EMAIL_AVISO = '';                           // vazio = avisa o dono da conta
 
 function doGet() { return ContentService.createTextOutput('DPS pedidos: ativo'); }
