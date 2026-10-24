@@ -26,9 +26,9 @@ function limpa(s, n) { return String(s || '').replace(/[^\wÀ-ÿ .\-]/g, '').tri
 function pasta(pai, nome) { var it = pai.getFoldersByName(nome); return it.hasNext() ? it.next() : pai.createFolder(nome); }
 
 function iniciar(d) {
-  var camp = limpa(d.campeonato, 30), etapa = limpa(d.etapa, 6), tipo = d.tipo === 'defesa' ? 'defesa' : 'acusacao';
+  var camp = limpa(d.campeonato, 30), pista = limpa(d.pista, 40), tipo = d.tipo === 'defesa' ? 'defesa' : 'acusacao';
   var solic = limpa(d.solicitante, 30), env = limpa(d.envolvido, 30);
-  if (!camp || !etapa || !solic || !env) return { ok: false, erro: 'Faltam campos.' };
+  if (!camp || !pista || !solic || !env || solic === env) return { ok: false, erro: 'Faltam campos.' };
   if (!/^video\//.test(d.mime || '')) return { ok: false, erro: 'O arquivo precisa ser um vídeo.' };
   var tamanho = Number(d.size || 0);
   if (!tamanho || tamanho > MAX_MB * 1024 * 1024) return { ok: false, erro: 'Vídeo acima de ' + MAX_MB + ' MB.' };
@@ -37,7 +37,8 @@ function iniciar(d) {
   var alvo, base;
   try {
     var raiz = pasta(DriveApp.getRootFolder(), PASTA_RAIZ);
-    alvo = pasta(pasta(pasta(raiz, camp), 'Etapa ' + ('0' + etapa).slice(-2)), 'Incidente ' + solic + ' x ' + env);
+    var par = [solic, env].sort().join(' x ');
+    alvo = pasta(pasta(pasta(raiz, camp), pista), par);
     var carimbo = Utilities.formatDate(new Date(), 'America/Sao_Paulo', 'yyyyMMdd-HHmmss');
     base = tipo + '_' + carimbo + '_' + solic + '_x_' + env;
   } finally { lock.releaseLock(); }
@@ -67,15 +68,15 @@ function concluir(d) {
   if (txts.hasNext()) txts.next().setContent(texto); else alvo.createFile(base + '.txt', texto, MimeType.PLAIN_TEXT);
   try {
     MailApp.sendEmail(EMAIL_AVISO || Session.getEffectiveUser().getEmail(),
-      'DPS: ' + (tipo === 'defesa' ? 'DEFESA' : 'PEDIDO') + ' etapa ' + d.etapa + ' - ' + d.solicitante + ' x ' + d.envolvido, texto + '\n\nPasta: ' + alvo.getUrl());
+      'DPS: ' + (tipo === 'defesa' ? 'DEFESA' : 'PEDIDO') + ' ' + limpa(d.campeonato, 30) + ' ' + limpa(d.pista, 40) + ' - ' + d.solicitante + ' x ' + d.envolvido, texto + '\n\nPasta: ' + alvo.getUrl());
   } catch (e) {}
   return { ok: !!video, erro: video ? '' : 'Vídeo não encontrado no Drive.' };
 }
 
 function relatorio(d, tipo, status, link) {
   return ['PEDIDO DE ANÁLISE - DPS', 'Tipo: ' + (tipo === 'defesa' ? 'DEFESA' : 'ACUSAÇÃO / PEDIDO'), 'Status: ' + status,
-    'Campeonato: ' + limpa(d.campeonato, 30), 'Etapa: ' + limpa(d.etapa, 6), 'Pista: ' + limpa(d.pista, 40), 'Volta: ' + limpa(d.volta, 6),
-    'Solicitante (ID): ' + limpa(d.solicitante, 30), 'Envolvido (ID): ' + limpa(d.envolvido, 30),
+    'Grid: ' + limpa(d.campeonato, 30), 'Pista: ' + limpa(d.pista, 40), 'Volta: ' + limpa(d.volta, 6),
+    'Piloto que enviou: ' + limpa(d.solicitante, 30), 'Outro piloto envolvido: ' + limpa(d.envolvido, 30),
     'Enviado em: ' + Utilities.formatDate(new Date(), 'America/Sao_Paulo', 'dd/MM/yyyy HH:mm'),
     'Arquivo original: ' + limpa(d.nome, 80), link ? 'Vídeo: ' + link : '', '', 'RELATO:', String(d.relato || '').substring(0, 1500)].join('\n');
 }
