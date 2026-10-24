@@ -2,6 +2,9 @@
 
 Este arquivo deve ser lido pela tarefa "DPS - processar etapa" (00:20, seg/qua) e pela tarefa diária de notícias da F1. Fica em `Projeto Claude\automacao\` junto de `INSTRUCOES_CLAUDE.md` (acrescentar lá um "Passo 8 — Site": seguir este arquivo). A pasta do site é `Projeto Claude\site-dps` (repositório Git).
 
+## Quando publicar
+O site é atualizado quando acontecer primeiro: (a) uma etapa foi confirmada ("pode salvar"), ou (b) a tarefa diária achou notícia nova e importante da F1 real (contratação, resultado de GP, mudança de regulamento, calendário). Sem novidade relevante, não publicar nada nesse dia.
+
 ## Regras gerais
 - Só publicar depois do "pode salvar" do usuário (resultado confirmado e lançado no FGC). A tabela do site usa os pontos do FGC (fonte oficial); `pun` vem de `punicoes_pendentes.csv` (valor negativo).
 - Nunca publicar conteúdo de demonstração: nada em `data/demo/` vai para fora (a pasta pode ser apagada antes do primeiro push).
@@ -39,3 +42,11 @@ Mencionar na matéria quando o `calendario` marcar `sprint`, `invertido` ou `cpd
 - `python tools/gerar_stats.py data/historico.csv data/titulos.csv` gera `data/stats.json` (geral + recortes por campeonato/ano + campeões). Alimenta Estatísticas e Hall da Fama.
 - Ao fim de cada temporada: ler a aba Winner do campeonato no FGC, acrescentar a linha em `titulos.csv`, converter as corridas novas e regerar.
 - Modo Carreira 1 (T19) e 2 (T20), ambos encerrados estão em `data/carreira1.json` e `carreira2.json` (tabela e calendário; sem resultados etapa a etapa).
+
+## Páginas 2027 (lastro, sorteio, incidentes, inscrições)
+
+- **Lastro (`lastro.html`, `data/lastro.json`)**: fica oculta até `ativo: true`. Preencher `ordem_ea` com os 11 carros do mais fraco ao mais forte (ordem da EA no jogo). A página distribui os pilotos do `mundial.json` sozinha: líder da tabela (pontos do FGC, sem desconto de punições) no pior carro, 2 pilotos por carro. Se a próxima etapa tiver o tipo `desempenho_igual` no calendário, a página mostra o aviso no lugar da tabela. Atualizar `atualizado_em` a cada etapa.
+- **Sorteio (`sorteio.html`, `data/sorteio.json`)**: `pilotos` = lista em ordem de IN (1 a 22) para já vir preenchida; depois do sorteio oficial, colar as duplas em `resultado` (campos `a`, `ia`, `b`, `ib`, `soma`, `min`, `max`) e preencher `realizado_em`.
+- **Incidentes (`incidentes.html`, `data/incidentes.json`)**: lista de objetos com `campeonato`, `etapa`, `pista`, `volta`, `titulo`, `resumo`, `analise`, `regra`, `decisao` ("Sem ação" ou "Punição"), `punicao`.
+- **Inscrições (`inscricoes.html`)**: usa o mesmo FormSubmit do Fale conosco. `site.json > inscricoes` controla `abertas`, `prazo` e `mensagem` (quando encerradas).
+- Teste local com `?demo=1` usa `data/demo/*.json`.

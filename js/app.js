@@ -58,10 +58,12 @@
   function ordenar(lista) { return lista.slice().sort(function (a, b) { return real(b) - real(a) || b.pts - a.pts; }); }
 
   /* ---------- estrutura ---------- */
-  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["contato.html", "Fale conosco", "contato"]];
-  MENU.splice(1, 0, ["contato.html?assunto=2027", "Mundiais 2027", "mundiais2027"]);
+  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["contato.html", "Fale conosco", "contato"]];
+  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"]];
   function montarTopo(noticias) {
-    var nav = MENU.map(function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || (PAGE === "materia" && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; }).join("");
+    var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || (PAGE === "materia" && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
+    var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
+    var nav = MENU.map(lnk).join("") + '<details class="mais"' + (maisAtivo ? ' data-ativo="1"' : "") + "><summary>Mais</summary><div>" + MAIS.map(lnk).join("") + "</div></details>";
     var ult = noticias[0];
     var plantao = ult ? '<div class="plantao"><div class="wrap"><b>ÚLTIMA</b><a href="materia.html?id=' + encodeURIComponent(ult.id) + '">' + esc(ult.titulo) + "</a></div></div>" : "";
     var demo = DEMO ? '<div class="demo-aviso">Modo demonstração: textos, notícias e estatísticas desta visualização são de exemplo. <a href="?demo=0" style="color:#fff">Sair</a></div>' : "";
@@ -300,6 +302,134 @@
         '<iframe title="Regulamento Mundial DPS 2027" src="regulamento/leitura-2027.html" style="width:100%;height:80vh;min-height:480px;border:1px solid var(--linha,#ccc);border-radius:6px;background:#0a0a0c" loading="lazy"></iframe></div>';
     },
 
+    lastro: function (ctx) {
+      var main = $("#app"), L = ctx.lastro || {}, c = S.camps.filter(function (x) { return x.id === "mundial"; })[0];
+      var head = '<div class="wrap"><h1>Lastro</h1><p class="meta">Quem corre com qual carro na próxima etapa do Mundial DPS. O líder do campeonato fica com o pior carro e o último colocado com o melhor, dois pilotos por carro (regulamento, item 9).</p>';
+      var ordem = L.ordem_ea || [];
+      if (!L.ativo || !c || !ordem.length) {
+        main.innerHTML = head + '<div class="sec">' + vazio("Tabela de lastro de 2027 ainda não publicada", "Ela aparece aqui a partir da primeira etapa da temporada, com a ordem dos carros da EA e a distribuição dos pilotos.") + "</div></div>"; return;
+      }
+      var pil = ordenarFGC(c.dados.pilotos || []);
+      var prox = proximaEtapa(c), igual = prox && (prox.tipos || []).indexOf("desempenho_igual") >= 0;
+      var h = head;
+      if (prox) h += '<div class="aviso" style="margin:14px 0"><strong>Próxima etapa: ' + esc(prox.pista) + (prox.n ? " (etapa " + prox.n + ")" : "") + "</strong>" + (prox.data ? " · " + esc(fmtData(prox.data, true)) : "") + (igual ? "<br>Etapa de desempenho igual: todos usam o mesmo desempenho, e cada equipe usa o carro definido no regulamento (item 4.5)." : "") + "</div>";
+      if (!igual) {
+        var porCarro = ordem.map(function (nome, i) { return { carro: nome, pilotos: pil.slice(i * 2, i * 2 + 2), pos: [i * 2 + 1, i * 2 + 2] }; });
+        h += '<section class="sec"><h2>Distribuição dos carros</h2><div class="rolagem"><table><thead><tr><th>Carro (do mais fraco ao mais forte)</th><th>Piloto</th><th>Pos. na tabela</th><th>Pontos (FGC)</th></tr></thead><tbody>' +
+          porCarro.map(function (g, i) {
+            var linhas = g.pilotos.length ? g.pilotos : [null, null].slice(0, 1);
+            return (g.pilotos.length ? g.pilotos : [null]).map(function (p, k) { return "<tr>" + (k === 0 ? '<td rowspan="' + (g.pilotos.length || 1) + '"><strong>' + (i + 1) + "º · " + esc(g.carro) + "</strong></td>" : "") + "<td>" + (p ? esc(p.nome) : "–") + "</td><td>" + (p ? g.pos[k] + "º" : "–") + "</td><td>" + (p ? p.pts : "–") + "</td></tr>"; }).join("");
+          }).join("") + "</tbody></table></div></section>";
+      }
+      h += '<p class="nota">' + (L.atualizado_em ? "Atualizado em " + esc(fmtData(L.atualizado_em, true)) + ". " : "") + "Pontos do Formula Game Companion, sem desconto de punições (item 12.9)." + (L.fonte ? " Ordem dos carros: " + esc(L.fonte) + "." : "") + ' <a href="regulamento.html">Regulamento 2027</a></p></div>';
+      main.innerHTML = h;
+    },
+
+    sorteio: function (ctx) {
+      var main = $("#app"), D = ctx.sorteio || {}, res = D.resultado;
+      var nomesIni = (D.pilotos || []).join("\n");
+      var h = '<div class="wrap"><h1>Sorteio das duplas 2027</h1><p class="meta">Cada piloto tem um Índice de Nível (IN), de 1 a 22. Grupo A (IN 1 a 6) forma dupla com D (17 a 22), e B (7 a 11) com C (12 a 16). A soma do IN da dupla precisa ficar entre 20 e 26. Se alguma dupla ficar fora, o sorteio é refeito; depois de 10 sorteios inválidos usa-se o pareamento espelho (Anexo A do regulamento).</p>';
+      if (res && res.length) h += '<section class="sec"><h2>Resultado oficial' + (D.realizado_em ? " · " + esc(fmtData(D.realizado_em, true)) : "") + "</h2>" + tabelaDuplas(res) + "</section>";
+      h += '<section class="sec"><h2>Sorteio ao vivo</h2><div class="sorteio-grid"><div><label for="nomes"><strong>Pilotos em ordem de IN</strong> (um por linha, do 1 ao 22)</label><textarea id="nomes" rows="22" spellcheck="false" placeholder="1º piloto&#10;2º piloto&#10;…">' + esc(nomesIni) + '</textarea><p class="nota">Cole aqui a lista publicada no ranking de IN. O sorteio roda no seu navegador e não é salvo. O resultado oficial é o que a Direção publica nesta página.</p><div><button type="button" class="botao" id="sortear">Sortear agora</button> <button type="button" class="botao claro" id="copiar" hidden>Copiar resultado</button></div></div><div id="saida" aria-live="polite"><div class="vazio"><b>Aguardando o sorteio</b>Preencha a lista e clique em Sortear agora.</div></div></div></section></div>';
+      main.innerHTML = h;
+      function rnd(n) { var a = new Uint32Array(1), lim = Math.floor(4294967296 / n) * n; do { crypto.getRandomValues(a); } while (a[0] >= lim); return a[0] % n; }
+      function emb(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+      function tabelaDuplas(r) {
+        return '<div class="rolagem"><table><thead><tr><th>Equipe</th><th>Piloto 1 (IN)</th><th>Piloto 2 (IN)</th><th>Soma</th></tr></thead><tbody>' + r.map(function (d, i) { var ok = d.soma >= d.min && d.soma <= d.max; return "<tr><td>" + (i + 1) + "</td><td>" + esc(d.a) + " (" + d.ia + ")</td><td>" + esc(d.b) + " (" + d.ib + ")</td><td><strong>" + d.soma + '</strong>' + (ok ? "" : " · espelho") + "</td></tr>"; }).join("") + "</tbody></table></div>";
+      }
+      function calcular(nomes) {
+        var n = nomes.length, a = Math.ceil(n / 4), b = n / 2 - a, ideal = n + 1, min = ideal - 3, max = ideal + 3;
+        var A = [], B = [], C = [], Dg = [];
+        for (var i = 1; i <= n; i++) { if (i <= a) A.push(i); else if (i <= a + b) B.push(i); else if (i <= a + 2 * b) C.push(i); else Dg.push(i); }
+        function montar(par) { return par.map(function (p) { return { a: nomes[p[0] - 1], ia: p[0], b: nomes[p[1] - 1], ib: p[1], soma: p[0] + p[1], min: min, max: max }; }); }
+        var log = [], tent = 0;
+        while (tent < 10) {
+          tent++;
+          var d = emb(Dg), c = emb(C), par = A.map(function (x, k) { return [x, d[k]]; }).concat(B.map(function (x, k) { return [x, c[k]]; }));
+          var falhas = par.filter(function (p) { return p[0] + p[1] < min || p[0] + p[1] > max; });
+          if (!falhas.length) { return { res: montar(par), tent: tent, espelho: false, log: log, min: min, max: max }; }
+          log.push({ t: tent, falhas: falhas.map(function (p) { return p[0] + "+" + p[1] + "=" + (p[0] + p[1]); }) });
+        }
+        var esp = A.map(function (x, k) { return [x, Dg[Dg.length - 1 - k]]; }).concat(B.map(function (x, k) { return [x, C[C.length - 1 - k]]; }));
+        return { res: montar(esp), tent: 10, espelho: true, log: log, min: min, max: max };
+      }
+      var txt = "";
+      $("#sortear").addEventListener("click", function () {
+        var nomes = $("#nomes").value.split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
+        var out = $("#saida"), cp = $("#copiar"); cp.hidden = true;
+        if (nomes.length < 4 || nomes.length % 2) { out.innerHTML = '<div class="aviso erro">Informe uma quantidade par de pilotos (mínimo 4). Para 22 pilotos o sorteio usa 11 equipes.</div>'; return; }
+        if (new Set(nomes.map(function (s) { return s.toLowerCase(); })).size !== nomes.length) { out.innerHTML = '<div class="aviso erro">Há nomes repetidos na lista.</div>'; return; }
+        var r = calcular(nomes), btn = $("#sortear"); btn.disabled = true;
+        var reduz = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches, passo = reduz ? 0 : 900;
+        var linhas = [];
+        out.innerHTML = '<p class="meta" id="st">Sorteando…</p><div class="rolagem"><table><thead><tr><th>Equipe</th><th>Piloto 1 (IN)</th><th>Piloto 2 (IN)</th><th>Soma</th></tr></thead><tbody id="tb"></tbody></table></div><div id="fim"></div>';
+        var i = 0;
+        (function prox() {
+          if (i < r.res.length) {
+            var d = r.res[i]; $("#tb").insertAdjacentHTML("beforeend", '<tr class="novo"><td>' + (i + 1) + "</td><td>" + esc(d.a) + " (" + d.ia + ")</td><td>" + esc(d.b) + " (" + d.ib + ")</td><td><strong>" + d.soma + "</strong></td></tr>");
+            linhas.push("Equipe " + (i + 1) + ": " + d.a + " + " + d.b + " (soma " + d.soma + ")"); i++;
+            setTimeout(prox, passo);
+          } else {
+            var inv = r.log.length;
+            $("#st").textContent = r.espelho ? "Pareamento espelho aplicado." : "Sorteio válido.";
+            $("#fim").innerHTML = '<div class="aviso">' + (r.espelho ? "Depois de 10 sorteios inválidos seguidos, a Direção usa o pareamento espelho (1+" + nomes.length + ", 2+" + (nomes.length - 1) + " e assim por diante)." : "Sorteio válido na " + r.tent + "ª tentativa" + (inv ? " (" + inv + (inv === 1 ? " sorteio inválido foi descartado" : " sorteios inválidos foram descartados") + ")" : "") + ".") + " Faixa aceita para a soma: " + r.min + " a " + r.max + ".</div>" +
+              (inv ? '<details class="mini"><summary>Sorteios descartados</summary><ul>' + r.log.map(function (l) { return "<li>Tentativa " + l.t + ": fora da faixa em " + esc(l.falhas.join(", ")) + "</li>"; }).join("") + "</ul></details>" : "");
+            txt = "Sorteio das duplas DPS 2027\n" + linhas.join("\n") + "\n" + (r.espelho ? "Pareamento espelho." : "Sorteio válido na " + r.tent + "ª tentativa.");
+            cp.hidden = false; btn.disabled = false;
+          }
+        })();
+      });
+      $("#copiar").addEventListener("click", function () {
+        var b = this;
+        function ok() { b.textContent = "Copiado"; setTimeout(function () { b.textContent = "Copiar resultado"; }, 1800); }
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(ok, function () { window.prompt("Copie o texto:", txt); });
+        else window.prompt("Copie o texto:", txt);
+      });
+    },
+
+    incidentes: function (ctx) {
+      var main = $("#app"), L = (ctx.incidentes || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || "") || (b.etapa || 0) - (a.etapa || 0); });
+      var head = '<div class="wrap"><h1>Decisões de incidentes</h1><p class="meta">Análises dos incidentes de cada etapa, com a regra aplicada e a decisão da Direção. A análise é feita com os critérios da F1 real e as punições da DPS (regulamento, item 12). Na fase de teste, a IA apoia a análise e não decide.</p>';
+      if (!L.length) { main.innerHTML = head + '<div class="sec">' + vazio("Nenhum incidente publicado ainda", "As decisões aparecem aqui depois de cada etapa em que houver pedido de análise.") + "</div></div>"; return; }
+      var campos = Array.from(new Set(L.map(function (x) { return x.campeonato; }).filter(Boolean)));
+      var h = head + '<div class="abas" id="fil" role="group" aria-label="Filtrar">' + ['todos'].concat(campos).map(function (k) { return '<button type="button" data-k="' + esc(k) + '" aria-pressed="' + (k === "todos") + '" style="--c:' + (k === "todos" ? "#10231c" : campCor(k)) + '">' + esc(k === "todos" ? "Todos" : (campNome(k) || k)) + "</button>"; }).join("") + '</div><div id="lista"></div><p class="nota">Dúvidas sobre uma decisão: fale com o capitão da sua equipe. Ele leva o assunto ao Diretor do Grid.</p></div>';
+      main.innerHTML = h;
+      function desenhar(k) {
+        $("#lista").innerHTML = L.filter(function (x) { return k === "todos" || x.campeonato === k; }).map(function (x) {
+          var punido = x.decisao && !/sem (a[cç][aã]o|puni)/i.test(x.decisao);
+          return '<article class="inc ' + (punido ? "pun" : "") + '" style="--c:' + campCor(x.campeonato) + '"><div class="camp">' + esc(campNome(x.campeonato) || x.campeonato || "") + (x.etapa ? " · etapa " + esc(x.etapa) : "") + (x.pista ? " · " + esc(x.pista) : "") + (x.volta ? " · volta " + esc(x.volta) : "") + '</div><h3>' + esc(x.titulo || (x.acusado ? x.acusador + " × " + x.acusado : "Incidente")) + '</h3>' +
+            (x.resumo ? "<p>" + esc(x.resumo) + "</p>" : "") + (x.analise ? '<p><strong>Análise:</strong> ' + esc(x.analise) + "</p>" : "") + (x.regra ? '<p class="nota"><strong>Regra:</strong> ' + esc(x.regra) + "</p>" : "") +
+            '<div class="decisao"><span class="tag">' + esc(x.decisao || "Em análise") + "</span>" + (x.punicao ? " <b>" + esc(x.punicao) + "</b>" : "") + "</div></article>";
+        }).join("") || vazio("Nada por aqui", "Nenhum incidente desse campeonato.");
+      }
+      desenhar("todos");
+      $("#fil").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (!b) return; [].forEach.call($("#fil").children, function (x) { x.setAttribute("aria-pressed", x === b); }); desenhar(b.getAttribute("data-k")); });
+    },
+
+    inscricoes: function () {
+      var s = S.site, ins = s.inscricoes || {}, main = $("#app");
+      var head = '<div class="wrap"><div style="max-width:700px"><h1>Inscrições 2027</h1><p style="font-family:var(--body);font-size:20px">Mundial DPS 2027: 22 vagas, 11 duplas e 24 etapas no calendário da F1 real. Leia o <a href="regulamento.html">regulamento</a> antes de se inscrever. Toda inscrição passa por uma comissão da DPS e pode ser aceita ou recusada.</p>';
+      if (ins.abertas === false) { main.innerHTML = head + '<div class="aviso"><strong>Inscrições encerradas.</strong> ' + esc(ins.mensagem || "Fale com a liga para entrar na lista de espera.") + ' <a href="contato.html">Fale conosco</a></div></div></div>'; return; }
+      if (!(s.formspree_id || s.formsubmit)) { main.innerHTML = head + '<div class="aviso erro"><strong>Formulário ainda não configurado.</strong> Veja o guia.</div></div></div>'; return; }
+      main.innerHTML = head + (ins.prazo ? '<div class="aviso" style="margin:12px 0"><strong>Prazo:</strong> ' + esc(ins.prazo) + "</div>" : "") +
+        '<form class="form" id="f" novalidate><label>Nome completo<input name="nome" required autocomplete="name"></label><label>Nome que aparece no jogo<input name="id_jogo" required autocomplete="off"><span class="dica">PSN, Xbox ou o nome que aparece no F1 25.</span></label><label>Plataforma<select name="plataforma"><option>PlayStation</option><option>Xbox</option><option>PC</option></select></label><label>E-mail ou WhatsApp para retorno<input name="retorno" required></label><label>Cidade e estado<input name="cidade" autocomplete="address-level2"></label><label>Campeonato que quer disputar<select name="campeonato"><option>Mundial DPS</option><option>Mundial DPS Elite</option><option>Os dois</option></select></label><label>Há quanto tempo corre online?<select name="tempo"><option>Menos de 1 ano</option><option>1 a 3 anos</option><option>Mais de 3 anos</option></select></label><label>Já correu em outras ligas?<textarea name="ligas" rows="3"></textarea><span class="dica">Cite as ligas, os campeonatos e os resultados que lembrar. Se for da DPS, informe seu grupo em 2026.</span></label><label>Qual seu melhor tempo em Bahrein (se já tiver)?<input name="tempo_bahrein" placeholder="1:32.456"></label><label class="chk"><input type="checkbox" name="regulamento" required> Li o regulamento de 2027 e concordo com ele.</label><label class="chk"><input type="checkbox" name="imagem"> Autorizo o uso da minha imagem nas transmissões da liga (se eu disponibilizar).</label><input class="oculto" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"><div><button class="botao" type="submit">Enviar inscrição</button></div><div id="msg" role="status"></div></form></div></div>';
+      var f = $("#f");
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var m = $("#msg"), dados = {};
+        if (f.elements._gotcha.value) return;
+        if (!f.nome.value.trim() || !f.id_jogo.value.trim() || !f.retorno.value.trim()) { m.className = "aviso erro"; m.textContent = "Preencha nome, nome no jogo e contato."; return; }
+        if (!f.regulamento.checked) { m.className = "aviso erro"; m.textContent = "Marque que leu e concorda com o regulamento."; return; }
+        [].forEach.call(f.elements, function (el) { if (el.name && el.name !== "_gotcha") dados[el.name] = el.type === "checkbox" ? (el.checked ? "sim" : "não") : el.value; });
+        dados.assunto = "Inscrição Mundial DPS 2027";
+        m.className = "aviso"; m.textContent = "Enviando…";
+        (s.formspree_id ? fetch("https://formspree.io/f/" + encodeURIComponent(s.formspree_id), { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(dados) })
+          : fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: "Portal DPS: Inscrição 2027 - " + dados.nome, _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); }))
+          .then(function (r) { if (!r.ok) throw 0; f.reset(); m.className = "aviso"; m.textContent = "Inscrição enviada. A comissão da DPS responde pelo contato que você informou."; })
+          .catch(function () { m.className = "aviso erro"; m.textContent = "Não foi possível enviar agora. Tente de novo ou fale com a liga pelo WhatsApp."; });
+      });
+    },
+
     contato: function () {
       var s = S.site, canais = [];
       if (s.whatsapp) canais.push('<a class="botao" href="' + esc(safeUrl(s.whatsapp)) + '" rel="noopener">WhatsApp</a>');
@@ -329,9 +459,9 @@
 
   /* ---------- início ---------- */
   carregar().then(function () {
-    return Promise.all([getJSON("noticias", true), getJSON("f1", true), (PAGE === "estatisticas" || PAGE === "halldafama") ? getJSON("stats", true) : null]);
+    return Promise.all([getJSON("noticias", true), getJSON("f1", true), (PAGE === "estatisticas" || PAGE === "halldafama") ? getJSON("stats", true) : null, PAGE === "lastro" ? getJSON("lastro", true) : null, PAGE === "sorteio" ? getJSON("sorteio", true) : null, PAGE === "incidentes" ? getJSON("incidentes", true) : null]);
   }).then(function (r) {
-    var ctx = { noticias: (r[0] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), f1: (r[1] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), stats: r[2] };
+    var ctx = { noticias: (r[0] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), f1: (r[1] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), stats: r[2], lastro: r[3], sorteio: r[4], incidentes: r[5] };
     montarTopo(ctx.noticias); montarRodape();
     if (paginas[PAGE]) paginas[PAGE](ctx);
     contador();

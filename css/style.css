@@ -187,3 +187,27 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .chamada p{margin:6px 0 0;font-size:19px;max-width:34em}
 .chamada .botao{background:var(--ink);color:#fff;font-size:22px;padding:10px 24px}
 .chamada .botao:hover{background:#000}
+
+/* páginas 2027 */
+.mais{position:relative;display:inline-block}
+.mais summary{list-style:none;cursor:pointer;font-family:var(--head);font-weight:600;font-size:19px;padding:8px 12px;border-bottom:3px solid transparent}
+.mais summary::-webkit-details-marker{display:none}
+.mais summary::after{content:" ▾"}
+.mais[data-ativo] summary,.mais summary:hover{border-color:#ffffff66}
+.mais[data-ativo] summary{border-color:var(--signal)}
+.mais>div{position:absolute;right:0;top:100%;z-index:40;background:var(--ink);min-width:220px;display:flex;flex-direction:column;padding:6px 0;box-shadow:0 10px 24px rgba(0,0,0,.35)}
+.mais>div a{border-bottom:0!important;padding:8px 16px}
+.mais>div a:hover{background:#ffffff1a}
+@media (max-width:900px){.mais>div{left:0;right:auto}}
+.sorteio-grid{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:760px){.sorteio-grid{grid-template-columns:1fr}}
+#nomes{width:100%;font:inherit;padding:8px 10px;border:2px solid var(--ink);background:var(--surface);color:var(--ink);margin:6px 0 4px}
+.novo{animation:entra .4s ease both}
+.inc{background:var(--surface);border-left:6px solid var(--c,var(--camp));padding:14px 18px;margin:14px 0}
+.inc.pun{border-left-color:#a3121f}
+.inc .camp{font-family:var(--head);font-weight:700;font-size:16px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.inc h3{margin:2px 0 6px}
+.inc p{margin:6px 0}
+.decisao{margin-top:10px}
+.form .chk{display:flex;gap:10px;align-items:flex-start}
+.form .chk input{width:auto;margin-top:6px}
