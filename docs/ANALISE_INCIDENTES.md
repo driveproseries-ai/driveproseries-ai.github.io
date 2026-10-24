@@ -17,6 +17,8 @@ Um caso = mesmo Grid + Pista + par de pilotos. Analisar quando:
 Casos já tratados ficam no arquivo de estado (seção 6). Nunca analisar o mesmo caso duas vezes.
 **Caso já decidido:** antes de analisar, procure em `data/incidentes.json` uma entrada da mesma pista e do mesmo par de pilotos. Se existir, o caso já foi decidido pela Direção: marque como `ja_decidido` no estado e avise o usuário em uma linha (sem reanalisar), a menos que o novo pedido traga prova nova ou o usuário peça reanálise.
 
+**Atraso e fila:** se a tarefa não rodou (limite de uso da semana, falha) ou há vários casos juntos, trate todos os pendentes, do mais antigo ao mais novo, assim que houver capacidade. Nada se perde: os prazos contam pelas datas, e não pela hora em que a análise rodou. O prazo de 24 h do pedido (12.1) usa o campo "Enviado em" do .txt contra a data da etapa; o prazo de 5 dias da defesa conta a partir da data da etapa. Se a tarefa tiver pouca capacidade, faça primeiro a triagem de todos os casos (estado + aviso ao usuário de que há casos aguardando) e depois a análise completa de um caso por vez.
+
 ## 3. Como analisar
 1. Conferir os vídeos (12.3, 12.5): do próprio piloto, tela inteira, horizontal, sem narração. Registrar problemas.
 2. Extrair quadros com ffmpeg: primeiro uma folha de contato (1–2 quadros por segundo) para achar o contato, depois quadros a 10–15 fps ao redor dele. Os dois onboards precisam ser sincronizados (usar o relógio/volta, as leituras de velocidade e a distância dos carros no HUD) antes de falar de quem estava à frente.
@@ -64,7 +66,7 @@ Todos os pedidos enviados em 24/10/2026 antes das 08:00, incluindo: Lucas Bueno 
 Quando um caso publicado (ou confirmado pelo usuário) tiver punição em pontos:
 1. `data/incidentes.json`: entrada completa, com `punicao`, `categoria` e `carteira_pts` (item 12.18.2: leve 3, média 6, grave 8, gravíssima 10; limite 20 = exclusão da próxima etapa).
 2. Registrar a punição para o processamento de etapa: acrescentar uma linha em `DPS - Análises (Claude)/punicoes_pendentes.csv` no Drive do usuário (criar com o cabeçalho `campeonato;PILOTO;pontos;motivo;status` se não existir): `mundial` ou `elite`; nome do piloto em MAIÚSCULAS como em `estado_*.json`; pontos negativos (ex.: -10); motivo curto com a pista; status `novo`. A tarefa de processar etapa (no PC) lê esse arquivo e as punições entram nos construtores e na classificação dos grupos (regulamento 12.9). Não duplicar linhas.
-3. **Não** alterar a tabela geral do FGC nem `pts` do piloto: as punições só entram na tabela geral depois da penúltima etapa. Também não mexer no lastro (12.9).
+3. **Não** alterar a tabela geral do FGC nem `pts` do piloto: as punições só entram na tabela geral depois da penúltima etapa. Também não mexer no lastro (12.9). Depois da penúltima etapa o lançamento no FGC é feito pelo navegador do PC (clicar no nome do piloto, adicionar penalidades, informar os pontos; o FGC acumula quantidade e total por piloto), com o "pode salvar" do usuário. Isso está no INSTRUCOES_CLAUDE.md do PC.
 4. Se a carteira de um piloto chegar a 20 pontos, não publicar sozinho: avisar o usuário (exclusão da próxima etapa).
 5. Avisar o usuário no celular do que foi atualizado e do que fica para ele (ex.: lançar a punição no FGC após a penúltima etapa).
 
