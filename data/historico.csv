@@ -1,0 +1,1957 @@
+temporada;campeonato;etapa;pista;data;pos;piloto;grid;volta_rapida;pole;dotd;status;tipo
+2024;mundial;1;Bahrein;2024-03-03;1;Junior Lima;1;;1;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;2;Cesar Jones;2;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;3;Carlos DS Santos;9;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;4;Gustavo Zanon;3;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;5;Thulio Mendes;20;;;1;;corrida
+2024;mundial;1;Bahrein;2024-03-03;6;Gustavo Gallo;15;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;7;Gustavo Isoppo;16;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;8;Fernando Thunder;10;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;9;Victor Pimentel;12;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;10;Joao Caetano;5;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;11;Charley Miranda;4;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;12;Marcelo;18;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;13;Thiago Diniz;13;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;14;Douglas Dragon;8;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;15;Gilney Botelho;6;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;16;Fayol Aguiar;19;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;17;Joel Gomes;7;1;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;18;André Paixão;17;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;19;Arthur Tuta;14;;;;;corrida
+2024;mundial;1;Bahrein;2024-03-03;20;Edy Santos;11;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;1;Charley Miranda;19;1;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;2;André Paixão;2;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;3;Junior Lima;3;;;1;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;4;Gustavo Gallo;4;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;5;Gilney Botelho;5;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;6;Thulio Mendes;6;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;7;Edy Santos;7;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;8;Carlos DS Santos;8;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;9;Fayol Aguiar;9;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;10;Douglas Dragon;10;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;11;Fernando Thunder;11;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;12;Cesar Jones;12;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;13;Arthur Tuta;13;;;;;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Joao Caetano;14;;;;DNF;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Luiz Vanzo;1;;1;;DNF;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Thiago Diniz;16;;;;DNF;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Victor Pimentel;17;;;;DNF;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Marcelo;18;;;;DNF;corrida
+2024;mundial;2;Arábia Saudita;2024-03-10;;Joel Gomes;15;;;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;1;Victor Pimentel;4;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;2;Thiago Diniz;5;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;3;Carlos DS Santos;12;;;1;;corrida
+2024;mundial;3;Austrália;2024-03-24;4;Arthur Tuta;15;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;5;Charley Miranda;6;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;6;Marcelo;16;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;7;Thulio Mendes;18;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;8;Douglas Dragon;10;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;9;André Paixão;9;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;10;Stephan Garcia;19;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;11;Fernando Thunder;11;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;12;Fayol Aguiar;17;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;13;Cesar Jones;8;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;14;Gustavo Gallo;3;;;;;corrida
+2024;mundial;3;Austrália;2024-03-24;;Junior Lima;7;;;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;;Joao Caetano;14;1;;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;;Gustavo Isoppo;1;;1;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;;Edy Santos;13;;;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;;Gilney Botelho;20;;;;DNF;corrida
+2024;mundial;3;Austrália;2024-03-24;;Joel Gomes;2;;;;DNF;corrida
+2024;mundial;4;Japão;2024-04-07;1;Charley Miranda;1;1;1;;;corrida
+2024;mundial;4;Japão;2024-04-07;2;Junior Lima;2;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;3;Joel Gomes;3;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;4;Victor Pimentel;8;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;5;Gustavo Gallo;5;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;6;Thulio Mendes;15;;;1;;corrida
+2024;mundial;4;Japão;2024-04-07;7;Carlos DS Santos;11;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;8;Fernando Thunder;18;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;9;Fayol Aguiar;12;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;10;Arthur Tuta;9;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;11;Marcelo;13;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;12;Stephan Garcia;14;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;13;Edy Santos;19;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;14;Gilney Botelho;17;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;15;Cesar Jones;4;;;;;corrida
+2024;mundial;4;Japão;2024-04-07;;Douglas Dragon;7;;;;DNF;corrida
+2024;mundial;4;Japão;2024-04-07;;Joao Caetano;6;;;;DNF;corrida
+2024;mundial;4;Japão;2024-04-07;;Luiz Vanzo;16;;;;DNF;corrida
+2024;mundial;4;Japão;2024-04-07;;Thiago Diniz;10;;;;DNF;corrida
+2024;mundial;5;China;2024-04-21;1;Gilney Botelho;4;;;;;corrida
+2024;mundial;5;China;2024-04-21;2;André Paixão;17;;;1;;corrida
+2024;mundial;5;China;2024-04-21;3;Fayol Aguiar;7;;;;;corrida
+2024;mundial;5;China;2024-04-21;4;Carlos Henrique;9;;;;;corrida
+2024;mundial;5;China;2024-04-21;5;Victor Pimentel;16;;;;;corrida
+2024;mundial;5;China;2024-04-21;6;Thiago Diniz;3;;;;;corrida
+2024;mundial;5;China;2024-04-21;7;Cesar Jones;13;;;;;corrida
+2024;mundial;5;China;2024-04-21;8;Joel Gomes;8;;;;;corrida
+2024;mundial;5;China;2024-04-21;9;Marcelo;12;;;;;corrida
+2024;mundial;5;China;2024-04-21;10;Charley Miranda;1;;1;;;corrida
+2024;mundial;5;China;2024-04-21;11;Rafa Marques;15;;;;;corrida
+2024;mundial;5;China;2024-04-21;12;Edy Santos;6;;;;;corrida
+2024;mundial;5;China;2024-04-21;13;Stephan Garcia;11;;;;;corrida
+2024;mundial;5;China;2024-04-21;14;Fernando Thunder;14;1;;;;corrida
+2024;mundial;5;China;2024-04-21;15;Carlos DS Santos;10;;;;;corrida
+2024;mundial;5;China;2024-04-21;;Junior Lima;2;;;;DNF;corrida
+2024;mundial;5;China;2024-04-21;;Thulio Mendes;19;;;;DNF;corrida
+2024;mundial;5;China;2024-04-21;;Douglas Dragon;5;;;;DNF;corrida
+2024;mundial;5;China;2024-04-21;;Luiz Vanzo;18;;;;DNF;corrida
+2024;mundial;5;China;2024-04-21;;Joao Caetano;20;;;;DNF;corrida
+2024;mundial;6;Miami;2024-05-05;1;Gustavo Gallo;2;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;2;Marcelo;9;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;3;Carlos DS Santos;8;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;4;Gerson Bolha;4;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;5;Cesar Jones;7;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;6;Douglas Dragon;3;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;7;Thulio Mendes;17;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;8;Fernando Thunder;15;;;1;;corrida
+2024;mundial;6;Miami;2024-05-05;9;Junior Lima;1;;1;;;corrida
+2024;mundial;6;Miami;2024-05-05;10;Stephan Garcia;6;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;11;André Paixão;16;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;12;Edy Santos;12;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;13;Gilney Botelho;18;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;14;Victor Pimentel;5;;;;;corrida
+2024;mundial;6;Miami;2024-05-05;15;Charley Miranda;13;1;;;;corrida
+2024;mundial;6;Miami;2024-05-05;;Joel Gomes;14;;;;DNF;corrida
+2024;mundial;6;Miami;2024-05-05;;Arthur Tuta;10;;;;DNF;corrida
+2024;mundial;6;Miami;2024-05-05;;Luiz Vanzo;11;;;;DNF;corrida
+2024;mundial;6;Miami;2024-05-05;;Joao Caetano;19;;;;DNF;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;1;Gustavo Zanon;2;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;2;André Paixão;20;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;3;Junior Lima;13;;;1;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;4;Edy Santos;14;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;5;Charley Miranda;15;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;6;Cesar Jones;4;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;7;Gilney Botelho;8;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;8;Thulio Mendes;10;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;9;Arthur Tuta;18;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;10;Fayol Aguiar;16;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;11;Carlos DS Santos;9;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;12;Douglas Dragon;17;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;13;Thiago Diniz;7;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;14;Joel Gomes;11;1;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;15;Marcelo;12;;;;;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;;Rafa Marques;3;;;;DNF;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;;Fernando Thunder;19;;;;DNF;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;;Luiz Vanzo;1;;1;;DNF;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;;Victor Pimentel;5;;;;DNF;corrida
+2024;mundial;7;Emília-Romanha;2024-05-19;;Joao Caetano;6;;;;DNF;corrida
+2024;mundial;8;Mônaco;2024-05-26;1;Victor Pimentel;2;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;2;Junior Lima;3;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;3;Gustavo Gallo;6;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;4;Gustavo Isoppo;1;1;1;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;5;Cesar Jones;5;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;6;Fayol Aguiar;15;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;7;Gilney Botelho;18;;;1;;corrida
+2024;mundial;8;Mônaco;2024-05-26;8;Marcelo;11;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;9;Douglas Dragon;8;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;10;André Paixão;7;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;11;Carlos DS Santos;19;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;12;Edy Santos;9;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;13;Stephan Garcia;13;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;14;Thiago Diniz;14;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;15;Arthur Tuta;16;;;;;corrida
+2024;mundial;8;Mônaco;2024-05-26;;Charley Miranda;4;;;;DNF;corrida
+2024;mundial;8;Mônaco;2024-05-26;;Fernando Thunder;12;;;;DNF;corrida
+2024;mundial;8;Mônaco;2024-05-26;;Joel Gomes;10;;;;DNF;corrida
+2024;mundial;8;Mônaco;2024-05-26;;Luiz Vanzo;20;;;;DNF;corrida
+2024;mundial;8;Mônaco;2024-05-26;;Thulio Mendes;17;;;;DNF;corrida
+2024;mundial;9;Canadá;2024-06-09;1;Marcelo;9;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;2;Charley Miranda;11;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;3;Edy Santos;15;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;4;Thulio Mendes;6;;;1;;corrida
+2024;mundial;9;Canadá;2024-06-09;5;Victor Pimentel;7;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;6;Fernando Thunder;12;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;7;Carlos DS Santos;10;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;8;Gustavo Gallo;5;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;9;Fayol Aguiar;8;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;10;Thiago Diniz;17;1;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;11;Gilney Botelho;18;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;12;Gustavo Zanon;20;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;13;André Paixão;14;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;14;Arthur Tuta;16;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;15;Douglas Dragon;19;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;16;Cesar Jones;3;;;;;corrida
+2024;mundial;9;Canadá;2024-06-09;;Luiz Vanzo;1;;1;;DNF;corrida
+2024;mundial;9;Canadá;2024-06-09;;Joel Gomes;4;;;;DNF;corrida
+2024;mundial;9;Canadá;2024-06-09;;Junior Lima;2;;;;DNF;corrida
+2024;mundial;9;Canadá;2024-06-09;;Joao Caetano;13;;;;DNF;corrida
+2024;mundial;10;Espanha;2024-06-23;1;Charley Miranda;6;1;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;2;Carlos DS Santos;7;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;3;Marcelo;9;;;1;;corrida
+2024;mundial;10;Espanha;2024-06-23;4;Gustavo Gallo;8;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;5;Fernando Thunder;14;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;6;Junior Lima;1;;1;;;corrida
+2024;mundial;10;Espanha;2024-06-23;7;André Paixão;13;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;8;Victor Pimentel;2;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;9;Thulio Mendes;10;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;10;Gilney Botelho;3;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;11;Edy Santos;16;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;12;Cesar Jones;4;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;13;Arthur Tuta;17;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;14;Fayol Aguiar;12;;;;;corrida
+2024;mundial;10;Espanha;2024-06-23;;Joao Caetano;5;;;;DNF;corrida
+2024;mundial;10;Espanha;2024-06-23;;Luiz Vanzo;18;;;;DNF;corrida
+2024;mundial;10;Espanha;2024-06-23;;Thiago Diniz;15;;;;DNF;corrida
+2024;mundial;10;Espanha;2024-06-23;;Douglas Dragon;11;;;;DNF;corrida
+2024;mundial;11;Áustria;2024-06-30;1;Victor Pimentel;17;;;1;;corrida
+2024;mundial;11;Áustria;2024-06-30;2;Gustavo Gallo;5;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;3;Edy Santos;4;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;4;Thiago Diniz;16;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;5;Junior Lima;3;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;6;Fernando Thunder;11;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;7;Thulio Mendes;12;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;8;Joel Gomes;13;1;1;;;corrida
+2024;mundial;11;Áustria;2024-06-30;9;Carlos DS Santos;7;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;10;Cesar Jones;6;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;11;Charley Miranda;1;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;12;Stephan Garcia;9;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;13;Gilney Botelho;15;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;14;Marcelo;10;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;15;Arthur Tuta;8;;;;;corrida
+2024;mundial;11;Áustria;2024-06-30;;Luiz Vanzo;14;;;;DNF;corrida
+2024;mundial;11;Áustria;2024-06-30;;André Paixão;2;;;;DSQ;corrida
+2024;mundial;11;Áustria;2024-06-30;;Fayol Aguiar;18;;;;DNF;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;1;Thiago Diniz;4;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;2;André Paixão;2;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;3;Fernando Thunder;5;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;4;Junior Lima;7;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;5;Gilney Botelho;6;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;6;Thulio Mendes;15;1;;1;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;7;Victor Pimentel;3;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;8;Carlos DS Santos;10;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;9;Cesar Jones;11;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;10;Edy Santos;9;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;11;Fayol Aguiar;16;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;12;Marcelo;13;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;13;Joel Gomes;1;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;14;Stephan Garcia;8;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;15;Douglas Dragon;12;;;;;corrida
+2024;mundial;12;Grã-Bretanha;2024-07-07;;Luiz Vanzo;14;;;;DNF;corrida
+2024;mundial;13;Hungria;2024-07-21;1;Gerson Bolha;4;1;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;2;Fernando Thunder;7;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;3;Thulio Mendes;12;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;4;Edy Santos;6;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;5;André Paixão;11;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;6;Victor Pimentel;14;;;1;;corrida
+2024;mundial;13;Hungria;2024-07-21;7;Thiago Diniz;5;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;8;Douglas Dragon;17;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;9;Carlos DS Santos;13;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;10;Junior Lima;15;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;11;Stephan Garcia;2;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;12;Marcelo;10;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;13;Charley Miranda;20;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;14;Gustavo Gallo;19;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;15;Cesar Jones;9;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;16;Gilney Botelho;8;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;17;Arthur Tuta;18;;;;;corrida
+2024;mundial;13;Hungria;2024-07-21;;Luiz Vanzo;1;;;;DNF;corrida
+2024;mundial;13;Hungria;2024-07-21;;Joao Caetano;3;;;;DNF;corrida
+2024;mundial;13;Hungria;2024-07-21;;Joel Gomes;16;;;;DNF;corrida
+2024;mundial;14;Bélgica;2024-07-28;1;Junior Lima;4;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;2;Carlos DS Santos;6;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;3;Thulio Mendes;19;;;1;;corrida
+2024;mundial;14;Bélgica;2024-07-28;4;Victor Pimentel;13;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;5;Gustavo Gallo;8;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;6;Edy Santos;3;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;7;Fayol Aguiar;9;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;8;Thiago Diniz;18;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;9;Charley Miranda;2;1;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;10;Fernando Thunder;15;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;11;Stephan Garcia;17;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;12;Cesar Jones;1;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;13;Joel Gomes;7;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;14;Marcelo;10;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;15;Joao Caetano;14;;;;;corrida
+2024;mundial;14;Bélgica;2024-07-28;;Douglas Dragon;11;;;;DNF;corrida
+2024;mundial;14;Bélgica;2024-07-28;;Arthur Tuta;12;;;;DNF;corrida
+2024;mundial;14;Bélgica;2024-07-28;;Luiz Vanzo;16;;;;DNF;corrida
+2024;mundial;14;Bélgica;2024-07-28;;André Paixão;5;;;;DNF;corrida
+2024;mundial;14;Bélgica;2024-07-28;;Gilney Botelho;20;;;;DSQ;corrida
+2024;mundial;15;Holanda;2024-08-25;1;Thulio Mendes;16;1;;1;;corrida
+2024;mundial;15;Holanda;2024-08-25;2;Gustavo Zanon;1;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;3;Carlos DS Santos;4;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;4;Fernando Thunder;12;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;5;André Paixão;8;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;6;Fayol Aguiar;13;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;7;Junior Lima;2;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;8;Victor Pimentel;3;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;9;Stephan Garcia;14;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;10;Arthur Tuta;6;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;11;Edy Santos;7;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;12;Douglas Dragon;9;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;13;Marcelo;11;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;14;Cesar Jones;17;;;;;corrida
+2024;mundial;15;Holanda;2024-08-25;;Joao Caetano;10;;;;DNF;corrida
+2024;mundial;15;Holanda;2024-08-25;;Luiz Vanzo;15;;;;DNF;corrida
+2024;mundial;15;Holanda;2024-08-25;;Thiago Diniz;5;;;;DSQ;corrida
+2024;mundial;15;Holanda;2024-08-25;;Rafa Marques;19;;;;DNS;corrida
+2024;mundial;15;Holanda;2024-08-25;;Gustavo Gallo;20;;;;DNS;corrida
+2024;mundial;16;Itália;2024-09-01;1;Arthur Tuta;2;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;2;Gustavo Zanon;1;;1;;;corrida
+2024;mundial;16;Itália;2024-09-01;3;Junior Lima;5;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;4;Douglas Dragon;4;1;;;;corrida
+2024;mundial;16;Itália;2024-09-01;5;Victor Pimentel;7;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;6;Rafa Marques;14;;;1;;corrida
+2024;mundial;16;Itália;2024-09-01;7;Edy Santos;12;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;8;Carlos DS Santos;6;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;9;Stephan Garcia;8;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;10;Fayol Aguiar;10;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;11;Thulio Mendes;15;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;12;Marcelo;13;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;13;Cesar Jones;11;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;14;Gilney Botelho;16;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;15;Fernando Thunder;17;;;;;corrida
+2024;mundial;16;Itália;2024-09-01;;André Paixão;3;;;;DNF;corrida
+2024;mundial;16;Itália;2024-09-01;;Luiz Vanzo;9;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;1;Gustavo Zanon;2;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;2;Thulio Mendes;12;;;1;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;3;André Paixão;10;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;4;Marcelo;8;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;5;Junior Lima;15;1;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;6;Carlos DS Santos;14;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;7;Douglas Dragon;4;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;8;Gustavo Gallo;16;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;9;Edy Santos;9;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;10;Stephan Garcia;1;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;11;Arthur Tuta;3;;;;;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Fernando Thunder;11;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Cesar Jones;7;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Fayol Aguiar;5;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Gilney Botelho;6;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Thiago Diniz;17;;;;DNF;corrida
+2024;mundial;17;Azerbaijão;2024-09-15;;Fernando Socolovisk;13;;;;DNF;corrida
+2024;mundial;18;Singapura;2024-09-22;1;Gustavo Zanon;1;1;1;;;corrida
+2024;mundial;18;Singapura;2024-09-22;2;Junior Lima;4;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;3;Rafa Marques;18;;;1;;corrida
+2024;mundial;18;Singapura;2024-09-22;4;Thulio Mendes;17;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;5;Arthur Tuta;2;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;6;André Paixão;3;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;7;Gustavo Gallo;7;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;8;Victor Pimentel;10;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;9;Cesar Jones;6;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;10;Douglas Dragon;5;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;11;Carlos DS Santos;11;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;12;Stephan Garcia;12;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;13;Marcelo;8;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;14;Fernando Thunder;9;;;;;corrida
+2024;mundial;18;Singapura;2024-09-22;;Edy Santos;15;;;;DNF;corrida
+2024;mundial;18;Singapura;2024-09-22;;Thiago Diniz;13;;;;DNF;corrida
+2024;mundial;18;Singapura;2024-09-22;;Fayol Aguiar;14;;;;DNF;corrida
+2024;mundial;18;Singapura;2024-09-22;;Luiz Vanzo;16;;;;DNF;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;1;Gustavo Zanon;1;;1;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;2;Charley Miranda;2;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;3;Gerson Bolha;8;;;1;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;4;Junior Lima;9;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;5;Thulio Mendes;6;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;6;Edy Santos;7;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;7;Marcelo;11;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;8;Arthur Tuta;3;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;9;Gustavo Gallo;5;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;10;Carlos DS Santos;12;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;11;André Paixão;16;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;12;Fernando Thunder;10;1;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;13;Thiago Diniz;4;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;14;Fernando Socolovisk;14;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;15;Cesar Jones;15;;;;;corrida
+2024;mundial;19;Estados Unidos;2024-10-20;;Douglas Dragon;13;;;;DNF;corrida
+2024;mundial;20;México;2024-10-27;1;Gustavo Zanon;2;;;;;corrida
+2024;mundial;20;México;2024-10-27;2;Thulio Mendes;16;;;1;;corrida
+2024;mundial;20;México;2024-10-27;3;Victor Pimentel;6;;;;;corrida
+2024;mundial;20;México;2024-10-27;4;André Paixão;3;;;;;corrida
+2024;mundial;20;México;2024-10-27;5;Carlos DS Santos;5;1;;;;corrida
+2024;mundial;20;México;2024-10-27;6;Edy Santos;9;;;;;corrida
+2024;mundial;20;México;2024-10-27;7;Junior Lima;1;;1;;;corrida
+2024;mundial;20;México;2024-10-27;8;Rafa Marques;4;;;;;corrida
+2024;mundial;20;México;2024-10-27;9;Arthur Tuta;7;;;;;corrida
+2024;mundial;20;México;2024-10-27;10;Fernando Thunder;19;;;;;corrida
+2024;mundial;20;México;2024-10-27;11;Gustavo Gallo;10;;;;;corrida
+2024;mundial;20;México;2024-10-27;12;Fayol Aguiar;18;;;;;corrida
+2024;mundial;20;México;2024-10-27;13;Thiago Diniz;11;;;;;corrida
+2024;mundial;20;México;2024-10-27;14;Marcelo;12;;;;;corrida
+2024;mundial;20;México;2024-10-27;15;Luiz Vanzo;17;;;;;corrida
+2024;mundial;20;México;2024-10-27;16;Cesar Jones;14;;;;;corrida
+2024;mundial;20;México;2024-10-27;;Douglas Dragon;8;;;;DNF;corrida
+2024;mundial;20;México;2024-10-27;;Joao Caetano;15;;;;DNF;corrida
+2024;mundial;20;México;2024-10-27;;Joel Gomes;13;;;;DNF;corrida
+2024;mundial;21;Brasil;2024-11-03;1;Gustavo Zanon;1;;1;;;corrida
+2024;mundial;21;Brasil;2024-11-03;2;Charley Miranda;2;1;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;3;Junior Lima;4;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;4;Victor Pimentel;11;;;1;;corrida
+2024;mundial;21;Brasil;2024-11-03;5;Arthur Tuta;5;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;6;Fernando Thunder;14;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;7;Carlos DS Santos;15;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;8;Thiago Diniz;3;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;9;Edy Santos;9;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;10;Thulio Mendes;6;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;11;Marcelo;13;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;12;Cesar Jones;12;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;13;André Paixão;8;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;14;Gustavo Gallo;10;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;15;Fayol Aguiar;7;;;;;corrida
+2024;mundial;21;Brasil;2024-11-03;;Luiz Vanzo;16;;;;DNF;corrida
+2024;mundial;22;Las Vegas;2024-11-24;1;Thiago Diniz;6;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;2;Junior Lima;4;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;3;Thulio Mendes;5;;;1;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;4;Gustavo Gallo;16;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;5;Marcelo;12;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;6;Fernando Thunder;14;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;7;André Paixão;7;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;8;Gilney Botelho;15;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;9;Gustavo Zanon;3;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;10;Carlos DS Santos;13;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;11;Arthur Tuta;9;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;12;Cesar Jones;11;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;13;Victor Pimentel;2;1;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;14;Edy Santos;8;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;15;Fayol Aguiar;10;;;;;corrida
+2024;mundial;22;Las Vegas;2024-11-24;;Joao Caetano;1;;;;DNF;corrida
+2024;mundial;23;Catar;2024-12-01;1;Victor Pimentel;3;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;2;Cesar Jones;1;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;3;Gustavo Zanon;2;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;4;André Paixão;9;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;5;Thulio Mendes;5;;;1;;corrida
+2024;mundial;23;Catar;2024-12-01;6;Carlos Henrique;4;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;7;Gilney Botelho;16;;1;;;corrida
+2024;mundial;23;Catar;2024-12-01;8;Carlos DS Santos;6;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;9;Edy Santos;15;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;10;Junior Lima;13;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;11;Stephan Garcia;8;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;12;Thiago Diniz;7;1;;;;corrida
+2024;mundial;23;Catar;2024-12-01;13;Marcelo;14;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;14;Fernando Thunder;10;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;15;Fayol Aguiar;12;;;;;corrida
+2024;mundial;23;Catar;2024-12-01;;Luiz Vanzo;11;;;;DNF;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;1;Junior Lima;2;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;2;Gustavo Zanon;1;;1;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;3;Thulio Mendes;15;;;1;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;4;Victor Pimentel;6;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;5;Carlos DS Santos;5;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;6;André Paixão;3;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;7;Fernando Thunder;9;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;8;Gustavo Gallo;11;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;9;Marcelo;10;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;10;Stephan Garcia;13;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;11;Thiago Diniz;4;1;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;12;Fayol Aguiar;14;;;;;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;;Cesar Jones;8;;;;DNF;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;;Edy Santos;7;;;;DNF;corrida
+2024;mundial;24;Abu Dhabi;2024-12-08;;Luiz Vanzo;12;;;;DNF;corrida
+2025;mundial;1;Austrália;2025-03-16;1;Tiago Costa;2;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;2;Victor Pimentel;5;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;3;Gustavo Gallo;7;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;4;André Paixão;3;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;5;Deyvidy Knorst;11;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;6;Edy Santos;12;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;7;Thulio Mendes;19;1;;1;;corrida
+2025;mundial;1;Austrália;2025-03-16;8;Arthur Tuta;14;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;9;Diego Gaspareto;1;;1;;;corrida
+2025;mundial;1;Austrália;2025-03-16;10;Marcio Santos;9;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;11;Tassio Pimentel;15;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;12;Fabinho Luz;8;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;13;Cesar Jones;4;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;14;Fabio RGP;16;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;15;Thiago Diniz;13;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;16;Carlos DS Santos;10;;;;;corrida
+2025;mundial;1;Austrália;2025-03-16;;Marcelo;6;;;;DNF;corrida
+2025;mundial;1;Austrália;2025-03-16;;Jo Caiana;17;;;;DNF;corrida
+2025;mundial;1;Austrália;2025-03-16;;Pereira;18;;;;DNF;corrida
+2025;mundial;2;China;2025-03-23;1;Carlos DS Santos;1;1;1;;;corrida
+2025;mundial;2;China;2025-03-23;2;Thulio Mendes;19;;;1;;corrida
+2025;mundial;2;China;2025-03-23;3;Marcelo;5;;;;;corrida
+2025;mundial;2;China;2025-03-23;4;Tiago Costa;6;;;;;corrida
+2025;mundial;2;China;2025-03-23;5;Marck Bauer;4;;;;;corrida
+2025;mundial;2;China;2025-03-23;6;Diego Gaspareto;7;;;;;corrida
+2025;mundial;2;China;2025-03-23;7;André Paixão;3;;;;;corrida
+2025;mundial;2;China;2025-03-23;8;Fabinho Luz;13;;;;;corrida
+2025;mundial;2;China;2025-03-23;9;Gustavo Moura;15;;;;;corrida
+2025;mundial;2;China;2025-03-23;10;Edy Santos;14;;;;;corrida
+2025;mundial;2;China;2025-03-23;11;Fabio RGP;2;;;;;corrida
+2025;mundial;2;China;2025-03-23;12;Jo Caiana;8;;;;;corrida
+2025;mundial;2;China;2025-03-23;13;Diogo Marin;18;;;;;corrida
+2025;mundial;2;China;2025-03-23;14;Deyvidy Knorst;9;;;;;corrida
+2025;mundial;2;China;2025-03-23;15;Stephan Garcia;20;;;;;corrida
+2025;mundial;2;China;2025-03-23;16;Marcio Santos;12;;;;;corrida
+2025;mundial;2;China;2025-03-23;17;Gustavo Gallo;11;;;;;corrida
+2025;mundial;2;China;2025-03-23;18;Cesar Jones;10;;;;;corrida
+2025;mundial;2;China;2025-03-23;19;Victor Pimentel;17;;;;;corrida
+2025;mundial;2;China;2025-03-23;20;Arthur Tuta;16;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;1;Victor Pimentel;3;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;2;Carlos DS Santos;2;1;;;;corrida
+2025;mundial;3;Japão;2025-04-06;3;Thulio Mendes;17;;;1;;corrida
+2025;mundial;3;Japão;2025-04-06;4;Gustavo Gallo;5;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;5;André Paixão;4;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;6;Marcelo;16;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;7;Tiago Costa;8;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;8;Edy Santos;9;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;9;Deyvidy Knorst;7;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;10;Arthur Tuta;13;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;11;Fabinho Luz;19;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;12;Jo Caiana;12;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;13;Diogo Marin;18;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;14;Diego Gaspareto;1;;1;;;corrida
+2025;mundial;3;Japão;2025-04-06;15;Cesar Jones;10;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;16;Gustavo Moura;15;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;17;Marcio Santos;14;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;18;Fabio RGP;11;;;;;corrida
+2025;mundial;3;Japão;2025-04-06;;Marck Bauer;6;;;;DNF;corrida
+2025;mundial;4;Bahrein;2025-04-13;1;Diogo Marin;2;1;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;2;Marck Bauer;6;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;3;Gustavo Gallo;13;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;4;Fernando Thunder;8;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;5;Marcio Santos;5;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;6;Carlos DS Santos;20;;;1;;corrida
+2025;mundial;4;Bahrein;2025-04-13;7;Victor Pimentel;16;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;8;André Paixão;17;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;9;Marcos Paulo;1;;1;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;10;Deyvidy Knorst;12;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;11;Gustavo Moura;3;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;12;Thulio Mendes;19;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;13;Arthur Tuta;9;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;14;Marcelo;14;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;15;Tiago Costa;18;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;16;Cesar Jones;4;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;17;Diego Gaspareto;11;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;18;Jo Caiana;7;;;;;corrida
+2025;mundial;4;Bahrein;2025-04-13;;Edy Santos;15;;;;DNF;corrida
+2025;mundial;4;Bahrein;2025-04-13;;Fabinho Luz;10;;;;DNF;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;1;Carlos DS Santos;2;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;2;Victor Pimentel;8;;;1;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;3;Cesar Jones;5;1;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;4;Marck Bauer;10;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;5;Edy Santos;14;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;6;Fabinho Luz;3;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;7;Arthur Tuta;6;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;8;Thulio Mendes;15;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;9;Deyvidy Knorst;11;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;10;Marcelo;12;;;;;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;;Diogo Marin;1;;1;;DNF;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;;Fabio RGP;9;;;;DNF;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;;Marcio Santos;7;;;;DNF;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;;Tassio Pimentel;13;;;;DNF;corrida
+2025;mundial;5;Arábia Saudita;2025-04-20;;Diego Gaspareto;4;;;;DNF;corrida
+2025;mundial;6;Miami;2025-05-04;1;Tiago Costa;5;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;2;Diogo Marin;2;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;3;Carlos DS Santos;11;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;4;Deyvidy Knorst;4;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;5;Thulio Mendes;16;;;1;;corrida
+2025;mundial;6;Miami;2025-05-04;6;Marck Bauer;7;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;7;Victor Pimentel;10;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;8;Cesar Jones;18;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;9;Gustavo Gallo;15;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;10;Fabinho Luz;3;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;11;Arthur Tuta;13;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;12;Fabio RGP;8;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;13;Marcelo;12;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;14;Marcio Santos;17;1;;;;corrida
+2025;mundial;6;Miami;2025-05-04;15;André Paixão;14;;;;;corrida
+2025;mundial;6;Miami;2025-05-04;;Diego Gaspareto;1;;1;;DNF;corrida
+2025;mundial;6;Miami;2025-05-04;;Gustavo Moura;6;;;;DNF;corrida
+2025;mundial;6;Miami;2025-05-04;;Jo Caiana;9;;;;DNF;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;1;Diego Gaspareto;5;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;2;Thulio Mendes;17;;;1;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;3;Victor Pimentel;18;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;4;Carlos DS Santos;19;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;5;André Paixão;13;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;6;Edy Santos;6;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;7;Deyvidy Knorst;15;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;8;Marcio Santos;4;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;9;Fabinho Luz;10;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;10;Marcelo;11;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;11;Jo Caiana;1;;1;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;12;Gustavo Gallo;12;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;13;Marck Bauer;14;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;14;Arthur Tuta;9;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;15;Cesar Jones;8;1;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;16;Diogo Marin;7;;;;;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;;Fabio RGP;3;;;;DNF;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;;Gustavo Moura;2;;;;DNF;corrida
+2025;mundial;7;Emília-Romanha;2025-05-18;;Tiago Costa;16;;;;DNF;corrida
+2025;mundial;8;Mônaco;2025-05-25;1;Victor Pimentel;3;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;2;Jo Caiana;19;;;1;;corrida
+2025;mundial;8;Mônaco;2025-05-25;3;Diogo Marin;5;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;4;Marcelo;9;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;5;Thulio Mendes;1;1;1;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;6;Deyvidy Knorst;13;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;7;Marck Bauer;4;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;8;Cesar Jones;17;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;9;Gustavo Gallo;7;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;10;Arthur Tuta;12;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;11;Marcos Paulo;18;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;12;Gustavo Moura;10;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;13;Edy Santos;16;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;14;André Paixão;2;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;15;Fabinho Luz;8;;;;;corrida
+2025;mundial;8;Mônaco;2025-05-25;;Fabio RGP;15;;;;DNF;corrida
+2025;mundial;8;Mônaco;2025-05-25;;Marcio Santos;14;;;;DNF;corrida
+2025;mundial;8;Mônaco;2025-05-25;;Lucas Bueno;6;;;;DNF;corrida
+2025;mundial;8;Mônaco;2025-05-25;;Fernando Thunder;11;;;;DNF;corrida
+2025;mundial;9;Espanha;2025-06-01;1;André Paixão;6;1;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;2;Tiago Costa;3;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;3;Gustavo Moura;12;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;4;Arthur Tuta;4;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;5;Victor Pimentel;10;;;1;;corrida
+2025;mundial;9;Espanha;2025-06-01;6;Marck Bauer;15;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;7;Edy Santos;5;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;8;Cesar Jones;9;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;9;Fernando Thunder;2;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;10;Gustavo Gallo;14;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;11;Marcio Santos;7;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;12;Deyvidy Knorst;11;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;13;Marcelo;16;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;14;Fabio RGP;8;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;15;Fabinho Luz;13;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;16;Diogo Marin;19;;;;;corrida
+2025;mundial;9;Espanha;2025-06-01;17;Diego Gaspareto;1;;1;;;corrida
+2025;mundial;9;Espanha;2025-06-01;;Thulio Mendes;18;;;;DNF;corrida
+2025;mundial;9;Espanha;2025-06-01;;Carlos DS Santos;17;;;;DNF;corrida
+2025;mundial;10;Canadá;2025-06-15;1;Gustavo Gallo;12;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;2;Tiago Costa;14;;;1;;corrida
+2025;mundial;10;Canadá;2025-06-15;3;Marcelo;13;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;4;Diogo Marin;7;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;5;Marck Bauer;15;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;6;Fernando Thunder;1;;1;;;corrida
+2025;mundial;10;Canadá;2025-06-15;7;Fabinho Luz;8;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;8;Arthur Tuta;11;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;9;Jo Caiana;4;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;10;Marcio Santos;5;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;11;André Paixão;16;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;12;Thulio Mendes;17;1;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;13;Fabio RGP;2;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;14;Gustavo Moura;3;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;15;Pereira;18;;;;;corrida
+2025;mundial;10;Canadá;2025-06-15;;Diego Gaspareto;6;;;;DNF;corrida
+2025;mundial;10;Canadá;2025-06-15;;Edy Santos;10;;;;DNF;corrida
+2025;mundial;10;Canadá;2025-06-15;;Victor Pimentel;19;;;;DNF;corrida
+2025;mundial;10;Canadá;2025-06-15;;Cesar Jones;9;;;;DNF;corrida
+2025;mundial;11;Áustria;2025-06-29;1;Diego Gaspareto;1;;1;;;corrida
+2025;mundial;11;Áustria;2025-06-29;2;Tiago Costa;5;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;3;Fernando Thunder;4;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;4;Edy Santos;2;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;5;Fabinho Luz;3;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;6;Fabio RGP;7;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;7;Thulio Mendes;18;;;1;;corrida
+2025;mundial;11;Áustria;2025-06-29;8;Cesar Jones;8;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;9;Gustavo Gallo;14;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;10;Arthur Tuta;12;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;11;Marck Bauer;6;1;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;12;Marcelo;13;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;13;Gustavo Moura;16;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;14;Jo Caiana;17;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;15;Diogo Marin;9;;;;;corrida
+2025;mundial;11;Áustria;2025-06-29;;Victor Pimentel;11;;;;DNF;corrida
+2025;mundial;11;Áustria;2025-06-29;;Marcio Santos;15;;;;DNF;corrida
+2025;mundial;11;Áustria;2025-06-29;;André Paixão;10;;;;DNF;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;1;Diego Gaspareto;18;1;;1;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;2;Tiago Costa;3;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;3;Gustavo Gallo;14;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;4;Edy Santos;4;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;5;Diogo Marin;5;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;6;Jo Caiana;13;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;7;Arthur Tuta;10;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;8;Thulio Mendes;17;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;9;Fabinho Luz;11;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;10;Cesar Jones;2;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;11;Deyvidy Knorst;19;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;12;Fabio RGP;1;;1;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;13;Marck Bauer;12;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;14;André Paixão;7;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;15;Marcelo;15;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;16;Marcio Santos;16;;;;;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;;Gustavo Moura;9;;;;DNF;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;;Fernando Thunder;6;;;;DNF;corrida
+2025;mundial;12;Grã-Bretanha;2025-07-06;;Victor Pimentel;8;;;;DNF;corrida
+2025;mundial;13;Bélgica;2025-07-27;1;Diego Gaspareto;1;1;1;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;2;Marcos Paulo;2;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;3;Victor Pimentel;3;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;4;Fabinho Luz;13;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;5;Cesar Jones;7;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;6;Fabio RGP;10;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;7;Marcelo;12;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;8;Thulio Mendes;19;;;1;;corrida
+2025;mundial;13;Bélgica;2025-07-27;9;Marck Bauer;15;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;10;Jo Caiana;14;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;11;Arthur Tuta;9;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;12;Edy Santos;8;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;13;Deyvidy Knorst;6;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;14;Pereira;17;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;15;Marcio Santos;11;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;16;Lucas Bueno;18;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;17;André Paixão;16;;;;;corrida
+2025;mundial;13;Bélgica;2025-07-27;;Diogo Marin;5;;;;DNF;corrida
+2025;mundial;13;Bélgica;2025-07-27;;Gustavo Gallo;4;;;;DNF;corrida
+2025;mundial;14;Hungria;2025-08-03;1;Diogo Marin;7;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;2;Tiago Costa;18;;;1;;corrida
+2025;mundial;14;Hungria;2025-08-03;3;Fabinho Luz;13;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;4;Jo Caiana;5;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;5;Arthur Tuta;12;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;6;Marcio Santos;4;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;7;Thulio Mendes;20;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;8;André Paixão;10;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;9;Deyvidy Knorst;8;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;10;Victor Pimentel;19;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;11;Carlos DS Santos;6;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;12;Diego Gaspareto;14;1;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;13;Marcelo;15;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;14;Gustavo Moura;2;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;15;Cesar Jones;11;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;16;Marck Bauer;16;;;;;corrida
+2025;mundial;14;Hungria;2025-08-03;;Gustavo Gallo;17;;;;DNF;corrida
+2025;mundial;14;Hungria;2025-08-03;;Edy Santos;9;;;;DNF;corrida
+2025;mundial;14;Hungria;2025-08-03;;Fabio RGP;3;;;;DNF;corrida
+2025;mundial;14;Hungria;2025-08-03;;Fernando Thunder;1;;1;;DNF;corrida
+2025;mundial;15;Holanda;2025-08-31;1;Thulio Mendes;17;;;1;;corrida
+2025;mundial;15;Holanda;2025-08-31;2;Victor Pimentel;3;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;3;Fabinho Luz;6;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;4;Diogo Marin;4;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;5;Gustavo Gallo;10;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;6;Marck Bauer;7;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;7;Cesar Jones;5;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;8;Fabio RGP;9;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;9;Tiago Costa;1;1;1;;;corrida
+2025;mundial;15;Holanda;2025-08-31;10;Pereira;15;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;11;Marcio Santos;13;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;12;Marcelo;11;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;13;Lucas Bueno;16;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;14;Marcos Paulo;12;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;15;Edy Santos;18;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;16;Jo Caiana;14;;;;;corrida
+2025;mundial;15;Holanda;2025-08-31;;Arthur Tuta;8;;;;DNF;corrida
+2025;mundial;15;Holanda;2025-08-31;;Diego Gaspareto;2;;;;DNF;corrida
+2025;mundial;16;Itália;2025-09-07;1;Tiago Costa;1;;1;;;corrida
+2025;mundial;16;Itália;2025-09-07;2;Edy Santos;7;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;3;Victor Pimentel;6;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;4;Arthur Tuta;10;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;5;Diogo Marin;4;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;6;Cesar Jones;13;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;7;Thulio Mendes;17;1;;1;;corrida
+2025;mundial;16;Itália;2025-09-07;8;Gustavo Gallo;12;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;9;Marck Bauer;5;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;10;Jo Caiana;15;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;11;Fernando Thunder;3;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;12;Fabio RGP;8;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;13;Lucas Bueno;9;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;14;Marcelo;16;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;15;Marcio Santos;14;;;;;corrida
+2025;mundial;16;Itália;2025-09-07;;Diego Gaspareto;2;;;;DNF;corrida
+2025;mundial;16;Itália;2025-09-07;;Fabinho Luz;11;;;;DNF;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;1;Thulio Mendes;18;;;1;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;2;Victor Pimentel;17;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;3;Fabio RGP;2;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;4;Marck Bauer;15;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;5;Gustavo Gallo;14;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;6;Cesar Jones;10;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;7;Marcelo;11;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;8;Arthur Tuta;12;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;9;Pereira;1;;1;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;10;Tiago Costa;16;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;11;André Paixão;6;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;12;Lucas Bueno;9;1;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;13;Marcio Santos;3;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;14;Renato TVR;5;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;15;Edy Santos;8;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;16;Diego Gaspareto;7;;;;;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;;Jo Caiana;4;;;;DNF;corrida
+2025;mundial;17;Azerbaijão;2025-09-21;;Fabinho Luz;13;;;;DNF;corrida
+2025;mundial;18;Singapura;2025-10-05;1;Arthur Tuta;7;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;2;Gustavo Gallo;4;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;3;Marck Bauer;3;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;4;Cesar Jones;8;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;5;Tiago Costa;2;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;6;Victor Pimentel;10;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;7;Diogo Marin;1;;1;;;corrida
+2025;mundial;18;Singapura;2025-10-05;8;Marcos Paulo;9;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;9;Jo Caiana;6;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;10;Thulio Mendes;17;;;1;;corrida
+2025;mundial;18;Singapura;2025-10-05;11;Fabio RGP;15;1;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;12;Marcelo;11;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;13;Lucas Bueno;12;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;14;Renato TVR;13;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;15;Gustavo Moura;16;;;;;corrida
+2025;mundial;18;Singapura;2025-10-05;;Edy Santos;14;;;;DNF;corrida
+2025;mundial;18;Singapura;2025-10-05;;Diego Gaspareto;5;;;;DNF;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;1;Tiago Costa;9;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;2;Diogo Marin;2;1;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;3;Marck Bauer;5;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;4;Arthur Tuta;6;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;5;Fabinho Luz;8;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;6;Marcelo;14;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;7;Victor Pimentel;13;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;8;Thulio Mendes;15;;;1;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;9;Marcos Paulo;4;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;10;Cesar Jones;11;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;11;Fabio RGP;3;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;12;Renato TVR;10;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;13;Gustavo Moura;12;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;14;Lucas Bueno;16;;;;;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;;Jo Caiana;1;;1;;DNF;corrida
+2025;mundial;19;Estados Unidos;2025-10-19;;Edy Santos;7;;;;DNF;corrida
+2025;mundial;20;México;2025-10-26;1;Diogo Marin;1;;1;;;corrida
+2025;mundial;20;México;2025-10-26;2;Victor Pimentel;3;;;;;corrida
+2025;mundial;20;México;2025-10-26;3;Tiago Costa;5;;;;;corrida
+2025;mundial;20;México;2025-10-26;4;Arthur Tuta;11;;;;;corrida
+2025;mundial;20;México;2025-10-26;5;Marck Bauer;8;;;;;corrida
+2025;mundial;20;México;2025-10-26;6;Thulio Mendes;15;;;1;;corrida
+2025;mundial;20;México;2025-10-26;7;Fabio RGP;12;;;;;corrida
+2025;mundial;20;México;2025-10-26;8;Cesar Jones;9;;;;;corrida
+2025;mundial;20;México;2025-10-26;9;Fabinho Luz;10;;;;;corrida
+2025;mundial;20;México;2025-10-26;10;Gustavo Gallo;13;;;;;corrida
+2025;mundial;20;México;2025-10-26;11;Jo Caiana;7;;;;;corrida
+2025;mundial;20;México;2025-10-26;12;Renato TVR;4;1;;;;corrida
+2025;mundial;20;México;2025-10-26;;Marcelo;14;;;;DNF;corrida
+2025;mundial;20;México;2025-10-26;;Gustavo Moura;6;;;;DNF;corrida
+2025;mundial;20;México;2025-10-26;;Diego Gaspareto;2;;;;DNF;corrida
+2025;mundial;21;Brasil;2025-11-16;1;Tiago Costa;5;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;2;Arthur Tuta;7;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;3;Diogo Marin;1;;1;;;corrida
+2025;mundial;21;Brasil;2025-11-16;4;Gustavo Gallo;8;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;5;Cesar Jones;10;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;6;Lucas Bueno;14;;;1;;corrida
+2025;mundial;21;Brasil;2025-11-16;7;Marcelo;3;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;8;Stephan Garcia;13;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;9;Thiago Diniz;4;1;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;10;Gustavo Moura;11;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;11;Jo Caiana;2;;;;;corrida
+2025;mundial;21;Brasil;2025-11-16;;Marck Bauer;9;;;;DNF;corrida
+2025;mundial;21;Brasil;2025-11-16;;Renato TVR;12;;;;DNF;corrida
+2025;mundial;21;Brasil;2025-11-16;;Fabio RGP;6;;;;DNF;corrida
+2025;mundial;22;Las Vegas;2025-11-23;1;Marck Bauer;1;;1;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;2;Marcos Paulo;2;1;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;3;Thulio Mendes;3;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;4;Diogo Marin;4;;;1;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;5;Jo Caiana;5;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;6;Gustavo Gallo;6;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;7;Marcelo;7;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;8;Cesar Jones;8;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;9;Gustavo Moura;9;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;10;Pereira;10;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;11;Victor Pimentel;11;;;;;corrida
+2025;mundial;22;Las Vegas;2025-11-23;;Arthur Tuta;12;;;;DNF;corrida
+2025;mundial;22;Las Vegas;2025-11-23;;Tiago Costa;13;;;;DNF;corrida
+2025;mundial;23;Catar;2025-11-30;1;Diogo Marin;1;1;1;;;corrida
+2025;mundial;23;Catar;2025-11-30;2;Marck Bauer;3;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;3;Arthur Tuta;14;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;4;Thulio Mendes;13;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;5;Victor Pimentel;5;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;6;Renato TVR;2;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;7;Tiago Costa;6;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;8;Lucas Bueno;10;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;9;Jo Caiana;9;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;10;Cesar Jones;4;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;11;Fabio RGP;11;;;1;;corrida
+2025;mundial;23;Catar;2025-11-30;12;Marcelo;8;;;;;corrida
+2025;mundial;23;Catar;2025-11-30;;Gustavo Moura;7;;;;DNF;corrida
+2025;mundial;23;Catar;2025-11-30;;Fabinho Luz;12;;;;DNF;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;1;Tiago Costa;3;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;2;Thulio Mendes;4;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;3;Diogo Marin;1;;1;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;4;Arthur Tuta;8;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;5;Victor Pimentel;5;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;6;Marcelo;6;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;7;Marck Bauer;2;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;8;Jo Caiana;7;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;9;Fabinho Luz;15;;;1;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;10;Renato TVR;14;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;11;Marcos Paulo;10;;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;12;Lucas Bueno;11;1;;;;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;;Fabio RGP;12;;;;DNF;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;;Cesar Jones;9;;;;DNF;corrida
+2025;mundial;24;Abu Dhabi;2025-12-07;;Gustavo Moura;13;;;;DNF;corrida
+2025;elite;1;Austrália;2025-04-01;1;Matheus Gregório;3;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;2;Gustavo Ferreira;2;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;3;Victor Pimentel;11;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;4;Leo Oliveira;9;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;5;Marcos Paulo;15;;;1;;corrida
+2025;elite;1;Austrália;2025-04-01;6;Gustavo Gallo;8;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;7;Thiago Diniz;14;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;8;Rafa Marques;6;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;9;Gerson Bolha;10;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;10;Stephan Garcia;17;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;11;Vitor IVTR;7;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;12;Cesar Jones;16;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;13;Carlos DS Santos;12;;;;;corrida
+2025;elite;1;Austrália;2025-04-01;14;Charley Miranda;5;1;;;;corrida
+2025;elite;1;Austrália;2025-04-01;;Jefferson Marchi;1;;1;;DNF;corrida
+2025;elite;1;Austrália;2025-04-01;;Bruno Fernandes;4;;;;DNF;corrida
+2025;elite;1;Austrália;2025-04-01;;Ricardo Garcia;18;;;;DNF;corrida
+2025;elite;1;Austrália;2025-04-01;;Fernando Thunder;19;;;;DNF;corrida
+2025;elite;1;Austrália;2025-04-01;;Arthur Tuta;13;;;;DNF;corrida
+2025;elite;2;China;2025-04-08;1;Carlos DS Santos;2;;;;;corrida
+2025;elite;2;China;2025-04-08;2;Bruno Fernandes;1;;1;;;corrida
+2025;elite;2;China;2025-04-08;3;Matheus Gregório;4;;;;;corrida
+2025;elite;2;China;2025-04-08;4;Jefferson Marchi;3;;;;;corrida
+2025;elite;2;China;2025-04-08;5;Fernando Thunder;7;;;;;corrida
+2025;elite;2;China;2025-04-08;6;Leo Oliveira;8;;;;;corrida
+2025;elite;2;China;2025-04-08;7;Victor Pimentel;11;;;;;corrida
+2025;elite;2;China;2025-04-08;8;Gustavo Ferreira;9;;;;;corrida
+2025;elite;2;China;2025-04-08;9;Ricardo Garcia;18;;;1;;corrida
+2025;elite;2;China;2025-04-08;10;Cesar Jones;5;;;;;corrida
+2025;elite;2;China;2025-04-08;11;Rafa Marques;6;;;;;corrida
+2025;elite;2;China;2025-04-08;12;Gustavo Gallo;14;;;;;corrida
+2025;elite;2;China;2025-04-08;13;Charley Miranda;20;;;;;corrida
+2025;elite;2;China;2025-04-08;14;Marcos Paulo;15;;;;;corrida
+2025;elite;2;China;2025-04-08;15;Stephan Garcia;17;;;;;corrida
+2025;elite;2;China;2025-04-08;16;Thiago Diniz;10;;;;;corrida
+2025;elite;2;China;2025-04-08;17;Gustavo Luzzani;12;;;;;corrida
+2025;elite;2;China;2025-04-08;18;Vitor IVTR;19;1;;;;corrida
+2025;elite;2;China;2025-04-08;19;Arthur Tuta;16;;;;;corrida
+2025;elite;2;China;2025-04-08;20;Gerson Bolha;13;;;;;corrida
+2025;elite;3;Japão;2025-04-15;1;Matheus Gregório;2;;;;;corrida
+2025;elite;3;Japão;2025-04-15;2;Bruno Fernandes;3;;;;;corrida
+2025;elite;3;Japão;2025-04-15;3;Victor Pimentel;7;;;;;corrida
+2025;elite;3;Japão;2025-04-15;4;Gustavo Ferreira;5;1;;1;;corrida
+2025;elite;3;Japão;2025-04-15;5;Rafa Marques;4;;;;;corrida
+2025;elite;3;Japão;2025-04-15;6;Leo Oliveira;10;;;;;corrida
+2025;elite;3;Japão;2025-04-15;7;Gerson Bolha;11;;;;;corrida
+2025;elite;3;Japão;2025-04-15;8;Gustavo Gallo;9;;;;;corrida
+2025;elite;3;Japão;2025-04-15;9;Jefferson Marchi;1;;1;;;corrida
+2025;elite;3;Japão;2025-04-15;10;Carlos DS Santos;6;;;;;corrida
+2025;elite;3;Japão;2025-04-15;11;Adriano BH;17;;;;;corrida
+2025;elite;3;Japão;2025-04-15;12;Ricardo Garcia;8;;;;;corrida
+2025;elite;3;Japão;2025-04-15;13;Cesar Jones;14;;;;;corrida
+2025;elite;3;Japão;2025-04-15;14;Arthur Tuta;15;;;;;corrida
+2025;elite;3;Japão;2025-04-15;15;Fernando Thunder;18;;;;;corrida
+2025;elite;3;Japão;2025-04-15;16;Marcos Paulo;20;;;;;corrida
+2025;elite;3;Japão;2025-04-15;17;Charley Miranda;12;;;;;corrida
+2025;elite;3;Japão;2025-04-15;18;Gustavo Luzzani;13;;;;;corrida
+2025;elite;3;Japão;2025-04-15;19;Thiago Diniz;19;;;;;corrida
+2025;elite;3;Japão;2025-04-15;20;Vitor IVTR;16;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;1;Charley Miranda;7;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;2;Matheus Gregório;20;;;1;;corrida
+2025;elite;4;Bahrein;2025-04-22;3;Ricardo Garcia;12;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;4;Thiago Diniz;5;1;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;5;Jefferson Marchi;9;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;6;Fernando Thunder;6;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;7;Carlos DS Santos;19;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;8;Gustavo Luzzani;1;;1;;;corrida
+2025;elite;4;Bahrein;2025-04-22;9;Stephan Garcia;3;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;10;Leo Oliveira;16;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;11;Victor Pimentel;17;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;12;Bruno Fernandes;15;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;13;Marcos Paulo;10;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;14;Gustavo Ferreira;18;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;15;Rafa Marques;14;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;16;Cesar Jones;11;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;17;Gerson Bolha;8;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;18;Arthur Tuta;2;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;19;Fabio RGP;13;;;;;corrida
+2025;elite;4;Bahrein;2025-04-22;;Vitor IVTR;4;;;;DNF;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;1;Rafa Marques;3;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;2;Jefferson Marchi;2;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;3;Matheus Gregório;12;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;4;Gustavo Ferreira;19;;;1;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;5;Victor Pimentel;13;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;6;Gustavo Gallo;11;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;7;Junior Lima;7;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;8;Fernando Thunder;6;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;9;Gerson Bolha;18;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;10;Ricardo Garcia;10;1;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;11;Cesar Jones;5;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;12;Leo Oliveira;15;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;13;Thiago Diniz;16;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;14;Stephan Garcia;17;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;15;Marcos Paulo;14;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;16;Bruno Fernandes;8;;;;;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;;Charley Miranda;1;;1;;DNF;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;;Gustavo Luzzani;9;;;;DNF;corrida
+2025;elite;5;Arábia Saudita;2025-04-29;;Vitor IVTR;4;;;;DNF;corrida
+2025;elite;6;Miami;2025-05-06;1;Ricardo Garcia;11;;;;;corrida
+2025;elite;6;Miami;2025-05-06;2;Gustavo Ferreira;1;;1;;;corrida
+2025;elite;6;Miami;2025-05-06;3;Bruno Fernandes;7;;;;;corrida
+2025;elite;6;Miami;2025-05-06;4;Matheus Gregório;6;;;;;corrida
+2025;elite;6;Miami;2025-05-06;5;Leo Oliveira;9;;;;;corrida
+2025;elite;6;Miami;2025-05-06;6;Victor Pimentel;13;;;;;corrida
+2025;elite;6;Miami;2025-05-06;7;Carlos DS Santos;14;;;;;corrida
+2025;elite;6;Miami;2025-05-06;8;Cesar Jones;16;;;;;corrida
+2025;elite;6;Miami;2025-05-06;9;Charley Miranda;4;1;;;;corrida
+2025;elite;6;Miami;2025-05-06;10;Gustavo Luzzani;10;;;;;corrida
+2025;elite;6;Miami;2025-05-06;11;Marcos Paulo;20;;;1;;corrida
+2025;elite;6;Miami;2025-05-06;12;Jefferson Marchi;2;;;;;corrida
+2025;elite;6;Miami;2025-05-06;13;Rafa Marques;18;;;;;corrida
+2025;elite;6;Miami;2025-05-06;14;Fernando Thunder;12;;;;;corrida
+2025;elite;6;Miami;2025-05-06;15;Arthur Tuta;8;;;;;corrida
+2025;elite;6;Miami;2025-05-06;16;Stephan Garcia;15;;;;;corrida
+2025;elite;6;Miami;2025-05-06;17;Fabio RGP;19;;;;;corrida
+2025;elite;6;Miami;2025-05-06;;Thiago Diniz;5;;;;DNF;corrida
+2025;elite;6;Miami;2025-05-06;;Vitor IVTR;17;;;;DNF;corrida
+2025;elite;6;Miami;2025-05-06;;Gerson Bolha;3;;;;DNF;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;1;Gerson Bolha;5;1;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;2;Matheus Gregório;20;;;1;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;3;Charley Miranda;11;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;4;Bruno Fernandes;13;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;5;Victor Pimentel;17;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;6;Gustavo Ferreira;19;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;7;Leo Oliveira;16;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;8;Rafa Marques;12;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;9;Thiago Diniz;6;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;10;Gustavo Luzzani;3;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;11;Jefferson Marchi;15;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;12;Carlos DS Santos;14;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;13;Vitor IVTR;2;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;14;Gustavo Gallo;7;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;15;Ricardo Garcia;18;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;16;Stephan Garcia;4;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;17;Marcos Paulo;9;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;18;Cesar Jones;8;;;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;19;Edy Santos;1;;1;;;corrida
+2025;elite;7;Emília-Romanha;2025-05-20;;Fernando Thunder;10;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;1;Bruno Fernandes;4;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;2;Gustavo Ferreira;1;;1;;;corrida
+2025;elite;8;Mônaco;2025-05-27;3;Victor Pimentel;7;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;4;Gustavo Gallo;9;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;5;Gerson Bolha;6;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;6;Rafa Marques;8;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;7;Gustavo Luzzani;12;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;8;Arthur Tuta;11;;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;9;Thiago Diniz;18;;;1;;corrida
+2025;elite;8;Mônaco;2025-05-27;10;Fernando Thunder;14;1;;;;corrida
+2025;elite;8;Mônaco;2025-05-27;;Leo Oliveira;10;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Charley Miranda;5;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Cesar Jones;19;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Stephan Garcia;17;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Marcos Paulo;13;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Ricardo Garcia;15;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Matheus Gregório;2;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Jefferson Marchi;3;;;;DNF;corrida
+2025;elite;8;Mônaco;2025-05-27;;Vitor IVTR;16;;;;DNF;corrida
+2025;elite;9;Espanha;2025-06-03;1;Gerson Bolha;6;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;2;Matheus Gregório;8;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;3;Ricardo Garcia;4;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;4;Fernando Thunder;7;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;5;Jefferson Marchi;1;;1;;;corrida
+2025;elite;9;Espanha;2025-06-03;6;Arthur Tuta;18;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;7;Victor Pimentel;13;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;8;Leo Oliveira;9;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;9;Gustavo Ferreira;17;;;1;;corrida
+2025;elite;9;Espanha;2025-06-03;10;Gustavo Gallo;14;1;;;;corrida
+2025;elite;9;Espanha;2025-06-03;11;Gustavo Luzzani;3;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;12;Charley Miranda;2;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;13;Bruno Fernandes;12;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;14;Cesar Jones;16;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;15;Edy Santos;15;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;16;Marcos Paulo;10;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;17;Rafa Marques;11;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;18;Deyvidy Knorst;5;;;;;corrida
+2025;elite;9;Espanha;2025-06-03;;Adriano BH;19;;;;DNF;corrida
+2025;elite;10;Canadá;2025-06-17;1;Gustavo Gallo;7;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;2;Matheus Gregório;18;;;1;;corrida
+2025;elite;10;Canadá;2025-06-17;3;Victor Pimentel;16;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;4;Gustavo Luzzani;3;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;5;Gustavo Ferreira;17;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;6;Gerson Bolha;10;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;7;Ricardo Garcia;13;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;8;Bruno Fernandes;15;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;9;Fernando Thunder;8;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;10;Leo Oliveira;14;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;11;Stephan Garcia;1;;1;;;corrida
+2025;elite;10;Canadá;2025-06-17;12;Cesar Jones;4;1;;;;corrida
+2025;elite;10;Canadá;2025-06-17;13;Rafa Marques;12;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;14;Thiago Diniz;6;;;;;corrida
+2025;elite;10;Canadá;2025-06-17;;Arthur Tuta;2;;;;DNF;corrida
+2025;elite;10;Canadá;2025-06-17;;Charley Miranda;9;;;;DNF;corrida
+2025;elite;10;Canadá;2025-06-17;;Jefferson Marchi;11;;;;DNF;corrida
+2025;elite;10;Canadá;2025-06-17;;Marcos Paulo;5;;;;DNF;corrida
+2025;elite;11;Áustria;2025-07-01;1;Arthur Tuta;8;;;1;;corrida
+2025;elite;11;Áustria;2025-07-01;2;Edy Santos;6;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;3;Charley Miranda;1;1;1;;;corrida
+2025;elite;11;Áustria;2025-07-01;4;Gustavo Ferreira;9;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;5;Ricardo Garcia;10;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;6;Gerson Bolha;5;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;7;Leo Oliveira;7;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;8;Cesar Jones;11;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;9;Jefferson Marchi;3;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;10;Matheus Gregório;19;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;11;Victor Pimentel;14;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;12;Gustavo Gallo;18;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;13;Thiago Diniz;17;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;14;Marcos Paulo;15;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;15;Adriano BH;4;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;16;Rafa Marques;2;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;17;Fernando Thunder;13;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;18;Stephan Garcia;16;;;;;corrida
+2025;elite;11;Áustria;2025-07-01;;Bruno Fernandes;12;;;;DNF;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;1;Charley Miranda;1;1;1;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;2;Jefferson Marchi;2;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;3;Matheus Gregório;9;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;4;Adriano BH;8;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;5;Arthur Tuta;4;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;6;Leo Oliveira;5;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;7;Victor Pimentel;6;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;8;Deyvidy Knorst;19;;;1;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;9;Rafa Marques;3;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;10;Bruno Fernandes;12;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;11;Gustavo Gallo;18;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;12;Thiago Diniz;15;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;13;Marcos Paulo;14;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;14;Gerson Bolha;17;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;15;Ricardo Garcia;7;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;16;Cesar Jones;11;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;17;Edy Santos;16;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;18;Stephan Garcia;20;;;;;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;;Fernando Thunder;10;;;;DNF;corrida
+2025;elite;12;Grã-Bretanha;2025-07-08;;Gustavo Ferreira;13;;;;DNF;corrida
+2025;elite;13;Bélgica;2025-07-29;1;Rafa Marques;1;;1;;;corrida
+2025;elite;13;Bélgica;2025-07-29;2;Diogo Marin;19;1;;1;;corrida
+2025;elite;13;Bélgica;2025-07-29;3;Gerson Bolha;3;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;4;Gustavo Ferreira;2;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;5;Ricardo Garcia;15;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;6;Gustavo Gallo;7;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;7;Victor Pimentel;6;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;8;Deyvidy Knorst;18;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;9;Marcos Paulo;4;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;10;Arthur Tuta;10;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;11;Thiago Diniz;11;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;12;Fernando Thunder;14;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;13;Stephan Garcia;8;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;14;Bruno Fernandes;9;;;;;corrida
+2025;elite;13;Bélgica;2025-07-29;;Cesar Jones;17;;;;DNF;corrida
+2025;elite;13;Bélgica;2025-07-29;;Edy Santos;13;;;;DNF;corrida
+2025;elite;13;Bélgica;2025-07-29;;Jefferson Marchi;5;;;;DNF;corrida
+2025;elite;13;Bélgica;2025-07-29;;Charley Miranda;12;;;;DNF;corrida
+2025;elite;14;Hungria;2025-08-05;1;Matheus Gregório;19;;;1;;corrida
+2025;elite;14;Hungria;2025-08-05;2;Diogo Marin;10;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;3;Rafa Marques;13;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;4;Marcos Paulo;5;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;5;Deyvidy Knorst;1;;1;;;corrida
+2025;elite;14;Hungria;2025-08-05;6;Gustavo Gallo;11;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;7;Leo Oliveira;12;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;8;Cesar Jones;3;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;9;Victor Pimentel;17;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;10;Gustavo Ferreira;18;1;;;;corrida
+2025;elite;14;Hungria;2025-08-05;11;Gerson Bolha;14;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;12;Arthur Tuta;4;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;13;Bruno Fernandes;15;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;14;Thiago Diniz;6;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;15;Charley Miranda;9;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;16;Stephan Garcia;2;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;17;Ricardo Garcia;16;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;18;Fernando Thunder;7;;;;;corrida
+2025;elite;14;Hungria;2025-08-05;;Edy Santos;8;;;;DNF;corrida
+2025;elite;15;Holanda;2025-09-02;1;Charley Miranda;1;1;1;;;corrida
+2025;elite;15;Holanda;2025-09-02;2;Gustavo Ferreira;2;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;3;Bruno Fernandes;7;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;4;Ricardo Garcia;4;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;5;Rafa Marques;3;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;6;Diogo Marin;6;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;7;Matheus Gregório;18;;;1;;corrida
+2025;elite;15;Holanda;2025-09-02;8;Gustavo Gallo;12;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;9;Jefferson Marchi;17;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;10;Victor Pimentel;8;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;11;Arthur Tuta;10;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;12;Gerson Bolha;9;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;13;Leo Oliveira;16;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;14;Deyvidy Knorst;11;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;15;Edy Santos;13;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;16;Marcos Paulo;14;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;17;Stephan Garcia;15;;;;;corrida
+2025;elite;15;Holanda;2025-09-02;;Cesar Jones;5;;;;DNF;corrida
+2025;elite;16;Itália;2025-09-09;1;Jefferson Marchi;1;;1;;;corrida
+2025;elite;16;Itália;2025-09-09;2;Rafa Marques;3;;;;;corrida
+2025;elite;16;Itália;2025-09-09;3;Matheus Gregório;5;;;;;corrida
+2025;elite;16;Itália;2025-09-09;4;Gustavo Gallo;11;;;;;corrida
+2025;elite;16;Itália;2025-09-09;5;Marcos Paulo;7;;;;;corrida
+2025;elite;16;Itália;2025-09-09;6;Arthur Tuta;13;;;;;corrida
+2025;elite;16;Itália;2025-09-09;7;Gustavo Ferreira;19;;;1;;corrida
+2025;elite;16;Itália;2025-09-09;8;Edy Santos;6;;;;;corrida
+2025;elite;16;Itália;2025-09-09;9;Ricardo Garcia;14;;;;;corrida
+2025;elite;16;Itália;2025-09-09;10;Victor Pimentel;9;;;;;corrida
+2025;elite;16;Itália;2025-09-09;11;Diogo Marin;12;;;;;corrida
+2025;elite;16;Itália;2025-09-09;12;Cesar Jones;4;;;;;corrida
+2025;elite;16;Itália;2025-09-09;13;Thiago Diniz;10;;;;;corrida
+2025;elite;16;Itália;2025-09-09;14;Bruno Fernandes;8;;;;;corrida
+2025;elite;16;Itália;2025-09-09;15;Fernando Thunder;20;;;;;corrida
+2025;elite;16;Itália;2025-09-09;16;Leo Oliveira;17;;;;;corrida
+2025;elite;16;Itália;2025-09-09;17;Stephan Garcia;18;;;;;corrida
+2025;elite;16;Itália;2025-09-09;18;Gerson Bolha;15;;;;;corrida
+2025;elite;16;Itália;2025-09-09;19;Deyvidy Knorst;16;1;;;;corrida
+2025;elite;16;Itália;2025-09-09;;Charley Miranda;2;;;;DNF;corrida
+2025;elite;17;Azerbaijão;2025-09-23;1;Matheus Gregório;18;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;2;Bruno Fernandes;13;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;3;Deyvidy Knorst;1;;1;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;4;Diogo Marin;9;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;5;Gustavo Ferreira;17;1;;1;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;6;Leo Oliveira;10;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;7;Arthur Tuta;5;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;8;Victor Pimentel;16;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;9;Gustavo Gallo;12;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;10;Edy Santos;6;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;11;Rafa Marques;15;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;12;Charley Miranda;7;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;13;Thiago Diniz;4;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;14;Stephan Garcia;2;;;;;corrida
+2025;elite;17;Azerbaijão;2025-09-23;;Cesar Jones;3;;;;DNF;corrida
+2025;elite;17;Azerbaijão;2025-09-23;;Jefferson Marchi;8;;;;DNF;corrida
+2025;elite;17;Azerbaijão;2025-09-23;;Gerson Bolha;11;;;;DNF;corrida
+2025;elite;17;Azerbaijão;2025-09-23;;Ricardo Garcia;14;;;;DNF;corrida
+2025;elite;18;Singapura;2025-10-07;1;Jefferson Marchi;1;;1;;;corrida
+2025;elite;18;Singapura;2025-10-07;2;Rafa Marques;2;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;3;Matheus Gregório;3;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;4;Arthur Tuta;9;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;5;Bruno Fernandes;18;;;1;;corrida
+2025;elite;18;Singapura;2025-10-07;6;Leo Oliveira;4;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;7;Gustavo Ferreira;6;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;8;Deyvidy Knorst;7;1;;;;corrida
+2025;elite;18;Singapura;2025-10-07;9;Gustavo Gallo;12;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;10;Cesar Jones;17;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;11;Marcos Paulo;13;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;12;Victor Pimentel;5;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;13;Ricardo Garcia;8;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;14;Gerson Bolha;10;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;15;Diogo Marin;16;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;16;Stephan Garcia;15;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;17;Thiago Diniz;14;;;;;corrida
+2025;elite;18;Singapura;2025-10-07;;Edy Santos;11;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;1;Arthur Tuta;4;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;2;Leo Oliveira;6;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;3;Gustavo Gallo;10;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;4;Ricardo Garcia;9;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;5;Gerson Bolha;14;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;6;Stephan Garcia;11;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;7;Jefferson Marchi;1;;1;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;8;Thiago Diniz;17;;;1;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;9;Rafa Marques;2;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;10;Victor Pimentel;15;;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;11;Marcos Paulo;5;1;;;;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Cesar Jones;3;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Deyvidy Knorst;16;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Edy Santos;7;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Fabio RGP;12;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Diogo Marin;8;;;;DNF;corrida
+2025;elite;19;Estados Unidos;2025-10-21;;Gustavo Ferreira;13;;;;DNF;corrida
+2025;elite;20;México;2025-10-28;1;Jefferson Marchi;1;;1;;;corrida
+2025;elite;20;México;2025-10-28;2;Diogo Marin;7;;;;;corrida
+2025;elite;20;México;2025-10-28;3;Leo Oliveira;5;;;;;corrida
+2025;elite;20;México;2025-10-28;4;Matheus Gregório;8;;;;;corrida
+2025;elite;20;México;2025-10-28;5;Arthur Tuta;16;;;1;;corrida
+2025;elite;20;México;2025-10-28;6;Cesar Jones;9;;;;;corrida
+2025;elite;20;México;2025-10-28;7;Ricardo Garcia;6;;;;;corrida
+2025;elite;20;México;2025-10-28;8;Rafa Marques;2;;;;;corrida
+2025;elite;20;México;2025-10-28;9;Gustavo Gallo;14;;;;;corrida
+2025;elite;20;México;2025-10-28;10;Marcos Paulo;10;;;;;corrida
+2025;elite;20;México;2025-10-28;11;Victor Pimentel;3;;;;;corrida
+2025;elite;20;México;2025-10-28;12;Gustavo Ferreira;4;1;;;;corrida
+2025;elite;20;México;2025-10-28;13;Gerson Bolha;12;;;;;corrida
+2025;elite;20;México;2025-10-28;14;Stephan Garcia;15;;;;;corrida
+2025;elite;20;México;2025-10-28;15;Thiago Diniz;13;;;;;corrida
+2025;elite;20;México;2025-10-28;;Deyvidy Knorst;11;;;;DNF;corrida
+2025;elite;21;Brasil;2025-11-11;1;Jefferson Marchi;5;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;2;Gustavo Ferreira;1;;1;;;corrida
+2025;elite;21;Brasil;2025-11-11;3;Matheus Gregório;7;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;4;Gustavo Gallo;13;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;5;Leo Oliveira;2;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;6;Ricardo Garcia;10;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;7;Thiago Diniz;15;;;1;;corrida
+2025;elite;21;Brasil;2025-11-11;8;Victor Pimentel;11;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;9;Cesar Jones;3;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;10;Arthur Tuta;9;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;11;Diogo Marin;4;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;12;Bruno Fernandes;12;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;13;Gerson Bolha;16;1;;;;corrida
+2025;elite;21;Brasil;2025-11-11;14;Renato;14;;;;;corrida
+2025;elite;21;Brasil;2025-11-11;;Marcos Paulo;6;;;;DNF;corrida
+2025;elite;21;Brasil;2025-11-11;;Rafa Marques;8;;;;DNF;corrida
+2025;elite;22;Las Vegas;2025-11-25;1;Matheus Gregório;15;;;1;;corrida
+2025;elite;22;Las Vegas;2025-11-25;2;Marcos Paulo;4;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;3;Bruno Fernandes;8;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;4;Diogo Marin;7;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;5;Ricardo Garcia;9;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;6;Leo Oliveira;13;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;7;Gustavo Gallo;10;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;8;Arthur Tuta;5;1;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;9;Victor Pimentel;14;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;10;Thiago Diniz;3;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;11;Gerson Bolha;6;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;12;Cesar Jones;2;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;13;Jefferson Marchi;11;;;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;14;Stephan Garcia;1;;1;;;corrida
+2025;elite;22;Las Vegas;2025-11-25;;Rafa Marques;12;;;;DNF;corrida
+2025;elite;23;Catar;2025-12-02;1;Jefferson Marchi;13;;;1;;corrida
+2025;elite;23;Catar;2025-12-02;2;Diogo Marin;1;;1;;;corrida
+2025;elite;23;Catar;2025-12-02;3;Gustavo Ferreira;12;;;;;corrida
+2025;elite;23;Catar;2025-12-02;4;Matheus Gregório;7;;;;;corrida
+2025;elite;23;Catar;2025-12-02;5;Rafa Marques;4;1;;;;corrida
+2025;elite;23;Catar;2025-12-02;6;Leo Oliveira;14;;;;;corrida
+2025;elite;23;Catar;2025-12-02;7;Marcos Paulo;3;;;;;corrida
+2025;elite;23;Catar;2025-12-02;8;Cesar Jones;2;;;;;corrida
+2025;elite;23;Catar;2025-12-02;9;Gustavo Gallo;9;;;;;corrida
+2025;elite;23;Catar;2025-12-02;10;Victor Pimentel;5;;;;;corrida
+2025;elite;23;Catar;2025-12-02;11;Arthur Tuta;6;;;;;corrida
+2025;elite;23;Catar;2025-12-02;12;Ricardo Garcia;10;;;;;corrida
+2025;elite;23;Catar;2025-12-02;13;Thiago Diniz;8;;;;;corrida
+2025;elite;23;Catar;2025-12-02;14;Stephan Garcia;11;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;1;Gustavo Ferreira;2;;;1;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;2;Jefferson Marchi;1;;1;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;3;Matheus Gregório;3;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;4;Leo Oliveira;9;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;5;Diogo Marin;5;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;6;Bruno Fernandes;4;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;7;Victor Pimentel;8;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;8;Arthur Tuta;7;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;9;Gerson Bolha;6;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;10;Marcos Paulo;10;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;11;Cesar Jones;15;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;12;Gustavo Gallo;12;;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;13;Stephan Garcia;16;1;;;;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;;Ricardo Garcia;11;;;;DNF;corrida
+2025;elite;24;Abu Dhabi;2025-12-09;;Rafa Marques;14;;;;DNF;corrida
+2026;mundial;1;Austrália;2026-03-08;1;Marck Bauer;1;;1;;;corrida
+2026;mundial;1;Austrália;2026-03-08;2;Leo Fernandes;2;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;3;Fabinho Luz;9;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;4;Cleisson;8;1;;1;;corrida
+2026;mundial;1;Austrália;2026-03-08;5;Arthur Tuta;7;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;6;Cesar Jones;3;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;7;Marcelo;10;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;8;Edy Santos;4;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;9;Thiago Diniz;13;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;10;Gustavo Gallo;5;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;11;Pereira;14;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;12;Marcos Paulo;16;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;13;Lucas Bueno;18;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;14;Fabio RGP;11;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;15;Stephan Garcia;19;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;16;Renato TVR;6;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;17;Gustavo Moura;17;;;;;corrida
+2026;mundial;1;Austrália;2026-03-08;;Jo Caiana;15;;;;DNF;corrida
+2026;mundial;1;Austrália;2026-03-08;;André Paixão;12;;;;DNF;corrida
+2026;mundial;2;China;2026-03-15;1;Arthur Tuta;3;;;;;corrida
+2026;mundial;2;China;2026-03-15;2;André Paixão;17;1;;;;corrida
+2026;mundial;2;China;2026-03-15;3;Gabriel Arruda;18;;;1;;corrida
+2026;mundial;2;China;2026-03-15;4;Marck Bauer;2;;;;;corrida
+2026;mundial;2;China;2026-03-15;5;Jo Caiana;8;;;;;corrida
+2026;mundial;2;China;2026-03-15;6;Marcos Paulo;1;;1;;;corrida
+2026;mundial;2;China;2026-03-15;7;Leo Fernandes;13;;;;;corrida
+2026;mundial;2;China;2026-03-15;8;Thiago Diniz;11;;;;;corrida
+2026;mundial;2;China;2026-03-15;9;Renato TVR;6;;;;;corrida
+2026;mundial;2;China;2026-03-15;10;Pereira;10;;;;;corrida
+2026;mundial;2;China;2026-03-15;11;Marcelo;5;;;;;corrida
+2026;mundial;2;China;2026-03-15;12;Cleisson;12;;;;;corrida
+2026;mundial;2;China;2026-03-15;;Lucas Bueno;15;;;;DNF;corrida
+2026;mundial;2;China;2026-03-15;;Gustavo Moura;7;;;;DNF;corrida
+2026;mundial;2;China;2026-03-15;;Edy Santos;9;;;;DNF;corrida
+2026;mundial;2;China;2026-03-15;;Fabio RGP;4;;;;DNF;corrida
+2026;mundial;2;China;2026-03-15;;Fabinho Luz;16;;;;DSQ;corrida
+2026;mundial;2;China;2026-03-15;;Stephan Garcia;14;;;;DSQ;corrida
+2026;mundial;3;Japão;2026-03-29;1;Arthur Tuta;10;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;2;Fabinho Luz;4;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;3;André Paixão;2;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;4;Cesar Jones;19;1;;;;corrida
+2026;mundial;3;Japão;2026-03-29;5;Lucas Bueno;17;;;1;;corrida
+2026;mundial;3;Japão;2026-03-29;6;Fabio RGP;5;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;7;Edy Santos;3;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;8;Marcelo;9;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;9;Marck Bauer;1;;1;;;corrida
+2026;mundial;3;Japão;2026-03-29;10;Gabriel Arruda;11;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;11;Jo Caiana;15;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;12;Thiago Diniz;14;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;13;Cleisson;7;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;14;Marcos Paulo;12;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;15;Pereira;13;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;16;Renato TVR;6;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;17;Stephan Garcia;18;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;18;Leo Fernandes;16;;;;;corrida
+2026;mundial;3;Japão;2026-03-29;;Gustavo Moura;8;;;;DNF;corrida
+2026;mundial;3;Japão;2026-03-29;;Gustavo Gallo;20;;;;DNF;corrida
+2026;mundial;4;Bahrein;2026-04-12;1;Gustavo Gallo;2;1;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;2;Pereira;6;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;3;Gabriel Arruda;5;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;4;Leo Fernandes;20;;;1;;corrida
+2026;mundial;4;Bahrein;2026-04-12;5;Lucas Bueno;4;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;6;André Paixão;10;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;7;Cesar Jones;1;;1;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;8;Fabinho Luz;8;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;9;Arthur Tuta;9;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;10;Thiago Diniz;14;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;11;Fabio RGP;7;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;12;Marck Bauer;11;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;13;Jo Caiana;12;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;14;Cleisson;15;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;15;Marcelo;16;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;16;Renato TVR;3;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;17;Stephan Garcia;18;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;18;Marcos Paulo;17;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;19;Gustavo Moura;19;;;;;corrida
+2026;mundial;4;Bahrein;2026-04-12;;Edy Santos;13;;;;DNF;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;1;Cesar Jones;1;;1;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;2;Marck Bauer;8;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;3;Renato TVR;3;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;4;André Paixão;5;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;5;Marcelo;6;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;6;Arthur Tuta;7;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;7;Leo Fernandes;12;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;8;Gabriel Arruda;10;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;9;Marcos Paulo;2;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;10;Edy Santos;19;;;1;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;11;Pereira;14;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;12;Fabio RGP;9;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;13;Jo Caiana;15;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;14;Thiago Diniz;16;;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;15;Lucas Bueno;11;1;;;;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;;Stephan Garcia;17;;;;DNF;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;;Gustavo Moura;18;;;;DNF;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;;Feliplay;13;;;;DNF;corrida
+2026;mundial;5;Arábia Saudita;2026-04-26;;Fabinho Luz;4;;;;DNF;corrida
+2026;mundial;6;Las Vegas;2026-05-17;1;Lucas Bueno;7;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;2;Marck Bauer;18;;;1;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;3;Gustavo Gallo;2;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;4;Arthur Tuta;19;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;5;Cesar Jones;16;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;6;Fabinho Luz;11;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;7;Leo Fernandes;15;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;8;Cleisson;4;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;9;Marcelo;14;1;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;10;Gabriel Arruda;13;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;11;Marcos Paulo;8;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;12;Thiago Diniz;10;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;13;Jo Caiana;5;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;14;Edy Santos;6;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;15;Renato TVR;9;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;16;Pereira;12;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;17;Marcelino;3;;;;;corrida
+2026;mundial;6;Las Vegas;2026-05-17;;Stephan Garcia;1;;1;;DNF;corrida
+2026;mundial;6;Las Vegas;2026-05-17;;André Paixão;17;;;;DNF;corrida
+2026;mundial;7;Canadá;2026-05-24;1;Marcelo;5;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;2;Gabriel Arruda;6;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;3;Leo Fernandes;7;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;4;Arthur Tuta;1;;1;;;corrida
+2026;mundial;7;Canadá;2026-05-24;5;André Paixão;15;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;6;Cleisson;14;;;1;;corrida
+2026;mundial;7;Canadá;2026-05-24;7;Lucas Bueno;2;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;8;Cesar Jones;3;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;9;Jo Caiana;11;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;10;Marcos Paulo;10;1;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;11;Thiago Diniz;17;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;12;Fabinho Luz;8;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;13;Pereira;9;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;14;Renato TVR;13;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;15;Marck Bauer;4;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;16;Gustavo Moura;16;;;;;corrida
+2026;mundial;7;Canadá;2026-05-24;;Edy Santos;12;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;1;Marcos Paulo;1;;1;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;2;André Paixão;2;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;3;Arthur Tuta;3;;;1;;corrida
+2026;mundial;8;Mônaco;2026-06-07;4;Fabinho Luz;4;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;5;Gabriel Arruda;5;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;6;DMN Dumeneghin;6;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;7;Cesar Jones;7;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;8;Renato TVR;8;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;9;Pereira;9;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;10;Luccas Cordeiro;10;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;11;Marck Bauer;11;1;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;12;Marcelo;12;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;13;Marcelino;13;;;;;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Gustavo Moura;14;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Lucas Bueno;15;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Thiago Diniz;16;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Stephan Garcia;17;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Fabio RGP;18;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Cleisson;19;;;;DNF;corrida
+2026;mundial;8;Mônaco;2026-06-07;;Jo Caiana;20;;;;DNF;corrida
+2026;mundial;9;Espanha;2026-06-14;1;Fabinho Luz;11;;;1;;corrida
+2026;mundial;9;Espanha;2026-06-14;2;Cesar Jones;2;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;3;André Paixão;1;1;1;;;corrida
+2026;mundial;9;Espanha;2026-06-14;4;Arthur Tuta;5;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;5;Lucas Bueno;7;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;6;Gustavo Gallo;17;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;7;Marcelo;10;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;8;Cleisson;3;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;9;Marcos Paulo;6;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;10;Leo Fernandes;4;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;11;Gabriel Arruda;9;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;12;Pereira;12;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;13;Thiago Diniz;8;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;14;Renato TVR;13;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;15;Gustavo Moura;14;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;16;Fabio RGP;16;;;;;corrida
+2026;mundial;9;Espanha;2026-06-14;;Marcelino;15;;;;DNF;corrida
+2026;mundial;10;Áustria;2026-06-28;1;Gustavo Gallo;6;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;2;Caleb;2;1;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;3;Cleisson;8;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;4;Marcos Paulo;12;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;5;Arthur Tuta;20;;;1;;corrida
+2026;mundial;10;Áustria;2026-06-28;6;Jo Caiana;5;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;7;Fabinho Luz;15;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;8;Fabio RGP;3;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;9;Leo Fernandes;13;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;10;Gabriel Arruda;14;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;11;Thiago Diniz;7;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;12;Marck Bauer;17;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;13;Marcelo;16;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;14;Edy Santos;4;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;15;Pereira;10;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;16;Lucas Bueno;11;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;17;André Paixão;18;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;18;Cesar Jones;19;;;;;corrida
+2026;mundial;10;Áustria;2026-06-28;;Renato TVR;9;;;;DNF;corrida
+2026;mundial;10;Áustria;2026-06-28;;Brito;1;;1;;DNF;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;1;Marcelo;1;1;1;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;2;Fabinho Luz;17;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;3;Thiago Diniz;14;;;1;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;4;Gustavo Gallo;2;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;5;Arthur Tuta;3;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;6;André Paixão;7;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;7;Jo Caiana;8;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;8;Leo Fernandes;4;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;9;Marck Bauer;13;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;10;Gabriel Arruda;18;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;11;Cesar Jones;5;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;12;Renato TVR;16;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;13;Marcos Paulo;10;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;14;Edy Santos;9;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;15;Pereira;12;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;16;Gustavo Moura;15;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;17;Lucas Bueno;11;;;;;corrida
+2026;mundial;11;Grã-Bretanha;2026-07-05;18;Feliplay;6;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;1;Arthur Tuta;10;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;2;Fabinho Luz;2;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;3;Marcos Paulo;12;1;;1;;corrida
+2026;mundial;12;Bélgica;2026-07-19;4;Marck Bauer;13;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;5;Cesar Jones;15;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;6;Gabriel Arruda;8;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;7;Thiago Diniz;6;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;8;André Paixão;1;;1;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;9;Jo Caiana;7;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;10;Lucas Bueno;3;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;11;Renato TVR;4;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;12;Leo Fernandes;16;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;13;Gustavo Moura;9;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;14;Marcelo;5;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;15;Pereira;11;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;16;Brito;18;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;17;Cleisson;14;;;;;corrida
+2026;mundial;12;Bélgica;2026-07-19;;Edy Santos;17;;;;DNF;corrida
+2026;mundial;13;Hungria;2026-07-26;1;Fabio RGP;3;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;2;Jo Caiana;5;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;3;Arthur Tuta;18;;;1;;corrida
+2026;mundial;13;Hungria;2026-07-26;4;Pereira;7;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;5;Cesar Jones;14;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;6;Gabriel Arruda;12;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;7;Cleisson;6;1;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;8;Gustavo Moura;2;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;9;Lucas Bueno;9;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;10;Brito;1;;1;;;corrida
+2026;mundial;13;Hungria;2026-07-26;11;Renato TVR;8;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;12;André Paixão;13;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;13;Marck Bauer;15;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;14;Marcelo;16;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;15;Leo Fernandes;11;;;;;corrida
+2026;mundial;13;Hungria;2026-07-26;;Fabinho Luz;17;;;;DNF;corrida
+2026;mundial;13;Hungria;2026-07-26;;Edy Santos;4;;;;DNF;corrida
+2026;mundial;13;Hungria;2026-07-26;;Thiago Diniz;10;;;;DSQ;corrida
+2026;mundial;14;Holanda;2026-08-23;1;Marck Bauer;3;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;2;Gabriel Arruda;5;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;3;Arthur Tuta;4;1;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;4;Leo Fernandes;10;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;5;André Paixão;9;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;6;Gustavo Gallo;16;;;1;;corrida
+2026;mundial;14;Holanda;2026-08-23;7;Marcos Paulo;7;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;8;Fabio RGP;17;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;9;Renato TVR;1;;1;;;corrida
+2026;mundial;14;Holanda;2026-08-23;10;Fabinho Luz;8;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;11;Cleisson;18;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;12;Jo Caiana;6;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;13;Marcelo;15;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;14;Pereira;13;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;15;Brito;2;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;16;Gustavo Moura;11;;;;;corrida
+2026;mundial;14;Holanda;2026-08-23;;Lucas Bueno;14;;;;DNF;corrida
+2026;mundial;14;Holanda;2026-08-23;;Edy Santos;19;;;;DNF;corrida
+2026;mundial;14;Holanda;2026-08-23;;Cesar Jones;12;;;;DNF;corrida
+2026;mundial;15;Madrid;2026-09-13;1;Fabinho Luz;1;;1;;;corrida
+2026;mundial;15;Madrid;2026-09-13;2;Gabriel Arruda;3;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;3;Arthur Tuta;9;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;4;Jo Caiana;16;;;1;;corrida
+2026;mundial;15;Madrid;2026-09-13;5;Fabio RGP;7;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;6;Lucas Bueno;18;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;7;Cleisson;11;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;8;Gustavo Gallo;5;1;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;9;Pereira;17;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;10;Leo Fernandes;6;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;11;Marcelo;14;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;12;Marcos Paulo;10;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;13;Thiago Diniz;8;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;14;Renato TVR;12;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;15;Cesar Jones;15;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;16;Brito;4;;;;;corrida
+2026;mundial;15;Madrid;2026-09-13;;Marck Bauer;2;;;;DNF;corrida
+2026;mundial;15;Madrid;2026-09-13;;Gustavo Moura;13;;;;DNF;corrida
+2026;mundial;16;Itália;2026-09-20;1;Marcelo;12;;;1;;corrida
+2026;mundial;16;Itália;2026-09-20;2;Cesar Jones;4;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;3;Thiago Diniz;3;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;4;Marck Bauer;9;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;5;Fabinho Luz;1;;1;;;corrida
+2026;mundial;16;Itália;2026-09-20;6;Arthur Tuta;15;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;7;Feliplay;6;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;8;Gustavo Gallo;2;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;9;Gabriel Arruda;10;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;10;Fabio RGP;5;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;11;Renato TVR;13;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;12;André Paixão;20;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;13;Marcos Paulo;7;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;14;Gustavo Moura;8;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;15;Pereira;14;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;16;Edy Santos;19;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;17;Jo Caiana;16;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;18;Leo Fernandes;18;;;;;corrida
+2026;mundial;16;Itália;2026-09-20;19;Lucas Bueno;17;1;;;;corrida
+2026;mundial;16;Itália;2026-09-20;;Brito;11;;;;DNF;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;1;Lucas Bueno;12;1;;1;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;2;Cleisson;1;;1;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;3;Pereira;11;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;4;Cesar Jones;3;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;5;Thiago Diniz;14;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;6;Edy Santos;7;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;7;Gabriel Arruda;16;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;8;Marcelo;13;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;9;Marck Bauer;18;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;10;Leo Fernandes;6;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;11;Fabinho Luz;2;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;12;Marcos Paulo;10;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;13;Gustavo Moura;19;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;14;Jo Caiana;5;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;15;Renato TVR;17;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;16;Brito;4;;;;;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;;André Paixão;8;;;;DNF;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;;Arthur Tuta;15;;;;DNF;corrida
+2026;mundial;17;Azerbaijão;2026-09-27;;Fabio RGP;9;;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;1;Renato TVR;16;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;2;Gustavo Gallo;8;;;1;;corrida
+2026;mundial;18;Singapura;2026-10-18;3;Cesar Jones;7;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;4;Fabinho Luz;11;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;5;Marcos Paulo;3;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;6;Thiago Diniz;2;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;7;Jo Caiana;14;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;8;Marcelo;12;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;9;Arthur Tuta;17;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;10;André Paixão;18;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;11;Pereira;5;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;12;Gabriel Arruda;4;;;;;corrida
+2026;mundial;18;Singapura;2026-10-18;;Leo Fernandes;6;;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Cleisson;10;;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Marck Bauer;13;;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Edy Santos;9;;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Brito;1;;1;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Lucas Bueno;15;1;;;DNF;corrida
+2026;mundial;18;Singapura;2026-10-18;;Fabio RGP;19;;;;DNF;corrida
+2026;elite;1;Austrália;2026-03-10;1;Daniel Requena;14;1;;;;corrida
+2026;elite;1;Austrália;2026-03-10;2;Jefferson Marchi;2;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;3;Thulio Mendes;17;;;1;;corrida
+2026;elite;1;Austrália;2026-03-10;4;Matheus Gregório;7;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;5;Gustavo Ferreira;3;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;6;Welk;4;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;7;Marcelo Poderoso;6;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;8;Leo Fernandes;11;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;9;Rafa Almeida;5;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;10;Ricardo Garcia;16;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;11;Diogo Marin;8;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;12;Bruno Fernandes;9;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;13;Leo Oliveira;20;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;14;Rafa Marques;10;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;15;Gerson Bolha;15;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;16;Gustavo Isoppo;12;;;;;corrida
+2026;elite;1;Austrália;2026-03-10;;Henrique Valente;1;;1;;DNF;corrida
+2026;elite;1;Austrália;2026-03-10;;Marco Meireles;13;;;;DNF;corrida
+2026;elite;1;Austrália;2026-03-10;;Robinho;18;;;;DNF;corrida
+2026;elite;1;Austrália;2026-03-10;;Menezes;19;;;;DNF;corrida
+2026;elite;2;China;2026-03-17;1;Tiago Costa;1;;1;;;corrida
+2026;elite;2;China;2026-03-17;2;Marco Meireles;9;;;;;corrida
+2026;elite;2;China;2026-03-17;3;Henrique Valente;19;;;1;;corrida
+2026;elite;2;China;2026-03-17;4;Leo Oliveira;12;;;;;corrida
+2026;elite;2;China;2026-03-17;5;Gustavo Isoppo;6;;;;;corrida
+2026;elite;2;China;2026-03-17;6;Jefferson Marchi;2;;;;;corrida
+2026;elite;2;China;2026-03-17;7;Welk;8;;;;;corrida
+2026;elite;2;China;2026-03-17;8;Gustavo Ferreira;5;;;;;corrida
+2026;elite;2;China;2026-03-17;9;Diogo Marin;13;;;;;corrida
+2026;elite;2;China;2026-03-17;10;Matheus Gregório;15;;;;;corrida
+2026;elite;2;China;2026-03-17;11;Thulio Mendes;18;;;;;corrida
+2026;elite;2;China;2026-03-17;12;Robinho;17;;;;;corrida
+2026;elite;2;China;2026-03-17;13;Rafa Almeida;14;;;;;corrida
+2026;elite;2;China;2026-03-17;14;Marcelo Poderoso;4;;;;;corrida
+2026;elite;2;China;2026-03-17;15;Gerson Bolha;7;;;;;corrida
+2026;elite;2;China;2026-03-17;16;Victor Pimentel;10;;;;;corrida
+2026;elite;2;China;2026-03-17;17;Menezes;3;1;;;;corrida
+2026;elite;2;China;2026-03-17;;Daniel Requena;11;;;;DNF;corrida
+2026;elite;2;China;2026-03-17;;Ricardo Garcia;16;;;;DNF;corrida
+2026;elite;3;Japão;2026-03-31;1;Henrique Valente;6;;;;;corrida
+2026;elite;3;Japão;2026-03-31;2;Daniel Requena;1;;1;;;corrida
+2026;elite;3;Japão;2026-03-31;3;Rafa Almeida;3;;;;;corrida
+2026;elite;3;Japão;2026-03-31;4;Marco Meireles;2;;;;;corrida
+2026;elite;3;Japão;2026-03-31;5;Robinho;4;1;;1;;corrida
+2026;elite;3;Japão;2026-03-31;6;Leo Oliveira;13;;;;;corrida
+2026;elite;3;Japão;2026-03-31;7;Ricardo Garcia;8;;;;;corrida
+2026;elite;3;Japão;2026-03-31;8;Diogo Marin;12;;;;;corrida
+2026;elite;3;Japão;2026-03-31;9;Gustavo Ferreira;5;;;;;corrida
+2026;elite;3;Japão;2026-03-31;10;Matheus Gregório;9;;;;;corrida
+2026;elite;3;Japão;2026-03-31;11;Welk;16;;;;;corrida
+2026;elite;3;Japão;2026-03-31;12;Bruno Fernandes;18;;;;;corrida
+2026;elite;3;Japão;2026-03-31;13;Marcelo Poderoso;7;;;;;corrida
+2026;elite;3;Japão;2026-03-31;14;Thulio Mendes;17;;;;;corrida
+2026;elite;3;Japão;2026-03-31;15;Tiago Costa;15;;;;;corrida
+2026;elite;3;Japão;2026-03-31;16;Gustavo Isoppo;10;;;;;corrida
+2026;elite;3;Japão;2026-03-31;17;Jefferson Marchi;11;;;;;corrida
+2026;elite;3;Japão;2026-03-31;18;Gerson Bolha;14;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;1;Marcelo Poderoso;3;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;2;Gustavo Isoppo;1;;1;;;corrida
+2026;elite;4;Bahrein;2026-04-14;3;Robinho;2;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;4;Tiago Costa;4;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;5;Menezes;20;1;;1;;corrida
+2026;elite;4;Bahrein;2026-04-14;6;Henrique Valente;6;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;7;Rafa Marques;17;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;8;Bruno Fernandes;11;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;9;Diogo Marin;12;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;10;Ricardo Garcia;19;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;11;Daniel Requena;5;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;12;Leo Oliveira;15;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;13;Jefferson Marchi;7;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;14;Gustavo Ferreira;10;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;15;Welk;14;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;16;Marco Meireles;8;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;17;Rafa Almeida;13;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;18;Thulio Mendes;18;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;19;Gerson Bolha;16;;;;;corrida
+2026;elite;4;Bahrein;2026-04-14;20;Matheus Gregório;9;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;1;Marco Meireles;1;1;1;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;2;Gustavo Isoppo;15;;;1;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;3;Diogo Marin;12;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;4;Welk;17;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;5;Daniel Requena;4;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;6;Ricardo Garcia;13;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;7;Gustavo Ferreira;5;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;8;Henrique Valente;9;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;9;Thulio Mendes;18;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;10;Leo Oliveira;19;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;11;Matheus Gregório;6;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;12;Robinho;10;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;13;Rafa Marques;3;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;14;Bruno Fernandes;8;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;15;Jefferson Marchi;2;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;16;Tiago Costa;16;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;17;Marcelo Poderoso;11;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;18;Rafa Almeida;14;;;;;corrida
+2026;elite;5;Arábia Saudita;2026-04-21;19;Menezes;7;;;;;corrida
+2026;elite;6;Miami;2026-05-05;1;Daniel Requena;1;1;1;;;corrida
+2026;elite;6;Miami;2026-05-05;2;Rafa Almeida;2;;;;;corrida
+2026;elite;6;Miami;2026-05-05;3;Rafa Marques;3;;;;;corrida
+2026;elite;6;Miami;2026-05-05;4;Gustavo Ferreira;5;;;;;corrida
+2026;elite;6;Miami;2026-05-05;5;Marco Meireles;12;;;;;corrida
+2026;elite;6;Miami;2026-05-05;6;Marcelo Poderoso;15;;;1;;corrida
+2026;elite;6;Miami;2026-05-05;7;Robinho;8;;;;;corrida
+2026;elite;6;Miami;2026-05-05;8;Diogo Marin;17;;;;;corrida
+2026;elite;6;Miami;2026-05-05;9;Arthur Tuta;16;;;;;corrida
+2026;elite;6;Miami;2026-05-05;10;Welk;18;;;;;corrida
+2026;elite;6;Miami;2026-05-05;11;Leo Oliveira;14;;;;;corrida
+2026;elite;6;Miami;2026-05-05;12;Ricardo Garcia;11;;;;;corrida
+2026;elite;6;Miami;2026-05-05;13;Tiago Costa;7;;;;;corrida
+2026;elite;6;Miami;2026-05-05;14;Bruno Fernandes;10;;;;;corrida
+2026;elite;6;Miami;2026-05-05;15;Gerson Bolha;6;;;;;corrida
+2026;elite;6;Miami;2026-05-05;16;Matheus Gregório;4;;;;;corrida
+2026;elite;6;Miami;2026-05-05;;Jefferson Marchi;13;;;;DNF;corrida
+2026;elite;6;Miami;2026-05-05;;Thulio Mendes;20;;;;DNF;corrida
+2026;elite;6;Miami;2026-05-05;;Gustavo Isoppo;19;;;;DNF;corrida
+2026;elite;6;Miami;2026-05-05;;Henrique Valente;9;;;;DNF;corrida
+2026;elite;7;Canadá;2026-05-26;1;Matheus Gregório;1;;1;;;corrida
+2026;elite;7;Canadá;2026-05-26;2;Rafa Marques;7;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;3;Gustavo Ferreira;18;;;1;;corrida
+2026;elite;7;Canadá;2026-05-26;4;Gerson Bolha;4;1;;;;corrida
+2026;elite;7;Canadá;2026-05-26;5;Bruno Fernandes;8;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;6;Marcelo Poderoso;10;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;7;Marco Meireles;2;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;8;Robinho;12;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;9;Jefferson Marchi;15;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;10;Leo Oliveira;9;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;11;Henrique Valente;5;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;12;Leo Fernandes;6;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;13;Thulio Mendes;14;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;14;Daniel Requena;3;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;15;Zagallo;13;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;16;Menezes;16;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;17;Gustavo Isoppo;11;;;;;corrida
+2026;elite;7;Canadá;2026-05-26;18;Diogo Marin;17;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;1;Thulio Mendes;3;1;1;;;corrida
+2026;elite;8;Mônaco;2026-06-09;2;Matheus Gregório;14;;;1;;corrida
+2026;elite;8;Mônaco;2026-06-09;3;Bruno Fernandes;4;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;4;Marco Meireles;15;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;5;Gustavo Ferreira;17;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;6;Diogo Marin;13;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;7;Henrique Valente;16;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;8;Rafa Almeida;7;;;;;corrida
+2026;elite;8;Mônaco;2026-06-09;;Gustavo Isoppo;10;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Jefferson Marchi;9;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Daniel Requena;18;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Gerson Bolha;2;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Menezes;1;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Leo Oliveira;11;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Ricardo Garcia;5;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Welk;6;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Robinho;12;;;;DNF;corrida
+2026;elite;8;Mônaco;2026-06-09;;Rafa Marques;8;;;;DNF;corrida
+2026;elite;9;Espanha;2026-06-16;1;Daniel Requena;2;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;2;Jefferson Marchi;1;1;1;;;corrida
+2026;elite;9;Espanha;2026-06-16;3;Henrique Valente;6;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;4;Robinho;8;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;5;Leo Oliveira;10;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;6;Gustavo Ferreira;15;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;7;Welk;11;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;8;Thulio Mendes;16;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;9;Rafa Marques;3;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;10;Ricardo Garcia;7;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;11;Matheus Gregório;5;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;12;Diogo Marin;9;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;13;Marck Bauer;4;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;14;Menezes;13;;;;;corrida
+2026;elite;9;Espanha;2026-06-16;;Rafa Almeida;12;;;;DNF;corrida
+2026;elite;9;Espanha;2026-06-16;;Gustavo Isoppo;14;;;1;DNF;corrida
+2026;elite;10;Áustria;2026-06-30;1;Robinho;12;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;2;Menezes;1;;1;;;corrida
+2026;elite;10;Áustria;2026-06-30;3;Jefferson Marchi;13;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;4;Arthur Tuta;3;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;5;Gustavo Isoppo;6;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;6;Henrique Valente;17;;;1;;corrida
+2026;elite;10;Áustria;2026-06-30;7;Marco Meireles;14;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;8;Daniel Requena;19;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;9;Ricardo Garcia;4;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;10;Thulio Mendes;10;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;11;Diogo Marin;15;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;12;Gustavo Ferreira;18;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;13;Leo Oliveira;11;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;14;Bruno Fernandes;5;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;15;Matheus Gregório;16;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;16;Gerson Bolha;2;1;;;;corrida
+2026;elite;10;Áustria;2026-06-30;17;Rafa Marques;7;;;;;corrida
+2026;elite;10;Áustria;2026-06-30;;Welk;9;;;;DNF;corrida
+2026;elite;10;Áustria;2026-06-30;;Rafa Almeida;8;;;;DNF;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;1;Robinho;5;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;2;Welk;2;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;3;Menezes;4;;;1;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;4;Daniel Requena;8;1;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;5;Thulio Mendes;10;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;6;Marco Meireles;15;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;7;Jefferson Marchi;7;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;8;Rafa Marques;19;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;9;Rafa Almeida;3;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;10;Henrique Valente;1;;1;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;11;Arthur Tuta;9;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;12;Matheus Gregório;16;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;13;Gustavo Ferreira;6;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;14;Bruno Fernandes;13;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;15;Leo Oliveira;11;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;16;Diogo Marin;14;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;17;Gustavo Isoppo;17;;;;;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;;Gerson Bolha;20;;;;DNF;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;;Zanon;12;;;;DNF;corrida
+2026;elite;11;Grã-Bretanha;2026-07-07;;Ricardo Garcia;18;;;;DNF;corrida
+2026;elite;12;Bélgica;2026-07-21;1;Matheus Gregório;6;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;2;Daniel Requena;3;1;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;3;Gustavo Ferreira;2;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;4;Menezes;12;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;5;Jefferson Marchi;1;;1;;;corrida
+2026;elite;12;Bélgica;2026-07-21;6;Marco Meireles;5;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;7;Henrique Valente;4;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;8;Welk;10;;;1;;corrida
+2026;elite;12;Bélgica;2026-07-21;9;Leo Oliveira;15;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;10;Robinho;8;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;11;Gerson Bolha;16;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;12;Diogo Marin;7;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;13;Thulio Mendes;18;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;14;Bruno Fernandes;14;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;15;Arthur Tuta;13;;;;;corrida
+2026;elite;12;Bélgica;2026-07-21;;Rafa Marques;11;;;;DNF;corrida
+2026;elite;12;Bélgica;2026-07-21;;Ricardo Garcia;17;;;;DNF;corrida
+2026;elite;13;Hungria;2026-07-28;1;Bruno Fernandes;2;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;2;Menezes;3;1;;;;corrida
+2026;elite;13;Hungria;2026-07-28;3;Rafa Marques;5;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;4;Matheus Gregório;14;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;5;Daniel Requena;18;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;6;Marco Meireles;13;;;1;;corrida
+2026;elite;13;Hungria;2026-07-28;7;Gustavo Isoppo;4;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;8;Welk;10;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;9;Thulio Mendes;9;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;10;Jefferson Marchi;12;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;11;Diogo Marin;11;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;12;Robinho;15;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;13;Gustavo Ferreira;16;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;14;Leo Oliveira;8;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;15;Arthur Tuta;7;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;16;Chrys;19;;;;;corrida
+2026;elite;13;Hungria;2026-07-28;;Rafa Almeida;6;;;;DNF;corrida
+2026;elite;13;Hungria;2026-07-28;;Henrique Valente;17;;;;DNF;corrida
+2026;elite;13;Hungria;2026-07-28;;Ricardo Garcia;1;;1;;DNF;corrida
+2026;elite;14;Holanda;2026-08-25;1;Chrys;1;;1;;;corrida
+2026;elite;14;Holanda;2026-08-25;2;Robinho;11;;;1;;corrida
+2026;elite;14;Holanda;2026-08-25;3;Ricardo Garcia;6;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;4;Leo Oliveira;16;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;5;Thulio Mendes;15;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;6;Diogo Marin;8;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;7;Gustavo Isoppo;13;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;8;Rafa Marques;4;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;9;Daniel Requena;3;1;;;;corrida
+2026;elite;14;Holanda;2026-08-25;10;Matheus Gregório;10;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;11;Menezes;7;;;;;corrida
+2026;elite;14;Holanda;2026-08-25;;Henrique Valente;5;;;;DNF;corrida
+2026;elite;14;Holanda;2026-08-25;;Arthur Tuta;14;;;;DNF;corrida
+2026;elite;14;Holanda;2026-08-25;;Welk;12;;;;DNF;corrida
+2026;elite;14;Holanda;2026-08-25;;Rafa Almeida;9;;;;DNF;corrida
+2026;elite;14;Holanda;2026-08-25;;Jefferson Marchi;2;;;;DNF;corrida
+2026;elite;15;Itália;2026-09-08;1;Chrys;10;;;;;corrida
+2026;elite;15;Itália;2026-09-08;2;Rafa Almeida;3;;;;;corrida
+2026;elite;15;Itália;2026-09-08;3;Daniel Requena;4;;;;;corrida
+2026;elite;15;Itália;2026-09-08;4;Gustavo Isoppo;8;;;;;corrida
+2026;elite;15;Itália;2026-09-08;5;Bruno Fernandes;17;1;;1;;corrida
+2026;elite;15;Itália;2026-09-08;6;Matheus Gregório;9;;;;;corrida
+2026;elite;15;Itália;2026-09-08;7;Gustavo Ferreira;14;;;;;corrida
+2026;elite;15;Itália;2026-09-08;8;Leo Oliveira;13;;;;;corrida
+2026;elite;15;Itália;2026-09-08;9;Arthur Tuta;11;;;;;corrida
+2026;elite;15;Itália;2026-09-08;10;Rafa Marques;1;;1;;;corrida
+2026;elite;15;Itália;2026-09-08;11;Welk;5;;;;;corrida
+2026;elite;15;Itália;2026-09-08;12;Jefferson Marchi;2;;;;;corrida
+2026;elite;15;Itália;2026-09-08;13;Thulio Mendes;15;;;;;corrida
+2026;elite;15;Itália;2026-09-08;14;Diogo Marin;6;;;;;corrida
+2026;elite;15;Itália;2026-09-08;;Menezes;12;;;;DNF;corrida
+2026;elite;15;Itália;2026-09-08;;Marco Meireles;16;;;;DNF;corrida
+2026;elite;15;Itália;2026-09-08;;Henrique Valente;7;;;;DNF;corrida
+2026;elite;15;Itália;2026-09-08;;Ricardo Garcia;18;;;;DNF;corrida
+2026;elite;16;Madrid;2026-09-15;1;Jefferson Marchi;1;1;1;;;corrida
+2026;elite;16;Madrid;2026-09-15;2;Matheus Gregório;7;;;1;;corrida
+2026;elite;16;Madrid;2026-09-15;3;Daniel Requena;2;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;4;Welk;4;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;5;Gustavo Ferreira;6;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;6;Bruno Fernandes;11;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;7;Diogo Marin;9;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;8;Thulio Mendes;17;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;9;Leo Oliveira;14;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;10;Chrys;5;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;11;Gustavo Isoppo;10;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;12;Arthur Tuta;16;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;13;Ricardo Garcia;15;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;14;Marco Meireles;13;;;;;corrida
+2026;elite;16;Madrid;2026-09-15;;Menezes;12;;;;DNF;corrida
+2026;elite;16;Madrid;2026-09-15;;Henrique Valente;8;;;;DNF;corrida
+2026;elite;16;Madrid;2026-09-15;;Robinho;3;;;;DSQ;corrida
+2026;elite;17;Azerbaijão;2026-09-29;1;Gustavo Ferreira;14;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;2;Daniel Requena;16;1;;1;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;3;Matheus Gregório;15;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;4;Rafa Almeida;2;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;5;Leo Oliveira;7;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;6;Welk;6;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;7;Thulio Mendes;9;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;8;Bruno Fernandes;5;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;9;Arthur Tuta;4;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;10;Fabinho Luz;3;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;11;Jefferson Marchi;12;;;;;corrida
+2026;elite;17;Azerbaijão;2026-09-29;;Robinho;13;;;;DNF;corrida
+2026;elite;17;Azerbaijão;2026-09-29;;Diogo Marin;11;;;;DNF;corrida
+2026;elite;17;Azerbaijão;2026-09-29;;Henrique Valente;10;;;;DNF;corrida
+2026;elite;17;Azerbaijão;2026-09-29;;Marco Meireles;8;;;;DNF;corrida
+2026;elite;17;Azerbaijão;2026-09-29;;Ricardo Garcia;1;;1;;DNF;corrida
+2026;elite;18;Singapura;2026-10-13;1;Menezes;2;1;;;;corrida
+2026;elite;18;Singapura;2026-10-13;2;Daniel Requena;10;;;1;;corrida
+2026;elite;18;Singapura;2026-10-13;3;Robinho;8;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;4;Thulio Mendes;5;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;5;Arthur Tuta;1;;1;;;corrida
+2026;elite;18;Singapura;2026-10-13;6;Gustavo Ferreira;12;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;7;Leo Oliveira;11;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;8;Gustavo Isoppo;3;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;9;Bruno Fernandes;7;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;10;Jefferson Marchi;13;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;11;Welk;6;;;;;corrida
+2026;elite;18;Singapura;2026-10-13;;Ricardo Garcia;4;;;;DNF;corrida
+2026;elite;18;Singapura;2026-10-13;;Diogo Marin;9;;;;DNF;corrida

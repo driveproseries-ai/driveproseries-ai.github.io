@@ -1,0 +1,1 @@
+MB=Marck Bauer;LF=Leo Fernandes;FL=Fabinho Luz;CL=Cleisson;AT=Arthur Tuta;CJ=Cesar Jones;MA=Marcelo;ES=Edy Santos;TD=Thiago Diniz;GG=Gustavo Gallo;PE=Pereira;MP=Marcos Paulo;LB=Lucas Bueno;FR=Fabio RGP;SG=Stephan Garcia;RT=Renato TVR;GM=Gustavo Moura;JC=Jo Caiana;AP=André Paixão;GA=Gabriel Arruda;FP=Feliplay;CA=Caleb;BR=Brito;MC=Marcelino;DD=DMN Dumeneghin;LC=Luccas Cordeiro

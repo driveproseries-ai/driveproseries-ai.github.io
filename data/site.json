@@ -1,0 +1,28 @@
+{
+ "nome": "Portal DPS",
+ "slogan": "Notícias, tabelas e bastidores da Drive Pro Series",
+ "descricao": "Portal da Drive Pro Series (DPS): tabelas dos campeonatos, próximas etapas, matérias das corridas e notícias da F1.",
+ "contador": {
+  "namespace": "portal-dps",
+  "chave": "visitas"
+ },
+ "formspree_id": "",
+ "email_contato": "",
+ "whatsapp": "",
+ "discord": "",
+ "youtube": "https://www.youtube.com/@DriveProSeries",
+ "instagram": "",
+ "parceiros": [
+  {
+   "nome": "Imperium Racing Team",
+   "descricao": "Equipe de automobilismo virtual parceira da DPS, criada pelo saudoso Ruy Cezars.",
+   "instagram": "https://www.instagram.com/irtoficial"
+  }
+ ],
+ "chamada": {
+  "titulo": "Mundiais DPS 2027: venha participar",
+  "texto": "Quer correr no grid da Drive Pro Series? Fale com a liga e saiba como entrar.",
+  "botao": "Quero participar",
+  "link": "contato.html?assunto=2027"
+ }
+}

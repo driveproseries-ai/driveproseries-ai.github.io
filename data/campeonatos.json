@@ -1,0 +1,26 @@
+[
+ {
+  "id": "mundial",
+  "nome": "Mundial DPS 2026",
+  "curto": "Mundial",
+  "cor": "#0A8F4F"
+ },
+ {
+  "id": "elite",
+  "nome": "Mundial DPS Elite 2026",
+  "curto": "Elite",
+  "cor": "#CF1B2B"
+ },
+ {
+  "id": "carreira1",
+  "nome": "Modo Carreira 1 (T19)",
+  "curto": "Carreira 1",
+  "cor": "#1d4ed8"
+ },
+ {
+  "id": "carreira2",
+  "nome": "Modo Carreira 2 (T20)",
+  "curto": "Carreira 2",
+  "cor": "#7c3aed"
+ }
+]

@@ -1,0 +1,222 @@
+{
+ "id": "carreira1",
+ "nome": "Modo Carreira 1 (T19)",
+ "atualizado_em": "2026-04-15",
+ "encerrado": true,
+ "fonte_dados": "Formula Game Companion",
+ "pilotos": [
+  {
+   "nome": "Henrique Valente",
+   "pts": 179,
+   "pun": 0
+  },
+  {
+   "nome": "Leo Oliveira",
+   "pts": 161,
+   "pun": 0
+  },
+  {
+   "nome": "Welk",
+   "pts": 160,
+   "pun": 0
+  },
+  {
+   "nome": "Matheus Gregório",
+   "pts": 147,
+   "pun": 0
+  },
+  {
+   "nome": "Meirelles",
+   "pts": 138,
+   "pun": 0
+  },
+  {
+   "nome": "Marcelo Poderoso",
+   "pts": 118,
+   "pun": 0
+  },
+  {
+   "nome": "Ricardo Garcia",
+   "pts": 113,
+   "pun": 0
+  },
+  {
+   "nome": "Camilo",
+   "pts": 109,
+   "pun": 0
+  },
+  {
+   "nome": "Thulio Mendes",
+   "pts": 98,
+   "pun": 0
+  },
+  {
+   "nome": "Robinho",
+   "pts": 93,
+   "pun": 0
+  },
+  {
+   "nome": "Medeiros",
+   "pts": 76,
+   "pun": 0
+  },
+  {
+   "nome": "Menezes",
+   "pts": 61,
+   "pun": 0
+  },
+  {
+   "nome": "Mika Saulo",
+   "pts": 60,
+   "pun": 0
+  },
+  {
+   "nome": "Diogo Marin",
+   "pts": 54,
+   "pun": 0
+  },
+  {
+   "nome": "Pilpro",
+   "pts": 46,
+   "pun": 0
+  },
+  {
+   "nome": "Daniel Lara",
+   "pts": 44,
+   "pun": 0
+  },
+  {
+   "nome": "Victor Pimentel",
+   "pts": 25,
+   "pun": 0
+  },
+  {
+   "nome": "Gabriel Boeiro",
+   "pts": 18,
+   "pun": 0
+  },
+  {
+   "nome": "Lucas Lolu",
+   "pts": 9,
+   "pun": 0
+  }
+ ],
+ "construtores": [
+  {
+   "equipe": "McLaren",
+   "pts": 321,
+   "pun": 0
+  },
+  {
+   "equipe": "Red Bull",
+   "pts": 317,
+   "pun": 0
+  },
+  {
+   "equipe": "Alpine",
+   "pts": 241,
+   "pun": 0
+  },
+  {
+   "equipe": "Ferrari",
+   "pts": 213,
+   "pun": 0
+  },
+  {
+   "equipe": "Williams",
+   "pts": 198,
+   "pun": 0
+  },
+  {
+   "equipe": "Haas",
+   "pts": 152,
+   "pun": 0
+  },
+  {
+   "equipe": "Aston Martin",
+   "pts": 137,
+   "pun": 0
+  },
+  {
+   "equipe": "Racing Bulls",
+   "pts": 136,
+   "pun": 0
+  },
+  {
+   "equipe": "Sauber",
+   "pts": 70,
+   "pun": 0
+  },
+  {
+   "equipe": "Mercedes",
+   "pts": 0,
+   "pun": 0
+  }
+ ],
+ "calendario": [
+  {
+   "n": 1,
+   "pista": "Brasil",
+   "data": "2026-02-25",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 2,
+   "pista": "Miami",
+   "data": "2026-03-04",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 3,
+   "pista": "Áustria",
+   "data": "2026-03-11",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 4,
+   "pista": "Bélgica",
+   "data": "2026-03-18",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 5,
+   "pista": "Japão",
+   "data": "2026-03-25",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 6,
+   "pista": "Azerbaijão",
+   "data": "2026-04-01",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 7,
+   "pista": "Mônaco",
+   "data": "2026-04-08",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 8,
+   "pista": "Grã-Bretanha",
+   "data": "2026-04-15",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  }
+ ]
+}

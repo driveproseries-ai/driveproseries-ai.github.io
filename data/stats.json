@@ -1,0 +1,3583 @@
+{
+ "pronto": true,
+ "gerado_em": "2026-10-23",
+ "pilotos": [
+  {
+   "nome": "Junior Lima",
+   "corridas": 25,
+   "vitorias": 3,
+   "podios": 11,
+   "poles": 4,
+   "voltas_rapidas": 1,
+   "titulos": 1
+  },
+  {
+   "nome": "Cesar Jones",
+   "corridas": 89,
+   "vitorias": 1,
+   "podios": 7,
+   "poles": 2,
+   "voltas_rapidas": 4,
+   "titulos": 0
+  },
+  {
+   "nome": "Carlos DS Santos",
+   "corridas": 39,
+   "vitorias": 3,
+   "podios": 11,
+   "poles": 1,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "Gustavo Zanon",
+   "corridas": 13,
+   "vitorias": 6,
+   "podios": 10,
+   "poles": 5,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Thulio Mendes",
+   "corridas": 65,
+   "vitorias": 4,
+   "podios": 16,
+   "poles": 2,
+   "voltas_rapidas": 7,
+   "titulos": 0
+  },
+  {
+   "nome": "Gustavo Gallo",
+   "corridas": 72,
+   "vitorias": 5,
+   "podios": 14,
+   "poles": 0,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "Gustavo Isoppo",
+   "corridas": 19,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 3,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Fernando Thunder",
+   "corridas": 47,
+   "vitorias": 0,
+   "podios": 3,
+   "poles": 2,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "Victor Pimentel",
+   "corridas": 70,
+   "vitorias": 6,
+   "podios": 19,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Joao Caetano",
+   "corridas": 14,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Charley Miranda",
+   "corridas": 32,
+   "vitorias": 6,
+   "podios": 11,
+   "poles": 6,
+   "voltas_rapidas": 11,
+   "titulos": 0
+  },
+  {
+   "nome": "Marcelo",
+   "corridas": 66,
+   "vitorias": 4,
+   "podios": 8,
+   "poles": 1,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Thiago Diniz",
+   "corridas": 62,
+   "vitorias": 2,
+   "podios": 5,
+   "poles": 0,
+   "voltas_rapidas": 5,
+   "titulos": 0
+  },
+  {
+   "nome": "Douglas Dragon",
+   "corridas": 19,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Gilney Botelho",
+   "corridas": 18,
+   "vitorias": 1,
+   "podios": 1,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Fayol Aguiar",
+   "corridas": 21,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Joel Gomes",
+   "corridas": 14,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 1,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "André Paixão",
+   "corridas": 54,
+   "vitorias": 1,
+   "podios": 10,
+   "poles": 2,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "Arthur Tuta",
+   "corridas": 94,
+   "vitorias": 7,
+   "podios": 13,
+   "poles": 2,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Edy Santos",
+   "corridas": 68,
+   "vitorias": 0,
+   "podios": 4,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Luiz Vanzo",
+   "corridas": 19,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 3,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Stephan Garcia",
+   "corridas": 45,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 3,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Carlos Henrique",
+   "corridas": 2,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Rafa Marques",
+   "corridas": 43,
+   "vitorias": 2,
+   "podios": 9,
+   "poles": 2,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Gerson Bolha",
+   "corridas": 36,
+   "vitorias": 3,
+   "podios": 5,
+   "poles": 0,
+   "voltas_rapidas": 5,
+   "titulos": 0
+  },
+  {
+   "nome": "Fernando Socolovisk",
+   "corridas": 2,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Tiago Costa",
+   "corridas": 26,
+   "vitorias": 7,
+   "podios": 13,
+   "poles": 3,
+   "voltas_rapidas": 1,
+   "titulos": 1
+  },
+  {
+   "nome": "Deyvidy Knorst",
+   "corridas": 22,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 2,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Diego Gaspareto",
+   "corridas": 18,
+   "vitorias": 4,
+   "podios": 4,
+   "poles": 6,
+   "voltas_rapidas": 3,
+   "titulos": 0
+  },
+  {
+   "nome": "Marcio Santos",
+   "corridas": 17,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Tassio Pimentel",
+   "corridas": 2,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Fabinho Luz",
+   "corridas": 40,
+   "vitorias": 2,
+   "podios": 8,
+   "poles": 2,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Fabio RGP",
+   "corridas": 39,
+   "vitorias": 1,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Jo Caiana",
+   "corridas": 39,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 2,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Pereira",
+   "corridas": 24,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Marck Bauer",
+   "corridas": 41,
+   "vitorias": 3,
+   "podios": 9,
+   "poles": 3,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Gustavo Moura",
+   "corridas": 33,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Diogo Marin",
+   "corridas": 52,
+   "vitorias": 4,
+   "podios": 14,
+   "poles": 7,
+   "voltas_rapidas": 4,
+   "titulos": 0
+  },
+  {
+   "nome": "Marcos Paulo",
+   "corridas": 48,
+   "vitorias": 1,
+   "podios": 5,
+   "poles": 3,
+   "voltas_rapidas": 4,
+   "titulos": 0
+  },
+  {
+   "nome": "Lucas Bueno",
+   "corridas": 28,
+   "vitorias": 2,
+   "podios": 2,
+   "poles": 0,
+   "voltas_rapidas": 6,
+   "titulos": 0
+  },
+  {
+   "nome": "Renato TVR",
+   "corridas": 25,
+   "vitorias": 1,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Matheus Gregório",
+   "corridas": 39,
+   "vitorias": 7,
+   "podios": 21,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 1
+  },
+  {
+   "nome": "Gustavo Ferreira",
+   "corridas": 40,
+   "vitorias": 2,
+   "podios": 10,
+   "poles": 3,
+   "voltas_rapidas": 4,
+   "titulos": 0
+  },
+  {
+   "nome": "Leo Oliveira",
+   "corridas": 41,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Vitor IVTR",
+   "corridas": 8,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Jefferson Marchi",
+   "corridas": 41,
+   "vitorias": 6,
+   "podios": 12,
+   "poles": 11,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Bruno Fernandes",
+   "corridas": 36,
+   "vitorias": 2,
+   "podios": 9,
+   "poles": 1,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Ricardo Garcia",
+   "corridas": 41,
+   "vitorias": 1,
+   "podios": 4,
+   "poles": 2,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Gustavo Luzzani",
+   "corridas": 9,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Adriano BH",
+   "corridas": 4,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Renato",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Leo Fernandes",
+   "corridas": 19,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Cleisson",
+   "corridas": 15,
+   "vitorias": 0,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 2,
+   "titulos": 0
+  },
+  {
+   "nome": "Gabriel Arruda",
+   "corridas": 17,
+   "vitorias": 0,
+   "podios": 5,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Feliplay",
+   "corridas": 3,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Marcelino",
+   "corridas": 3,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "DMN Dumeneghin",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Luccas Cordeiro",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Caleb",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Brito",
+   "corridas": 8,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 3,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Daniel Requena",
+   "corridas": 18,
+   "vitorias": 3,
+   "podios": 9,
+   "poles": 2,
+   "voltas_rapidas": 6,
+   "titulos": 0
+  },
+  {
+   "nome": "Welk",
+   "corridas": 17,
+   "vitorias": 0,
+   "podios": 1,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Marcelo Poderoso",
+   "corridas": 7,
+   "vitorias": 1,
+   "podios": 1,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Rafa Almeida",
+   "corridas": 14,
+   "vitorias": 0,
+   "podios": 3,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Henrique Valente",
+   "corridas": 17,
+   "vitorias": 1,
+   "podios": 3,
+   "poles": 2,
+   "voltas_rapidas": 0,
+   "titulos": 1
+  },
+  {
+   "nome": "Marco Meireles",
+   "corridas": 15,
+   "vitorias": 1,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Robinho",
+   "corridas": 17,
+   "vitorias": 2,
+   "podios": 5,
+   "poles": 0,
+   "voltas_rapidas": 1,
+   "titulos": 0
+  },
+  {
+   "nome": "Menezes",
+   "corridas": 15,
+   "vitorias": 1,
+   "podios": 4,
+   "poles": 1,
+   "voltas_rapidas": 4,
+   "titulos": 0
+  },
+  {
+   "nome": "Zagallo",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Zanon",
+   "corridas": 1,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Chrys",
+   "corridas": 4,
+   "vitorias": 2,
+   "podios": 2,
+   "poles": 1,
+   "voltas_rapidas": 0,
+   "titulos": 0
+  },
+  {
+   "nome": "Bruno Maia",
+   "corridas": 0,
+   "vitorias": 0,
+   "podios": 0,
+   "poles": 0,
+   "voltas_rapidas": 0,
+   "titulos": 1
+  }
+ ],
+ "pistas": [
+  {
+   "pista": "Bahrein",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Junior Lima",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diogo Marin",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gustavo Gallo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marcelo Poderoso",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Arábia Saudita",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Carlos DS Santos",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Rafa Marques",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Cesar Jones",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marco Meireles",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Austrália",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Victor Pimentel",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marck Bauer",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Daniel Requena",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Japão",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Victor Pimentel",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Henrique Valente",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "China",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Carlos DS Santos",
+     "vitorias": 2
+    },
+    {
+     "piloto": "Gilney Botelho",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Miami",
+   "corridas": 4,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Gallo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Ricardo Garcia",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Daniel Requena",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Emília-Romanha",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diego Gaspareto",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gerson Bolha",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Mônaco",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Victor Pimentel",
+     "vitorias": 2
+    },
+    {
+     "piloto": "Bruno Fernandes",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marcos Paulo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Thulio Mendes",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Canadá",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Marcelo",
+     "vitorias": 2
+    },
+    {
+     "piloto": "Gustavo Gallo",
+     "vitorias": 2
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Espanha",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "André Paixão",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gerson Bolha",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Fabinho Luz",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Daniel Requena",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Áustria",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Victor Pimentel",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diego Gaspareto",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gustavo Gallo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Robinho",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Grã-Bretanha",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Thiago Diniz",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diego Gaspareto",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marcelo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Robinho",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Hungria",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Gerson Bolha",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diogo Marin",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Fabio RGP",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Bruno Fernandes",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Bélgica",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Junior Lima",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diego Gaspareto",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Rafa Marques",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Holanda",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Thulio Mendes",
+     "vitorias": 2
+    },
+    {
+     "piloto": "Charley Miranda",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marck Bauer",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Chrys",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Itália",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marcelo",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Chrys",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Azerbaijão",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Thulio Mendes",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Lucas Bueno",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gustavo Ferreira",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Singapura",
+   "corridas": 5,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Renato TVR",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Menezes",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Estados Unidos",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Arthur Tuta",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "México",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diogo Marin",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Brasil",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Gustavo Zanon",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Las Vegas",
+   "corridas": 4,
+   "vencedores": [
+    {
+     "piloto": "Thiago Diniz",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Marck Bauer",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Matheus Gregório",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Lucas Bueno",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Catar",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Victor Pimentel",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Diogo Marin",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Abu Dhabi",
+   "corridas": 3,
+   "vencedores": [
+    {
+     "piloto": "Junior Lima",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Tiago Costa",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Gustavo Ferreira",
+     "vitorias": 1
+    }
+   ]
+  },
+  {
+   "pista": "Madrid",
+   "corridas": 2,
+   "vencedores": [
+    {
+     "piloto": "Fabinho Luz",
+     "vitorias": 1
+    },
+    {
+     "piloto": "Jefferson Marchi",
+     "vitorias": 1
+    }
+   ]
+  }
+ ],
+ "recortes": {
+  "mundial-2024": {
+   "rotulo": "Mundial 2024",
+   "pilotos": [
+    {
+     "nome": "Junior Lima",
+     "corridas": 24,
+     "vitorias": 3,
+     "podios": 11,
+     "poles": 4,
+     "voltas_rapidas": 1,
+     "titulos": 1
+    },
+    {
+     "nome": "Cesar Jones",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Carlos DS Santos",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 6,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Zanon",
+     "corridas": 13,
+     "vitorias": 6,
+     "podios": 10,
+     "poles": 5,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Thulio Mendes",
+     "corridas": 24,
+     "vitorias": 1,
+     "podios": 7,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Gallo",
+     "corridas": 19,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Isoppo",
+     "corridas": 3,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 2,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Fernando Thunder",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Victor Pimentel",
+     "corridas": 22,
+     "vitorias": 4,
+     "podios": 5,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Joao Caetano",
+     "corridas": 14,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Charley Miranda",
+     "corridas": 15,
+     "vitorias": 3,
+     "podios": 6,
+     "poles": 2,
+     "voltas_rapidas": 6,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcelo",
+     "corridas": 24,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Thiago Diniz",
+     "corridas": 22,
+     "vitorias": 2,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 3,
+     "titulos": 0
+    },
+    {
+     "nome": "Douglas Dragon",
+     "corridas": 19,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gilney Botelho",
+     "corridas": 18,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fayol Aguiar",
+     "corridas": 21,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Joel Gomes",
+     "corridas": 14,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 1,
+     "voltas_rapidas": 3,
+     "titulos": 0
+    },
+    {
+     "nome": "André Paixão",
+     "corridas": 23,
+     "vitorias": 0,
+     "podios": 5,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Arthur Tuta",
+     "corridas": 20,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Edy Santos",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Luiz Vanzo",
+     "corridas": 19,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 3,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Stephan Garcia",
+     "corridas": 15,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Carlos Henrique",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Rafa Marques",
+     "corridas": 6,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gerson Bolha",
+     "corridas": 3,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Fernando Socolovisk",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    }
+   ],
+   "pistas": [
+    {
+     "pista": "Bahrein",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Junior Lima",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Arábia Saudita",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Austrália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Japão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "China",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gilney Botelho",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Miami",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Gallo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Emília-Romanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Mônaco",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Canadá",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcelo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Espanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Áustria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Grã-Bretanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thiago Diniz",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Hungria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gerson Bolha",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bélgica",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Junior Lima",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Holanda",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thulio Mendes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Itália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Azerbaijão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Singapura",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Estados Unidos",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "México",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Brasil",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Zanon",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Las Vegas",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thiago Diniz",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Catar",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Abu Dhabi",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Junior Lima",
+       "vitorias": 1
+      }
+     ]
+    }
+   ]
+  },
+  "elite-2025": {
+   "rotulo": "Elite 2025",
+   "pilotos": [
+    {
+     "nome": "Matheus Gregório",
+     "corridas": 22,
+     "vitorias": 5,
+     "podios": 16,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 1
+    },
+    {
+     "nome": "Gustavo Ferreira",
+     "corridas": 23,
+     "vitorias": 1,
+     "podios": 7,
+     "poles": 3,
+     "voltas_rapidas": 4,
+     "titulos": 0
+    },
+    {
+     "nome": "Victor Pimentel",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 4,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Leo Oliveira",
+     "corridas": 23,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcos Paulo",
+     "corridas": 23,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Gallo",
+     "corridas": 22,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Thiago Diniz",
+     "corridas": 21,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Rafa Marques",
+     "corridas": 24,
+     "vitorias": 2,
+     "podios": 5,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gerson Bolha",
+     "corridas": 23,
+     "vitorias": 2,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Stephan Garcia",
+     "corridas": 21,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 2,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Vitor IVTR",
+     "corridas": 8,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Cesar Jones",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Carlos DS Santos",
+     "corridas": 6,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Charley Miranda",
+     "corridas": 17,
+     "vitorias": 3,
+     "podios": 5,
+     "poles": 4,
+     "voltas_rapidas": 5,
+     "titulos": 0
+    },
+    {
+     "nome": "Jefferson Marchi",
+     "corridas": 23,
+     "vitorias": 5,
+     "podios": 8,
+     "poles": 8,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Bruno Fernandes",
+     "corridas": 21,
+     "vitorias": 1,
+     "podios": 7,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Ricardo Garcia",
+     "corridas": 24,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Fernando Thunder",
+     "corridas": 15,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Arthur Tuta",
+     "corridas": 22,
+     "vitorias": 2,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Luzzani",
+     "corridas": 9,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Adriano BH",
+     "corridas": 4,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabio RGP",
+     "corridas": 3,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Junior Lima",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Edy Santos",
+     "corridas": 11,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Deyvidy Knorst",
+     "corridas": 10,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 2,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Diogo Marin",
+     "corridas": 12,
+     "vitorias": 0,
+     "podios": 4,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Renato",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    }
+   ],
+   "pistas": [
+    {
+     "pista": "Austrália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "China",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Carlos DS Santos",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Japão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bahrein",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Arábia Saudita",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Rafa Marques",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Miami",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Ricardo Garcia",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Emília-Romanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gerson Bolha",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Mônaco",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Bruno Fernandes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Espanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gerson Bolha",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Canadá",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Gallo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Áustria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Grã-Bretanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bélgica",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Rafa Marques",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Hungria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Holanda",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Charley Miranda",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Itália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Azerbaijão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Singapura",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Estados Unidos",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "México",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Brasil",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Las Vegas",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Catar",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Abu Dhabi",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Ferreira",
+       "vitorias": 1
+      }
+     ]
+    }
+   ]
+  },
+  "mundial-2025": {
+   "rotulo": "Mundial 2025",
+   "pilotos": [
+    {
+     "nome": "Tiago Costa",
+     "corridas": 21,
+     "vitorias": 6,
+     "podios": 12,
+     "poles": 2,
+     "voltas_rapidas": 1,
+     "titulos": 1
+    },
+    {
+     "nome": "Victor Pimentel",
+     "corridas": 23,
+     "vitorias": 2,
+     "podios": 10,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Gallo",
+     "corridas": 20,
+     "vitorias": 1,
+     "podios": 5,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "André Paixão",
+     "corridas": 14,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Deyvidy Knorst",
+     "corridas": 12,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Edy Santos",
+     "corridas": 18,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Thulio Mendes",
+     "corridas": 23,
+     "vitorias": 2,
+     "podios": 7,
+     "poles": 1,
+     "voltas_rapidas": 4,
+     "titulos": 0
+    },
+    {
+     "nome": "Arthur Tuta",
+     "corridas": 24,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Diego Gaspareto",
+     "corridas": 18,
+     "vitorias": 4,
+     "podios": 4,
+     "poles": 6,
+     "voltas_rapidas": 3,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcio Santos",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Tassio Pimentel",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabinho Luz",
+     "corridas": 21,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Cesar Jones",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabio RGP",
+     "corridas": 22,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Thiago Diniz",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Carlos DS Santos",
+     "corridas": 9,
+     "vitorias": 2,
+     "podios": 4,
+     "poles": 1,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcelo",
+     "corridas": 24,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Jo Caiana",
+     "corridas": 22,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 2,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Pereira",
+     "corridas": 6,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marck Bauer",
+     "corridas": 23,
+     "vitorias": 1,
+     "podios": 5,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Moura",
+     "corridas": 18,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Diogo Marin",
+     "corridas": 22,
+     "vitorias": 4,
+     "podios": 9,
+     "poles": 6,
+     "voltas_rapidas": 3,
+     "titulos": 0
+    },
+    {
+     "nome": "Stephan Garcia",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fernando Thunder",
+     "corridas": 8,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 2,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcos Paulo",
+     "corridas": 8,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Lucas Bueno",
+     "corridas": 10,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Renato TVR",
+     "corridas": 7,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    }
+   ],
+   "pistas": [
+    {
+     "pista": "Austrália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "China",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Carlos DS Santos",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Japão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bahrein",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diogo Marin",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Arábia Saudita",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Carlos DS Santos",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Miami",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Emília-Romanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diego Gaspareto",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Mônaco",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Victor Pimentel",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Espanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "André Paixão",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Canadá",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Gallo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Áustria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diego Gaspareto",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Grã-Bretanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diego Gaspareto",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bélgica",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diego Gaspareto",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Hungria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diogo Marin",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Holanda",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thulio Mendes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Itália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Azerbaijão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thulio Mendes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Singapura",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Estados Unidos",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "México",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diogo Marin",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Brasil",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Las Vegas",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marck Bauer",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Catar",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Diogo Marin",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Abu Dhabi",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    }
+   ]
+  },
+  "elite-2026": {
+   "rotulo": "Elite 2026",
+   "pilotos": [
+    {
+     "nome": "Daniel Requena",
+     "corridas": 18,
+     "vitorias": 3,
+     "podios": 9,
+     "poles": 2,
+     "voltas_rapidas": 6,
+     "titulos": 0
+    },
+    {
+     "nome": "Jefferson Marchi",
+     "corridas": 18,
+     "vitorias": 1,
+     "podios": 4,
+     "poles": 3,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Thulio Mendes",
+     "corridas": 18,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Matheus Gregório",
+     "corridas": 17,
+     "vitorias": 2,
+     "podios": 5,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Ferreira",
+     "corridas": 17,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Welk",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcelo Poderoso",
+     "corridas": 7,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Leo Fernandes",
+     "corridas": 2,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Rafa Almeida",
+     "corridas": 14,
+     "vitorias": 0,
+     "podios": 3,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Ricardo Garcia",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 2,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Diogo Marin",
+     "corridas": 18,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Bruno Fernandes",
+     "corridas": 15,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Leo Oliveira",
+     "corridas": 18,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Rafa Marques",
+     "corridas": 13,
+     "vitorias": 0,
+     "podios": 3,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gerson Bolha",
+     "corridas": 10,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Isoppo",
+     "corridas": 16,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Henrique Valente",
+     "corridas": 17,
+     "vitorias": 1,
+     "podios": 3,
+     "poles": 2,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marco Meireles",
+     "corridas": 15,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Robinho",
+     "corridas": 17,
+     "vitorias": 2,
+     "podios": 5,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Menezes",
+     "corridas": 15,
+     "vitorias": 1,
+     "podios": 4,
+     "poles": 1,
+     "voltas_rapidas": 4,
+     "titulos": 0
+    },
+    {
+     "nome": "Tiago Costa",
+     "corridas": 5,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Victor Pimentel",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Arthur Tuta",
+     "corridas": 10,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Zagallo",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marck Bauer",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Zanon",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Chrys",
+     "corridas": 4,
+     "vitorias": 2,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabinho Luz",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    }
+   ],
+   "pistas": [
+    {
+     "pista": "Austrália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Daniel Requena",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "China",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Tiago Costa",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Japão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Henrique Valente",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bahrein",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcelo Poderoso",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Arábia Saudita",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marco Meireles",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Miami",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Daniel Requena",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Canadá",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Mônaco",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Thulio Mendes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Espanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Daniel Requena",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Áustria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Robinho",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Grã-Bretanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Robinho",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bélgica",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Matheus Gregório",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Hungria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Bruno Fernandes",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Holanda",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Chrys",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Itália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Chrys",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Madrid",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Jefferson Marchi",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Azerbaijão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Ferreira",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Singapura",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Menezes",
+       "vitorias": 1
+      }
+     ]
+    }
+   ]
+  },
+  "mundial-2026": {
+   "rotulo": "Mundial 2026",
+   "pilotos": [
+    {
+     "nome": "Marck Bauer",
+     "corridas": 17,
+     "vitorias": 2,
+     "podios": 4,
+     "poles": 2,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Leo Fernandes",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabinho Luz",
+     "corridas": 18,
+     "vitorias": 2,
+     "podios": 6,
+     "poles": 2,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Cleisson",
+     "corridas": 15,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Arthur Tuta",
+     "corridas": 18,
+     "vitorias": 3,
+     "podios": 7,
+     "poles": 1,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Cesar Jones",
+     "corridas": 17,
+     "vitorias": 1,
+     "podios": 4,
+     "poles": 2,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcelo",
+     "corridas": 18,
+     "vitorias": 3,
+     "podios": 3,
+     "poles": 1,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Edy Santos",
+     "corridas": 15,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Thiago Diniz",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Gallo",
+     "corridas": 11,
+     "vitorias": 2,
+     "podios": 4,
+     "poles": 0,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Pereira",
+     "corridas": 18,
+     "vitorias": 0,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcos Paulo",
+     "corridas": 17,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 2,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Lucas Bueno",
+     "corridas": 18,
+     "vitorias": 2,
+     "podios": 2,
+     "poles": 0,
+     "voltas_rapidas": 4,
+     "titulos": 0
+    },
+    {
+     "nome": "Fabio RGP",
+     "corridas": 14,
+     "vitorias": 1,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Stephan Garcia",
+     "corridas": 7,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Renato TVR",
+     "corridas": 18,
+     "vitorias": 1,
+     "podios": 2,
+     "poles": 1,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Gustavo Moura",
+     "corridas": 15,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Jo Caiana",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "André Paixão",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 4,
+     "poles": 2,
+     "voltas_rapidas": 2,
+     "titulos": 0
+    },
+    {
+     "nome": "Gabriel Arruda",
+     "corridas": 17,
+     "vitorias": 0,
+     "podios": 5,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Feliplay",
+     "corridas": 3,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Marcelino",
+     "corridas": 3,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "DMN Dumeneghin",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Luccas Cordeiro",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 0,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    },
+    {
+     "nome": "Caleb",
+     "corridas": 1,
+     "vitorias": 0,
+     "podios": 1,
+     "poles": 0,
+     "voltas_rapidas": 1,
+     "titulos": 0
+    },
+    {
+     "nome": "Brito",
+     "corridas": 8,
+     "vitorias": 0,
+     "podios": 0,
+     "poles": 3,
+     "voltas_rapidas": 0,
+     "titulos": 0
+    }
+   ],
+   "pistas": [
+    {
+     "pista": "Austrália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marck Bauer",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "China",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Japão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bahrein",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Gallo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Arábia Saudita",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Cesar Jones",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Las Vegas",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Lucas Bueno",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Canadá",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcelo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Mônaco",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcos Paulo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Espanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Fabinho Luz",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Áustria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Gustavo Gallo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Grã-Bretanha",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcelo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Bélgica",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Arthur Tuta",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Hungria",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Fabio RGP",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Holanda",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marck Bauer",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Madrid",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Fabinho Luz",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Itália",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Marcelo",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Azerbaijão",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Lucas Bueno",
+       "vitorias": 1
+      }
+     ]
+    },
+    {
+     "pista": "Singapura",
+     "corridas": 1,
+     "vencedores": [
+      {
+       "piloto": "Renato TVR",
+       "vitorias": 1
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "campeoes": [
+  {
+   "temporada": "2024",
+   "campeonato": "Mundial",
+   "piloto": "Junior Lima",
+   "equipe": "RPM Racing Team",
+   "construtores": "Além do AV F1 Team",
+   "nota": ""
+  },
+  {
+   "temporada": "2025",
+   "campeonato": "Mundial",
+   "piloto": "Tiago Costa",
+   "equipe": "Astúrias F1 Racing",
+   "construtores": "Kick Ass",
+   "nota": ""
+  },
+  {
+   "temporada": "2025",
+   "campeonato": "Elite",
+   "piloto": "Matheus Gregório",
+   "equipe": "American Bull",
+   "construtores": "American Bull",
+   "nota": ""
+  },
+  {
+   "temporada": "2026",
+   "campeonato": "Modo Carreira 1",
+   "piloto": "Henrique Valente",
+   "equipe": "",
+   "construtores": "McLaren",
+   "nota": "T19, 8 etapas"
+  },
+  {
+   "temporada": "2026",
+   "campeonato": "Modo Carreira 2",
+   "piloto": "Bruno Maia",
+   "equipe": "",
+   "construtores": "Ferrari",
+   "nota": "T20"
+  }
+ ]
+}

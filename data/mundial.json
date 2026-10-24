@@ -1,0 +1,376 @@
+{
+ "id": "mundial",
+ "nome": "Mundial DPS 2026",
+ "atualizado_em": "2026-10-23",
+ "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
+ "pilotos": [
+  {
+   "nome": "Arthur Tuta",
+   "grupo": "A",
+   "equipe": "Katchau Racing Team",
+   "pts": 338,
+   "pun": 0
+  },
+  {
+   "nome": "Fabinho Luz",
+   "grupo": "A",
+   "equipe": "AW Racing Team",
+   "pts": 285,
+   "pun": 0
+  },
+  {
+   "nome": "Gabriel Arruda",
+   "grupo": "C",
+   "equipe": "Old is Cool",
+   "pts": 270,
+   "pun": -6
+  },
+  {
+   "nome": "Cesar Jones",
+   "grupo": "C",
+   "equipe": "Retired Team F1",
+   "pts": 262,
+   "pun": 0
+  },
+  {
+   "nome": "Marcelo",
+   "grupo": "B",
+   "equipe": "Retired Team F1",
+   "pts": 260,
+   "pun": -16
+  },
+  {
+   "nome": "Marck Bauer",
+   "grupo": "A",
+   "equipe": "Old is Cool",
+   "pts": 249,
+   "pun": 0
+  },
+  {
+   "nome": "Marcos Paulo",
+   "grupo": "B",
+   "equipe": "Papaya & Green Racing",
+   "pts": 227,
+   "pun": -36
+  },
+  {
+   "nome": "André Paixão",
+   "grupo": "A",
+   "equipe": "Retired Team F1",
+   "pts": 226,
+   "pun": -10
+  },
+  {
+   "nome": "Leo Fernandes",
+   "grupo": "B",
+   "equipe": "Katchau Racing Team",
+   "pts": 217,
+   "pun": -23
+  },
+  {
+   "nome": "Thiago Diniz",
+   "grupo": "D",
+   "equipe": "Papaya & Green Racing",
+   "pts": 200,
+   "pun": 0
+  },
+  {
+   "nome": "Renato TVR",
+   "grupo": "B",
+   "equipe": "AW Racing Team",
+   "pts": 191,
+   "pun": -12
+  },
+  {
+   "nome": "Pereira",
+   "grupo": "D",
+   "equipe": "Old is Cool",
+   "pts": 191,
+   "pun": -5
+  },
+  {
+   "nome": "Jo Caiana",
+   "grupo": "C",
+   "equipe": "Papaya & Green Racing",
+   "pts": 184,
+   "pun": 0
+  },
+  {
+   "nome": "Gustavo Gallo",
+   "grupo": "A",
+   "equipe": "Papaya & Green Racing",
+   "pts": 182,
+   "pun": -10
+  },
+  {
+   "nome": "Lucas Bueno",
+   "grupo": "C",
+   "equipe": "Katchau Racing Team",
+   "pts": 175,
+   "pun": 0
+  },
+  {
+   "nome": "Cleisson",
+   "grupo": "B",
+   "equipe": "Old is Cool",
+   "pts": 167,
+   "pun": -10
+  },
+  {
+   "nome": "Fabio RGP",
+   "grupo": "D",
+   "equipe": "AW Racing Team",
+   "pts": 124,
+   "pun": 0
+  },
+  {
+   "nome": "Edy Santos",
+   "grupo": "C",
+   "equipe": "AW Racing Team",
+   "pts": 88,
+   "pun": 0
+  },
+  {
+   "nome": "Gustavo Moura",
+   "grupo": "D",
+   "equipe": "Katchau Racing Team",
+   "pts": 75,
+   "pun": -5
+  },
+  {
+   "nome": "Brito",
+   "grupo": "D",
+   "equipe": "Retired Team F1",
+   "pts": 44,
+   "pun": -20
+  }
+ ],
+ "construtores": [
+  {
+   "equipe": "Old is Cool",
+   "pts": 848,
+   "pun": -21
+  },
+  {
+   "equipe": "Papaya & Green Racing",
+   "pts": 786,
+   "pun": -46
+  },
+  {
+   "equipe": "Katchau Racing Team",
+   "pts": 782,
+   "pun": -28
+  },
+  {
+   "equipe": "Retired Team F1",
+   "pts": 734,
+   "pun": -46
+  },
+  {
+   "equipe": "AW Racing Team",
+   "pts": 683,
+   "pun": -12
+  }
+ ],
+ "calendario": [
+  {
+   "n": 1,
+   "pista": "Austrália",
+   "data": "2026-03-08",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 2,
+   "pista": "China",
+   "data": "2026-03-15",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 3,
+   "pista": "Japão",
+   "data": "2026-03-29",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 4,
+   "pista": "Bahrein",
+   "data": "2026-04-12",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 5,
+   "pista": "Arábia Saudita",
+   "data": "2026-04-26",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 6,
+   "pista": "Las Vegas",
+   "data": "2026-05-17",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 7,
+   "pista": "Canadá",
+   "data": "2026-05-24",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 8,
+   "pista": "Mônaco",
+   "data": "2026-06-07",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 9,
+   "pista": "Espanha",
+   "data": "2026-06-14",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 10,
+   "pista": "Áustria",
+   "data": "2026-06-28",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 11,
+   "pista": "Grã-Bretanha",
+   "data": "2026-07-05",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 12,
+   "pista": "Bélgica",
+   "data": "2026-07-19",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 13,
+   "pista": "Hungria",
+   "data": "2026-07-26",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 14,
+   "pista": "Holanda",
+   "data": "2026-08-23",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 15,
+   "pista": "Madri",
+   "data": "2026-09-13",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 16,
+   "pista": "Itália",
+   "data": "2026-09-20",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 17,
+   "pista": "Azerbaijão",
+   "data": "2026-09-27",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 18,
+   "pista": "Singapura",
+   "data": "2026-10-18",
+   "hora": "21:30",
+   "tipos": [
+    "sprint"
+   ],
+   "status": "realizada"
+  },
+  {
+   "n": 19,
+   "pista": "Estados Unidos (Texas)",
+   "data": "2026-10-25",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "proxima"
+  },
+  {
+   "n": 20,
+   "pista": "México",
+   "data": "2026-11-01",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 21,
+   "pista": "Brasil",
+   "data": "2026-11-15",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 22,
+   "pista": "Miami",
+   "data": "2026-11-22",
+   "hora": "21:30",
+   "tipos": [
+    "cpd",
+    "sprint"
+   ],
+   "status": "futura",
+   "observacao": "Trocada com Las Vegas por causa de um bug no jogo."
+  },
+  {
+   "n": 23,
+   "pista": "Catar",
+   "data": "2026-11-29",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 24,
+   "pista": "Abu Dhabi",
+   "data": "2026-12-06",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura",
+   "observacao": "Última etapa da temporada, sem lastro."
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "id": "carreira2",
+ "nome": "Modo Carreira 2 (T20)",
+ "atualizado_em": "2026-09-10",
+ "encerrado": true,
+ "fonte_dados": "Formula Game Companion",
+ "pilotos": [
+  {
+   "nome": "Bruno Maia",
+   "pts": 189,
+   "pun": 0
+  },
+  {
+   "nome": "Leo Fernandes",
+   "pts": 146,
+   "pun": 0
+  },
+  {
+   "nome": "Marcos Paulo",
+   "pts": 122,
+   "pun": 0
+  },
+  {
+   "nome": "Marcelo",
+   "pts": 111,
+   "pun": 0
+  },
+  {
+   "nome": "Gabriel Arruda",
+   "pts": 103,
+   "pun": 0
+  },
+  {
+   "nome": "Renato",
+   "pts": 103,
+   "pun": 0
+  },
+  {
+   "nome": "Lucas Lolu",
+   "pts": 102,
+   "pun": 0
+  },
+  {
+   "nome": "Camilo",
+   "pts": 100,
+   "pun": 0
+  },
+  {
+   "nome": "Lucas Bueno",
+   "pts": 100,
+   "pun": 0
+  },
+  {
+   "nome": "Sandro Tsumiro",
+   "pts": 90,
+   "pun": 0
+  },
+  {
+   "nome": "Fabinho Luz",
+   "pts": 90,
+   "pun": 0
+  },
+  {
+   "nome": "Calebe Celio",
+   "pts": 82,
+   "pun": 0
+  },
+  {
+   "nome": "Pereira",
+   "pts": 76,
+   "pun": 0
+  },
+  {
+   "nome": "Leandro Manowar",
+   "pts": 71,
+   "pun": 0
+  },
+  {
+   "nome": "Menezes",
+   "pts": 54,
+   "pun": 0
+  },
+  {
+   "nome": "Ricardinho",
+   "pts": 51,
+   "pun": 0
+  },
+  {
+   "nome": "Rapha Fox",
+   "pts": 51,
+   "pun": 0
+  },
+  {
+   "nome": "Binho",
+   "pts": 39,
+   "pun": 0
+  },
+  {
+   "nome": "Marcelino",
+   "pts": 32,
+   "pun": 0
+  },
+  {
+   "nome": "Zannon",
+   "pts": 13,
+   "pun": 0
+  },
+  {
+   "nome": "Thiago Arengue",
+   "pts": 12,
+   "pun": 0
+  },
+  {
+   "nome": "Chrys",
+   "pts": 11,
+   "pun": 0
+  },
+  {
+   "nome": "Ivtr",
+   "pts": 7,
+   "pun": 0
+  },
+  {
+   "nome": "Kleene",
+   "pts": 0,
+   "pun": 0
+  }
+ ],
+ "construtores": [
+  {
+   "equipe": "Ferrari",
+   "pts": 324,
+   "pun": 0
+  },
+  {
+   "equipe": "Mercedes",
+   "pts": 274,
+   "pun": 0
+  },
+  {
+   "equipe": "Red Bull Racing",
+   "pts": 236,
+   "pun": 0
+  },
+  {
+   "equipe": "Cadillac",
+   "pts": 206,
+   "pun": 0
+  },
+  {
+   "equipe": "Racing Bulls",
+   "pts": 182,
+   "pun": 0
+  },
+  {
+   "equipe": "McLaren",
+   "pts": 138,
+   "pun": 0
+  },
+  {
+   "equipe": "Audi",
+   "pts": 127,
+   "pun": 0
+  },
+  {
+   "equipe": "Aston Martin",
+   "pts": 103,
+   "pun": 0
+  },
+  {
+   "equipe": "Williams",
+   "pts": 90,
+   "pun": 0
+  },
+  {
+   "equipe": "Haas F1 Team",
+   "pts": 57,
+   "pun": 0
+  },
+  {
+   "equipe": "Alpine",
+   "pts": 42,
+   "pun": 0
+  }
+ ],
+ "calendario": [
+  {
+   "n": 1,
+   "pista": "Espanha",
+   "data": "2026-07-23",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 2,
+   "pista": "Grã-Bretanha",
+   "data": "2026-07-30",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 3,
+   "pista": "Hungria",
+   "data": "2026-08-06",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 4,
+   "pista": "Áustria",
+   "data": "2026-08-13",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 5,
+   "pista": "Brasil",
+   "data": "2026-08-20",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 6,
+   "pista": "Países Baixos",
+   "data": "2026-08-27",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 7,
+   "pista": "Barcelona",
+   "data": "2026-09-03",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 8,
+   "pista": "Japão",
+   "data": "2026-09-10",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  }
+ ]
+}

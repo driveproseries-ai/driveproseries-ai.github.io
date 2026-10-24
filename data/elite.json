@@ -1,0 +1,373 @@
+{
+ "id": "elite",
+ "nome": "Mundial DPS Elite 2026",
+ "atualizado_em": "2026-10-23",
+ "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
+ "pilotos": [
+  {
+   "nome": "Daniel Requena",
+   "grupo": "A",
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 310,
+   "pun": 0
+  },
+  {
+   "nome": "Gustavo Ferreira",
+   "grupo": "A",
+   "equipe": "Fúria do Asfalto",
+   "pts": 267,
+   "pun": -6
+  },
+  {
+   "nome": "Matheus Gregório",
+   "grupo": "A",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 254,
+   "pun": -6
+  },
+  {
+   "nome": "Robinho",
+   "grupo": "D",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 228,
+   "pun": -6
+  },
+  {
+   "nome": "Jefferson Marchi",
+   "grupo": "A",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 226,
+   "pun": 0
+  },
+  {
+   "nome": "Thulio Mendes",
+   "grupo": "B",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 221,
+   "pun": 0
+  },
+  {
+   "nome": "Leo Oliveira",
+   "grupo": "C",
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 215,
+   "pun": 0
+  },
+  {
+   "nome": "Welk",
+   "grupo": "B",
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 206,
+   "pun": 0
+  },
+  {
+   "nome": "Diogo Marin",
+   "grupo": "C",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 201,
+   "pun": -4
+  },
+  {
+   "nome": "Bruno Fernandes",
+   "grupo": "C",
+   "equipe": "Simas Turbo",
+   "pts": 193,
+   "pun": -4
+  },
+  {
+   "nome": "Henrique Valente",
+   "grupo": "A",
+   "equipe": "Simas Turbo",
+   "pts": 191,
+   "pun": 0
+  },
+  {
+   "nome": "Marco Meireles",
+   "grupo": "D",
+   "equipe": "Simas Turbo",
+   "pts": 182,
+   "pun": 0
+  },
+  {
+   "nome": "Menezes",
+   "grupo": "D",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 181,
+   "pun": -10
+  },
+  {
+   "nome": "Gustavo Isoppo",
+   "grupo": "D",
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 179,
+   "pun": 0
+  },
+  {
+   "nome": "Rafa Almeida",
+   "grupo": "C",
+   "equipe": "Fúria do Asfalto",
+   "pts": 157,
+   "pun": -6
+  },
+  {
+   "nome": "Rafa Marques",
+   "grupo": "C",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 153,
+   "pun": -10
+  },
+  {
+   "nome": "Ricardo Garcia",
+   "grupo": "B",
+   "equipe": "Fúria do Asfalto",
+   "pts": 124,
+   "pun": -6
+  },
+  {
+   "nome": "Arthur Tuta",
+   "grupo": "B",
+   "equipe": "Simas Turbo",
+   "pts": 120,
+   "pun": 0
+  },
+  {
+   "nome": "Chrys",
+   "grupo": "B",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 66,
+   "pun": -6
+  },
+  {
+   "nome": "Gerson Bolha",
+   "grupo": "D",
+   "equipe": "Fúria do Asfalto",
+   "pts": 57,
+   "pun": -25
+  }
+ ],
+ "construtores": [
+  {
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 914,
+   "pun": 0
+  },
+  {
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 831,
+   "pun": -14
+  },
+  {
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 803,
+   "pun": -28
+  },
+  {
+   "equipe": "Simas Turbo",
+   "pts": 761,
+   "pun": -4
+  },
+  {
+   "equipe": "Fúria do Asfalto",
+   "pts": 574,
+   "pun": -43
+  }
+ ],
+ "calendario": [
+  {
+   "n": 1,
+   "pista": "Austrália",
+   "data": "2026-03-10",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 2,
+   "pista": "China",
+   "data": "2026-03-17",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 3,
+   "pista": "Japão",
+   "data": "2026-03-31",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 4,
+   "pista": "Bahrein",
+   "data": "2026-04-14",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 5,
+   "pista": "Arábia Saudita",
+   "data": "2026-04-21",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 6,
+   "pista": "Miami",
+   "data": "2026-05-05",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 7,
+   "pista": "Canadá",
+   "data": "2026-05-26",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 8,
+   "pista": "Mônaco",
+   "data": "2026-06-09",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 9,
+   "pista": "Espanha",
+   "data": "2026-06-16",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 10,
+   "pista": "Áustria",
+   "data": "2026-06-30",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 11,
+   "pista": "Grã-Bretanha",
+   "data": "2026-07-07",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 12,
+   "pista": "Bélgica",
+   "data": "2026-07-21",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 13,
+   "pista": "Hungria",
+   "data": "2026-07-28",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 14,
+   "pista": "Holanda",
+   "data": "2026-08-25",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 15,
+   "pista": "Itália",
+   "data": "2026-09-08",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 16,
+   "pista": "Madri",
+   "data": "2026-09-15",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 17,
+   "pista": "Azerbaijão",
+   "data": "2026-09-29",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 18,
+   "pista": "Singapura",
+   "data": "2026-10-13",
+   "hora": "21:00",
+   "tipos": [
+    "sprint",
+    "invertido"
+   ],
+   "status": "realizada"
+  },
+  {
+   "n": 19,
+   "pista": "Estados Unidos (Texas)",
+   "data": "2026-10-27",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "proxima"
+  },
+  {
+   "n": 20,
+   "pista": "México",
+   "data": "2026-11-03",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 21,
+   "pista": "Brasil",
+   "data": "2026-11-10",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 22,
+   "pista": "Las Vegas",
+   "data": "2026-11-24",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 23,
+   "pista": "Catar",
+   "data": "2026-12-01",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 24,
+   "pista": "Abu Dhabi",
+   "data": "2026-12-08",
+   "hora": "21:00",
+   "tipos": [],
+   "status": "futura",
+   "observacao": "Última etapa da temporada, sem lastro."
+  }
+ ]
+}
