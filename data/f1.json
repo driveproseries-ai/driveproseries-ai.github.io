@@ -1,110 +1,117 @@
 [
-  {
-    "data": "2026-10-25",
-    "titulo": "Antonelli crava a pole em Austin e pode ser campeão no domingo",
-    "resumo": "Kimi Antonelli, da Mercedes, fez 1:34.035 na classificação do GP dos Estados Unidos e largará na frente de Verstappen, com Hadjar, Leclerc e Hamilton na sequência. O italiano tem 102 pontos de vantagem sobre Russell e pode ser matematicamente campeão na corrida; Bortoleto ficou em 13º, mas pagará punição por troca de componentes do motor.",
-    "fonte": "F1Mania",
-    "url": "https://www.f1mania.net/f1/f1-antonelli-supera-verstappen-e-garante-pole-do-gp-dos-estados-unidos/"
-  },
-  {
-    "data": "2026-10-24",
-    "titulo": "Hamilton lidera o TL3 em Austin e Ferrari segue na frente; Bortoleto é 13º",
-    "resumo": "Lewis Hamilton foi o mais rápido no último treino livre do GP dos Estados Unidos, à frente de Verstappen e Leclerc, com os Mercedes de Antonelli e Russell logo atrás. Gabriel Bortoleto, da Audi, terminou em 13º e continua com a punição de 20 posições no grid por troca de componentes do motor.",
-    "fonte": "F1Mania",
-    "url": "https://www.f1mania.net/f1/f1-hamilton-lidera-tl3-nos-estados-unidos-bortoleto-termina-em-13o/"
-  },
-  {
-    "data": "2026-10-23",
-    "titulo": "Leclerc lidera o TL1 em Austin; Bortoleto fecha em oitavo",
-    "resumo": "A Ferrari mandou no primeiro treino livre do GP dos Estados Unidos: Charles Leclerc fez 1:36.052, com Max Verstappen a 84 milésimos e Lando Norris em terceiro. Hamilton foi sexto, o que colocou os dois carros vermelhos no top 6. Gabriel Bortoleto, da Audi, terminou em oitavo depois de uma volta anulada por limite de pista. A sessão teve 27°C no ar e 41°C no asfalto.",
-    "fonte": "F1Mania",
-    "url": "https://www.f1mania.net/f1/f1-leclerc-domina-e-lidera-primeiro-treino-livre-do-gp-dos-eua-bortoleto-fica-em-8o/",
-    "tabela": {
-      "titulo": "TL1 — top 10",
-      "colunas": [
-        "Pos",
-        "Piloto",
-        "Equipe",
-        "Melhor volta"
-      ],
-      "linhas": [
-        [
-          1,
-          "Charles Leclerc",
-          "Ferrari",
-          "1:36.052"
-        ],
-        [
-          2,
-          "Max Verstappen",
-          "Red Bull",
-          "1:36.136"
-        ],
-        [
-          3,
-          "Lando Norris",
-          "McLaren",
-          "1:36.297"
-        ],
-        [
-          4,
-          "George Russell",
-          "Mercedes",
-          "1:36.378"
-        ],
-        [
-          5,
-          "Kimi Antonelli",
-          "Mercedes",
-          "1:36.533"
-        ],
-        [
-          6,
-          "Lewis Hamilton",
-          "Ferrari",
-          "1:36.555"
-        ],
-        [
-          7,
-          "Oscar Piastri",
-          "McLaren",
-          "1:36.786"
-        ],
-        [
-          8,
-          "Gabriel Bortoleto",
-          "Audi",
-          "1:36.995"
-        ],
-        [
-          9,
-          "Arvid Lindblad",
-          "Racing Bulls",
-          "1:37.063"
-        ],
-        [
-          10,
-          "Liam Lawson",
-          "Racing Bulls",
-          "1:37.309"
-        ]
-      ],
-      "fonte": "Resultado completo no F1Mania",
-      "url": "https://www.f1mania.net/f1/f1-confira-o-resultado-completo-do-primeiro-treino-livre-do-gp-dos-estados-unidos/"
-    }
-  },
-  {
-    "data": "2026-10-23",
-    "titulo": "Bortoleto é 11º no TL2 e vai largar do fundo por troca de motor",
-    "resumo": "Charles Leclerc também foi o mais rápido no segundo treino livre em Austin. Bortoleto fez 1:36.832, a 1s541 do líder, e ficou em 11º, depois de ter tempos anulados por limite de pista. O brasileiro vai largar com 20 posições de punição por troca de motor.",
-    "fonte": "F1Mania",
-    "url": "https://www.f1mania.net/f1/f1-bortoleto-termina-em-11o-segundo-treino-livre-do-gp-dos-estados-unidos/"
-  },
-  {
-    "data": "2026-10-15",
-    "titulo": "Haas confirma Rafael Câmara como piloto de 2027",
-    "resumo": "O brasileiro Rafael Câmara, hoje líder da Fórmula 2 e campeão da F3 em 2025, será piloto da Haas em 2027, na vaga de Esteban Ocon. Ele faz parte da academia da Ferrari desde 2021 e foi avaliado pela equipe americana em um teste em Portimão, em agosto. O comunicado não confirma quem será seu companheiro de time.",
-    "fonte": "F1Mania",
-    "url": "https://www.f1mania.net/f1/f1-haas-confirma-rumores-e-anuncia-brasileiro-rafael-camara-para-2027/"
+ {
+  "data": "2026-10-25",
+  "titulo": "Antonelli vence em Austin, mas a decisão do título fica para o México",
+  "resumo": "Kimi Antonelli, da Mercedes, largou na pole e venceu o GP dos Estados Unidos, com Charles Leclerc em segundo e Max Verstappen em terceiro. Ele chega a 365 pontos, 123 à frente de George Russell, e pode confirmar o título no GP da Cidade do México, em 1º de novembro; Gabriel Bortoleto terminou em 13º com a Audi.",
+  "fonte": "Lance!",
+  "url": "https://www.lance.com.br/formula-1/kimi-antonelli-vence-gp-dos-eua-mas-titulo-fica-para-o-mexico-na-f1.html"
+ },
+ {
+  "data": "2026-10-25",
+  "titulo": "Antonelli crava a pole em Austin e pode ser campeão no domingo",
+  "resumo": "Kimi Antonelli, da Mercedes, fez 1:34.035 na classificação do GP dos Estados Unidos e largará na frente de Verstappen, com Hadjar, Leclerc e Hamilton na sequência. O italiano tem 102 pontos de vantagem sobre Russell e pode ser matematicamente campeão na corrida; Bortoleto ficou em 13º, mas pagará punição por troca de componentes do motor.",
+  "fonte": "F1Mania",
+  "url": "https://www.f1mania.net/f1/f1-antonelli-supera-verstappen-e-garante-pole-do-gp-dos-estados-unidos/"
+ },
+ {
+  "data": "2026-10-24",
+  "titulo": "Hamilton lidera o TL3 em Austin e Ferrari segue na frente; Bortoleto é 13º",
+  "resumo": "Lewis Hamilton foi o mais rápido no último treino livre do GP dos Estados Unidos, à frente de Verstappen e Leclerc, com os Mercedes de Antonelli e Russell logo atrás. Gabriel Bortoleto, da Audi, terminou em 13º e continua com a punição de 20 posições no grid por troca de componentes do motor.",
+  "fonte": "F1Mania",
+  "url": "https://www.f1mania.net/f1/f1-hamilton-lidera-tl3-nos-estados-unidos-bortoleto-termina-em-13o/"
+ },
+ {
+  "data": "2026-10-23",
+  "titulo": "Leclerc lidera o TL1 em Austin; Bortoleto fecha em oitavo",
+  "resumo": "A Ferrari mandou no primeiro treino livre do GP dos Estados Unidos: Charles Leclerc fez 1:36.052, com Max Verstappen a 84 milésimos e Lando Norris em terceiro. Hamilton foi sexto, o que colocou os dois carros vermelhos no top 6. Gabriel Bortoleto, da Audi, terminou em oitavo depois de uma volta anulada por limite de pista. A sessão teve 27°C no ar e 41°C no asfalto.",
+  "fonte": "F1Mania",
+  "url": "https://www.f1mania.net/f1/f1-leclerc-domina-e-lidera-primeiro-treino-livre-do-gp-dos-eua-bortoleto-fica-em-8o/",
+  "tabela": {
+   "titulo": "TL1 — top 10",
+   "colunas": [
+    "Pos",
+    "Piloto",
+    "Equipe",
+    "Melhor volta"
+   ],
+   "linhas": [
+    [
+     1,
+     "Charles Leclerc",
+     "Ferrari",
+     "1:36.052"
+    ],
+    [
+     2,
+     "Max Verstappen",
+     "Red Bull",
+     "1:36.136"
+    ],
+    [
+     3,
+     "Lando Norris",
+     "McLaren",
+     "1:36.297"
+    ],
+    [
+     4,
+     "George Russell",
+     "Mercedes",
+     "1:36.378"
+    ],
+    [
+     5,
+     "Kimi Antonelli",
+     "Mercedes",
+     "1:36.533"
+    ],
+    [
+     6,
+     "Lewis Hamilton",
+     "Ferrari",
+     "1:36.555"
+    ],
+    [
+     7,
+     "Oscar Piastri",
+     "McLaren",
+     "1:36.786"
+    ],
+    [
+     8,
+     "Gabriel Bortoleto",
+     "Audi",
+     "1:36.995"
+    ],
+    [
+     9,
+     "Arvid Lindblad",
+     "Racing Bulls",
+     "1:37.063"
+    ],
+    [
+     10,
+     "Liam Lawson",
+     "Racing Bulls",
+     "1:37.309"
+    ]
+   ],
+   "fonte": "Resultado completo no F1Mania",
+   "url": "https://www.f1mania.net/f1/f1-confira-o-resultado-completo-do-primeiro-treino-livre-do-gp-dos-estados-unidos/"
   }
+ },
+ {
+  "data": "2026-10-23",
+  "titulo": "Bortoleto é 11º no TL2 e vai largar do fundo por troca de motor",
+  "resumo": "Charles Leclerc também foi o mais rápido no segundo treino livre em Austin. Bortoleto fez 1:36.832, a 1s541 do líder, e ficou em 11º, depois de ter tempos anulados por limite de pista. O brasileiro vai largar com 20 posições de punição por troca de motor.",
+  "fonte": "F1Mania",
+  "url": "https://www.f1mania.net/f1/f1-bortoleto-termina-em-11o-segundo-treino-livre-do-gp-dos-estados-unidos/"
+ },
+ {
+  "data": "2026-10-15",
+  "titulo": "Haas confirma Rafael Câmara como piloto de 2027",
+  "resumo": "O brasileiro Rafael Câmara, hoje líder da Fórmula 2 e campeão da F3 em 2025, será piloto da Haas em 2027, na vaga de Esteban Ocon. Ele faz parte da academia da Ferrari desde 2021 e foi avaliado pela equipe americana em um teste em Portimão, em agosto. O comunicado não confirma quem será seu companheiro de time.",
+  "fonte": "F1Mania",
+  "url": "https://www.f1mania.net/f1/f1-haas-confirma-rumores-e-anuncia-brasileiro-rafael-camara-para-2027/"
+ }
 ]
