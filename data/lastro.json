@@ -1,7 +1,7 @@
 {
   "ativo": true,
   "temporada": "2026",
-  "atualizado_em": "2026-10-23",
+  "atualizado_em": "2026-10-25",
   "fonte": "tela de desempenho das equipes do jogo (EA), versão de 23/10/2026",
   "regra": "Os pilotos são ordenados pelos pontos do FGC (mais os pontos extras de lastro, quando houver), sem desconto de punições, e distribuídos 2 por carro: o líder no pior carro e o último no melhor. A Williams fica de fora, então são 10 carros e 20 pilotos.",
   "sem_lastro": [

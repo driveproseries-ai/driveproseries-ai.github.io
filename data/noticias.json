@@ -1,5 +1,114 @@
 [
  {
+  "id": "2026-10-25-mundial-texas",
+  "tipo": "corrida",
+  "campeonato": "mundial",
+  "data": "2026-10-25",
+  "autor": "Redação DPS",
+  "titulo": "Cleisson vence no Texas, e Gustavo Gallo sai do 18º lugar para o segundo",
+  "linha_fina": "Na etapa 19 do Mundial, Fabinho Luz larga na pole e fecha o pódio; Arthur Tuta é oitavo e segue líder, agora 46 pontos à frente.",
+  "corpo": [
+   "Cleisson venceu a etapa 19 do Mundial DPS 2026, no circuito dos Estados Unidos (Texas), na noite deste domingo. Ele largou em segundo, com a McLaren, e terminou à frente de Gustavo Gallo e Fabinho Luz.",
+   "O destaque da corrida veio do fundo do grid. Gustavo Gallo largou em 18º, último entre os que alinharam, e terminou em segundo, 16 posições acima. Ele também fez a volta mais rápida da prova (1:36.178) e foi eleito o piloto do dia.",
+   "Fabinho Luz largou na pole com a Aston Martin, o carro de menor desempenho pela distribuição do lastro, e garantiu o terceiro lugar. Marck Bauer foi o quarto. Lucas Bueno, que largou em 17º, completou o top 5.",
+   "Edy Santos, Renato TVR e Cesar Jones não foram classificados. André Paixão e Fabio RGP não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
+   "Arthur Tuta terminou em oitavo e segue na liderança, com 351 pontos. A vantagem sobre Fabinho Luz caiu de 53 para 46 pontos. Gabriel Arruda (282), Marcelo (274) e Marck Bauer (266) completam os cinco primeiros. Entre os construtores, a Old is Cool lidera com 913 pontos.",
+   "A próxima etapa é o GP do México, no domingo, 1º de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
+  ],
+  "resultado": [
+   {
+    "pos": "1",
+    "piloto": "Cleisson",
+    "equipe": "Old is Cool"
+   },
+   {
+    "pos": "2",
+    "piloto": "Gustavo Gallo",
+    "equipe": "Papaya & Green Racing"
+   },
+   {
+    "pos": "3",
+    "piloto": "Fabinho Luz",
+    "equipe": "AW Racing Team"
+   },
+   {
+    "pos": "4",
+    "piloto": "Marck Bauer",
+    "equipe": "Old is Cool"
+   },
+   {
+    "pos": "5",
+    "piloto": "Lucas Bueno",
+    "equipe": "Katchau Racing Team"
+   },
+   {
+    "pos": "6",
+    "piloto": "Gustavo Moura",
+    "equipe": "Katchau Racing Team"
+   },
+   {
+    "pos": "7",
+    "piloto": "Marcelo",
+    "equipe": "Retired Team F1"
+   },
+   {
+    "pos": "8",
+    "piloto": "Arthur Tuta",
+    "equipe": "Katchau Racing Team"
+   },
+   {
+    "pos": "9",
+    "piloto": "Gabriel Arruda",
+    "equipe": "Old is Cool"
+   },
+   {
+    "pos": "10",
+    "piloto": "Pereira",
+    "equipe": "Old is Cool"
+   },
+   {
+    "pos": "11",
+    "piloto": "Brito",
+    "equipe": "Retired Team F1"
+   },
+   {
+    "pos": "12",
+    "piloto": "Leo Fernandes",
+    "equipe": "Katchau Racing Team"
+   },
+   {
+    "pos": "13",
+    "piloto": "Marcos Paulo",
+    "equipe": "Papaya & Green Racing"
+   },
+   {
+    "pos": "14",
+    "piloto": "Jo Caiana",
+    "equipe": "Papaya & Green Racing"
+   },
+   {
+    "pos": "15",
+    "piloto": "Thiago Diniz",
+    "equipe": "Papaya & Green Racing"
+   },
+   {
+    "pos": "NC",
+    "piloto": "Edy Santos",
+    "equipe": "AW Racing Team"
+   },
+   {
+    "pos": "NC",
+    "piloto": "Renato TVR",
+    "equipe": "AW Racing Team"
+   },
+   {
+    "pos": "NC",
+    "piloto": "Cesar Jones",
+    "equipe": "Retired Team F1"
+   }
+  ]
+ },
+ {
   "id": "2026-10-23-mundial-texas-expectativa",
   "tipo": "expectativa",
   "campeonato": "mundial",

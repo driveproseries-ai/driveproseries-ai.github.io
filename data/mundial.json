@@ -1,29 +1,43 @@
 {
  "id": "mundial",
  "nome": "Mundial DPS 2026",
- "atualizado_em": "2026-10-23",
+ "atualizado_em": "2026-10-25",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
    "nome": "Arthur Tuta",
    "grupo": "A",
    "equipe": "Katchau Racing Team",
-   "pts": 338,
+   "pts": 351,
    "pun": 0
   },
   {
    "nome": "Fabinho Luz",
    "grupo": "A",
    "equipe": "AW Racing Team",
-   "pts": 285,
+   "pts": 305,
    "pun": 0
   },
   {
    "nome": "Gabriel Arruda",
    "grupo": "C",
    "equipe": "Old is Cool",
-   "pts": 270,
-   "pun": -6
+   "pts": 282,
+   "pun": -21
+  },
+  {
+   "nome": "Marcelo",
+   "grupo": "B",
+   "equipe": "Retired Team F1",
+   "pts": 274,
+   "pun": -16
+  },
+  {
+   "nome": "Marck Bauer",
+   "grupo": "A",
+   "equipe": "Old is Cool",
+   "pts": 266,
+   "pun": 0
   },
   {
    "nome": "Cesar Jones",
@@ -33,24 +47,10 @@
    "pun": 0
   },
   {
-   "nome": "Marcelo",
-   "grupo": "B",
-   "equipe": "Retired Team F1",
-   "pts": 260,
-   "pun": -16
-  },
-  {
-   "nome": "Marck Bauer",
-   "grupo": "A",
-   "equipe": "Old is Cool",
-   "pts": 249,
-   "pun": 0
-  },
-  {
    "nome": "Marcos Paulo",
    "grupo": "B",
    "equipe": "Papaya & Green Racing",
-   "pts": 227,
+   "pts": 235,
    "pun": -36
   },
   {
@@ -58,21 +58,49 @@
    "grupo": "A",
    "equipe": "Retired Team F1",
    "pts": 226,
-   "pun": -10
+   "pun": -16
   },
   {
    "nome": "Leo Fernandes",
    "grupo": "B",
    "equipe": "Katchau Racing Team",
-   "pts": 217,
+   "pts": 226,
    "pun": -23
   },
   {
    "nome": "Thiago Diniz",
    "grupo": "D",
    "equipe": "Papaya & Green Racing",
-   "pts": 200,
+   "pts": 206,
    "pun": 0
+  },
+  {
+   "nome": "Gustavo Gallo",
+   "grupo": "A",
+   "equipe": "Papaya & Green Racing",
+   "pts": 204,
+   "pun": -10
+  },
+  {
+   "nome": "Pereira",
+   "grupo": "D",
+   "equipe": "Old is Cool",
+   "pts": 202,
+   "pun": -5
+  },
+  {
+   "nome": "Cleisson",
+   "grupo": "B",
+   "equipe": "Old is Cool",
+   "pts": 192,
+   "pun": -10
+  },
+  {
+   "nome": "Lucas Bueno",
+   "grupo": "C",
+   "equipe": "Katchau Racing Team",
+   "pts": 191,
+   "pun": -10
   },
   {
    "nome": "Renato TVR",
@@ -82,39 +110,11 @@
    "pun": -12
   },
   {
-   "nome": "Pereira",
-   "grupo": "D",
-   "equipe": "Old is Cool",
-   "pts": 191,
-   "pun": -5
-  },
-  {
    "nome": "Jo Caiana",
    "grupo": "C",
    "equipe": "Papaya & Green Racing",
-   "pts": 184,
+   "pts": 191,
    "pun": 0
-  },
-  {
-   "nome": "Gustavo Gallo",
-   "grupo": "A",
-   "equipe": "Papaya & Green Racing",
-   "pts": 182,
-   "pun": -10
-  },
-  {
-   "nome": "Lucas Bueno",
-   "grupo": "C",
-   "equipe": "Katchau Racing Team",
-   "pts": 175,
-   "pun": 0
-  },
-  {
-   "nome": "Cleisson",
-   "grupo": "B",
-   "equipe": "Old is Cool",
-   "pts": 167,
-   "pun": -10
   },
   {
    "nome": "Fabio RGP",
@@ -124,52 +124,52 @@
    "pun": 0
   },
   {
+   "nome": "Gustavo Moura",
+   "grupo": "D",
+   "equipe": "Katchau Racing Team",
+   "pts": 90,
+   "pun": -15
+  },
+  {
    "nome": "Edy Santos",
    "grupo": "C",
    "equipe": "AW Racing Team",
    "pts": 88,
-   "pun": 0
-  },
-  {
-   "nome": "Gustavo Moura",
-   "grupo": "D",
-   "equipe": "Katchau Racing Team",
-   "pts": 75,
-   "pun": -5
+   "pun": -15
   },
   {
    "nome": "Brito",
    "grupo": "D",
    "equipe": "Retired Team F1",
-   "pts": 44,
+   "pts": 54,
    "pun": -20
   }
  ],
  "construtores": [
   {
    "equipe": "Old is Cool",
-   "pts": 848,
-   "pun": -21
-  },
-  {
-   "equipe": "Papaya & Green Racing",
-   "pts": 786,
-   "pun": -46
+   "pts": 913,
+   "pun": -36
   },
   {
    "equipe": "Katchau Racing Team",
-   "pts": 782,
-   "pun": -28
+   "pts": 835,
+   "pun": -48
   },
   {
-   "equipe": "Retired Team F1",
-   "pts": 734,
+   "equipe": "Papaya & Green Racing",
+   "pts": 829,
    "pun": -46
   },
   {
+   "equipe": "Retired Team F1",
+   "pts": 758,
+   "pun": -52
+  },
+  {
    "equipe": "AW Racing Team",
-   "pts": 683,
-   "pun": -27
+   "pts": 688,
+   "pun": -12
   }
  ],
  "calendario": [
@@ -325,22 +325,26 @@
    "data": "2026-10-25",
    "hora": "21:30",
    "tipos": [],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 20,
    "pista": "México",
    "data": "2026-11-01",
    "hora": "21:30",
-   "tipos": [],
-   "status": "futura"
+   "tipos": [
+    "cpd"
+   ],
+   "status": "proxima"
   },
   {
    "n": 21,
    "pista": "Brasil",
    "data": "2026-11-15",
    "hora": "21:30",
-   "tipos": [],
+   "tipos": [
+    "cpd"
+   ],
    "status": "futura"
   },
   {
@@ -349,8 +353,8 @@
    "data": "2026-11-22",
    "hora": "21:30",
    "tipos": [
-    "cpd",
-    "sprint"
+    "sprint",
+    "cpd"
    ],
    "status": "futura",
    "observacao": "Trocada com Las Vegas por causa de um bug no jogo."
@@ -360,7 +364,9 @@
    "pista": "Catar",
    "data": "2026-11-29",
    "hora": "21:30",
-   "tipos": [],
+   "tipos": [
+    "surpresa"
+   ],
    "status": "futura"
   },
   {
@@ -368,7 +374,10 @@
    "pista": "Abu Dhabi",
    "data": "2026-12-06",
    "hora": "21:30",
-   "tipos": [],
+   "tipos": [
+    "cpd",
+    "desempenho_igual"
+   ],
    "status": "futura",
    "observacao": "Última etapa da temporada, sem lastro."
   }
