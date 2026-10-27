@@ -23,6 +23,9 @@ Casos já tratados ficam no arquivo de estado (seção 6). Nunca analisar o mesm
 
 **Atraso e fila:** se a tarefa não rodou (limite de uso da semana, falha) ou há vários casos juntos, trate todos os pendentes, do mais antigo ao mais novo, assim que houver capacidade. Nada se perde: os prazos contam pelas datas, e não pela hora em que a análise rodou. O prazo de 24 h do pedido (12.1) usa o campo "Enviado em" do .txt contra a data da etapa; o prazo de 5 dias da defesa conta a partir da data da etapa. Se a tarefa tiver pouca capacidade, faça primeiro a triagem de todos os casos (estado + aviso ao usuário de que há casos aguardando) e depois a análise completa de um caso por vez.
 
+**Mensagem pronta para o piloto acusado (WhatsApp, pedido do usuário em 27/10/2026):** além do aviso de defesa, sempre incluir os dados para ele achar o próprio vídeo: etapa (nº e pista), grid, volta (ou Qualy/Sprint), quem o acusa e a descrição do incidente (relato da acusação, em 1-2 frases, sem link nem imagem do vídeo), o prazo da defesa e como enviar (pedido.html, tipo Defesa; vídeo do próprio onboard, tela inteira, horizontal, sem narração; ou marcar que não gravou). Modelo:
+"Olá, <piloto>! O <acusador> abriu um pedido de análise contra você. Etapa <n> (<pista>), Grid <grid>, volta: <volta>. Relato: <descrição>. Envie sua defesa com o vídeo desse momento (seu onboard) em pedido.html até <prazo>. Sem defesa no prazo, vale o item 12.8 (−5 pts)."
+
 ## 3. Como analisar
 1. Conferir os vídeos (12.3, 12.5): do próprio piloto, tela inteira, horizontal, sem narração. Registrar problemas.
 2. Extrair quadros com ffmpeg: primeiro uma folha de contato (1–2 quadros por segundo) para achar o contato, depois quadros a 10–15 fps ao redor dele. Os dois onboards precisam ser sincronizados (usar o relógio/volta, as leituras de velocidade e a distância dos carros no HUD) antes de falar de quem estava à frente.
