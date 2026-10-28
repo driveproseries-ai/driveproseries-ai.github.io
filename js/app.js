@@ -69,10 +69,11 @@
     var demo = DEMO ? '<div class="demo-aviso">Modo demonstração: textos, notícias e estatísticas desta visualização são de exemplo. <a href="?demo=0" style="color:#fff">Sair</a></div>' : "";
     $("#topo").innerHTML = demo + '<header class="topo"><div class="wrap"><a class="marca" href="index.html">DPS<span>.</span>Portal</a><nav class="menu" aria-label="Principal">' + nav + "</nav></div></header>" + plantao;
   }
+  var IG = '<svg class="ig-ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>';
   function montarRodape() {
     var s = S.site, links = [];
     if (s.youtube) links.push('<a href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube da DPS</a>');
-    if (s.instagram) links.push('<a href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
+    if (s.instagram) links.push('<a class="ig" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener" aria-label="Instagram da DPS">' + IG + "Instagram</a>");
     $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
   }
   function contador() {
@@ -173,13 +174,11 @@
     document.body.appendChild(b);
   }
   function anuncios() {
-    var a = adsCfg(); if (!a) return;
-    if (ADS_PAGES[PAGE]) {
-      var app = $("#app .wrap");
-      if (app) {
-        if (PAGE === "home") { var secs = app.querySelectorAll(".sec"); if (secs[2]) secs[2].insertAdjacentHTML("beforebegin", slotAnuncio(a, "meio")); }
-        app.insertAdjacentHTML("beforeend", slotAnuncio(a, "fim"));
-      }
+    var a = adsCfg(); if (!a || !ADS_PAGES[PAGE]) return; /* só nas páginas de conteúdo: nada em formulários */
+    var app = $("#app .wrap"), sl = a.slots || {};
+    if (app) { /* blocos manuais só quando o ID do bloco existe; sem ID valem os anúncios automáticos do AdSense */
+      if (PAGE === "home" && sl.meio) { var secs = app.querySelectorAll(".sec"); if (secs[2]) secs[2].insertAdjacentHTML("beforebegin", slotAnuncio(a, "meio")); }
+      if (sl.fim) app.insertAdjacentHTML("beforeend", slotAnuncio(a, "fim"));
     }
     var e = escolhaCookies();
     if (e) iniciarAds(a, e === "sim"); else avisoCookies(a);
@@ -598,7 +597,7 @@
       var s = S.site, canais = [];
       if (s.whatsapp) canais.push('<a class="botao" href="' + esc(safeUrl(s.whatsapp)) + '" rel="noopener">WhatsApp</a>');
       if (s.discord) canais.push('<a class="botao" href="' + esc(safeUrl(s.discord)) + '" rel="noopener">Discord</a>');
-      if (s.instagram) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
+      if (s.instagram) canais.push('<a class="botao claro ig" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">' + IG + "Instagram</a>");
       if (s.youtube) canais.push('<a class="botao claro" href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube</a>');
       var form = (s.formspree_id || s.formsubmit)
         ? '<form class="form" id="f" novalidate><label>Assunto<select name="assunto"><option>Mundiais DPS 2027: quero participar</option><option>Quero correr na DPS</option><option>Parceria ou patrocínio</option><option>Dúvida sobre os campeonatos</option><option>Outro assunto</option></select></label><label>Seu nome<input name="nome" required autocomplete="name"></label><label>Seu ID no jogo<input name="id_jogo" autocomplete="off"><span class="dica">PSN, Xbox ou o nome que aparece no F1 25.</span></label><label>Plataforma<select name="plataforma"><option>PlayStation</option><option>Xbox</option><option>PC</option></select></label><label>E-mail ou WhatsApp para retorno<input name="retorno" required></label><label>Mensagem<textarea name="mensagem" rows="5" required></textarea><span class="dica">Se quer correr, conte seu nível e há quanto tempo joga online.</span></label><input class="oculto" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"><div><button class="botao" type="submit">Enviar mensagem</button></div><div id="msg" role="status"></div></form>'

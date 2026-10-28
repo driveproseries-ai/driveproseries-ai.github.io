@@ -229,3 +229,5 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .texto ul{padding-left:20px}
 .cookies .botao{background:var(--signal);color:var(--ink)}
 .cookies .botao.claro{background:#fff;color:var(--ink)}
+.ig{display:inline-flex;align-items:center;gap:6px}
+.ig-ico{flex:none}

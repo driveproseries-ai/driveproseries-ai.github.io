@@ -1,238 +1,256 @@
 [
- {
-  "id": "2026-10-27-elite-texas",
-  "tipo": "corrida",
-  "campeonato": "elite",
-  "data": "2026-10-27",
-  "autor": "Redação DPS",
-  "titulo": "Menezes vence no Texas com a Red Bull e lidera dobradinha da Myeggsleft",
-  "linha_fina": "Na etapa 19 do Elite, Jefferson Marchi larga na pole e é segundo; Matheus Gregório sai de 15º para quinto, e Daniel Requena segue líder com 41 pontos de vantagem.",
-  "corpo": [
-   "Menezes venceu a etapa 19 do Mundial DPS Elite 2026, no circuito dos Estados Unidos (Texas), na noite desta terça-feira. Ele largou em sexto, com a Red Bull, e terminou à frente de Jefferson Marchi e Gustavo Isoppo. A Myeggsleft Racing Team fez a dobradinha.",
-   "Jefferson Marchi largou na pole (1:32.580) com a Racing Bulls e cruzou em segundo. Gustavo Isoppo, de McLaren, saiu do quarto lugar do grid e completou o pódio. Gustavo Ferreira foi o quarto.",
-   "O destaque da prova veio do fundo do grid: Matheus Gregório largou em 15º, com a Cadillac, um dos carros de menor desempenho pelo lastro, e terminou em quinto, dez posições acima. Ele foi eleito o piloto do dia. Daniel Requena, líder do campeonato e dono da Aston Martin, saiu em segundo e terminou em sexto.",
-   "Ricardo Garcia, que largou em terceiro, abandonou depois de 36 das 56 voltas, mas ficou com a volta mais rápida da corrida (1:37.376). Leo Fernandes correu como reserva da Simas Turbo e foi o 13º. Meirelles, Rafa Almeida, Rafa Marques, Arthur Tuta, Chrys e Gerson Bolha não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
-   "A punição de 6 pontos a Bruno Fernandes, pelo incidente com Jefferson Marchi em Singapura, já aparece na classificação por grupos e na de construtores.",
-   "Daniel Requena segue na liderança, com 325 pontos. A vantagem sobre Gustavo Ferreira caiu de 43 para 41 pontos. Matheus Gregório (270), Jefferson Marchi (248) e Robinho (238) completam os cinco primeiros. Entre os construtores, a DPS - Drama, Punição e Sofrimento lidera com 974 pontos. A próxima etapa é o GP do México, na terça-feira, 3 de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
-  ],
-  "resultado": [
-   {
-    "pos": "1",
-    "piloto": "Menezes",
-    "equipe": "Myeggsleft Racing Team"
-   },
-   {
-    "pos": "2",
-    "piloto": "Jefferson Marchi",
-    "equipe": "Myeggsleft Racing Team"
-   },
-   {
-    "pos": "3",
-    "piloto": "Gustavo Isoppo",
-    "equipe": "DPS - Drama, Punição e Sofrimento"
-   },
-   {
-    "pos": "4",
-    "piloto": "Gustavo Ferreira",
-    "equipe": "Fúria do Asfalto"
-   },
-   {
-    "pos": "5",
-    "piloto": "Matheus Gregório",
-    "equipe": "Papayas Verdes F1 Team"
-   },
-   {
-    "pos": "6",
-    "piloto": "Daniel Requena",
-    "equipe": "DPS - Drama, Punição e Sofrimento"
-   },
-   {
-    "pos": "7",
-    "piloto": "Welk",
-    "equipe": "DPS - Drama, Punição e Sofrimento"
-   },
-   {
-    "pos": "8",
-    "piloto": "Thulio Mendes",
-    "equipe": "Myeggsleft Racing Team"
-   },
-   {
-    "pos": "9",
-    "piloto": "Diogo Marin",
-    "equipe": "Myeggsleft Racing Team"
-   },
-   {
-    "pos": "10",
-    "piloto": "Leo Oliveira",
-    "equipe": "DPS - Drama, Punição e Sofrimento"
-   },
-   {
-    "pos": "11",
-    "piloto": "Robinho",
-    "equipe": "Papayas Verdes F1 Team"
-   },
-   {
-    "pos": "12",
-    "piloto": "Bruno Fernandes",
-    "equipe": "Simas Turbo"
-   },
-   {
-    "pos": "13",
-    "piloto": "Leo Fernandes (reserva)",
-    "equipe": "Simas Turbo"
-   },
-   {
-    "pos": "14",
-    "piloto": "Henrique Valente",
-    "equipe": "Simas Turbo"
-   },
-   {
-    "pos": "NC",
-    "piloto": "Ricardo Garcia",
-    "equipe": "Fúria do Asfalto"
-   }
-  ]
- },
- {
-  "id": "2026-10-25-mundial-texas",
-  "tipo": "corrida",
-  "campeonato": "mundial",
-  "data": "2026-10-25",
-  "autor": "Redação DPS",
-  "titulo": "Cleisson vence no Texas, e Gustavo Gallo sai do 18º lugar para o segundo",
-  "linha_fina": "Na etapa 19 do Mundial, Fabinho Luz larga na pole e fecha o pódio; Arthur Tuta é oitavo e segue líder, agora 46 pontos à frente.",
-  "corpo": [
-   "Cleisson venceu a etapa 19 do Mundial DPS 2026, no circuito dos Estados Unidos (Texas), na noite deste domingo. Ele largou em segundo, com a McLaren, e terminou à frente de Gustavo Gallo e Fabinho Luz.",
-   "O destaque da corrida veio do fundo do grid. Gustavo Gallo largou em 18º, último entre os que alinharam, e terminou em segundo, 16 posições acima. Ele também fez a volta mais rápida da prova (1:36.178) e foi eleito o piloto do dia.",
-   "Fabinho Luz largou na pole com a Aston Martin, o carro de menor desempenho pela distribuição do lastro, e garantiu o terceiro lugar. Marck Bauer foi o quarto. Lucas Bueno, que largou em 17º, completou o top 5.",
-   "Edy Santos, Renato TVR e Cesar Jones não foram classificados. André Paixão e Fabio RGP não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
-   "Arthur Tuta terminou em oitavo e segue na liderança, com 351 pontos. A vantagem sobre Fabinho Luz caiu de 53 para 46 pontos. Gabriel Arruda (282), Marcelo (274) e Marck Bauer (266) completam os cinco primeiros. Entre os construtores, a Old is Cool lidera com 913 pontos.",
-   "A próxima etapa é o GP do México, no domingo, 1º de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
-  ],
-  "resultado": [
-   {
-    "pos": "1",
-    "piloto": "Cleisson",
-    "equipe": "Old is Cool"
-   },
-   {
-    "pos": "2",
-    "piloto": "Gustavo Gallo",
-    "equipe": "Papaya & Green Racing"
-   },
-   {
-    "pos": "3",
-    "piloto": "Fabinho Luz",
-    "equipe": "AW Racing Team"
-   },
-   {
-    "pos": "4",
-    "piloto": "Marck Bauer",
-    "equipe": "Old is Cool"
-   },
-   {
-    "pos": "5",
-    "piloto": "Lucas Bueno",
-    "equipe": "Katchau Racing Team"
-   },
-   {
-    "pos": "6",
-    "piloto": "Gustavo Moura",
-    "equipe": "Katchau Racing Team"
-   },
-   {
-    "pos": "7",
-    "piloto": "Marcelo",
-    "equipe": "Retired Team F1"
-   },
-   {
-    "pos": "8",
-    "piloto": "Arthur Tuta",
-    "equipe": "Katchau Racing Team"
-   },
-   {
-    "pos": "9",
-    "piloto": "Gabriel Arruda",
-    "equipe": "Old is Cool"
-   },
-   {
-    "pos": "10",
-    "piloto": "Pereira",
-    "equipe": "Old is Cool"
-   },
-   {
-    "pos": "11",
-    "piloto": "Brito",
-    "equipe": "Retired Team F1"
-   },
-   {
-    "pos": "12",
-    "piloto": "Leo Fernandes",
-    "equipe": "Katchau Racing Team"
-   },
-   {
-    "pos": "13",
-    "piloto": "Marcos Paulo",
-    "equipe": "Papaya & Green Racing"
-   },
-   {
-    "pos": "14",
-    "piloto": "Jo Caiana",
-    "equipe": "Papaya & Green Racing"
-   },
-   {
-    "pos": "15",
-    "piloto": "Thiago Diniz",
-    "equipe": "Papaya & Green Racing"
-   },
-   {
-    "pos": "NC",
-    "piloto": "Edy Santos",
-    "equipe": "AW Racing Team"
-   },
-   {
-    "pos": "NC",
-    "piloto": "Renato TVR",
-    "equipe": "AW Racing Team"
-   },
-   {
-    "pos": "NC",
-    "piloto": "Cesar Jones",
-    "equipe": "Retired Team F1"
-   }
-  ]
- },
- {
-  "id": "2026-10-23-mundial-texas-expectativa",
-  "tipo": "expectativa",
-  "campeonato": "mundial",
-  "data": "2026-10-23",
-  "autor": "Redação DPS",
-  "titulo": "Tuta chega ao Texas com 53 pontos de vantagem, mas a reta final do Mundial está aberta",
-  "linha_fina": "Domingo, às 21h30, começa a sequência de seis etapas que decide o campeonato; o circuito já teve três vencedores diferentes na história da liga.",
-  "corpo": [
-   "A DPS volta à pista neste domingo, 25 de outubro, às 21h30, para a etapa 19 do Mundial, no circuito dos Estados Unidos (Texas). Faltam seis corridas, contando a de domingo, e o campeonato chega a essa fase com um líder claro, mas sem nada decidido.",
-   "Arthur Tuta lidera com 338 pontos, 53 à frente de Fabinho Luz (285). Gabriel Arruda é o terceiro, com 270, seguido por Cesar Jones (262) e Marcelo (260). Pela classificação do FGC, a briga pelo pódio da temporada reúne cinco pilotos separados por menos de 80 pontos.",
-   "O ritmo recente mostra um campeonato pulverizado. Na última etapa, em Singapura, Renato TVR saiu do 16º lugar no grid e venceu, à frente de Gustavo Gallo e Cesar Jones. Antes disso, Lucas Bueno ganhou no Azerbaijão e Marcelo, na Itália. Marcelo e Arthur Tuta são os que mais venceram em 2026, com três vitórias cada.",
-   "Na pista do Texas, o histórico da liga não aponta um dono: Gustavo Zanon venceu em 2024, Tiago Costa em 2025 no Mundial, e Arthur Tuta ganhou a prova do Elite em 2025."
-  ],
-  "resultado": []
- },
- {
-  "id": "2026-10-23-elite-texas-expectativa",
-  "tipo": "expectativa",
-  "campeonato": "elite",
-  "data": "2026-10-23",
-  "autor": "Redação DPS",
-  "titulo": "Requena abre 43 pontos no Elite e encara o Texas como vice-campeão de Singapura",
-  "linha_fina": "Terça-feira, às 21h, a elite da DPS disputa a etapa 19; Gustavo Ferreira e Matheus Gregório correm por fora na perseguição.",
-  "corpo": [
-   "O Mundial DPS Elite chega à etapa 19 na terça-feira, 27 de outubro, às 21h, no circuito dos Estados Unidos (Texas). Restam seis corridas, contando a do Texas, e a tabela está mais apertada do que a diferença no topo sugere.",
-   "Daniel Requena lidera com 310 pontos, 43 à frente de Gustavo Ferreira (267). Matheus Gregório aparece em terceiro, com 254, seguido por Robinho (228) e Jefferson Marchi (226). Requena, que venceu três etapas em 2026, é o piloto com mais vitórias do campeonato.",
-   "Em Singapura, na última etapa, Menezes venceu, com Requena em segundo e Robinho em terceiro. Requena subiu ao pódio também no Azerbaijão e em Madri, o que ajuda a explicar a regularidade que o mantém na frente.",
-   "Entre os construtores, a DPS - Drama, Punição e Sofrimento tem 914 pontos, seguida por Myeggsleft Racing Team (831) e Papayas Verdes F1 Team (803).",
-   "A pista tem lembrança boa para quem corre no Elite: Arthur Tuta venceu aqui em 2025, e foi Leo Oliveira quem terminou em segundo. As punições seguem fora da conta da classificação geral e só entram nos grupos e nos construtores, até o desconto final do campeonato."
-  ],
-  "resultado": []
- }
+  {
+    "id": "2026-10-28-opiniao-automobilismo-virtual",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-10-28",
+    "autor": "Redação DPS",
+    "titulo": "Paixão no grid: por que o automobilismo virtual sobrevive, apesar de tudo",
+    "linha_fina": "Ligas surgem e somem, pilotos largam o volante por vários motivos, mas quem fica há anos tem em comum o amor por correr.",
+    "corpo": [
+      "O automobilismo virtual brasileiro, em especial o de F1, nunca teve tantas ligas. Há campeonatos para todos os gostos: de turmas de amigos a ligas organizadas, com regulamento, transmissão e tabela pública. Mas quem acompanha o meio sabe que muitas nascem empolgadas e desaparecem em poucos meses.",
+      "A conta é simples: manter uma liga dá trabalho. Alguém precisa montar o regulamento, abrir a sala, analisar incidentes, atualizar as tabelas, lidar com o calendário e, quase sempre, fazer tudo isso de graça e nas horas vagas. Sem patrocínio, sem estrutura e, muitas vezes, sem reconhecimento, o cansaço de quem organiza pesa tanto quanto o de quem pilota.",
+      "Do lado dos pilotos, os motivos para parar são conhecidos de todo mundo no grid. A saúde cobra: dores nas costas, no pescoço, nos punhos e na vista depois de horas no simulador. Faltam recursos: volante, pedais, computador ou console e internet estável custam caro, e nem todo mundo consegue renovar o equipamento. Falta tempo: trabalho, estudo e família disputam a mesma noite de corrida. E há o jogo, que de vez em quando insiste em atrapalhar com bug, queda de conexão e lobby que não monta.",
+      "Some a isso o estresse de cada etapa. Uma largada mal executada, um toque injusto, uma punição que parece exagerada ou uma sequência de corridas sem resultado bastam para o piloto se perguntar se vale a pena continuar. Muita gente se faz essa pergunta e, mesmo assim, volta na etapa seguinte.",
+      "É aí que aparece o que une todo mundo no automobilismo virtual: a paixão por correr. Quem se mantém por anos não faz isso por prêmio nem por fama. Faz porque gosta da largada, mesmo virtual, da disputa roda a roda, da evolução volta a volta e da amizade que se cria dentro e fora da pista. Para muitos, a corrida da semana é o ponto alto da rotina.",
+      "Por isso, as ligas que sobrevivem têm uma lição em comum: ninguém se sustenta sozinho. Dividir experiência, trocar pilotos e ideias, apoiar eventos uns dos outros e deixar a rivalidade apenas para a pista fortalece o meio inteiro. Cada liga que fecha é uma turma a menos de gente apaixonada por corrida, e isso não ajuda ninguém.",
+      "Na DPS, a convicção é a mesma: o grid é maior do que qualquer campeonato. Quem corre há anos, quem está chegando agora e quem está pensando em voltar tem um lugar nessa história. Se você é piloto ou organiza uma liga, converse com a gente pelo Fale conosco ou siga a DPS no Instagram, @driveproseries. O automobilismo virtual só cresce se for construído em conjunto."
+    ]
+  },
+  {
+    "id": "2026-10-27-elite-texas",
+    "tipo": "corrida",
+    "campeonato": "elite",
+    "data": "2026-10-27",
+    "autor": "Redação DPS",
+    "titulo": "Menezes vence no Texas com a Red Bull e lidera dobradinha da Myeggsleft",
+    "linha_fina": "Na etapa 19 do Elite, Jefferson Marchi larga na pole e é segundo; Matheus Gregório sai de 15º para quinto, e Daniel Requena segue líder com 41 pontos de vantagem.",
+    "corpo": [
+      "Menezes venceu a etapa 19 do Mundial DPS Elite 2026, no circuito dos Estados Unidos (Texas), na noite desta terça-feira. Ele largou em sexto, com a Red Bull, e terminou à frente de Jefferson Marchi e Gustavo Isoppo. A Myeggsleft Racing Team fez a dobradinha.",
+      "Jefferson Marchi largou na pole (1:32.580) com a Racing Bulls e cruzou em segundo. Gustavo Isoppo, de McLaren, saiu do quarto lugar do grid e completou o pódio. Gustavo Ferreira foi o quarto.",
+      "O destaque da prova veio do fundo do grid: Matheus Gregório largou em 15º, com a Cadillac, um dos carros de menor desempenho pelo lastro, e terminou em quinto, dez posições acima. Ele foi eleito o piloto do dia. Daniel Requena, líder do campeonato e dono da Aston Martin, saiu em segundo e terminou em sexto.",
+      "Ricardo Garcia, que largou em terceiro, abandonou depois de 36 das 56 voltas, mas ficou com a volta mais rápida da corrida (1:37.376). Leo Fernandes correu como reserva da Simas Turbo e foi o 13º. Meirelles, Rafa Almeida, Rafa Marques, Arthur Tuta, Chrys e Gerson Bolha não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
+      "A punição de 6 pontos a Bruno Fernandes, pelo incidente com Jefferson Marchi em Singapura, já aparece na classificação por grupos e na de construtores.",
+      "Daniel Requena segue na liderança, com 325 pontos. A vantagem sobre Gustavo Ferreira caiu de 43 para 41 pontos. Matheus Gregório (270), Jefferson Marchi (248) e Robinho (238) completam os cinco primeiros. Entre os construtores, a DPS - Drama, Punição e Sofrimento lidera com 974 pontos. A próxima etapa é o GP do México, na terça-feira, 3 de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Menezes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "2",
+        "piloto": "Jefferson Marchi",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "3",
+        "piloto": "Gustavo Isoppo",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "4",
+        "piloto": "Gustavo Ferreira",
+        "equipe": "Fúria do Asfalto"
+      },
+      {
+        "pos": "5",
+        "piloto": "Matheus Gregório",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "6",
+        "piloto": "Daniel Requena",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "7",
+        "piloto": "Welk",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "8",
+        "piloto": "Thulio Mendes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "9",
+        "piloto": "Diogo Marin",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "10",
+        "piloto": "Leo Oliveira",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "11",
+        "piloto": "Robinho",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "12",
+        "piloto": "Bruno Fernandes",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "13",
+        "piloto": "Leo Fernandes (reserva)",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "14",
+        "piloto": "Henrique Valente",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Ricardo Garcia",
+        "equipe": "Fúria do Asfalto"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-mundial-texas",
+    "tipo": "corrida",
+    "campeonato": "mundial",
+    "data": "2026-10-25",
+    "autor": "Redação DPS",
+    "titulo": "Cleisson vence no Texas, e Gustavo Gallo sai do 18º lugar para o segundo",
+    "linha_fina": "Na etapa 19 do Mundial, Fabinho Luz larga na pole e fecha o pódio; Arthur Tuta é oitavo e segue líder, agora 46 pontos à frente.",
+    "corpo": [
+      "Cleisson venceu a etapa 19 do Mundial DPS 2026, no circuito dos Estados Unidos (Texas), na noite deste domingo. Ele largou em segundo, com a McLaren, e terminou à frente de Gustavo Gallo e Fabinho Luz.",
+      "O destaque da corrida veio do fundo do grid. Gustavo Gallo largou em 18º, último entre os que alinharam, e terminou em segundo, 16 posições acima. Ele também fez a volta mais rápida da prova (1:36.178) e foi eleito o piloto do dia.",
+      "Fabinho Luz largou na pole com a Aston Martin, o carro de menor desempenho pela distribuição do lastro, e garantiu o terceiro lugar. Marck Bauer foi o quarto. Lucas Bueno, que largou em 17º, completou o top 5.",
+      "Edy Santos, Renato TVR e Cesar Jones não foram classificados. André Paixão e Fabio RGP não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
+      "Arthur Tuta terminou em oitavo e segue na liderança, com 351 pontos. A vantagem sobre Fabinho Luz caiu de 53 para 46 pontos. Gabriel Arruda (282), Marcelo (274) e Marck Bauer (266) completam os cinco primeiros. Entre os construtores, a Old is Cool lidera com 913 pontos.",
+      "A próxima etapa é o GP do México, no domingo, 1º de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Cleisson",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "2",
+        "piloto": "Gustavo Gallo",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "3",
+        "piloto": "Fabinho Luz",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "4",
+        "piloto": "Marck Bauer",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "5",
+        "piloto": "Lucas Bueno",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "6",
+        "piloto": "Gustavo Moura",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "7",
+        "piloto": "Marcelo",
+        "equipe": "Retired Team F1"
+      },
+      {
+        "pos": "8",
+        "piloto": "Arthur Tuta",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "9",
+        "piloto": "Gabriel Arruda",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "10",
+        "piloto": "Pereira",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "11",
+        "piloto": "Brito",
+        "equipe": "Retired Team F1"
+      },
+      {
+        "pos": "12",
+        "piloto": "Leo Fernandes",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "13",
+        "piloto": "Marcos Paulo",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "14",
+        "piloto": "Jo Caiana",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "15",
+        "piloto": "Thiago Diniz",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Edy Santos",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Renato TVR",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Cesar Jones",
+        "equipe": "Retired Team F1"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-23-mundial-texas-expectativa",
+    "tipo": "expectativa",
+    "campeonato": "mundial",
+    "data": "2026-10-23",
+    "autor": "Redação DPS",
+    "titulo": "Tuta chega ao Texas com 53 pontos de vantagem, mas a reta final do Mundial está aberta",
+    "linha_fina": "Domingo, às 21h30, começa a sequência de seis etapas que decide o campeonato; o circuito já teve três vencedores diferentes na história da liga.",
+    "corpo": [
+      "A DPS volta à pista neste domingo, 25 de outubro, às 21h30, para a etapa 19 do Mundial, no circuito dos Estados Unidos (Texas). Faltam seis corridas, contando a de domingo, e o campeonato chega a essa fase com um líder claro, mas sem nada decidido.",
+      "Arthur Tuta lidera com 338 pontos, 53 à frente de Fabinho Luz (285). Gabriel Arruda é o terceiro, com 270, seguido por Cesar Jones (262) e Marcelo (260). Pela classificação do FGC, a briga pelo pódio da temporada reúne cinco pilotos separados por menos de 80 pontos.",
+      "O ritmo recente mostra um campeonato pulverizado. Na última etapa, em Singapura, Renato TVR saiu do 16º lugar no grid e venceu, à frente de Gustavo Gallo e Cesar Jones. Antes disso, Lucas Bueno ganhou no Azerbaijão e Marcelo, na Itália. Marcelo e Arthur Tuta são os que mais venceram em 2026, com três vitórias cada.",
+      "Na pista do Texas, o histórico da liga não aponta um dono: Gustavo Zanon venceu em 2024, Tiago Costa em 2025 no Mundial, e Arthur Tuta ganhou a prova do Elite em 2025."
+    ],
+    "resultado": []
+  },
+  {
+    "id": "2026-10-23-elite-texas-expectativa",
+    "tipo": "expectativa",
+    "campeonato": "elite",
+    "data": "2026-10-23",
+    "autor": "Redação DPS",
+    "titulo": "Requena abre 43 pontos no Elite e encara o Texas como vice-campeão de Singapura",
+    "linha_fina": "Terça-feira, às 21h, a elite da DPS disputa a etapa 19; Gustavo Ferreira e Matheus Gregório correm por fora na perseguição.",
+    "corpo": [
+      "O Mundial DPS Elite chega à etapa 19 na terça-feira, 27 de outubro, às 21h, no circuito dos Estados Unidos (Texas). Restam seis corridas, contando a do Texas, e a tabela está mais apertada do que a diferença no topo sugere.",
+      "Daniel Requena lidera com 310 pontos, 43 à frente de Gustavo Ferreira (267). Matheus Gregório aparece em terceiro, com 254, seguido por Robinho (228) e Jefferson Marchi (226). Requena, que venceu três etapas em 2026, é o piloto com mais vitórias do campeonato.",
+      "Em Singapura, na última etapa, Menezes venceu, com Requena em segundo e Robinho em terceiro. Requena subiu ao pódio também no Azerbaijão e em Madri, o que ajuda a explicar a regularidade que o mantém na frente.",
+      "Entre os construtores, a DPS - Drama, Punição e Sofrimento tem 914 pontos, seguida por Myeggsleft Racing Team (831) e Papayas Verdes F1 Team (803).",
+      "A pista tem lembrança boa para quem corre no Elite: Arthur Tuta venceu aqui em 2025, e foi Leo Oliveira quem terminou em segundo. As punições seguem fora da conta da classificação geral e só entram nos grupos e nos construtores, até o desconto final do campeonato."
+    ],
+    "resultado": []
+  }
 ]
