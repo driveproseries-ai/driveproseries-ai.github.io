@@ -1,84 +1,98 @@
 {
  "id": "elite",
  "nome": "Mundial DPS Elite 2026",
- "atualizado_em": "2026-10-23",
+ "atualizado_em": "2026-10-27",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
    "nome": "Daniel Requena",
    "grupo": "A",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 310,
+   "pts": 325,
    "pun": 0
   },
   {
    "nome": "Gustavo Ferreira",
    "grupo": "A",
    "equipe": "Fúria do Asfalto",
-   "pts": 267,
+   "pts": 284,
    "pun": -6
   },
   {
    "nome": "Matheus Gregório",
    "grupo": "A",
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 254,
-   "pun": -6
-  },
-  {
-   "nome": "Robinho",
-   "grupo": "D",
-   "equipe": "Papayas Verdes F1 Team",
-   "pts": 228,
+   "pts": 270,
    "pun": -6
   },
   {
    "nome": "Jefferson Marchi",
    "grupo": "A",
    "equipe": "Myeggsleft Racing Team",
-   "pts": 226,
+   "pts": 248,
    "pun": 0
+  },
+  {
+   "nome": "Robinho",
+   "grupo": "D",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 238,
+   "pun": -16
   },
   {
    "nome": "Thulio Mendes",
    "grupo": "B",
    "equipe": "Myeggsleft Racing Team",
-   "pts": 221,
+   "pts": 234,
    "pun": 0
   },
   {
    "nome": "Leo Oliveira",
    "grupo": "C",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 215,
+   "pts": 226,
    "pun": 0
   },
   {
    "nome": "Welk",
    "grupo": "B",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 206,
+   "pts": 220,
    "pun": 0
   },
   {
    "nome": "Diogo Marin",
    "grupo": "C",
    "equipe": "Myeggsleft Racing Team",
-   "pts": 201,
+   "pts": 213,
    "pun": -4
+  },
+  {
+   "nome": "Menezes",
+   "grupo": "D",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 206,
+   "pun": -10
   },
   {
    "nome": "Bruno Fernandes",
    "grupo": "C",
    "equipe": "Simas Turbo",
-   "pts": 193,
-   "pun": -4
+   "pts": 202,
+   "pun": -10
+  },
+  {
+   "nome": "Gustavo Isoppo",
+   "grupo": "D",
+   "equipe": "DPS - Drama, Punição e Sofrimento",
+   "pts": 199,
+   "pun": 0
   },
   {
    "nome": "Henrique Valente",
    "grupo": "A",
    "equipe": "Simas Turbo",
-   "pts": 191,
+   "pts": 198,
    "pun": 0
   },
   {
@@ -86,20 +100,6 @@
    "grupo": "D",
    "equipe": "Simas Turbo",
    "pts": 182,
-   "pun": 0
-  },
-  {
-   "nome": "Menezes",
-   "grupo": "D",
-   "equipe": "Myeggsleft Racing Team",
-   "pts": 181,
-   "pun": -10
-  },
-  {
-   "nome": "Gustavo Isoppo",
-   "grupo": "D",
-   "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 179,
    "pun": 0
   },
   {
@@ -148,27 +148,27 @@
  "construtores": [
   {
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 914,
+   "pts": 974,
    "pun": 0
   },
   {
    "equipe": "Myeggsleft Racing Team",
-   "pts": 831,
+   "pts": 903,
    "pun": -14
   },
   {
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 803,
-   "pun": -28
+   "pts": 829,
+   "pun": -38
   },
   {
    "equipe": "Simas Turbo",
-   "pts": 761,
+   "pts": 779,
    "pun": -10
   },
   {
    "equipe": "Fúria do Asfalto",
-   "pts": 574,
+   "pts": 591,
    "pun": -43
   }
  ],
@@ -326,22 +326,26 @@
    "data": "2026-10-27",
    "hora": "21:00",
    "tipos": [],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 20,
    "pista": "México",
    "data": "2026-11-03",
-   "hora": "21:00",
-   "tipos": [],
-   "status": "futura"
+   "hora": "21:30",
+   "tipos": [
+    "cpd"
+   ],
+   "status": "proxima"
   },
   {
    "n": 21,
    "pista": "Brasil",
    "data": "2026-11-10",
    "hora": "21:00",
-   "tipos": [],
+   "tipos": [
+    "cpd"
+   ],
    "status": "futura"
   },
   {
@@ -349,7 +353,9 @@
    "pista": "Las Vegas",
    "data": "2026-11-24",
    "hora": "21:00",
-   "tipos": [],
+   "tipos": [
+    "invertido"
+   ],
    "status": "futura"
   },
   {
@@ -365,7 +371,10 @@
    "pista": "Abu Dhabi",
    "data": "2026-12-08",
    "hora": "21:00",
-   "tipos": [],
+   "tipos": [
+    "cpd",
+    "desempenho_igual"
+   ],
    "status": "futura",
    "observacao": "Última etapa da temporada, sem lastro."
   }

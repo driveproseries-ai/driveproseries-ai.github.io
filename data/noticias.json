@@ -1,5 +1,99 @@
 [
  {
+  "id": "2026-10-27-elite-texas",
+  "tipo": "corrida",
+  "campeonato": "elite",
+  "data": "2026-10-27",
+  "autor": "Redação DPS",
+  "titulo": "Menezes vence no Texas com a Red Bull e lidera dobradinha da Myeggsleft",
+  "linha_fina": "Na etapa 19 do Elite, Jefferson Marchi larga na pole e é segundo; Matheus Gregório sai de 15º para quinto, e Daniel Requena segue líder com 41 pontos de vantagem.",
+  "corpo": [
+   "Menezes venceu a etapa 19 do Mundial DPS Elite 2026, no circuito dos Estados Unidos (Texas), na noite desta terça-feira. Ele largou em sexto, com a Red Bull, e terminou à frente de Jefferson Marchi e Gustavo Isoppo. A Myeggsleft Racing Team fez a dobradinha.",
+   "Jefferson Marchi largou na pole (1:32.580) com a Racing Bulls e cruzou em segundo. Gustavo Isoppo, de McLaren, saiu do quarto lugar do grid e completou o pódio. Gustavo Ferreira foi o quarto.",
+   "O destaque da prova veio do fundo do grid: Matheus Gregório largou em 15º, com a Cadillac, um dos carros de menor desempenho pelo lastro, e terminou em quinto, dez posições acima. Ele foi eleito o piloto do dia. Daniel Requena, líder do campeonato e dono da Aston Martin, saiu em segundo e terminou em sexto.",
+   "Ricardo Garcia, que largou em terceiro, abandonou depois de 36 das 56 voltas, mas ficou com a volta mais rápida da corrida (1:37.376). Leo Fernandes correu como reserva da Simas Turbo e foi o 13º. Meirelles, Rafa Almeida, Rafa Marques, Arthur Tuta, Chrys e Gerson Bolha não disputaram a etapa e, pelo item 12.22 do regulamento, largam sem classificação no México.",
+   "A punição de 6 pontos a Bruno Fernandes, pelo incidente com Jefferson Marchi em Singapura, já aparece na classificação por grupos e na de construtores.",
+   "Daniel Requena segue na liderança, com 325 pontos. A vantagem sobre Gustavo Ferreira caiu de 43 para 41 pontos. Matheus Gregório (270), Jefferson Marchi (248) e Robinho (238) completam os cinco primeiros. Entre os construtores, a DPS - Drama, Punição e Sofrimento lidera com 974 pontos. A próxima etapa é o GP do México, na terça-feira, 3 de novembro, às 21h30, com clima pré-definido (CPD). O lastro atualizado já está na página Lastro."
+  ],
+  "resultado": [
+   {
+    "pos": "1",
+    "piloto": "Menezes",
+    "equipe": "Myeggsleft Racing Team"
+   },
+   {
+    "pos": "2",
+    "piloto": "Jefferson Marchi",
+    "equipe": "Myeggsleft Racing Team"
+   },
+   {
+    "pos": "3",
+    "piloto": "Gustavo Isoppo",
+    "equipe": "DPS - Drama, Punição e Sofrimento"
+   },
+   {
+    "pos": "4",
+    "piloto": "Gustavo Ferreira",
+    "equipe": "Fúria do Asfalto"
+   },
+   {
+    "pos": "5",
+    "piloto": "Matheus Gregório",
+    "equipe": "Papayas Verdes F1 Team"
+   },
+   {
+    "pos": "6",
+    "piloto": "Daniel Requena",
+    "equipe": "DPS - Drama, Punição e Sofrimento"
+   },
+   {
+    "pos": "7",
+    "piloto": "Welk",
+    "equipe": "DPS - Drama, Punição e Sofrimento"
+   },
+   {
+    "pos": "8",
+    "piloto": "Thulio Mendes",
+    "equipe": "Myeggsleft Racing Team"
+   },
+   {
+    "pos": "9",
+    "piloto": "Diogo Marin",
+    "equipe": "Myeggsleft Racing Team"
+   },
+   {
+    "pos": "10",
+    "piloto": "Leo Oliveira",
+    "equipe": "DPS - Drama, Punição e Sofrimento"
+   },
+   {
+    "pos": "11",
+    "piloto": "Robinho",
+    "equipe": "Papayas Verdes F1 Team"
+   },
+   {
+    "pos": "12",
+    "piloto": "Bruno Fernandes",
+    "equipe": "Simas Turbo"
+   },
+   {
+    "pos": "13",
+    "piloto": "Leo Fernandes (reserva)",
+    "equipe": "Simas Turbo"
+   },
+   {
+    "pos": "14",
+    "piloto": "Henrique Valente",
+    "equipe": "Simas Turbo"
+   },
+   {
+    "pos": "NC",
+    "piloto": "Ricardo Garcia",
+    "equipe": "Fúria do Asfalto"
+   }
+  ]
+ },
+ {
   "id": "2026-10-25-mundial-texas",
   "tipo": "corrida",
   "campeonato": "mundial",
