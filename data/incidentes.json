@@ -47,5 +47,22 @@
     "categoria": "media",
     "carteira_pts": 6,
     "alerta": "Grave sempre a corrida: sem vídeo de defesa, na dúvida vale a versão de quem acusa."
+  },
+  {
+    "id": "2026-10-25-mundial-texas-cleisson-cesar",
+    "campeonato": "mundial",
+    "etapa": 19,
+    "pista": "Estados Unidos (Texas)",
+    "volta": "Qualy",
+    "data": "2026-10-25",
+    "titulo": "Cleisson × Cesar Jones",
+    "resumo": "Na qualificação, Cleisson fazia a primeira volta rápida quando o carro de Cesar Jones, saindo dos boxes, entrou na pista cruzando sua trajetória. Cleisson desviou para a zebra e a grama, sem contato aparente.",
+    "analise": "Análise por IA com o vídeo da acusação (gravação de tela do onboard de Cleisson). O carro de Cesar Jones, identificado pela tag, entra na pista vindo da lateral e cruza a trajetória de Cleisson, que desvia e segue sem contato nem perda evidente de velocidade. Cesar Jones registrou defesa sem vídeo, relatando falha de conexão (tela preta, bot assumiu e voltou à pista), sem comprovação. Não houve contato nem dano, e a perda de tempo da volta rápida não pôde ser medida. A Direção decidiu não punir o incidente, mas aplicar a perda de pontos do item 12.8 pela falta do vídeo de defesa.",
+    "regra": "Diretrizes de condução da FIA (retorno seguro à pista, não atrapalhar volta rápida) e item 12.8 do regulamento (5 pts por não enviar vídeo de defesa).",
+    "decisao": "Sem punição pelo incidente",
+    "punicao": "−5 pts por falta de vídeo de defesa (12.8)",
+    "categoria": "",
+    "carteira_pts": 0,
+    "alerta": "Ao voltar à pista, confira sempre o tráfego e dê espaço a quem faz volta rápida. Grave a corrida e a qualificação e envie o vídeo de defesa no prazo de 5 dias (item 12.8); sem vídeo, a perda de pontos se aplica."
   }
 ]
