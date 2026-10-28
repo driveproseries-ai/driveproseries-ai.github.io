@@ -217,3 +217,15 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .progresso>div{height:100%;width:0;background:var(--camp);transition:width .2s}
 .progresso[hidden],.form [hidden]{display:none}
 .form div.chk label{display:inline-flex;flex-direction:row;gap:8px;align-items:center;margin:0 16px 8px 0}
+
+/* publicidade e cookies */
+.anuncio{margin:28px auto;max-width:970px;min-height:90px;text-align:center}
+.anuncio>span{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#6b7a73;margin-bottom:4px}
+.cookies{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--ink);color:#e6efe9;padding:14px 16px;display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:15px;box-shadow:0 -4px 18px rgba(0,0,0,.25)}
+.cookies p{margin:0;max-width:640px}
+.cookies a{color:#fff}
+.cookies div{display:flex;gap:8px;flex-wrap:wrap}
+.texto h2{margin-top:28px}
+.texto ul{padding-left:20px}
+.cookies .botao{background:var(--signal);color:var(--ink)}
+.cookies .botao.claro{background:#fff;color:var(--ink)}

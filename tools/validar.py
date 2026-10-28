@@ -27,6 +27,9 @@ for n in ler("noticias") or []:
 for n in ler("f1") or []:
     for k in ("titulo", "resumo", "fonte", "url", "data"):
         if not n.get(k): erros.append(f'f1: item sem "{k}": {n.get("titulo")}')
-ler("site"); ler("stats")
+site = ler("site"); ler("stats")
+import re as _re
+cli = ((site or {}).get("adsense") or {}).get("cliente", "")
+if cli and not _re.fullmatch(r"ca-pub-\d{8,20}", cli): erros.append(f"site.json: adsense.cliente inválido ({cli})")
 print("\n".join(erros) if erros else "Tudo certo.")
 sys.exit(1 if erros else 0)

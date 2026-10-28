@@ -73,7 +73,7 @@
     var s = S.site, links = [];
     if (s.youtube) links.push('<a href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube da DPS</a>');
     if (s.instagram) links.push('<a href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
-    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
+    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
   }
   function contador() {
     var c = S.site.contador, el = $("#visitas");
@@ -136,6 +136,44 @@
       var ig = safeUrl(p.instagram);
       return '<div class="parceiro"><h3>' + esc(p.nome) + "</h3><div>" + esc(p.descricao || "") + "</div>" + (ig ? '<a class="botao" href="' + esc(ig) + '" rel="noopener">Ver no Instagram</a>' : '<span class="meta">Perfil no Instagram em breve.</span>') + "</div>";
     }).join("") + "</div>";
+  }
+
+  /* ---------- publicidade (Google AdSense) ---------- */
+  /* Só liga quando data/site.json tem adsense.cliente ("ca-pub-..."). O script do Google só é carregado depois da escolha do visitante no aviso de cookies. */
+  var ADS_PAGES = { home: 1, jornal: 1, f1: 1, materia: 1 };
+  function adsCfg() { var a = (S.site && S.site.adsense) || {}; return /^ca-pub-\d{8,20}$/.test(a.cliente || "") ? a : null; }
+  function escolhaCookies() { try { return localStorage.getItem("dps_cookies"); } catch (e) { return null; } }
+  function guardaCookies(v) { try { localStorage.setItem("dps_cookies", v); } catch (e) {} }
+  function slotAnuncio(a, nome) {
+    var slot = (a.slots || {})[nome];
+    return '<aside class="anuncio" aria-label="Publicidade"><span>Publicidade</span><ins class="adsbygoogle" style="display:block" data-ad-client="' + esc(a.cliente) + '"' + (slot ? ' data-ad-slot="' + esc(slot) + '" data-ad-format="auto" data-full-width-responsive="true"' : "") + "></ins></aside>";
+  }
+  function iniciarAds(a, personalizados) {
+    if (window.__dpsAds) return; window.__dpsAds = 1;
+    window.adsbygoogle = window.adsbygoogle || [];
+    if (!personalizados) window.adsbygoogle.requestNonPersonalizedAds = 1;
+    var sc = document.createElement("script"); sc.async = true; sc.crossOrigin = "anonymous";
+    sc.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(a.cliente);
+    sc.onload = function () { [].forEach.call(document.querySelectorAll("ins.adsbygoogle[data-ad-slot]"), function () { try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {} }); };
+    document.head.appendChild(sc);
+  }
+  function avisoCookies(a) {
+    var b = document.createElement("div"); b.className = "cookies"; b.setAttribute("role", "dialog"); b.setAttribute("aria-label", "Aviso de cookies");
+    b.innerHTML = '<p>Este site usa cookies do Google AdSense para mostrar anúncios. Você pode aceitar anúncios personalizados ou ficar só com os não personalizados. <a href="privacidade.html">Política de privacidade</a></p><div><button type="button" class="botao" data-v="sim">Aceitar</button><button type="button" class="botao claro" data-v="nao">Só não personalizados</button></div>';
+    b.addEventListener("click", function (ev) { var t = ev.target.closest("button"); if (!t) return; guardaCookies(t.getAttribute("data-v")); b.remove(); iniciarAds(a, t.getAttribute("data-v") === "sim"); });
+    document.body.appendChild(b);
+  }
+  function anuncios() {
+    var a = adsCfg(); if (!a) return;
+    if (ADS_PAGES[PAGE]) {
+      var app = $("#app .wrap");
+      if (app) {
+        if (PAGE === "home") { var secs = app.querySelectorAll(".sec"); if (secs[2]) secs[2].insertAdjacentHTML("beforebegin", slotAnuncio(a, "meio")); }
+        app.insertAdjacentHTML("beforeend", slotAnuncio(a, "fim"));
+      }
+    }
+    var e = escolhaCookies();
+    if (e) iniciarAds(a, e === "sim"); else avisoCookies(a);
   }
 
   /* ---------- páginas ---------- */
@@ -245,6 +283,20 @@
       var link = location.href.split("#")[0];
       $("#app").innerHTML = '<div class="wrap"><article class="materia" style="--camp:' + cor + ";--c:" + cor + '"><span class="selo">' + esc((n.campeonato ? campNome(n.campeonato) : "DPS") + (n.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(n.data, true)) + " · " + esc(n.autor || "Redação DPS") + "</span><h1>" + esc(n.titulo) + '</h1><p class="fina">' + esc(n.linha_fina || "") + '</p><div class="corpo">' + (n.corpo || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div>" + res +
         '<div class="compart"><a class="botao" href="https://wa.me/?text=' + encodeURIComponent(n.titulo + " " + link) + '" rel="noopener">Compartilhar no WhatsApp</a><a class="botao claro" href="jornal.html">Mais matérias</a></div></article></div>';
+    },
+
+    privacidade: function () {
+      var s = S.site, mail = esc(s.email_contato || s.formsubmit || "");
+      $("#app").innerHTML = '<div class="wrap"><div class="texto" style="max-width:760px"><h1>Política de privacidade</h1><p class="meta">Atualizada em 28/10/2026</p>' +
+        "<p>O Portal DPS é o site da Drive Pro Series (DPS), liga de automobilismo virtual. Esta página explica quais dados o site usa e como falar com a liga sobre eles, conforme a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018).</p>" +
+        "<h2>Quais dados coletamos</h2><ul>" +
+        "<li><strong>Formulários</strong> (Fale conosco, Inscrições e Pedido de análise): nome, nome no jogo, contato para retorno, mensagem e, no pedido de análise, o vídeo enviado. Usamos esses dados só para responder, avaliar inscrições e analisar incidentes da liga.</li>" +
+        "<li><strong>Contador de visitas</strong>: um número agregado de acessos, sem identificar o visitante.</li>" +
+        "<li><strong>Fontes do Google Fonts</strong>: o navegador baixa as fontes dos servidores do Google, que podem registrar o endereço IP.</li></ul>" +
+        "<h2>Publicidade e cookies</h2><p>O site pode exibir anúncios do Google AdSense. O Google e seus parceiros usam cookies e identificadores para mostrar e medir anúncios, inclusive anúncios baseados em visitas anteriores a este e a outros sites. Antes de carregar os anúncios, o site pede sua escolha: aceitar anúncios personalizados ou ver apenas não personalizados. Você pode mudar a escolha a qualquer momento no link “Cookies” do rodapé.</p>" +
+        '<p>Para saber como o Google usa dados de sites parceiros, veja <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Para desativar a personalização de anúncios, use as <a href="https://adssettings.google.com" rel="noopener">Configurações de anúncios do Google</a>.</p>' +
+        "<h2>Com quem compartilhamos</h2><p>Não vendemos dados. Os formulários passam por serviços de envio de e-mail e armazenamento (FormSubmit, Google Apps Script e Google Drive) apenas para chegar à comissão da liga.</p>" +
+        "<h2>Seus direitos</h2><p>Você pode pedir acesso, correção ou exclusão dos dados que enviou, e retirar o consentimento quando quiser, escrevendo para <a href=\"mailto:" + mail + '">' + mail + "</a> ou pela página <a href=\"contato.html\">Fale conosco</a>.</p></div></div>";
     },
 
     estatisticas: function (ctx) {
@@ -567,6 +619,8 @@
     var ctx = { noticias: (r[0] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), f1: (r[1] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), stats: r[2], lastro: r[3], sorteio: r[4], incidentes: r[5] };
     montarTopo(ctx.noticias); montarRodape();
     if (paginas[PAGE]) paginas[PAGE](ctx);
+    anuncios();
+    var pref = $("#cookies-pref"); if (pref) pref.addEventListener("click", function (ev) { ev.preventDefault(); try { localStorage.removeItem("dps_cookies"); } catch (e) {} location.reload(); });
     contador();
   }).catch(function (e) { $("#app").innerHTML = '<div class="wrap">' + vazio("Não foi possível carregar o site", "Se você abriu o arquivo direto do computador, use o abrir_site_local.bat.") + "</div>"; if (window.console) console.error(e); });
 })();
