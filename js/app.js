@@ -78,14 +78,23 @@
   function contador() {
     var c = S.site.contador, el = $("#visitas");
     if (!c || !el) { if (el) el.parentNode.style.display = "none"; return; }
-    var base = "https://api.counterapi.dev/v1/" + encodeURIComponent(c.namespace) + "/" + encodeURIComponent(c.chave);
     var local = /^(localhost|127\.0\.0\.1|)$/.test(location.hostname);
     var jaContou = false; try { jaContou = sessionStorage.getItem("dpsVisita") === "1"; } catch (e) {}
-    var url = (local || jaContou || DEMO) ? base : base + "/up";
-    fetch(url).then(function (r) { return r.json(); }).then(function (j) {
-      if (j && typeof j.count === "number") { el.textContent = j.count.toLocaleString("pt-BR"); try { sessionStorage.setItem("dpsVisita", "1"); } catch (e) {} }
-      else el.parentNode.style.display = "none";
-    }).catch(function () { el.parentNode.style.display = "none"; });
+    var soLer = local || jaContou || DEMO;
+    var ns = encodeURIComponent(c.namespace), ch = encodeURIComponent(c.chave);
+    var fontes = [
+      { url: "https://abacus.jasoncameron.dev/" + (soLer ? "get/" : "hit/") + ns + "/" + ch, ler: function (j) { return j && j.value; } },
+      { url: "https://api.counterapi.dev/v1/" + ns + "/" + ch + (soLer ? "" : "/up"), ler: function (j) { return j && j.count; } }
+    ];
+    function tenta(i) {
+      if (i >= fontes.length) { el.textContent = "–"; return; }
+      fetch(fontes[i].url).then(function (r) { return r.json(); }).then(function (j) {
+        var n = fontes[i].ler(j);
+        if (typeof n === "number") { el.textContent = n.toLocaleString("pt-BR"); try { sessionStorage.setItem("dpsVisita", "1"); } catch (e) {} }
+        else tenta(i + 1);
+      }).catch(function () { tenta(i + 1); });
+    }
+    tenta(0);
   }
 
   /* ---------- blocos ---------- */
