@@ -9,7 +9,10 @@ var MAX_MB = 300;                               // tamanho máximo do vídeo
 var PARTE_MB = 5;                               // tamanho das partes para análise (o conector do Drive da IA só entrega ~7 MB por chamada)
 var EMAIL_AVISO = '';                           // vazio = avisa o dono da conta
 
-function doGet() { return ContentService.createTextOutput('DPS pedidos: ativo'); }
+function doGet(e) {
+  if (e && e.parameter && e.parameter.sair) return sair(e);
+  return ContentService.createTextOutput('DPS pedidos: ativo');
+}
 
 function doPost(e) {
   try {
@@ -17,6 +20,7 @@ function doPost(e) {
     if (d.acao === 'iniciar') return saida(iniciar(d));
     if (d.acao === 'concluir') return saida(concluir(d));
     if (d.acao === 'semvideo') return saida(semVideo(d));
+    if (d.acao === 'inscrever') return saida(inscrever(d));
     return saida({ ok: false, erro: 'acao invalida' });
   } catch (err) {
     return saida({ ok: false, erro: String(err) });

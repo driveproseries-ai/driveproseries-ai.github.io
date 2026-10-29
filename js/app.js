@@ -17,6 +17,7 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  function urlMateria(id) { return "m/" + encodeURIComponent(id) + ".html"; }
   function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
   function $(s, r) { return (r || document).querySelector(s); }
 
@@ -59,13 +60,13 @@
 
   /* ---------- estrutura ---------- */
   var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["contato.html", "Fale conosco", "contato"]];
-  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
+  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
-    var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || (PAGE === "materia" && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
+    var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || ((PAGE === "materia" || PAGE === "materia-fixa") && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
     var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
     var nav = MENU.map(lnk).join("") + '<details class="mais"' + (maisAtivo ? ' data-ativo="1"' : "") + "><summary>Mais</summary><div>" + MAIS.map(lnk).join("") + "</div></details>";
     var ult = noticias[0];
-    var plantao = ult ? '<div class="plantao"><div class="wrap"><b>ÚLTIMA</b><a href="materia.html?id=' + encodeURIComponent(ult.id) + '">' + esc(ult.titulo) + "</a></div></div>" : "";
+    var plantao = ult ? '<div class="plantao"><div class="wrap"><b>ÚLTIMA</b><a href="' + urlMateria(ult.id) + '">' + esc(ult.titulo) + "</a></div></div>" : "";
     var demo = DEMO ? '<div class="demo-aviso">Modo demonstração: textos, notícias e estatísticas desta visualização são de exemplo. <a href="?demo=0" style="color:#fff">Sair</a></div>' : "";
     $("#topo").innerHTML = demo + '<header class="topo"><div class="wrap"><a class="marca" href="index.html">DPS<span>.</span>Portal</a><nav class="menu" aria-label="Principal">' + nav + "</nav></div></header>" + plantao;
   }
@@ -74,7 +75,7 @@
     var s = S.site, links = [];
     if (s.youtube) links.push('<a href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube da DPS</a>');
     if (s.instagram) links.push('<a class="ig" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener" aria-label="Instagram da DPS">' + IG + "Instagram</a>");
-    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
+    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="avisos.html">Receber avisos</a>', '<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
   }
   function contador() {
     var c = S.site.contador, el = $("#visitas");
@@ -104,6 +105,21 @@
     if (!l.length) return '<div class="vazio">Sem pilotos cadastrados.</div>';
     return '<ol>' + l.map(function (p, i) { return '<li><span class="pos">' + (i + 1) + '</span><span class="gr" title="Grupo ' + esc(p.grupo || "") + '">' + esc(p.grupo || "–") + '</span><span class="nm">' + esc(p.nome) + '</span><span class="pt">' + p.pts + "</span></li>"; }).join("") + "</ol>";
   }
+  function duelo(c) {
+    var l = ordenarFGC(c.dados.pilotos).filter(function (p) { return (p.pts || 0) > 0; }).slice(0, 8), best = null;
+    for (var i = 0; i + 1 < l.length; i++) { var g = (l[i].pts || 0) - (l[i + 1].pts || 0); if (!best || g < best.g) best = { i: i, g: g, a: l[i], b: l[i + 1] }; }
+    return best;
+  }
+  function blocoDestaques(ctx) {
+    var itens = [];
+    S.camps.slice(0, 2).forEach(function (c) {
+      var d = duelo(c), e = proximaEtapa(c);
+      if (d && e) itens.push('<article class="dst" style="--c:' + c.cor + '"><span class="selo" style="--c:' + c.cor + '">' + esc(c.curto) + '</span> <span class="meta">Duelo da semana</span><h3>' + esc(d.a.nome) + " × " + esc(d.b.nome) + "</h3><p>" + (d.i + 1) + "º e " + (d.i + 2) + "º na tabela, separados por " + (d.g === 1 ? "1 ponto" : d.g + " pontos") + " (" + (d.a.pts || 0) + " a " + (d.b.pts || 0) + "). A resposta vem em " + esc(e.pista) + ", " + esc(fmtData(e.data, true)) + (e.hora ? ", " + esc(e.hora) : "") + ".</p></article>");
+      var ult = ctx.noticias.filter(function (n) { return n.campeonato === c.id && n.tipo === "corrida" && n.destaque; })[0];
+      if (ult) itens.push('<article class="dst" style="--c:' + c.cor + '"><span class="selo" style="--c:' + c.cor + '">' + esc(c.curto) + '</span> <span class="meta">Piloto da etapa</span><h3>' + esc(ult.destaque.piloto) + "</h3><p>" + esc(ult.destaque.motivo || "") + ' <a href="' + urlMateria(ult.id) + '">Ler a matéria</a></p></article>');
+    });
+    return itens.length ? '<section class="sec"><div class="sec-topo"><h2>Destaques da semana</h2></div><div class="dsts">' + itens.join("") + "</div></section>" : "";
+  }
   function etapaCard(c, e) {
     var d = diasAte(e.data), quando = fmtData(e.data, true);
     var falta = d == null ? "" : d === 0 ? "<small>hoje</small>" : d > 0 ? "<small>em " + d + (d === 1 ? " dia" : " dias") + "</small>" : "";
@@ -117,7 +133,7 @@
   function cardNoticia(n) {
     var cor = n.campeonato ? campCor(n.campeonato) : "#10231c";
     var selo = n.campeonato ? '<span class="selo" style="--c:' + cor + '">' + esc(campNome(n.campeonato) + (n.tipo === "expectativa" ? " · Expectativa" : "")) + "</span> " : '<span class="selo" style="--c:#10231c">DPS</span> ';
-    return '<a class="card" style="--c:' + cor + '" href="materia.html?id=' + encodeURIComponent(n.id) + '">' + selo + '<span class="meta">' + esc(fmtData(n.data)) + "</span><h3>" + esc(n.titulo) + "</h3><p>" + esc(n.linha_fina || "") + "</p></a>";
+    return '<a class="card" style="--c:' + cor + '" href="' + urlMateria(n.id) + '">' + selo + '<span class="meta">' + esc(fmtData(n.data)) + "</span><h3>" + esc(n.titulo) + "</h3><p>" + esc(n.linha_fina || "") + "</p></a>";
   }
   function tabelaF1(tb) {
     if (!tb || !tb.linhas) return "";
@@ -150,7 +166,7 @@
 
   /* ---------- publicidade (Google AdSense) ---------- */
   /* Só liga quando data/site.json tem adsense.cliente ("ca-pub-..."). O script do Google só é carregado depois da escolha do visitante no aviso de cookies. */
-  var ADS_PAGES = { home: 1, jornal: 1, f1: 1, materia: 1 };
+  var ADS_PAGES = { home: 1, jornal: 1, f1: 1, materia: 1, "materia-fixa": 1, videos: 1 };
   function adsCfg() { var a = (S.site && S.site.adsense) || {}; return /^ca-pub-\d{8,20}$/.test(a.cliente || "") ? a : null; }
   function escolhaCookies() { try { return localStorage.getItem("dps_cookies"); } catch (e) { return null; } }
   function guardaCookies(v) { try { localStorage.setItem("dps_cookies", v); } catch (e) {} }
@@ -190,12 +206,13 @@
       var n = ctx.noticias, main = $("#app");
       var dest = n[0], cp = S.camps[0];
       var capa = dest
-        ? '<a class="destaque" style="--c:' + (dest.campeonato ? campCor(dest.campeonato) : "#10231c") + '" href="materia.html?id=' + encodeURIComponent(dest.id) + '"><span class="selo">' + esc((dest.campeonato ? campNome(dest.campeonato) : "DPS") + (dest.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(dest.data, true)) + "</span><h1>" + esc(dest.titulo) + "</h1><p>" + esc(dest.linha_fina || "") + "</p></a>"
+        ? '<a class="destaque" style="--c:' + (dest.campeonato ? campCor(dest.campeonato) : "#10231c") + '" href="' + urlMateria(dest.id) + '"><span class="selo">' + esc((dest.campeonato ? campNome(dest.campeonato) : "DPS") + (dest.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(dest.data, true)) + "</span><h1>" + esc(dest.titulo) + "</h1><p>" + esc(dest.linha_fina || "") + "</p></a>"
         : '<div class="capa-vazia"><h1>A cobertura da DPS começa aqui.</h1><p>A matéria de cada corrida entra no ar logo depois da etapa. Enquanto isso, confira as tabelas e a próxima largada.</p></div>';
       var ch = S.site.chamada, chamada = ch ? '<section class="chamada" aria-label="Convite"><div><h2>' + esc(ch.titulo) + '</h2><p>' + esc(ch.texto || "") + '</p></div><a class="botao" href="' + esc(ch.link || "contato.html") + '">' + esc(ch.botao || "Quero participar") + "</a></section>" : "";
       var html = '<div class="wrap">' + chamada + '<div class="capa">' + capa + '<aside class="torre" id="torre" aria-label="Classificação"></aside></div>';
       var prox = []; S.camps.forEach(function (c) { var e = proximaEtapa(c); if (e) prox.push(etapaCard(c, e)); });
       html += '<section class="sec"><div class="sec-topo"><h2>Próximas etapas</h2><a href="calendario.html">Calendário completo</a></div>' + (prox.length ? '<div class="prox">' + prox.join("") + "</div>" : vazio("Sem etapas marcadas", "O calendário aparece aqui assim que a próxima data for confirmada.")) + "</section>";
+      html += blocoDestaques(ctx);
       var resto = n.slice(1, 7);
       html += '<section class="sec"><div class="sec-topo"><h2>Jornal DPS</h2><a href="jornal.html">Todas as matérias</a></div>' + (resto.length ? '<div class="cards">' + resto.map(cardNoticia).join("") + "</div>" : vazio("Nada por aqui ainda", "As próximas matérias e avisos da liga aparecem nesta área.")) + "</section>";
       html += '<section class="sec"><div class="sec-topo"><h2>F1 real</h2><a href="f1.html">Mais notícias</a></div>' + (ctx.f1.length ? '<div class="linhas">' + ctx.f1.slice(0, 4).map(linhaF1).join("") + "</div>" : vazio("Sem notícias da F1 por enquanto", "As notícias do campeonato real entram aqui, sempre com a fonte.")) + "</section>";
@@ -279,6 +296,49 @@
       $("#app").innerHTML = '<div class="wrap"><h1>F1 real</h1><p class="meta">Resumo das notícias do campeonato de verdade, sempre com link para a fonte original.</p><div class="sec">' + (ctx.f1.length ? '<div class="linhas">' + ctx.f1.map(linhaF1).join("") + "</div>" : vazio("Sem notícias por enquanto", "Quando algo novo sair na F1, o resumo e a fonte aparecem aqui.")) + "</div></div>";
     },
 
+    avisos: function () {
+      var s = S.site, p = s.pedido || {}, url = p.apps_script_url || "";
+      document.title = "Receber avisos por e-mail · " + (s.nome || "Portal DPS");
+      $("#app").innerHTML = '<div class="wrap"><div style="max-width:640px"><h1>Receba os avisos da DPS</h1><p style="font-family:var(--body);font-size:20px">Deixe seu e-mail e a liga avisa quando sair matéria nova, decisão de incidente ou resumo da etapa. Sem spam: só o que é novo no Portal DPS, e você sai da lista quando quiser.</p>' +
+        '<form id="fa" class="form" novalidate><label for="em">Seu e-mail</label><input id="em" name="email" type="email" autocomplete="email" required maxlength="120"><label class="chk"><input type="checkbox" name="aceite" required> Aceito receber os avisos da DPS neste e-mail. <a href="privacidade.html">Política de privacidade</a></label><button class="botao" type="submit">Quero receber</button><p id="ma" class="aviso" role="status" hidden></p></form>' +
+        '<p class="meta" style="margin-top:20px">Prefere acompanhar pelo leitor de notícias? Use o <a href="feed.xml">feed RSS</a>.</p></div></div>';
+      var f = $("#fa"), m = $("#ma");
+      function dizer(t, erro) { m.hidden = false; m.className = "aviso" + (erro ? " erro" : ""); m.textContent = t; }
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var email = f.email.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return dizer("Informe um e-mail válido.", true);
+        if (!f.aceite.checked) return dizer("Marque o aceite para receber os avisos.", true);
+        if (!url) return dizer("Os avisos ainda não estão ativos. Tente de novo em breve.", true);
+        dizer("Enviando…");
+        fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify({ acao: "inscrever", email: email, aceite: true }) })
+          .then(function (r) { return r.json(); })
+          .then(function (j) { if (!j.ok) throw new Error(j.erro || ""); f.reset(); dizer("Pronto! Você vai receber os avisos neste e-mail."); })
+          .catch(function (e) { dizer((e && e.message) || "Não foi possível agora. Tente de novo em instantes.", true); });
+      });
+    },
+
+    videos: function (ctx) {
+      var v = (ctx.videos || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || "") || (b.etapa || 0) - (a.etapa || 0); }), f = "todos";
+      var yt = S.site.youtube ? safeUrl(S.site.youtube) : "";
+      document.title = "Replays das corridas · " + (S.site.nome || "Portal DPS");
+      $("#app").innerHTML = '<div class="wrap"><h1>Replays das corridas</h1><p class="meta">As transmissões da liga, com narração de Ron Bauer, direto do canal da DPS no YouTube.</p><div id="ab"></div><div id="lista"></div>' + (yt ? '<p style="margin-top:28px"><a class="botao" href="' + esc(yt) + '" rel="noopener">Ver todos no YouTube</a></p>' : "") + "</div>";
+      var el = document.createElement("div"); el.className = "abas";
+      var ids = []; v.forEach(function (x) { if (ids.indexOf(x.campeonato) < 0) ids.push(x.campeonato); });
+      var opts = [["todos", "Todos"]].concat(ids.map(function (i) { return [i, campNome(i) || i]; }));
+      el.innerHTML = opts.map(function (o) { return '<button type="button" data-id="' + esc(o[0]) + '" aria-pressed="' + (o[0] === f) + '">' + esc(o[1]) + "</button>"; }).join("");
+      $("#ab").appendChild(el);
+      function desenha() {
+        var l = v.filter(function (x) { return f === "todos" || x.campeonato === f; });
+        $("#lista").innerHTML = l.length ? '<div class="cards">' + l.map(function (x) {
+          var cor = campCor(x.campeonato) || "#10231c", url = "https://www.youtube.com/watch?v=" + encodeURIComponent(x.id);
+          return '<a class="card video" style="--c:' + cor + '" href="' + url + '" rel="noopener"><img src="https://i.ytimg.com/vi/' + encodeURIComponent(x.id) + '/hqdefault.jpg" alt="Miniatura do replay: ' + esc(x.gp) + '" loading="lazy" width="480" height="360"><span class="selo" style="--c:' + cor + '">' + esc(campNome(x.campeonato) || x.campeonato) + '</span> <span class="meta">Etapa ' + esc(x.etapa) + " · " + esc(fmtData(x.data)) + "</span><h3>" + esc(x.gp) + "</h3></a>";
+        }).join("") + "</div>" : vazio("Sem vídeos por enquanto", "Os replays aparecem aqui assim que saem no YouTube.");
+      }
+      el.addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (!b) return; f = b.getAttribute("data-id"); Array.prototype.forEach.call(el.children, function (c) { c.setAttribute("aria-pressed", c === b); }); desenha(); });
+      desenha();
+    },
+
     materia: function (ctx) {
       var id = qs.get("id"), n = ctx.noticias.filter(function (x) { return x.id === id; })[0];
       if (!n) { $("#app").innerHTML = '<div class="wrap">' + vazio("Matéria não encontrada", "O link pode estar incorreto.") + '<p style="text-align:center"><a class="botao" href="jornal.html">Ver o Jornal DPS</a></p></div>'; return; }
@@ -299,6 +359,7 @@
         "<p>O Portal DPS é o site da Drive Pro Series (DPS), liga de automobilismo virtual. Esta página explica quais dados o site usa e como falar com a liga sobre eles, conforme a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018).</p>" +
         "<h2>Quais dados coletamos</h2><ul>" +
         "<li><strong>Formulários</strong> (Fale conosco, Inscrições e Pedido de análise): nome, nome no jogo, contato para retorno, mensagem e, no pedido de análise, o vídeo enviado. Usamos esses dados só para responder, avaliar inscrições e analisar incidentes da liga.</li>" +
+        "<li><strong>Avisos por e-mail</strong> (opcional): o e-mail que você informa na página Avisos. Usamos só para avisar quando sai matéria nova e você sai da lista quando quiser, pelo link no fim de cada aviso.</li>" +
         "<li><strong>Contador de visitas</strong>: um número agregado de acessos, sem identificar o visitante.</li>" +
         "<li><strong>Fontes do Google Fonts</strong>: o navegador baixa as fontes dos servidores do Google, que podem registrar o endereço IP.</li></ul>" +
         "<h2>Publicidade e cookies</h2><p>O site pode exibir anúncios do Google AdSense. O Google e seus parceiros usam cookies e identificadores para mostrar e medir anúncios, inclusive anúncios baseados em visitas anteriores a este e a outros sites. Antes de carregar os anúncios, o site pede sua escolha: aceitar anúncios personalizados ou ver apenas não personalizados. Você pode mudar a escolha a qualquer momento no link “Cookies” do rodapé.</p>" +
@@ -622,9 +683,9 @@
 
   /* ---------- início ---------- */
   carregar().then(function () {
-    return Promise.all([getJSON("noticias", true), getJSON("f1", true), (PAGE === "estatisticas" || PAGE === "halldafama") ? getJSON("stats", true) : null, PAGE === "lastro" ? getJSON("lastro", true) : null, PAGE === "sorteio" ? getJSON("sorteio", true) : null, PAGE === "incidentes" ? getJSON("incidentes", true) : null]);
+    return Promise.all([getJSON("noticias", true), getJSON("f1", true), (PAGE === "estatisticas" || PAGE === "halldafama") ? getJSON("stats", true) : null, PAGE === "lastro" ? getJSON("lastro", true) : null, PAGE === "sorteio" ? getJSON("sorteio", true) : null, PAGE === "incidentes" ? getJSON("incidentes", true) : null, PAGE === "videos" ? getJSON("videos", false) : null]);
   }).then(function (r) {
-    var ctx = { noticias: (r[0] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), f1: (r[1] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), stats: r[2], lastro: r[3], sorteio: r[4], incidentes: r[5] };
+    var ctx = { noticias: (r[0] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), f1: (r[1] || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || ""); }), stats: r[2], lastro: r[3], sorteio: r[4], incidentes: r[5], videos: r[6] };
     montarTopo(ctx.noticias); montarRodape();
     if (paginas[PAGE]) paginas[PAGE](ctx);
     anuncios();

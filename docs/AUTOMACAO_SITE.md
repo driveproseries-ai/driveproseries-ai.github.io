@@ -50,3 +50,10 @@ Mencionar na matéria quando o `calendario` marcar `sprint`, `invertido` ou `cpd
 - **Incidentes (`incidentes.html`, `data/incidentes.json`)**: lista de objetos com `campeonato`, `etapa`, `pista`, `volta`, `titulo`, `resumo`, `analise`, `regra`, `decisao` ("Sem ação" ou "Punição"), `punicao`.
 - **Inscrições (`inscricoes.html`)**: usa o mesmo FormSubmit do Fale conosco. `site.json > inscricoes` controla `abertas`, `prazo` e `mensagem` (quando encerradas).
 - Teste local com `?demo=1` usa `data/demo/*.json`.
+
+## Páginas fixas, feed e destaques (28/10/2026)
+- Depois de alterar `data/noticias.json`, rode `python tools/gerar_paginas.py` (o `publicar.bat` já roda). Ele cria `m/<id>.html` de cada matéria, `sitemap.xml`, `feed.xml` e `robots.txt`. Quem publica direto no GitHub (tarefas na nuvem) deve rodar o script antes do commit.
+- Se uma matéria nova ainda não tiver página fixa, o `404.html` abre a versão dinâmica (`materia.html?id=`), então nada quebra.
+- Matéria de corrida deve trazer `"destaque": {"piloto": "...", "motivo": "..."}` (piloto da etapa). A home mostra o piloto da etapa e o "duelo da semana" (calculado pela tabela).
+- Replays: `data/videos.json` (id do YouTube, data, campeonato, etapa, gp). Atualize quando sair vídeo novo.
+- Avisos por e-mail: veja `docs/GUIA_AVISOS.md`.

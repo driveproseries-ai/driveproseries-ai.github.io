@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<base href="/">
+<title>Página não encontrada · Portal DPS</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css">
+<script>
+/* matéria nova que ainda não tem página fixa: abre pela versão dinâmica */
+(function () {
+  var m = location.pathname.match(/\/m\/([^\/]+?)(?:\.html)?$/);
+  if (m) location.replace("/materia.html?id=" + encodeURIComponent(m[1]));
+})();
+</script>
+</head>
+<body data-page="404">
+<div id="topo"></div>
+<main id="app"><div class="wrap"><div class="vazio"><b>Página não encontrada</b>O link pode estar incorreto ou a página mudou de lugar.</div><p style="text-align:center"><a class="botao" href="index.html">Ir para o início</a> <a class="botao claro" href="jornal.html">Ver o Jornal DPS</a></p></div></main>
+<div id="rodape"></div>
+<script src="js/app.js" defer></script>
+</body>
+</html>

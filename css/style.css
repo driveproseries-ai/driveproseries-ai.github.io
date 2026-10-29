@@ -231,3 +231,16 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .cookies .botao.claro{background:#fff;color:var(--ink)}
 .ig{display:inline-flex;align-items:center;gap:6px}
 .ig-ico{flex:none}
+
+/* replays */
+.card.video{padding:0 0 16px}
+.card.video img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;margin-bottom:12px;background:#10231c}
+.card.video .selo,.card.video .meta,.card.video h3{margin-left:18px;margin-right:18px}
+.card.video h3{font-size:24px}
+.card.video .selo{display:inline-block}
+/* destaques */
+.dsts{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.dst{background:var(--surface);padding:16px 18px 18px;border-left:5px solid var(--c,var(--ink))}
+.dst h3{margin:8px 0;font-size:26px}
+.dst p{margin:0;font-family:var(--body);font-size:17px;color:#2f463c}
+.dst p a{font-weight:600}

@@ -109,7 +109,11 @@
         "piloto": "Ricardo Garcia",
         "equipe": "Fúria do Asfalto"
       }
-    ]
+    ],
+    "destaque": {
+      "piloto": "Matheus Gregório",
+      "motivo": "Largou em 15º e terminou em quinto, dez posições acima, com um dos carros de menor desempenho pelo lastro."
+    }
   },
   {
     "id": "2026-10-25-mundial-texas",
@@ -218,7 +222,11 @@
         "piloto": "Cesar Jones",
         "equipe": "Retired Team F1"
       }
-    ]
+    ],
+    "destaque": {
+      "piloto": "Gustavo Gallo",
+      "motivo": "Largou em 18º, terminou em segundo e ainda fez a volta mais rápida da prova (1:36.178)."
+    }
   },
   {
     "id": "2026-10-23-mundial-texas-expectativa",

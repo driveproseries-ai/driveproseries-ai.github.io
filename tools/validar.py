@@ -27,6 +27,11 @@ for n in ler("noticias") or []:
 for n in ler("f1") or []:
     for k in ("titulo", "resumo", "fonte", "url", "data"):
         if not n.get(k): erros.append(f'f1: item sem "{k}": {n.get("titulo")}')
+for n in ler("videos") or []:
+    for k in ("id", "titulo", "data", "campeonato"):
+        if not n.get(k): erros.append(f'videos: item sem "{k}": {n.get("id")}')
+for n in ler("noticias") or []:
+    if not os.path.exists(os.path.join(raiz, "m", str(n.get("id")) + ".html")): erros.append(f'noticias: falta a pagina fixa de {n.get("id")} (rode tools/gerar_paginas.py)')
 site = ler("site"); ler("stats")
 import re as _re
 cli = ((site or {}).get("adsense") or {}).get("cliente", "")
