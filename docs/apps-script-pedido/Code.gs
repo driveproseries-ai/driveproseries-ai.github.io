@@ -21,6 +21,7 @@ function doPost(e) {
     if (d.acao === 'concluir') return saida(concluir(d));
     if (d.acao === 'semvideo') return saida(semVideo(d));
     if (d.acao === 'inscrever') return saida(inscrever(d));
+    if (d.acao === 'formulario') return saida(formulario(d));
     return saida({ ok: false, erro: 'acao invalida' });
   } catch (err) {
     return saida({ ok: false, erro: String(err) });

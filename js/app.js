@@ -59,6 +59,18 @@
   function ordenar(lista) { return lista.slice().sort(function (a, b) { return real(b) - real(a) || b.pts - a.pts; }); }
 
   /* ---------- estrutura ---------- */
+  // Envia inscrição/contato: Apps Script (planilha + e-mail); se o script ainda não tiver a ação, cai no FormSubmit.
+  function enviarForm(s, dados, tipo, assuntoEmail) {
+    var url = (s.pedido || {}).apps_script_url || "";
+    var antigo = function () {
+      return fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: assuntoEmail, _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); });
+    };
+    if (!url) return antigo();
+    return fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(Object.assign({}, dados, { acao: "formulario", tipo: tipo })) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) { if (j && j.ok) return j; if (j && j.erro === "acao invalida") return antigo(); throw 0; });
+  }
+
   var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["contato.html", "Fale conosco", "contato"]];
   var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["loja.html", "Loja DPS", "loja"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
@@ -566,9 +578,8 @@
         [].forEach.call(f.elements, function (el) { if (el.name && el.name !== "_gotcha") dados[el.name] = el.type === "checkbox" ? (el.checked ? "sim" : "não") : el.value; });
         dados.assunto = "Inscrição Mundial DPS 2027";
         m.className = "aviso"; m.textContent = "Enviando…";
-        (s.formspree_id ? fetch("https://formspree.io/f/" + encodeURIComponent(s.formspree_id), { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(dados) })
-          : fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: "Portal DPS: Inscrição 2027 - " + dados.nome, _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); }))
-          .then(function (r) { if (!r.ok) throw 0; f.reset(); m.className = "aviso"; m.textContent = "Inscrição enviada. A comissão da DPS responde pelo contato que você informou."; })
+        enviarForm(s, dados, "inscricao", "Portal DPS: Inscrição 2027 - " + dados.nome)
+          .then(function () { f.reset(); m.className = "aviso"; m.textContent = "Inscrição enviada. A comissão da DPS responde pelo contato que você informou."; })
           .catch(function () { m.className = "aviso erro"; m.textContent = "Não foi possível enviar agora. Tente de novo ou fale com a liga pelo WhatsApp."; });
       });
     },
@@ -680,9 +691,8 @@
         if (dados._gotcha) return;
         if (!dados.nome || !dados.retorno || !dados.mensagem) { m.className = "aviso erro"; m.textContent = "Preencha nome, contato para retorno e mensagem."; return; }
         m.className = "aviso"; m.textContent = "Enviando…";
-        (s.formspree_id ? fetch("https://formspree.io/f/" + encodeURIComponent(s.formspree_id), { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(dados) })
-          : fetch("https://formsubmit.co/ajax/" + s.formsubmit, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(Object.assign({ _subject: "Portal DPS: " + (dados.assunto || "novo contato"), _captcha: "false", _template: "table" }, dados)) }).then(function (r) { return r.json().then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw 0; return r; }); }))
-          .then(function (r) { if (!r.ok) throw 0; f.reset(); m.className = "aviso"; m.textContent = "Mensagem enviada. A liga responde pelo contato que você informou."; })
+        enviarForm(s, dados, "contato", "Portal DPS: " + (dados.assunto || "novo contato"))
+          .then(function () { f.reset(); m.className = "aviso"; m.textContent = "Mensagem enviada. A liga responde pelo contato que você informou."; })
           .catch(function () { m.className = "aviso erro"; m.textContent = "Não foi possível enviar agora. Tente de novo ou use um dos botões acima."; });
       });
     }
