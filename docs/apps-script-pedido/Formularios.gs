@@ -4,7 +4,7 @@
  * Planilha criada automaticamente: "DPS - Inscrições 2027" (abas "Inscrições" e "Contatos").
  */
 var NOME_PLANILHA_FORMS = 'DPS - Inscrições 2027';
-var EMAILS_FORMS = ['driveproseries@gmail.com'];   // recebem cada inscrição/contato (além do dono da conta)
+var EMAILS_FORMS = ['driveproseries@gmail.com'];   // recebem cada inscrição/contato
 
 var COLUNAS_INSCRICAO = ['nome', 'id_jogo', 'plataforma', 'retorno', 'cidade', 'campeonato', 'tempo', 'ligas', 'tempo_bahrein', 'regulamento', 'imagem'];
 var COLUNAS_CONTATO = ['assunto', 'nome', 'id_jogo', 'plataforma', 'retorno', 'mensagem'];
@@ -38,7 +38,7 @@ function formulario(d) {
   try {
     var corpo = cols.map(function (c) { return c + ': ' + txt(d[c], 2000); }).join('\n');
     var assunto = tipo === 'contato' ? 'Portal DPS: ' + txt(d.assunto, 80) : 'Portal DPS: Inscrição 2027 - ' + txt(d.nome, 60);
-    var para = EMAILS_FORMS.concat([Session.getEffectiveUser().getEmail()]).filter(function (e, i, a) { return e && a.indexOf(e) === i; }).join(',');
+    var para = EMAILS_FORMS.join(',');
     var opc = { to: para, subject: assunto, body: corpo };
     if (/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(txt(d.retorno))) opc.replyTo = txt(d.retorno);
     MailApp.sendEmail(opc);
