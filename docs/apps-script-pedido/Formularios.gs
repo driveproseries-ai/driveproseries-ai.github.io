@@ -39,14 +39,13 @@ function formulario(d) {
     var corpo = cols.map(function (c) { return c + ': ' + txt(d[c], 2000); }).join('\n');
     var assunto = tipo === 'contato' ? 'Portal DPS: ' + txt(d.assunto, 80) : 'Portal DPS: Inscrição 2027 - ' + txt(d.nome, 60);
     var para = EMAILS_FORMS.concat([Session.getEffectiveUser().getEmail()]).filter(function (e, i, a) { return e && a.indexOf(e) === i; }).join(',');
-    MailApp.sendEmail({ to: para, subject: assunto, body: corpo, replyTo: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(txt(d.retorno)) ? txt(d.retorno) : '' });
-  } catch (e) {}
+    var opc = { to: para, subject: assunto, body: corpo };
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(txt(d.retorno))) opc.replyTo = txt(d.retorno);
+    MailApp.sendEmail(opc);
+  } catch (e) { Logger.log('ERRO EMAIL: ' + e); }
   return { ok: true };
 }
 
-// Opcional: rode uma vez para colar na planilha as inscrições antigas (lista abaixo).
-function importarAntigas() {
-  var antigas = [];   // ex.: [['2026-10-20 18:00','Nome','IdJogo','PlayStation','contato','Cidade','Mundial DPS','1 a 3 anos','','','sim','sim']]
-  var sh = abaForms('Inscrições', COLUNAS_INSCRICAO);
-  antigas.forEach(function (l) { sh.appendRow(l); });
+function testar() {
+  Logger.log(JSON.stringify(formulario({ tipo: 'inscricao', nome: 'Teste', id_jogo: 'teste123', retorno: 'teste@teste.com', campeonato: 'Mundial DPS' })));
 }
