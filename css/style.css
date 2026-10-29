@@ -244,3 +244,8 @@ select,input,textarea{font:inherit;padding:8px 10px;border:2px solid var(--ink);
 .dst h3{margin:8px 0;font-size:26px}
 .dst p{margin:0;font-family:var(--body);font-size:17px;color:#2f463c}
 .dst p a{font-weight:600}
+.card.loja{padding:0 0 16px;position:relative}
+.card.loja img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;margin-bottom:12px}
+.card.loja h3,.card.loja p{margin-left:18px;margin-right:18px}
+.card.loja .breve{position:absolute;top:12px;right:12px;background:#c1121f;color:#fff;font-family:var(--head);font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:4px 10px;font-size:14px}
+.aviso-loja{border-left:4px solid #c1121f;background:rgba(193,18,31,.08);padding:12px 16px;margin:12px 0 20px}

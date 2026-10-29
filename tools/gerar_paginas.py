@@ -121,7 +121,7 @@ for n in noticias:
 # ---------- sitemap ----------
 fixas = ["index.html", "jornal.html", "tabelas.html", "calendario.html", "lastro.html", "regulamento.html",
          "inscricoes.html", "contato.html", "f1.html", "estatisticas.html", "halldafama.html",
-         "incidentes.html", "sorteio.html", "videos.html", "avisos.html", "privacidade.html"]
+         "incidentes.html", "sorteio.html", "videos.html", "avisos.html", "loja.html", "privacidade.html"]
 urls = []
 for p in fixas:
     if os.path.exists(os.path.join(raiz, p)):
