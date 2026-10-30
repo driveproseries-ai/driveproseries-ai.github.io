@@ -64,5 +64,20 @@
     "categoria": "",
     "carteira_pts": 0,
     "alerta": "Ao voltar à pista, confira sempre o tráfego e dê espaço a quem faz volta rápida. Grave a corrida e a qualificação e envie o vídeo de defesa no prazo de 5 dias (item 12.8); sem vídeo, a perda de pontos se aplica."
+  },
+  {
+    "id": "2026-10-27-elite-texas-marchi-bruno",
+    "campeonato": "elite",
+    "etapa": 19,
+    "pista": "Texas",
+    "volta": "27",
+    "data": "2026-10-27",
+    "titulo": "Jefferson Marchi × Bruno Fernandes",
+    "resumo": "Jefferson Marchi (líder) acusou Bruno Fernandes, uma volta atrás, de não respeitar a bandeira azul em duas situações. Bruno disse que foi atingido depois de ultrapassar.",
+    "analise": "Análise por IA com os vídeos dos dois pilotos. No trecho filmado, os carros ficam lado a lado na saída da curva e Bruno segue à frente. Não aparece contato em nenhum dos vídeos, e a segunda situação citada na acusação não foi filmada. A Direção decidiu que, sem nada constatado, é incidente de corrida.",
+    "regra": "Bandeira azul e item 12.13 do regulamento (toque de corrida).",
+    "decisao": "Incidente de corrida",
+    "punicao": "",
+    "alerta": "Quem é ultrapassado como retardatário deve facilitar a passagem, e quem lidera não deve forçar a ultrapassagem por fora, nem sair dos limites da pista. Em caso de repetição, a análise será mais rigorosa."
   }
 ]
