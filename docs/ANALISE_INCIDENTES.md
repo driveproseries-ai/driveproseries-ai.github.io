@@ -1,6 +1,6 @@
 # Análise automática de incidentes (tarefa na nuvem)
 
-Este guia é lido pela tarefa agendada "DPS - Análise de incidentes". Regras de fundo: `regulamento/leitura-2027.html`, capítulo 12 (itens 12.1 a 12.28) e Anexo E. Em caso de dúvida, vale o regulamento.
+Este guia é lido pela tarefa agendada "DPS - Análise de incidentes". Regras de fundo: `regulamento/leitura-2027.html`, capítulo 12 (itens 12.1 a 12.28) e Anexo D. Em caso de dúvida, vale o regulamento.
 
 ## 1. Onde estão os pedidos
 - Os pilotos enviam pela página `pedido.html`. O Drive da conta driveproseries@gmail.com recebe em `DPS - Pedidos de análise / <Grid> / <Pista> / <Piloto A> x <Piloto B> /` (nomes em ordem alfabética), compartilhada como leitor com o Drive conectado a esta tarefa.

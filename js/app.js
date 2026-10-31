@@ -71,7 +71,7 @@
       .then(function (j) { if (j && j.ok) return j; if (j && j.erro === "acao invalida") return antigo(); throw 0; });
   }
 
-  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["contato.html", "Fale conosco", "contato"]];
+  var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["sobre.html", "Sobre", "sobre"], ["contato.html", "Fale conosco", "contato"]];
   var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["loja.html", "Loja DPS", "loja"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
     var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || ((PAGE === "materia" || PAGE === "materia-fixa") && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
@@ -87,7 +87,7 @@
     var s = S.site, links = [];
     if (s.youtube) links.push('<a href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube da DPS</a>');
     if (s.instagram) links.push('<a class="ig" href="' + esc(safeUrl(s.instagram)) + '" rel="noopener" aria-label="Instagram da DPS">' + IG + "Instagram</a>");
-    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="avisos.html">Receber avisos</a>', '<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
+    $("#rodape").innerHTML = '<footer class="rodape"><div class="wrap"><div><strong style="font-family:var(--head);font-size:22px;color:#fff">' + esc(s.nome || "Portal DPS") + "</strong><br>" + esc(s.slogan || "") + "<br>" + links.concat(['<a href="avisos.html">Receber avisos</a>', '<a href="sobre.html">Sobre</a>', '<a href="privacidade.html">Privacidade</a>']).concat(adsCfg() ? ['<a href="#" id="cookies-pref">Cookies</a>'] : []).join(" · ") + '</div><div class="visitas">Visitas <b id="visitas">…</b></div></div></footer>';
   }
   function contador() {
     var c = S.site.contador, el = $("#visitas");
@@ -371,6 +371,34 @@
         '<div class="compart"><a class="botao" href="https://wa.me/?text=' + encodeURIComponent(n.titulo + " " + link) + '" rel="noopener">Compartilhar no WhatsApp</a><a class="botao claro" href="jornal.html">Mais matérias</a></div></article></div>';
     },
 
+    sobre: function () {
+      var s = S.site, mail = esc(s.email_contato || s.formsubmit || "");
+      document.title = "Sobre a DPS · " + (s.nome || "Portal DPS");
+      var redes = [];
+      if (s.youtube) redes.push('<a href="' + esc(safeUrl(s.youtube)) + '" rel="noopener">YouTube</a>');
+      if (s.instagram) redes.push('<a href="' + esc(safeUrl(s.instagram)) + '" rel="noopener">Instagram</a>');
+      $("#app").innerHTML = '<div class="wrap"><div class="texto" style="max-width:760px"><h1>Sobre a DPS</h1><p class="meta">Drive Pro Series · liga de automobilismo virtual</p>' +
+        "<p>A <strong>Drive Pro Series (DPS)</strong> é uma liga brasileira de Fórmula 1 virtual. Pilotos de todo o país disputam campeonatos organizados, com regulamento escrito, calendário fixo, tabelas públicas e análise de incidentes pela Direção da liga. As corridas são transmitidas e ficam disponíveis como replay no " + (redes.length ? redes.join(" e ") : "canal da DPS") + ".</p>" +
+        "<h2>Nossos campeonatos</h2>" +
+        "<p>A DPS organiza o <strong>Mundial DPS</strong> e o <strong>Mundial DPS Elite</strong>. Nos dois, os pilotos correm em equipes de dois pilotos, divididos em grupos de A a D de acordo com o nível, e somam pontos a cada etapa. Para 2027, o Mundial DPS terá 22 pilotos, 11 duplas e 24 etapas, seguindo o calendário da F1 real, com 10 etapas sprint. Todas as regras estão no <a href=\"regulamento.html\">regulamento</a>.</p>" +
+        "<h2>O que você encontra no Portal DPS</h2><ul>" +
+        '<li><strong><a href="tabelas.html">Tabelas</a></strong> de pilotos e equipes, por campeonato e por grupo.</li>' +
+        '<li><strong><a href="calendario.html">Próximas etapas</a></strong>, com pista, data e tipo de corrida.</li>' +
+        '<li><strong><a href="lastro.html">Lastro</a></strong>, a ordem de desempenho dos carros para cada corrida.</li>' +
+        '<li><strong><a href="jornal.html">Jornal DPS</a></strong>, com matérias sobre as corridas, bastidores e avisos da liga.</li>' +
+        '<li><strong><a href="f1.html">F1 real</a></strong>, um resumo das notícias do campeonato de verdade, sempre com link para a fonte original.</li>' +
+        '<li><strong><a href="incidentes.html">Incidentes</a></strong>, com as decisões da Direção e a regra aplicada em cada caso.</li>' +
+        '<li><strong><a href="videos.html">Replays</a></strong> das corridas e <strong><a href="estatisticas.html">estatísticas</a></strong> e <strong><a href="halldafama.html">Hall da Fama</a></strong> da liga.</li></ul>' +
+        "<h2>Como o conteúdo é feito</h2>" +
+        "<p>Os resultados e as tabelas vêm das corridas da própria liga. As matérias do Jornal DPS são escritas pela redação do portal. O resumo da F1 real é escrito com palavras próprias e sempre indica o veículo e o link da fonte. Quando a informação não é oficial, o texto deixa isso claro. Se você encontrar algum erro, fale com a liga e corrigimos.</p>" +
+        "<h2>Quem pode participar</h2>" +
+        '<p>Quem quer correr na DPS pode enviar a <a href="inscricoes.html">inscrição</a>. Toda inscrição passa por uma comissão da liga e pode ser aceita ou recusada, conforme o regulamento.</p>' +
+        "<h2>Anúncios e independência</h2>" +
+        '<p>O Portal DPS é mantido pela liga e pode exibir anúncios do Google AdSense para ajudar a cobrir os custos. Os anúncios não influenciam o conteúdo, e você escolhe como tratamos os cookies no aviso do site. Veja a <a href="privacidade.html">política de privacidade</a>. A DPS é uma liga independente de jogo online e não tem ligação com a Fórmula 1, a FIA, a EA ou qualquer equipe ou piloto reais. Os nomes e marcas citados pertencem aos respectivos donos.</p>' +
+        "<h2>Fale com a liga</h2>" +
+        '<p>Para dúvidas, parcerias ou sugestões, use a página <a href="contato.html">Fale conosco</a>' + (mail ? ' ou escreva para <a href="mailto:' + mail + '">' + mail + "</a>" : "") + (s.whatsapp ? ', ou chame no <a href="' + esc(safeUrl(s.whatsapp)) + '" rel="noopener">WhatsApp</a>' : "") + ".</p></div></div>";
+    },
+
     privacidade: function () {
       var s = S.site, mail = esc(s.email_contato || s.formsubmit || "");
       $("#app").innerHTML = '<div class="wrap"><div class="texto" style="max-width:760px"><h1>Política de privacidade</h1><p class="meta">Atualizada em 28/10/2026</p>' +
@@ -437,7 +465,7 @@
 
     regulamento: function () {
       var main = $("#app");
-      main.innerHTML = '<div class="wrap"><h1>Regulamento 2027</h1><p class="meta">Regras do Mundial DPS 2027: grupos, duplas, calendário, lastro, pontuação e incidentes. Versão em rascunho, em avaliação pelos capitães.</p>' +
+      main.innerHTML = '<div class="wrap"><h1>Regulamento 2027</h1><p class="meta">Regras do Mundial DPS 2027: grupos, duplas, calendário, lastro, pontuação e incidentes.</p>' +
         '<p><a class="botao" href="regulamento/Regulamento_Mundial_DPS_2027.pdf" download>Baixar PDF</a> <a class="botao claro" href="regulamento/leitura-2027.html">Abrir em tela cheia</a></p>' +
         '<iframe title="Regulamento Mundial DPS 2027" src="regulamento/leitura-2027.html" style="width:100%;height:80vh;min-height:480px;border:1px solid var(--linha,#ccc);border-radius:6px;background:#0a0a0c" loading="lazy"></iframe></div>';
     },
@@ -588,7 +616,7 @@
       var s = S.site, p = s.pedido || {}, main = $("#app"), url = p.apps_script_url || "", maxmb = p.max_mb || 600;
       var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite"; });
       var head = '<div class="wrap"><div style="max-width:700px"><h1>Pedido de análise</h1><p style="font-family:var(--body);font-size:20px">Envie aqui o pedido de análise de incidente ou o vídeo de defesa. O vídeo e o relato seguem juntos para a Comissão de Análise.</p>' +
-        '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida (se você não gravou, marque a opção \"não tenho vídeo de defesa\"). Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo E.</div>';
+        '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida (se você não gravou, marque a opção \"não tenho vídeo de defesa\"). Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo D.</div>';
       if (!url) { main.innerHTML = head + '<div class="aviso erro"><strong>Envio ainda não configurado.</strong> Enquanto isso, mande o pedido ao capitão da sua equipe, como de costume.</div></div></div>'; return; }
       main.innerHTML = head +
         '<form class="form" id="f" novalidate><div class="chk"><label><input type="radio" name="tipo" value="acusacao" checked> Pedido de análise (acusação)</label> <label><input type="radio" name="tipo" value="defesa"> Vídeo de defesa</label></div>' +
