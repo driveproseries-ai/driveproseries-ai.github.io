@@ -1,57 +1,64 @@
 {
  "id": "mundial",
  "nome": "Mundial DPS 2026",
- "atualizado_em": "2026-10-25",
+ "atualizado_em": "2026-11-01",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
    "nome": "Arthur Tuta",
    "grupo": "A",
    "equipe": "Katchau Racing Team",
-   "pts": 351,
+   "pts": 359,
    "pun": 0
   },
   {
    "nome": "Fabinho Luz",
    "grupo": "A",
    "equipe": "AW Racing Team",
-   "pts": 305,
+   "pts": 322,
    "pun": 0
   },
   {
    "nome": "Gabriel Arruda",
    "grupo": "C",
    "equipe": "Old is Cool",
-   "pts": 282,
+   "pts": 296,
    "pun": -21
-  },
-  {
-   "nome": "Marcelo",
-   "grupo": "B",
-   "equipe": "Retired Team F1",
-   "pts": 274,
-   "pun": -16
   },
   {
    "nome": "Marck Bauer",
    "grupo": "A",
    "equipe": "Old is Cool",
-   "pts": 266,
+   "pts": 288,
    "pun": 0
+  },
+  {
+   "nome": "Marcelo",
+   "grupo": "B",
+   "equipe": "Retired Team F1",
+   "pts": 281,
+   "pun": -16
   },
   {
    "nome": "Cesar Jones",
    "grupo": "C",
    "equipe": "Retired Team F1",
-   "pts": 262,
-   "pun": 0
+   "pts": 273,
+   "pun": -5
   },
   {
    "nome": "Marcos Paulo",
    "grupo": "B",
    "equipe": "Papaya & Green Racing",
-   "pts": 235,
+   "pts": 255,
    "pun": -36
+  },
+  {
+   "nome": "Leo Fernandes",
+   "grupo": "B",
+   "equipe": "Katchau Racing Team",
+   "pts": 236,
+   "pun": -23
   },
   {
    "nome": "André Paixão",
@@ -61,46 +68,46 @@
    "pun": -16
   },
   {
-   "nome": "Leo Fernandes",
-   "grupo": "B",
-   "equipe": "Katchau Racing Team",
-   "pts": 226,
-   "pun": -23
-  },
-  {
-   "nome": "Thiago Diniz",
-   "grupo": "D",
-   "equipe": "Papaya & Green Racing",
-   "pts": 206,
-   "pun": 0
-  },
-  {
    "nome": "Gustavo Gallo",
    "grupo": "A",
    "equipe": "Papaya & Green Racing",
-   "pts": 204,
+   "pts": 217,
    "pun": -10
-  },
-  {
-   "nome": "Pereira",
-   "grupo": "D",
-   "equipe": "Old is Cool",
-   "pts": 202,
-   "pun": -5
   },
   {
    "nome": "Cleisson",
    "grupo": "B",
    "equipe": "Old is Cool",
-   "pts": 192,
+   "pts": 217,
    "pun": -10
+  },
+  {
+   "nome": "Thiago Diniz",
+   "grupo": "D",
+   "equipe": "Papaya & Green Racing",
+   "pts": 211,
+   "pun": 0
+  },
+  {
+   "nome": "Pereira",
+   "grupo": "D",
+   "equipe": "Old is Cool",
+   "pts": 208,
+   "pun": -5
   },
   {
    "nome": "Lucas Bueno",
    "grupo": "C",
    "equipe": "Katchau Racing Team",
-   "pts": 191,
+   "pts": 207,
    "pun": -10
+  },
+  {
+   "nome": "Jo Caiana",
+   "grupo": "C",
+   "equipe": "Papaya & Green Racing",
+   "pts": 206,
+   "pun": 0
   },
   {
    "nome": "Renato TVR",
@@ -108,13 +115,6 @@
    "equipe": "AW Racing Team",
    "pts": 191,
    "pun": -12
-  },
-  {
-   "nome": "Jo Caiana",
-   "grupo": "C",
-   "equipe": "Papaya & Green Racing",
-   "pts": 191,
-   "pun": 0
   },
   {
    "nome": "Fabio RGP",
@@ -127,7 +127,7 @@
    "nome": "Gustavo Moura",
    "grupo": "D",
    "equipe": "Katchau Racing Team",
-   "pts": 90,
+   "pts": 102,
    "pun": -15
   },
   {
@@ -141,35 +141,35 @@
    "nome": "Brito",
    "grupo": "D",
    "equipe": "Retired Team F1",
-   "pts": 54,
+   "pts": 63,
    "pun": -20
   }
  ],
  "construtores": [
   {
    "equipe": "Old is Cool",
-   "pts": 913,
+   "pts": 980,
    "pun": -36
   },
   {
-   "equipe": "Katchau Racing Team",
-   "pts": 835,
-   "pun": -48
-  },
-  {
    "equipe": "Papaya & Green Racing",
-   "pts": 829,
+   "pts": 882,
    "pun": -46
   },
   {
+   "equipe": "Katchau Racing Team",
+   "pts": 881,
+   "pun": -48
+  },
+  {
    "equipe": "Retired Team F1",
-   "pts": 758,
+   "pts": 785,
    "pun": -57
   },
   {
    "equipe": "AW Racing Team",
-   "pts": 688,
-   "pun": -12
+   "pts": 705,
+   "pun": -27
   }
  ],
  "calendario": [
@@ -335,7 +335,7 @@
    "tipos": [
     "cpd"
    ],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 21,
@@ -345,7 +345,7 @@
    "tipos": [
     "cpd"
    ],
-   "status": "futura"
+   "status": "proxima"
   },
   {
    "n": 22,
