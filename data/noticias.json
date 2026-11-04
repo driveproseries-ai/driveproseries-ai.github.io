@@ -1,5 +1,103 @@
 [
   {
+    "id": "2026-11-03-elite-mexico",
+    "tipo": "corrida",
+    "campeonato": "elite",
+    "data": "2026-11-03",
+    "autor": "Redação DPS",
+    "titulo": "Gustavo Ferreira vence no México com a Aston Martin, e Thulio sai de 13º para segundo",
+    "linha_fina": "Na etapa 20 do Elite, o vice-líder ganha com o carro de menor desempenho pelo lastro e faz a volta mais rápida; Daniel Requena é oitavo e vê a vantagem cair para 29 pontos.",
+    "corpo": [
+      "Gustavo Ferreira venceu a etapa 20 do Mundial DPS Elite 2026, o GP do México, na noite desta terça-feira. Ele largou em terceiro com a Aston Martin, o carro de menor desempenho na distribuição do lastro, terminou 6,9 segundos à frente de Thulio Mendes e ainda fez a volta mais rápida da corrida (1:16.748). Foram 71 voltas, com clima pré-definido (CPD).",
+      "Henrique Valente largou na pole (1:15.764) com a Red Bull, e Welk dividiu a primeira fila com a Audi. Welk terminou em quarto, depois de quatro paradas nos boxes. Gustavo Isoppo, de Alpine, largou em quarto e fechou o pódio.",
+      "O piloto do dia foi Thulio Mendes. Com a Racing Bulls, ele largou em 13º e cruzou em segundo, 11 posições acima. Leo Oliveira (de 10º para 5º) e Matheus Gregório (de 11º para 6º) também ganharam terreno. Segundo a telemetria, as punições de tempo do jogo pesaram no resultado: Henrique Valente (6 segundos), Daniel Requena (9) e Robinho (10) chegaram perto do vencedor na pista, mas caíram para sétimo, oitavo e nono.",
+      "Bruno Fernandes parou a sete voltas do fim, mas já tinha completado mais de 90% da prova e foi classificado em 13º, pelo item 11.2 do regulamento. Ricardo Garcia (25 voltas) e Menezes (12) abandonaram e não pontuaram. Rafa Almeida, Rafa Marques, Arthur Tuta, Chrys e Gerson Bolha não disputaram a etapa e, pelo item 12.22, largam sem classificação no Brasil.",
+      "Daniel Requena segue líder, com 338 pontos, mas a vantagem sobre Gustavo Ferreira (309) caiu de 41 para 29. Matheus Gregório (285), Jefferson Marchi (257) e Thulio Mendes (256) completam os cinco primeiros. Entre os construtores, a DPS - Drama, Punição e Sofrimento lidera com 1040 pontos, à frente da Myeggsleft Racing Team (945).",
+      "A próxima etapa é o GP do Brasil, na terça-feira, 10 de novembro, de novo com clima pré-definido. Pelo lastro atualizado, Requena e Ferreira continuam com a Aston Martin, e Thulio Mendes segue de Racing Bulls, agora ao lado de Robinho. A distribuição completa está na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Gustavo Ferreira",
+        "equipe": "Fúria do Asfalto"
+      },
+      {
+        "pos": "2",
+        "piloto": "Thulio Mendes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "3",
+        "piloto": "Gustavo Isoppo",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "4",
+        "piloto": "Welk",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "5",
+        "piloto": "Leo Oliveira",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "6",
+        "piloto": "Matheus Gregório",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "7",
+        "piloto": "Henrique Valente",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "8",
+        "piloto": "Daniel Requena",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "9",
+        "piloto": "Robinho",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "10",
+        "piloto": "Diogo Marin",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "11",
+        "piloto": "Meirelles",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "12",
+        "piloto": "Jefferson Marchi",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "13",
+        "piloto": "Bruno Fernandes",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Ricardo Garcia",
+        "equipe": "Fúria do Asfalto"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Menezes",
+        "equipe": "Myeggsleft Racing Team"
+      }
+    ],
+    "destaque": {
+      "piloto": "Thulio Mendes",
+      "motivo": "Largou em 13º e terminou em segundo, 11 posições acima; eleito o piloto do dia."
+    }
+  },
+  {
     "id": "2026-11-01-mundial-mexico",
     "tipo": "corrida",
     "campeonato": "mundial",
