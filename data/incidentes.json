@@ -79,5 +79,39 @@
     "decisao": "Incidente de corrida",
     "punicao": "",
     "alerta": "Quem é ultrapassado como retardatário deve facilitar a passagem, e quem lidera não deve forçar a ultrapassagem por fora, nem sair dos limites da pista. Em caso de repetição, a análise será mais rigorosa."
+  },
+  {
+    "id": "2026-11-01-mundial-mexico-brito-leo",
+    "campeonato": "mundial",
+    "etapa": 20,
+    "pista": "México",
+    "volta": "21",
+    "data": "2026-11-01",
+    "titulo": "Brito × Leo Fernandes",
+    "resumo": "Na volta 21, com Brito na liderança, Leo Fernandes atingiu a traseira do carro dele. Brito perdeu posições (caiu de 1º para 5º) e não teve dano no carro; Leo teve dano na asa dianteira.",
+    "analise": "Análise por IA com os vídeos dos dois pilotos, decidida pela Direção. O Brito reduziu muito a velocidade na entrada do setor 3 e o Leo, vindo atrás, freou forte mas não evitou o toque. A Direção entendeu que quem vem atrás é responsável por evitar o contato com o carro da frente, e que o Brito sofreu um toque na traseira que o fez perder posições, sem dano ao carro dele.",
+    "regra": "Diretrizes de condução da FIA (v4.1): quem vem atrás deve evitar o contato. Item 12.14 do regulamento: Média (não causou dano à vítima, mas fez a vítima perder posições), −6 pts; carteira 6 pts (12.18.2).",
+    "decisao": "Culpado: Leo Fernandes",
+    "punicao": "Média (−6 pts)",
+    "categoria": "media",
+    "carteira_pts": 6,
+    "alerta": "Alerta ao Leo Fernandes: ao se aproximar de um carro muito mais lento na frente, a responsabilidade de evitar o toque é de quem vem atrás. Se reincidir, a segunda punição vira grave (12.19)."
+  },
+  {
+    "id": "2026-11-01-mundial-mexico-fabinho-cesar",
+    "campeonato": "mundial",
+    "etapa": 20,
+    "pista": "México",
+    "volta": "11",
+    "data": "2026-11-01",
+    "titulo": "Fabinho Luz × Cesar Jones",
+    "resumo": "Na volta 11, os dois disputaram posição lado a lado nas curvas 1 e 2. Cesar Jones tocou a zebra na curva 2 e recebeu aviso de limites de pista; Fabinho Luz perdeu uma posição.",
+    "analise": "Análise por IA com os vídeos dos dois pilotos, decidida pela Direção. A disputa foi lado a lado e aparentemente limpa, sem contato visível nos vídeos nem prova de que um piloto tenha fechado o outro.",
+    "regra": "Diretrizes de condução da FIA (v4.1) e item 12.13 do regulamento (toque/disputa de corrida).",
+    "decisao": "Incidente de corrida",
+    "punicao": "",
+    "categoria": "",
+    "carteira_pts": 0,
+    "alerta": ""
   }
 ]
