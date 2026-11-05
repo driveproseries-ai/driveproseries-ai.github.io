@@ -233,15 +233,16 @@
       html += '<section class="sec"><div class="faixa"><div><h2>Quer correr na DPS?</h2><p>Conte seu nível e sua plataforma. A comissão avalia cada inscrição.</p></div><a class="botao" href="contato.html">Falar com a liga</a></div></section></div>';
       main.innerHTML = html;
       var t = $("#torre"), atual = S.camps[0];
+      var abTorre = null;
       function pinta(id) {
         var c = S.camps.filter(function (x) { return x.id === id; })[0]; if (!c) return;
         t.style.setProperty("--c", c.cor);
         t.innerHTML = '<div class="torre-topo"><h2>' + esc(c.nome) + "</h2></div>" + torre(c, 10) + '<div class="torre-pe">Pontos do FGC. <a href="tabelas.html?c=' + esc(c.id) + '">Tabela completa</a></div>';
+        if (abTorre) t.insertBefore(abTorre, t.firstChild);
       }
       if (cp) {
         var ab = abasCamp(cp.id, pinta); ab.style.margin = "0"; ab.style.padding = "8px 10px"; ab.style.background = "#fff";
-        t.innerHTML = ""; pinta(cp.id);
-        t.insertBefore(ab, t.firstChild);
+        abTorre = ab; pinta(cp.id);
       }
     },
 
