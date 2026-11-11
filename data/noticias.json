@@ -1,5 +1,98 @@
 [
   {
+    "id": "2026-11-10-elite-brasil",
+    "tipo": "corrida",
+    "campeonato": "elite",
+    "data": "2026-11-10",
+    "autor": "Redação DPS",
+    "titulo": "Menezes faz pole e vence em Interlagos de Red Bull; Requena é segundo e abre 31 pontos",
+    "linha_fina": "Largando na frente, Menezes segurou o líder do campeonato por 1,4 segundo nas 71 voltas do GP do Brasil, e Thulio Mendes foi o piloto do dia pela segunda etapa seguida.",
+    "corpo": [
+      "Menezes venceu a etapa 21 do Mundial DPS Elite 2026, o GP do Brasil, na noite desta terça-feira, em Interlagos. Com a Red Bull, ele fez a pole (1:18.926) e cruzou a linha 1,4 segundo à frente de Daniel Requena depois de 71 voltas, com clima pré-definido (CPD). Gustavo Ferreira completou o pódio.",
+      "O lastro deixou os dois primeiros do campeonato de Aston Martin, o carro de menor desempenho da distribuição, e mesmo assim Requena e Ferreira largaram em terceiro e segundo e terminaram em segundo e terceiro. Para quem anda com o carro mais pesado do grid, a reclamação vai ter que esperar.",
+      "Matheus Gregório chegou em quarto. Segundo a telemetria, ele cruzou à frente de Ferreira, mas os 13 segundos de punição do jogo o empurraram para trás. Welk saiu de nono para quinto, Bruno Fernandes ganhou duas posições até o sexto, e Henrique Valente, que largou em quarto, terminou em sétimo.",
+      "O piloto do dia foi Thulio Mendes, de novo: largou em 14º e terminou em oitavo, seis posições acima. Arthur Tuta também subiu, de 13º para décimo. Gustavo Isoppo fez a volta mais rápida (1:11.313), mas, com cinco paradas nos boxes, terminou em 13º. Ricardo Garcia abandonou depois de 28 voltas e não pontuou. Jefferson Marchi, Meirelles, Rafa Almeida, Rafa Marques, Chrys e Gerson Bolha não disputaram a etapa e, pelo item 12.22, largam sem classificação em Las Vegas.",
+      "Requena segue líder, com 360 pontos, agora 31 à frente de Gustavo Ferreira (329). Matheus Gregório (302), Thulio Mendes (269) e Robinho (260) completam os cinco primeiros. Entre os construtores, a DPS - Drama, Punição e Sofrimento lidera com 1098 pontos, à frente da Myeggsleft Racing Team (992).",
+      "A próxima etapa é o GP de Las Vegas, na terça-feira, 24 de novembro, com grid invertido. A distribuição dos carros pelo lastro está na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Menezes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "2",
+        "piloto": "Daniel Requena",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "3",
+        "piloto": "Gustavo Ferreira",
+        "equipe": "Fúria do Asfalto"
+      },
+      {
+        "pos": "4",
+        "piloto": "Matheus Gregório",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "5",
+        "piloto": "Welk",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "6",
+        "piloto": "Bruno Fernandes",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "7",
+        "piloto": "Henrique Valente",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "8",
+        "piloto": "Thulio Mendes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "9",
+        "piloto": "Leo Oliveira",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "10",
+        "piloto": "Arthur Tuta",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "11",
+        "piloto": "Robinho",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "12",
+        "piloto": "Diogo Marin",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "13",
+        "piloto": "Gustavo Isoppo",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Ricardo Garcia",
+        "equipe": "Fúria do Asfalto"
+      }
+    ],
+    "destaque": {
+      "piloto": "Thulio Mendes",
+      "motivo": "Largou em 14º e terminou em oitavo, seis posições acima; eleito o piloto do dia pela segunda etapa seguida."
+    }
+  },
+  {
     "id": "2026-11-05-guia-volantes-g923-t300-csl-elite",
     "tipo": "jornal",
     "campeonato": null,

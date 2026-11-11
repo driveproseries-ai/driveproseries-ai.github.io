@@ -1,29 +1,43 @@
 {
  "id": "elite",
  "nome": "Mundial DPS Elite 2026",
- "atualizado_em": "2026-11-03",
+ "atualizado_em": "2026-11-10",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
    "nome": "Daniel Requena",
    "grupo": "A",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 338,
+   "pts": 360,
    "pun": 0
   },
   {
    "nome": "Gustavo Ferreira",
    "grupo": "A",
    "equipe": "Fúria do Asfalto",
-   "pts": 309,
+   "pts": 329,
    "pun": -6
   },
   {
    "nome": "Matheus Gregório",
    "grupo": "A",
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 285,
+   "pts": 302,
    "pun": -6
+  },
+  {
+   "nome": "Thulio Mendes",
+   "grupo": "B",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 269,
+   "pun": 0
+  },
+  {
+   "nome": "Robinho",
+   "grupo": "D",
+   "equipe": "Papayas Verdes F1 Team",
+   "pts": 260,
+   "pun": -16
   },
   {
    "nome": "Jefferson Marchi",
@@ -33,66 +47,52 @@
    "pun": 0
   },
   {
-   "nome": "Thulio Mendes",
-   "grupo": "B",
-   "equipe": "Myeggsleft Racing Team",
-   "pts": 256,
-   "pun": 0
-  },
-  {
-   "nome": "Robinho",
-   "grupo": "D",
-   "equipe": "Papayas Verdes F1 Team",
-   "pts": 250,
-   "pun": -16
-  },
-  {
    "nome": "Leo Oliveira",
    "grupo": "C",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 242,
+   "pts": 254,
    "pun": 0
   },
   {
    "nome": "Welk",
    "grupo": "B",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 237,
+   "pts": 253,
    "pun": 0
   },
   {
    "nome": "Diogo Marin",
    "grupo": "C",
    "equipe": "Myeggsleft Racing Team",
-   "pts": 224,
+   "pts": 233,
    "pun": -4
+  },
+  {
+   "nome": "Menezes",
+   "grupo": "D",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 231,
+   "pun": -10
   },
   {
    "nome": "Gustavo Isoppo",
    "grupo": "D",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 219,
+   "pts": 227,
    "pun": 0
   },
   {
    "nome": "Henrique Valente",
    "grupo": "A",
    "equipe": "Simas Turbo",
-   "pts": 212,
+   "pts": 226,
    "pun": 0
   },
   {
    "nome": "Bruno Fernandes",
    "grupo": "C",
    "equipe": "Simas Turbo",
-   "pts": 210,
-   "pun": -10
-  },
-  {
-   "nome": "Menezes",
-   "grupo": "D",
-   "equipe": "Myeggsleft Racing Team",
-   "pts": 206,
+   "pts": 225,
    "pun": -10
   },
   {
@@ -117,18 +117,18 @@
    "pun": -10
   },
   {
+   "nome": "Arthur Tuta",
+   "grupo": "B",
+   "equipe": "Simas Turbo",
+   "pts": 131,
+   "pun": 0
+  },
+  {
    "nome": "Ricardo Garcia",
    "grupo": "B",
    "equipe": "Fúria do Asfalto",
    "pts": 124,
    "pun": -6
-  },
-  {
-   "nome": "Arthur Tuta",
-   "grupo": "B",
-   "equipe": "Simas Turbo",
-   "pts": 120,
-   "pun": 0
   },
   {
    "nome": "Chrys",
@@ -148,27 +148,27 @@
  "construtores": [
   {
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 1040,
+   "pts": 1098,
    "pun": 0
   },
   {
    "equipe": "Myeggsleft Racing Team",
-   "pts": 945,
+   "pts": 992,
    "pun": -14
   },
   {
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 856,
+   "pts": 883,
    "pun": -38
   },
   {
    "equipe": "Simas Turbo",
-   "pts": 807,
+   "pts": 847,
    "pun": -10
   },
   {
    "equipe": "Fúria do Asfalto",
-   "pts": 616,
+   "pts": 636,
    "pun": -43
   }
  ],
@@ -346,7 +346,7 @@
    "tipos": [
     "cpd"
    ],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 22,
@@ -356,7 +356,7 @@
    "tipos": [
     "invertido"
    ],
-   "status": "futura"
+   "status": "proxima"
   },
   {
    "n": 23,
