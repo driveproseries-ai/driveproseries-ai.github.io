@@ -1,0 +1,280 @@
+{
+ "id": "mc1t20",
+ "nome": "Modo Carreira 1 (T20)",
+ "atualizado_em": "2026-11-11",
+ "encerrado": false,
+ "fonte_dados": "Formula Game Companion (pontos). Grupos pelo regulamento do Modo Carreira (item 3.3).",
+ "pilotos": [
+  {
+   "nome": "Rafa Hulk",
+   "grupo": "3",
+   "equipe": "Williams",
+   "pts": 25,
+   "pun": 0
+  },
+  {
+   "nome": "Pilpro",
+   "grupo": "2",
+   "equipe": "Alpine",
+   "pts": 22,
+   "pun": 0
+  },
+  {
+   "nome": "Jefferson Marchi",
+   "grupo": "3",
+   "equipe": "Williams",
+   "pts": 20,
+   "pun": 0
+  },
+  {
+   "nome": "Santiago",
+   "grupo": "1",
+   "equipe": "McLaren",
+   "pts": 19,
+   "pun": 0
+  },
+  {
+   "nome": "Lucas Lolu",
+   "grupo": "2",
+   "equipe": "Alpine",
+   "pts": 18,
+   "pun": 0
+  },
+  {
+   "nome": "Phep",
+   "grupo": "1",
+   "equipe": "Red Bull Racing",
+   "pts": 17,
+   "pun": 0
+  },
+  {
+   "nome": "Camilo",
+   "grupo": "1",
+   "equipe": "Ferrari",
+   "pts": 16,
+   "pun": 0
+  },
+  {
+   "nome": "Matheus Leão",
+   "grupo": "4",
+   "equipe": "Cadillac",
+   "pts": 15,
+   "pun": 0
+  },
+  {
+   "nome": "Gomes",
+   "grupo": "4",
+   "equipe": "Aston Martin",
+   "pts": 14,
+   "pun": 0
+  },
+  {
+   "nome": "Goku",
+   "grupo": "2",
+   "equipe": "Haas",
+   "pts": 12,
+   "pun": 0
+  },
+  {
+   "nome": "Soares",
+   "grupo": "2",
+   "equipe": "Haas",
+   "pts": 11,
+   "pun": 0
+  },
+  {
+   "nome": "Fabinho Luz",
+   "grupo": "4",
+   "equipe": "Cadillac",
+   "pts": 9,
+   "pun": 0
+  },
+  {
+   "nome": "Luca",
+   "grupo": "1",
+   "equipe": "Mercedes",
+   "pts": 8,
+   "pun": 0
+  },
+  {
+   "nome": "Will Tefé",
+   "grupo": "1",
+   "equipe": "McLaren",
+   "pts": 7,
+   "pun": 0
+  },
+  {
+   "nome": "Ghost",
+   "grupo": "4",
+   "equipe": "Aston Martin",
+   "pts": 6,
+   "pun": 0
+  },
+  {
+   "nome": "Ricardo Garcia",
+   "grupo": "3",
+   "equipe": "Racing Bulls",
+   "pts": 5,
+   "pun": 0
+  },
+  {
+   "nome": "Daniel Requena",
+   "grupo": "3",
+   "equipe": "Racing Bulls",
+   "pts": 4,
+   "pun": 0
+  },
+  {
+   "nome": "Daan",
+   "grupo": "3",
+   "equipe": "Audi",
+   "pts": 0,
+   "pun": 0
+  },
+  {
+   "nome": "Dr Rafael",
+   "grupo": "3",
+   "equipe": "Audi",
+   "pts": 0,
+   "pun": 0
+  },
+  {
+   "nome": "Matheus Gregório",
+   "grupo": "1",
+   "equipe": "Mercedes",
+   "pts": 0,
+   "pun": 0
+  },
+  {
+   "nome": "Menezes",
+   "grupo": "1",
+   "equipe": "Ferrari",
+   "pts": 0,
+   "pun": 0
+  }
+ ],
+ "construtores": [
+  {
+   "equipe": "Williams",
+   "pts": 45,
+   "pun": 0
+  },
+  {
+   "equipe": "Alpine",
+   "pts": 40,
+   "pun": 0
+  },
+  {
+   "equipe": "McLaren",
+   "pts": 26,
+   "pun": 0
+  },
+  {
+   "equipe": "Ferrari",
+   "pts": 26,
+   "pun": 0
+  },
+  {
+   "equipe": "Cadillac",
+   "pts": 24,
+   "pun": 0
+  },
+  {
+   "equipe": "Haas",
+   "pts": 23,
+   "pun": 0
+  },
+  {
+   "equipe": "Mercedes",
+   "pts": 21,
+   "pun": 0
+  },
+  {
+   "equipe": "Aston Martin",
+   "pts": 20,
+   "pun": 0
+  },
+  {
+   "equipe": "Red Bull Racing",
+   "pts": 17,
+   "pun": 0
+  },
+  {
+   "equipe": "Racing Bulls",
+   "pts": 9,
+   "pun": 0
+  },
+  {
+   "equipe": "Audi",
+   "pts": 0,
+   "pun": 0
+  }
+ ],
+ "calendario": [
+  {
+   "n": 1,
+   "pista": "Áustria",
+   "data": "2026-11-11",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "realizada"
+  },
+  {
+   "n": 2,
+   "pista": "Espanha",
+   "data": "2026-11-18",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "proxima"
+  },
+  {
+   "n": 3,
+   "pista": "Grã-Bretanha",
+   "data": "2026-11-25",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 4,
+   "pista": "Arábia Saudita",
+   "data": "2026-12-02",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 5,
+   "pista": "Austrália",
+   "data": "2026-12-09",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 6,
+   "pista": "Miami",
+   "data": "2026-12-16",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 7,
+   "pista": "Abu Dhabi",
+   "data": "2027-01-13",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura"
+  },
+  {
+   "n": 8,
+   "pista": "Bélgica",
+   "data": "2027-01-20",
+   "hora": "21:30",
+   "tipos": [],
+   "status": "futura",
+   "observacao": "Última etapa da temporada."
+  }
+ ]
+}

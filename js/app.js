@@ -615,7 +615,7 @@
 
     pedido: function () {
       var s = S.site, p = s.pedido || {}, main = $("#app"), url = p.apps_script_url || "", maxmb = p.max_mb || 600;
-      var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite"; });
+      var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite" || c.id === "mc1t20"; });
       var head = '<div class="wrap"><div style="max-width:700px"><h1>Pedido de análise</h1><p style="font-family:var(--body);font-size:20px">Envie aqui o pedido de análise de incidente ou o vídeo de defesa. O vídeo e o relato seguem juntos para a Comissão de Análise.</p>' +
         '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida (se você não gravou, marque a opção \"não tenho vídeo de defesa\"). Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo D.</div>';
       if (!url) { main.innerHTML = head + '<div class="aviso erro"><strong>Envio ainda não configurado.</strong> Enquanto isso, mande o pedido ao capitão da sua equipe, como de costume.</div></div></div>'; return; }

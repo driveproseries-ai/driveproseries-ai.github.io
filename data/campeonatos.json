@@ -12,6 +12,12 @@
   "cor": "#CF1B2B"
  },
  {
+  "id": "mc1t20",
+  "nome": "Modo Carreira 1 (T20)",
+  "curto": "MC1 T20",
+  "cor": "#0e7490"
+ },
+ {
   "id": "carreira1",
   "nome": "Modo Carreira 1 (T19)",
   "curto": "Carreira 1",
