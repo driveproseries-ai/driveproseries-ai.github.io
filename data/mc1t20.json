@@ -157,57 +157,68 @@
   {
    "equipe": "Williams",
    "pts": 45,
-   "pun": 0
+   "pun": 0,
+   "grupo": "3"
   },
   {
    "equipe": "Alpine",
    "pts": 40,
-   "pun": 0
+   "pun": 0,
+   "grupo": "2"
   },
   {
    "equipe": "McLaren",
    "pts": 26,
-   "pun": 0
+   "pun": 0,
+   "grupo": "1"
   },
   {
    "equipe": "Ferrari",
    "pts": 26,
-   "pun": 0
+   "pun": 0,
+   "grupo": "1"
   },
   {
    "equipe": "Cadillac",
    "pts": 24,
-   "pun": 0
+   "pun": 0,
+   "grupo": "4"
   },
   {
    "equipe": "Haas",
    "pts": 23,
-   "pun": 0
+   "pun": 0,
+   "grupo": "2"
   },
   {
    "equipe": "Mercedes",
    "pts": 21,
-   "pun": 0
+   "pun": 0,
+   "grupo": "1"
   },
   {
    "equipe": "Aston Martin",
    "pts": 20,
-   "pun": 0
+   "pun": 0,
+   "grupo": "4"
   },
   {
    "equipe": "Red Bull Racing",
    "pts": 17,
-   "pun": 0
+   "pun": 0,
+   "grupo": "1"
   },
   {
    "equipe": "Racing Bulls",
    "pts": 9,
-   "pun": 0
+   "pun": 0,
+   "grupo": "3"
   },
   {
    "equipe": "Audi",
    "pts": 0,
-   "pun": 0
+   "pun": 0,
+   "grupo": "3"
   }
  ],
  "calendario": [
