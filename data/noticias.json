@@ -5,15 +5,15 @@
   "campeonato": "mc1t20",
   "data": "2026-11-11",
   "autor": "Redação DPS",
-  "titulo": "Hulk esmaga na Áustria, Williams faz dobradinha de pódio e o pole-position vai parar em 16º",
+  "titulo": "Hulk esmaga na Áustria, Williams põe dois no pódio e o pole-position vai parar em 17º",
   "linha_fina": "Rafa Hulk saiu de quinto e venceu a estreia do Modo Carreira 1 (T20) com Jefferson Marchi em terceiro; Pilpro foi segundo, Lucas Lolu ganhou sete posições e foi o piloto do dia.",
   "corpo": [
    "Existe um tipo de piloto que larga em quinto, olha os quatro carros na frente e pensa: \"isso aí é só decoração\". Rafa Hulk é desse tipo. Na estreia do Modo Carreira 1 (T20), no Red Bull Ring, na noite desta quarta-feira, ele fez de uma Williams o carro mais temido da Estíria e venceu em 45min50s008, com 2,4 segundos sobre Pilpro, da Alpine.",
    "E a Williams não ficou só nisso. Jefferson Marchi, que além de piloto é o presidente da equipe, largou em quarto e completou o pódio. Resultado: a escuderia que o regulamento coloca no Grupo 3 sai da primeira etapa liderando os construtores com 45 pontos. Em algum lugar de Grove, um engenheiro aposentado chorou de emoção sem saber o motivo.",
-   "Pilpro largou em sétimo e terminou em segundo. Lucas Lolu, seu companheiro de Alpine, foi ainda mais longe: saiu de 12º e cruzou em quinto. Foram sete posições ganhas, e ele foi eleito o piloto do dia. Soares, da Haas, também ganhou sete (de 19º para 12º), mas o desempate é de quem chega na frente, e na frente estava a Alpine, que já soma 40 pontos.",
-   "Agora, a parte da crônica que exige lenço. Will Tefé largou na pole com a McLaren e terminou em 16º, com 10 segundos de punição do jogo. Luca, que saiu ao lado dele na primeira fila, de Mercedes, cruzou em 15º, também punido. Daniel Requena largou em sexto e fechou em último, 19º. Camilo, da Ferrari, saiu de terceiro e terminou em sétimo. Na Áustria, a primeira fila virou um trampolim, só que para trás.",
-   "A briga foi apertada como fila de banco em dia de pagamento: do primeiro ao décimo, a diferença foi de 8,8 segundos. Santiago (McLaren) subiu de nono para quarto. Phep (Red Bull) ganhou cinco posições até o sexto, mesmo parando quatro vezes nos boxes, e ainda fez a volta mais rápida da prova (1:06.685). Matheus Leão (Cadillac) e Gomes (Aston Martin) também ganharam cinco e seis posições, para oitavo e nono. O fiscal do jogo trabalhou dobrado: oito pilotos receberam punição de tempo, e Ricardo Garcia (+16s) e a reserva Rafaela (+9s) lideraram esse ranking que ninguém quer liderar.",
-   "Nos grupos, a primeira foto do campeonato é esta: no Grupo 1, Santiago lidera com 19 pontos, à frente de Phep (17) e Camilo (16). No Grupo 2, Pilpro (22) está à frente de Lolu (18). No Grupo 3, a Williams é dona da casa, com Rafa Hulk (25) e Jefferson Marchi (20). No Grupo 4, Matheus Leão (15) tem um ponto de vantagem sobre Gomes (14).",
+   "Pilpro largou em sétimo e terminou em segundo. Lucas Lolu, seu companheiro de Alpine, foi ainda mais longe: saiu de 12º e cruzou em quinto. Foram sete posições ganhas, e ele foi eleito o piloto do dia. A Alpine sai da Áustria em segundo nos construtores, com 40 pontos.",
+   "Agora, a parte da crônica que exige lenço. Will Tefé largou na pole com a McLaren e terminou em 17º, com punição do jogo. Luca, que saiu ao lado dele na primeira fila, de Mercedes, cruzou em 16º. Daniel Requena largou em sexto e nem viu a bandeirada: abandonou e saiu da Áustria sem pontos. Camilo, da Ferrari, saiu de terceiro e terminou em sétimo. Na Áustria, a primeira fila virou trampolim, só que para trás.",
+   "Do meio para trás, o pelotão parecia fila de banco em dia de pagamento. Santiago (McLaren) subiu de nono para quarto. Phep (Red Bull) ganhou cinco posições até o sexto e ainda fez a volta mais rápida da prova (1:06.685). A Aston Martin fez a festa da dupla do meio: Ghost saiu de 14º para nono e Gomes, de 15º para décimo, e os dois juntos já colocam a equipe em terceiro nos construtores, com 27 pontos. Matheus Leão (Cadillac) também ganhou cinco posições e terminou em oitavo. Soares, da Haas, saiu de último para 13º.",
+   "Nos grupos, a primeira foto do campeonato é esta: no Grupo 1, Santiago lidera com 19 pontos, à frente de Phep (17) e Camilo (16). No Grupo 2, Pilpro (22) está à frente de Lolu (18). No Grupo 3, a Williams é dona da casa, com Rafa Hulk (25) e Jefferson Marchi (20). No Grupo 4, a briga já começou apertada: Matheus Leão (15), Ghost (14) e Gomes (13) estão separados por dois pontos.",
    "A próxima etapa é o GP da Espanha, em Barcelona-Catalunha, na quarta-feira, 18 de novembro. A pole da Áustria já avisou que não quer saber de primeira fila tão cedo."
   ],
   "resultado": [
@@ -59,48 +59,48 @@
    },
    {
     "pos": "9",
-    "piloto": "Gomes",
+    "piloto": "Ghost",
     "equipe": "Aston Martin"
    },
    {
     "pos": "10",
+    "piloto": "Gomes",
+    "equipe": "Aston Martin"
+   },
+   {
+    "pos": "11",
     "piloto": "BFernandes (reserva)",
     "equipe": "Mercedes"
    },
    {
-    "pos": "11",
+    "pos": "12",
     "piloto": "Goku",
     "equipe": "Haas"
    },
    {
-    "pos": "12",
+    "pos": "13",
     "piloto": "Soares",
     "equipe": "Haas"
    },
    {
-    "pos": "13",
+    "pos": "14",
     "piloto": "Rafaela (reserva)",
     "equipe": "Ferrari"
    },
    {
-    "pos": "14",
+    "pos": "15",
     "piloto": "Fabinho Luz",
     "equipe": "Cadillac"
    },
    {
-    "pos": "15",
+    "pos": "16",
     "piloto": "Luca",
     "equipe": "Mercedes"
    },
    {
-    "pos": "16",
+    "pos": "17",
     "piloto": "Will Tefé",
     "equipe": "McLaren"
-   },
-   {
-    "pos": "17",
-    "piloto": "Ghost",
-    "equipe": "Aston Martin"
    },
    {
     "pos": "18",
@@ -108,7 +108,7 @@
     "equipe": "Racing Bulls"
    },
    {
-    "pos": "19",
+    "pos": "NC",
     "piloto": "Daniel Requena",
     "equipe": "Racing Bulls"
    }

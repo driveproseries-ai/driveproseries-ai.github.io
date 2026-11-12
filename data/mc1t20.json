@@ -62,51 +62,51 @@
    "pun": 0
   },
   {
-   "nome": "Gomes",
+   "nome": "Ghost",
    "grupo": "4",
    "equipe": "Aston Martin",
    "pts": 14,
    "pun": 0
   },
   {
-   "nome": "Goku",
-   "grupo": "2",
-   "equipe": "Haas",
-   "pts": 12,
+   "nome": "Gomes",
+   "grupo": "4",
+   "equipe": "Aston Martin",
+   "pts": 13,
    "pun": 0
   },
   {
-   "nome": "Soares",
+   "nome": "Goku",
    "grupo": "2",
    "equipe": "Haas",
    "pts": 11,
    "pun": 0
   },
   {
+   "nome": "Soares",
+   "grupo": "2",
+   "equipe": "Haas",
+   "pts": 10,
+   "pun": 0
+  },
+  {
    "nome": "Fabinho Luz",
    "grupo": "4",
    "equipe": "Cadillac",
-   "pts": 9,
+   "pts": 8,
    "pun": 0
   },
   {
    "nome": "Luca",
    "grupo": "1",
    "equipe": "Mercedes",
-   "pts": 8,
+   "pts": 7,
    "pun": 0
   },
   {
    "nome": "Will Tefé",
    "grupo": "1",
    "equipe": "McLaren",
-   "pts": 7,
-   "pun": 0
-  },
-  {
-   "nome": "Ghost",
-   "grupo": "4",
-   "equipe": "Aston Martin",
    "pts": 6,
    "pun": 0
   },
@@ -118,16 +118,16 @@
    "pun": 0
   },
   {
-   "nome": "Daniel Requena",
-   "grupo": "3",
-   "equipe": "Racing Bulls",
-   "pts": 4,
-   "pun": 0
-  },
-  {
    "nome": "Daan",
    "grupo": "3",
    "equipe": "Audi",
+   "pts": 0,
+   "pun": 0
+  },
+  {
+   "nome": "Daniel Requena",
+   "grupo": "3",
+   "equipe": "Racing Bulls",
    "pts": 0,
    "pun": 0
   },
@@ -167,40 +167,40 @@
    "grupo": "2"
   },
   {
+   "equipe": "Aston Martin",
+   "pts": 27,
+   "pun": 0,
+   "grupo": "4"
+  },
+  {
    "equipe": "McLaren",
-   "pts": 26,
+   "pts": 25,
    "pun": 0,
    "grupo": "1"
   },
   {
    "equipe": "Ferrari",
-   "pts": 26,
+   "pts": 25,
    "pun": 0,
    "grupo": "1"
   },
   {
    "equipe": "Cadillac",
-   "pts": 24,
+   "pts": 23,
    "pun": 0,
    "grupo": "4"
   },
   {
    "equipe": "Haas",
-   "pts": 23,
+   "pts": 21,
    "pun": 0,
    "grupo": "2"
   },
   {
    "equipe": "Mercedes",
-   "pts": 21,
+   "pts": 19,
    "pun": 0,
    "grupo": "1"
-  },
-  {
-   "equipe": "Aston Martin",
-   "pts": 20,
-   "pun": 0,
-   "grupo": "4"
   },
   {
    "equipe": "Red Bull Racing",
@@ -210,7 +210,7 @@
   },
   {
    "equipe": "Racing Bulls",
-   "pts": 9,
+   "pts": 5,
    "pun": 0,
    "grupo": "3"
   },
