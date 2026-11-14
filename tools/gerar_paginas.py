@@ -8,7 +8,7 @@ import html, json, os, re, sys
 from datetime import datetime, timezone, timedelta
 
 raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = "https://driveproseries-ai.github.io"
+BASE = "https://portaldps.com.br"
 
 
 def ler(nome, padrao):
