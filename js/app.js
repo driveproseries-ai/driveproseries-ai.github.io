@@ -72,7 +72,7 @@
   }
 
   var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["sobre.html", "Sobre", "sobre"], ["contato.html", "Fale conosco", "contato"]];
-  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["loja.html", "Loja DPS", "loja"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
+  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
     var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || ((PAGE === "materia" || PAGE === "materia-fixa") && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
     var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
