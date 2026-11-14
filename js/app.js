@@ -397,6 +397,11 @@
         '<li><strong><a href="videos.html">Replays</a></strong> das corridas e <strong><a href="estatisticas.html">estatísticas</a></strong> e <strong><a href="halldafama.html">Hall da Fama</a></strong> da liga.</li></ul>' +
         "<h2>Como o conteúdo é feito</h2>" +
         "<p>Os resultados e as tabelas vêm das corridas da própria liga. As matérias do Jornal DPS são escritas pela redação do portal. O resumo da F1 real é escrito com palavras próprias e sempre indica o veículo e o link da fonte. Quando a informação não é oficial, o texto deixa isso claro. Se você encontrar algum erro, fale com a liga e corrigimos.</p>" +
+        "<h2>Quem dirige a DPS</h2>" +
+        "<ul><li><strong>André Paixão</strong>, fundador da Drive Pro Series.</li>" +
+        "<li><strong>Victor Pimentel</strong>, diretor atual: organiza os campeonatos, o calendário e o regulamento, e responde pelo Portal DPS.</li>" +
+        "<li><strong>Arthur Tuta</strong>, conselho da liga.</li></ul>" +
+        "<p>As decisões sobre incidentes são tomadas pela Comissão de Análise, com os critérios do regulamento. Casos de má conduta são avaliados pela diretoria.</p>" +
         "<h2>Quem pode participar</h2>" +
         '<p>Quem quer correr na DPS pode enviar a <a href="inscricoes.html">inscrição</a>. Toda inscrição passa por uma comissão da liga e pode ser aceita ou recusada, conforme o regulamento.</p>' +
         "<h2>Anúncios e independência</h2>" +
