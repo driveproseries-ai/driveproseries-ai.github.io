@@ -1,7 +1,7 @@
 {
  "id": "mundial",
  "nome": "Mundial DPS 2026",
- "atualizado_em": "2026-11-01",
+ "atualizado_em": "2026-11-18",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
@@ -340,17 +340,18 @@
   {
    "n": 21,
    "pista": "Brasil",
-   "data": "2026-11-15",
+   "data": "2026-11-22",
    "hora": "21:30",
    "tipos": [
     "cpd"
    ],
-   "status": "proxima"
+   "status": "proxima",
+   "observacao": "Remarcada: a corrida de 15/11 foi anulada por problemas no lobby (regulamento, item 13.4)."
   },
   {
    "n": 22,
    "pista": "Miami",
-   "data": "2026-11-22",
+   "data": "2026-11-29",
    "hora": "21:30",
    "tipos": [
     "sprint",
@@ -362,7 +363,7 @@
   {
    "n": 23,
    "pista": "Catar",
-   "data": "2026-11-29",
+   "data": "2026-12-06",
    "hora": "21:30",
    "tipos": [
     "surpresa"
@@ -372,7 +373,7 @@
   {
    "n": 24,
    "pista": "Abu Dhabi",
-   "data": "2026-12-06",
+   "data": "2026-12-13",
    "hora": "21:30",
    "tipos": [
     "cpd",

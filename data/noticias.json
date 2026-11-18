@@ -1,5 +1,21 @@
 [
  {
+  "id": "2026-11-18-mundial-brasil-anulada",
+  "tipo": "jornal",
+  "campeonato": "mundial",
+  "data": "2026-11-18",
+  "autor": "Redação DPS",
+  "titulo": "GP do Brasil do Mundial é anulado e será corrido de novo no domingo, 22 de novembro",
+  "linha_fina": "O jogo fechou na volta 43 de 71 por problemas no lobby; o calendário final do Mundial DPS 2026 agora termina em Abu Dhabi, no dia 13 de dezembro.",
+  "corpo": [
+   "A etapa do GP do Brasil do Mundial DPS 2026, disputada no domingo, 15 de novembro, foi anulada. O jogo fechou na volta 43 de 71 por problemas no lobby, e a corrida não pôde ser concluída.",
+   "A decisão segue o regulamento da temporada. Pelo item 13.4, quando 50% ou mais dos pilotos do lobby são desclassificados por bug e a prova ainda não completou 80% da distância, a corrida é cancelada e remarcada. Em Interlagos, a queda aconteceu com cerca de 60% da prova disputada. Nenhum ponto da corrida de domingo vale para o campeonato.",
+   "O GP do Brasil será disputado de novo no próximo domingo, 22 de novembro, às 21h30. Com isso, as etapas seguintes passam uma semana para frente: Miami em 29 de novembro, Catar em 6 de dezembro e Abu Dhabi em 13 de dezembro, no encerramento da temporada.",
+   "O calendário atualizado está na página Calendário do Portal DPS."
+  ],
+  "resultado": []
+ },
+ {
   "id": "2026-11-13-como-entrar-liga-f1-virtual",
   "tipo": "jornal",
   "campeonato": null,
