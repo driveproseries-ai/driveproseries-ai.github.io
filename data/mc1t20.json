@@ -226,7 +226,7 @@
    "n": 1,
    "pista": "Áustria",
    "data": "2026-11-11",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "realizada"
   },
@@ -234,7 +234,7 @@
    "n": 2,
    "pista": "Espanha",
    "data": "2026-11-18",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "proxima"
   },
@@ -242,7 +242,7 @@
    "n": 3,
    "pista": "Grã-Bretanha",
    "data": "2026-11-25",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura"
   },
@@ -250,7 +250,7 @@
    "n": 4,
    "pista": "Arábia Saudita",
    "data": "2026-12-02",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura"
   },
@@ -258,7 +258,7 @@
    "n": 5,
    "pista": "Austrália",
    "data": "2026-12-09",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura"
   },
@@ -266,7 +266,7 @@
    "n": 6,
    "pista": "Miami",
    "data": "2026-12-16",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura"
   },
@@ -274,7 +274,7 @@
    "n": 7,
    "pista": "Abu Dhabi",
    "data": "2027-01-13",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura"
   },
@@ -282,7 +282,7 @@
    "n": 8,
    "pista": "Bélgica",
    "data": "2027-01-20",
-   "hora": "21:30",
+   "hora": "21:00",
    "tipos": [],
    "status": "futura",
    "observacao": "Última etapa da temporada."
