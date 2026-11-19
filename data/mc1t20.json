@@ -1,7 +1,7 @@
 {
  "id": "mc1t20",
  "nome": "Modo Carreira 1 (T20)",
- "atualizado_em": "2026-11-11",
+ "atualizado_em": "2026-11-18",
  "encerrado": false,
  "fonte_dados": "Formula Game Companion (pontos). Grupos pelo regulamento do Modo Carreira (item 3.3).",
  "pilotos": [
@@ -9,112 +9,133 @@
    "nome": "Rafa Hulk",
    "grupo": "3",
    "equipe": "Williams",
-   "pts": 25,
-   "pun": 0
-  },
-  {
-   "nome": "Pilpro",
-   "grupo": "2",
-   "equipe": "Alpine",
-   "pts": 22,
-   "pun": 0
-  },
-  {
-   "nome": "Jefferson Marchi",
-   "grupo": "3",
-   "equipe": "Williams",
-   "pts": 20,
+   "pts": 42,
    "pun": 0
   },
   {
    "nome": "Santiago",
    "grupo": "1",
    "equipe": "McLaren",
-   "pts": 19,
-   "pun": 0
-  },
-  {
-   "nome": "Lucas Lolu",
-   "grupo": "2",
-   "equipe": "Alpine",
-   "pts": 18,
+   "pts": 39,
    "pun": 0
   },
   {
    "nome": "Phep",
    "grupo": "1",
    "equipe": "Red Bull Racing",
-   "pts": 17,
+   "pts": 39,
    "pun": 0
   },
   {
-   "nome": "Camilo",
-   "grupo": "1",
-   "equipe": "Ferrari",
-   "pts": 16,
+   "nome": "Jefferson Marchi",
+   "grupo": "3",
+   "equipe": "Williams",
+   "pts": 38,
    "pun": 0
   },
   {
-   "nome": "Matheus Leão",
-   "grupo": "4",
-   "equipe": "Cadillac",
-   "pts": 15,
+   "nome": "Pilpro",
+   "grupo": "2",
+   "equipe": "Alpine",
+   "pts": 31,
    "pun": 0
   },
   {
    "nome": "Ghost",
    "grupo": "4",
    "equipe": "Aston Martin",
-   "pts": 14,
+   "pts": 30,
    "pun": 0
   },
   {
-   "nome": "Gomes",
-   "grupo": "4",
-   "equipe": "Aston Martin",
-   "pts": 13,
-   "pun": 0
-  },
-  {
-   "nome": "Goku",
+   "nome": "Lucas Lolu",
    "grupo": "2",
-   "equipe": "Haas",
-   "pts": 11,
+   "equipe": "Alpine",
+   "pts": 29,
+   "pun": 0
+  },
+  {
+   "nome": "Camilo",
+   "grupo": "1",
+   "equipe": "Ferrari",
+   "pts": 29,
+   "pun": 0
+  },
+  {
+   "nome": "Matheus Leão",
+   "grupo": "4",
+   "equipe": "Cadillac",
+   "pts": 29,
+   "pun": 0
+  },
+  {
+   "nome": "Matheus Gregório",
+   "grupo": "1",
+   "equipe": "Mercedes",
+   "pts": 25,
    "pun": 0
   },
   {
    "nome": "Soares",
    "grupo": "2",
    "equipe": "Haas",
-   "pts": 10,
+   "pts": 22,
+   "pun": 0
+  },
+  {
+   "nome": "Gomes",
+   "grupo": "4",
+   "equipe": "Aston Martin",
+   "pts": 19,
+   "pun": 0
+  },
+  {
+   "nome": "Daniel Requena",
+   "grupo": "3",
+   "equipe": "Racing Bulls",
+   "pts": 19,
+   "pun": 0
+  },
+  {
+   "nome": "Goku",
+   "grupo": "2",
+   "equipe": "Haas",
+   "pts": 18,
    "pun": 0
   },
   {
    "nome": "Fabinho Luz",
    "grupo": "4",
    "equipe": "Cadillac",
-   "pts": 8,
-   "pun": 0
-  },
-  {
-   "nome": "Luca",
-   "grupo": "1",
-   "equipe": "Mercedes",
-   "pts": 7,
-   "pun": 0
-  },
-  {
-   "nome": "Will Tefé",
-   "grupo": "1",
-   "equipe": "McLaren",
-   "pts": 6,
+   "pts": 16,
    "pun": 0
   },
   {
    "nome": "Ricardo Garcia",
    "grupo": "3",
    "equipe": "Racing Bulls",
-   "pts": 5,
+   "pts": 15,
+   "pun": 0
+  },
+  {
+   "nome": "Zanon",
+   "grupo": "1",
+   "equipe": "Red Bull Racing",
+   "pts": 15,
+   "pun": 0
+  },
+  {
+   "nome": "Luca",
+   "grupo": "1",
+   "equipe": "Mercedes",
+   "pts": 12,
+   "pun": 0
+  },
+  {
+   "nome": "Will Tefé",
+   "grupo": "1",
+   "equipe": "McLaren",
+   "pts": 10,
    "pun": 0
   },
   {
@@ -125,23 +146,9 @@
    "pun": 0
   },
   {
-   "nome": "Daniel Requena",
-   "grupo": "3",
-   "equipe": "Racing Bulls",
-   "pts": 0,
-   "pun": 0
-  },
-  {
    "nome": "Dr Rafael",
    "grupo": "3",
    "equipe": "Audi",
-   "pts": 0,
-   "pun": 0
-  },
-  {
-   "nome": "Matheus Gregório",
-   "grupo": "1",
-   "equipe": "Mercedes",
    "pts": 0,
    "pun": 0
   },
@@ -156,61 +163,61 @@
  "construtores": [
   {
    "equipe": "Williams",
-   "pts": 45,
+   "pts": 80,
    "pun": 0,
    "grupo": "3"
   },
   {
    "equipe": "Alpine",
-   "pts": 40,
+   "pts": 60,
    "pun": 0,
    "grupo": "2"
   },
   {
+   "equipe": "Red Bull Racing",
+   "pts": 54,
+   "pun": 0,
+   "grupo": "1"
+  },
+  {
    "equipe": "Aston Martin",
-   "pts": 27,
+   "pts": 49,
    "pun": 0,
    "grupo": "4"
   },
   {
    "equipe": "McLaren",
-   "pts": 25,
+   "pts": 49,
    "pun": 0,
    "grupo": "1"
   },
   {
-   "equipe": "Ferrari",
-   "pts": 25,
+   "equipe": "Mercedes",
+   "pts": 49,
    "pun": 0,
    "grupo": "1"
   },
   {
    "equipe": "Cadillac",
-   "pts": 23,
+   "pts": 45,
    "pun": 0,
    "grupo": "4"
   },
   {
    "equipe": "Haas",
-   "pts": 21,
+   "pts": 40,
    "pun": 0,
    "grupo": "2"
   },
   {
-   "equipe": "Mercedes",
-   "pts": 19,
-   "pun": 0,
-   "grupo": "1"
-  },
-  {
-   "equipe": "Red Bull Racing",
-   "pts": 17,
+   "equipe": "Ferrari",
+   "pts": 38,
    "pun": 0,
    "grupo": "1"
   },
   {
    "equipe": "Racing Bulls",
-   "pts": 5,
+   "pts": 34,
    "pun": 0,
    "grupo": "3"
   },
@@ -236,7 +243,7 @@
    "data": "2026-11-18",
    "hora": "21:00",
    "tipos": [],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 3,
@@ -244,7 +251,7 @@
    "data": "2026-11-25",
    "hora": "21:00",
    "tipos": [],
-   "status": "futura"
+   "status": "proxima"
   },
   {
    "n": 4,

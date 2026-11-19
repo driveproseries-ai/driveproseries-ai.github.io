@@ -1,5 +1,129 @@
 [
  {
+  "id": "2026-11-18-mc1t20-espanha",
+  "tipo": "corrida",
+  "campeonato": "mc1t20",
+  "data": "2026-11-18",
+  "autor": "Redação DPS",
+  "titulo": "Gregório vence em Barcelona, Santiago sai do 13º para o pódio e três segundos custam caro a Rafa Hulk",
+  "linha_fina": "Matheus Gregório largou em terceiro e deu à Mercedes a vitória na segunda etapa do Modo Carreira 1 (T20); Phep foi segundo, Santiago terceiro e piloto do dia.",
+  "destaque": {
+   "piloto": "Santiago",
+   "motivo": "Largou em 13º e terminou em terceiro, dez posições acima; eleito o piloto do dia."
+  },
+  "corpo": [
+   "Há corridas que se decidem na largada, outras na estratégia, e algumas num detalhe que o piloto só descobre quando olha a tabela. Barcelona, na noite desta quarta-feira, teve um pouco de tudo. Matheus Gregório largou em terceiro, não se meteu em confusão e venceu a segunda etapa do Modo Carreira 1 (T20) em 45min52s173. Foi a primeira vitória da Mercedes na temporada, e com folga para ninguém reclamar: 1,9 segundo sobre o segundo colocado.",
+   "O segundo lugar ficou com Phep, da Red Bull, que largou em segundo e terminou em segundo, o tipo de corrida que não rende manchete, mas rende 22 pontos. Logo atrás, a apenas um centésimo, chegou Santiago. E aqui a história fica boa: o piloto da McLaren largou em 13º, passou dez carros ao longo de 33 voltas e ainda quase tirou o segundo lugar na linha de chegada. Foi eleito o piloto do dia, prêmio que, desta vez, ninguém precisou discutir.",
+   "Daniel Requena, que na Áustria não tinha visto a bandeirada, compensou em grande estilo: quarto lugar e a volta mais rápida da prova, 1min15s443. Jefferson Marchi fechou o top 5 pela Williams.",
+   "Agora, Rafa Hulk. O líder do campeonato cruzou a linha com tempo para ser o segundo colocado. Só que carregava três segundos de punição do jogo, e três segundos, numa corrida em que do segundo ao quinto cabiam pouco mais de um segundo, é uma eternidade. Resultado: sexto lugar. Ele continua líder, com 42 pontos, mas agora com Phep e Santiago a apenas três, empatados com 39.",
+   "A pole foi de Camilo, da Ferrari, com 1min24s605. A corrida, nem tanto: terminou em décimo. Pior foi a noite de Luca, que largou em quarto e caiu para 18º. Menezes, também da Ferrari, abandonou na volta 25. Ghost foi o sétimo, e Zanon fez uma estreia elogiável pela Red Bull: largou em 14º e terminou em oitavo, somando 15 pontos logo no primeiro dia de trabalho.",
+   "Entre os construtores, a Williams segue na frente com 80 pontos, seguida pela Alpine (60) e pela Red Bull (54), que com dois pilotos no top 8 foi quem mais cresceu na noite.",
+   "A próxima etapa é o GP da Grã-Bretanha, em Silverstone, na quarta-feira, 25 de novembro, às 21h. Rafa Hulk já sabe: lá, três segundos valem tanto quanto aqui."
+  ],
+  "resultado": [
+   {
+    "pos": "1",
+    "piloto": "Matheus Gregório",
+    "equipe": "Mercedes"
+   },
+   {
+    "pos": "2",
+    "piloto": "Phep",
+    "equipe": "Red Bull Racing"
+   },
+   {
+    "pos": "3",
+    "piloto": "Santiago",
+    "equipe": "McLaren"
+   },
+   {
+    "pos": "4",
+    "piloto": "Daniel Requena",
+    "equipe": "Racing Bulls"
+   },
+   {
+    "pos": "5",
+    "piloto": "Jefferson Marchi",
+    "equipe": "Williams"
+   },
+   {
+    "pos": "6",
+    "piloto": "Rafa Hulk",
+    "equipe": "Williams"
+   },
+   {
+    "pos": "7",
+    "piloto": "Ghost",
+    "equipe": "Aston Martin"
+   },
+   {
+    "pos": "8",
+    "piloto": "Zanon",
+    "equipe": "Red Bull Racing"
+   },
+   {
+    "pos": "9",
+    "piloto": "Matheus Leão",
+    "equipe": "Cadillac"
+   },
+   {
+    "pos": "10",
+    "piloto": "Camilo",
+    "equipe": "Ferrari"
+   },
+   {
+    "pos": "11",
+    "piloto": "Soares",
+    "equipe": "Haas"
+   },
+   {
+    "pos": "12",
+    "piloto": "Lucas Lolu",
+    "equipe": "Alpine"
+   },
+   {
+    "pos": "13",
+    "piloto": "Ricardo Garcia",
+    "equipe": "Racing Bulls"
+   },
+   {
+    "pos": "14",
+    "piloto": "Pilpro",
+    "equipe": "Alpine"
+   },
+   {
+    "pos": "15",
+    "piloto": "Fabinho Luz",
+    "equipe": "Cadillac"
+   },
+   {
+    "pos": "16",
+    "piloto": "Goku",
+    "equipe": "Haas"
+   },
+   {
+    "pos": "17",
+    "piloto": "Gomes",
+    "equipe": "Aston Martin"
+   },
+   {
+    "pos": "18",
+    "piloto": "Luca",
+    "equipe": "Mercedes"
+   },
+   {
+    "pos": "19",
+    "piloto": "Will Tefé",
+    "equipe": "McLaren"
+   },
+   {
+    "pos": "NC",
+    "piloto": "Menezes",
+    "equipe": "Ferrari"
+   }
+  ]
+ },
+ {
   "id": "2026-11-18-mundial-brasil-anulada",
   "tipo": "jornal",
   "campeonato": "mundial",
