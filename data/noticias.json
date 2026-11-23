@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-11-22-mundial-brasil",
+    "tipo": "corrida",
+    "campeonato": "mundial",
+    "data": "2026-11-22",
+    "autor": "Redação DPS",
+    "titulo": "Lucas Bueno sai do sexto lugar e vence o GP do Brasil; Edinei Urso, de reserva, é o piloto do dia",
+    "linha_fina": "Cleisson fez pole e volta mais rápida (1:11.916), mas terminou em segundo; Jo Caiana completou o pódio e Arthur Tuta ampliou a liderança para 42 pontos.",
+    "corpo": [
+      "Lucas Bueno venceu a etapa 21 do Mundial DPS 2026, o GP do Brasil, na noite deste domingo, em Interlagos. Ele largou em sexto, assumiu a ponta e levou a vitória com a Red Bull, numa prova com clima pré-definido (CPD). É a primeira vitória do piloto da Katchau na temporada.",
+      "Cleisson fez a pole e a volta mais rápida da prova (1:11.916), mas só conseguiu o segundo lugar. Jo Caiana, que largou em oitavo, subiu ao pódio, e Arthur Tuta saiu de 10º para o quarto lugar. Pereira (de nono para quinto) e Marcos Paulo (de quinto para sexto) fecharam o grupo da frente.",
+      "O piloto do dia foi Edinei Urso, que correu de reserva no lugar de Renato TVR, na AW Racing Team. Ele largou em 17º e terminou em sétimo, dez posições acima. Pelo item 6.3 do regulamento, o reserva pontua metade, para ele e para a equipe: dos 14 pontos da sétima posição, 7 vão para a AW.",
+      "Fabinho Luz, que largou em segundo, terminou em nono. Cesar Jones perdeu cinco posições, de terceiro para oitavo. Edy Santos, Fabio RGP e Thiago Diniz, que largou em quarto, não completaram a prova e não pontuaram. Gustavo Moura terminou uma volta atrás. Gustavo Gallo e Brito não disputaram a etapa e, pelo item 12.22, largam sem classificação em Miami.",
+      "Arthur Tuta segue líder, com 376 pontos, e abriu 42 sobre Fabinho Luz (334); a vantagem era de 37. Gabriel Arruda (304), Marck Bauer (298) e Marcelo (290) completam os cinco primeiros. Lucas Bueno foi a 232 pontos e subiu para o 11º lugar, logo atrás de André Paixão (233). Entre os construtores, a Old is Cool lidera com 1036 pontos; a Katchau, com 940, passou a Papaya & Green Racing (917) e é a segunda.",
+      "A próxima etapa é o GP de Miami, com sprint e clima pré-definido, em data a confirmar no calendário do site. A distribuição dos carros pelo lastro será publicada na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Lucas Bueno",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "2",
+        "piloto": "Cleisson",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "3",
+        "piloto": "Jo Caiana",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "4",
+        "piloto": "Arthur Tuta",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "5",
+        "piloto": "Pereira",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "6",
+        "piloto": "Marcos Paulo",
+        "equipe": "Papaya & Green Racing"
+      },
+      {
+        "pos": "7",
+        "piloto": "Edinei Urso (reserva de Renato TVR)",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "8",
+        "piloto": "Cesar Jones",
+        "equipe": "Retired Team F1"
+      },
+      {
+        "pos": "9",
+        "piloto": "Fabinho Luz",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "10",
+        "piloto": "Leo Fernandes",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "11",
+        "piloto": "Marck Bauer",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "12",
+        "piloto": "Marcelo",
+        "equipe": "Retired Team F1"
+      },
+      {
+        "pos": "13",
+        "piloto": "Gabriel Arruda",
+        "equipe": "Old is Cool"
+      },
+      {
+        "pos": "14",
+        "piloto": "André Paixão",
+        "equipe": "Retired Team F1"
+      },
+      {
+        "pos": "15",
+        "piloto": "Gustavo Moura",
+        "equipe": "Katchau Racing Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Edy Santos",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Fabio RGP",
+        "equipe": "AW Racing Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Thiago Diniz",
+        "equipe": "Papaya & Green Racing"
+      }
+    ],
+    "destaque": {
+      "piloto": "Edinei Urso",
+      "motivo": "Reserva de Renato TVR, largou em 17º e terminou em sétimo; pontua metade, para ele e para a AW."
+    }
+  },
+  {
     "id": "2026-11-10-elite-brasil",
     "tipo": "corrida",
     "campeonato": "elite",
