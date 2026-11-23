@@ -72,7 +72,7 @@
   }
 
   var MENU = [["index.html", "Início", "home"], ["jornal.html", "Jornal DPS", "jornal"], ["tabelas.html", "Tabelas", "tabelas"], ["calendario.html", "Próximas etapas", "calendario"], ["lastro.html", "Lastro", "lastro"], ["regulamento.html", "Regulamento 2027", "regulamento"], ["inscricoes.html", "Inscrições 2027", "inscricoes"], ["sobre.html", "Sobre", "sobre"], ["contato.html", "Fale conosco", "contato"]];
-  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["loja.html", "Loja DPS", "loja"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
+  var MAIS = [["f1.html", "F1 real", "f1"], ["estatisticas.html", "Estatísticas", "estatisticas"], ["halldafama.html", "Hall da Fama", "halldafama"], ["videos.html", "Replays", "videos"], ["avisos.html", "Receber avisos", "avisos"], ["incidentes.html", "Decisões de incidentes", "incidentes"], ["sorteio.html", "Sorteio 2027", "sorteio"], ["pedido.html", "Pedido de análise", "pedido"]];
   function montarTopo(noticias) {
     var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || ((PAGE === "materia" || PAGE === "materia-fixa") && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
     var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
@@ -269,6 +269,11 @@
         } else {
           var ct = (d.construtores || []).slice().sort(function (a, b) { return real(b) - real(a); });
           out = ct.length ? '<div class="rolagem"><table><thead><tr><th>Pos</th><th>Equipe</th><th class="n">Pts</th><th class="n">Punição</th><th class="n">Total</th></tr></thead><tbody>' + ct.map(function (t, i) { return '<tr><td class="p">' + (i + 1) + "</td><td><strong>" + esc(t.equipe) + '</strong></td><td class="n">' + t.pts + '</td><td class="n ' + (t.pun ? "neg" : "") + '">' + (t.pun || "–") + '</td><td class="n"><strong>' + real(t) + "</strong></td></tr>"; }).join("") + "</tbody></table></div>" : vazio("Construtores em breve", "Este campeonato ainda não tem tabela de equipes.");
+          var cg = {}; ct.forEach(function (t) { if (t.grupo) (cg[t.grupo] = cg[t.grupo] || []).push(t); });
+          var cks = Object.keys(cg).sort();
+          if (cks.length) out += '<h2 style="margin-top:28px">Construtores por grupo</h2><div class="grupos">' + cks.map(function (g) {
+            return "<section><h3>Grupo " + esc(g) + '</h3><div class="rolagem"><table style="min-width:0"><thead><tr><th>Pos</th><th>Equipe</th><th class="n">Pts</th></tr></thead><tbody>' + cg[g].map(function (t, i) { return '<tr><td class="p">' + (i + 1) + "</td><td>" + esc(t.equipe) + '</td><td class="n"><strong>' + real(t) + "</strong></td></tr>"; }).join("") + "</tbody></table></div></section>";
+          }).join("") + "</div>";
         }
         $("#tb").innerHTML = out + '<p class="nota">' + (vis === "geral" ? "Pontos oficiais do Formula Game Companion. As punições são descontadas na última etapa, conforme o regulamento (item 12.9)." : vis === "grupos" ? "Classificação dos grupos: pontos do FGC menos punições." : "Construtores: pontos do FGC menos as punições dos pilotos titulares.") + "</p>";
       }
@@ -392,6 +397,11 @@
         '<li><strong><a href="videos.html">Replays</a></strong> das corridas e <strong><a href="estatisticas.html">estatísticas</a></strong> e <strong><a href="halldafama.html">Hall da Fama</a></strong> da liga.</li></ul>' +
         "<h2>Como o conteúdo é feito</h2>" +
         "<p>Os resultados e as tabelas vêm das corridas da própria liga. As matérias do Jornal DPS são escritas pela redação do portal. O resumo da F1 real é escrito com palavras próprias e sempre indica o veículo e o link da fonte. Quando a informação não é oficial, o texto deixa isso claro. Se você encontrar algum erro, fale com a liga e corrigimos.</p>" +
+        "<h2>Quem dirige a DPS</h2>" +
+        "<ul><li><strong>André Paixão</strong>, fundador da Drive Pro Series.</li>" +
+        "<li><strong>Victor Pimentel</strong>, diretor atual: organiza os campeonatos, o calendário e o regulamento, e responde pelo Portal DPS.</li>" +
+        "<li><strong>Arthur Tuta</strong>, conselho da liga.</li></ul>" +
+        "<p>As decisões sobre incidentes são tomadas pela Comissão de Análise, com os critérios do regulamento. Casos de má conduta são avaliados pela diretoria.</p>" +
         "<h2>Quem pode participar</h2>" +
         '<p>Quem quer correr na DPS pode enviar a <a href="inscricoes.html">inscrição</a>. Toda inscrição passa por uma comissão da liga e pode ser aceita ou recusada, conforme o regulamento.</p>' +
         "<h2>Anúncios e independência</h2>" +
@@ -456,7 +466,7 @@
       var head = '<div class="wrap"><h1>Hall da Fama</h1><p class="meta">Campeões e recordes de todos os tempos da DPS, segundo o Formula Game Companion.</p>';
       if (!st || !st.pronto) { main.innerHTML = head + '<div class="sec">' + vazio("Em construção", "O histórico está sendo reunido.") + "</div></div>"; return; }
       var camp = (st.campeoes || []).slice().sort(function (a, b) { return b.temporada.localeCompare(a.temporada); });
-      var h = head + '<section class="sec"><h2>Campeões</h2><div class="rolagem"><table><thead><tr><th>Temporada</th><th>Campeonato</th><th>Piloto</th><th>Equipe do piloto</th><th>Construtores</th></tr></thead><tbody>' + camp.map(function (c) { return "<tr><td>" + esc(c.temporada) + "</td><td>" + esc(c.campeonato) + "</td><td><strong>" + esc(c.piloto) + "</strong></td><td>" + esc(c.equipe || "–") + "</td><td>" + esc(c.construtores || "–") + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
+      var h = head + '<section class="sec"><h2>Campeões</h2><div class="rolagem"><table><thead><tr><th>Temporada</th><th>Campeonato</th><th>Piloto</th><th>Equipe do piloto</th><th>Construtores</th></tr></thead><tbody>' + camp.map(function (c) { return "<tr><td>" + esc(c.temporada) + "</td><td>" + esc(c.campeonato) + (/^T\d+/.test(c.nota || "") ? " (" + esc(c.nota.match(/^T\d+/)[0]) + ")" : "") + "</td><td><strong>" + esc(c.piloto) + "</strong></td><td>" + esc(c.equipe || "–") + "</td><td>" + esc(c.construtores || "–") + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
       var ord = function (k) { return (st.pilotos || []).slice().sort(function (a, b) { return b[k] - a[k] || b.vitorias - a.vitorias; }).filter(function (p) { return p[k] > 0; }).slice(0, 10); };
       var bar = function (rot, v, max) { return '<div class="barra"><span>' + esc(rot) + '</span><i style="width:' + Math.round(v / max * 100) + '%"></i><b>' + v + "</b></div>"; };
       h += '<section class="sec"><h2>Recordes (Mundial e Elite, 2024 a 2026)</h2><div class="stat-grid">' + [["vitorias", "Vitórias"], ["podios", "Pódios"], ["poles", "Poles"], ["voltas_rapidas", "Voltas mais rápidas"]].map(function (k) { var l = ord(k[0]); var m = l.length ? l[0][k[0]] : 1; return '<div class="painel"><h3>' + k[1] + "</h3>" + l.map(function (p) { return bar(p.nome, p[k[0]], m); }).join("") + "</div>"; }).join("") + "</div></section>";
@@ -573,7 +583,7 @@
 
     incidentes: function (ctx) {
       var main = $("#app"), L = (ctx.incidentes || []).slice().sort(function (a, b) { return (b.data || "").localeCompare(a.data || "") || (b.etapa || 0) - (a.etapa || 0); });
-      var head = '<div class="wrap"><h1>Decisões de incidentes</h1><p class="meta">Análises dos incidentes de cada etapa, com a regra aplicada e a decisão da Direção. A análise é feita com os critérios da F1 real e as punições da DPS (regulamento, item 12). Na fase de teste, a IA apoia a análise e não decide.</p><p><a class="botao" href="pedido.html">Fazer pedido de análise ou enviar defesa</a></p>';
+      var head = '<div class="wrap"><h1>Decisões de incidentes</h1><p class="meta">Análises dos incidentes de cada etapa, com a regra aplicada e a decisão da Direção. A análise é feita por IA, com as regras de condução da F1 real e as punições da DPS (regulamento, itens 12.27 e 12.28). A Direção confere cada parecer antes de publicar a decisão.</p><p><a class="botao" href="pedido.html">Fazer pedido de análise ou enviar defesa</a></p>';
       if (!L.length) { main.innerHTML = head + '<div class="sec">' + vazio("Nenhum incidente publicado ainda", "As decisões aparecem aqui depois de cada etapa em que houver pedido de análise.") + "</div></div>"; return; }
       var campos = Array.from(new Set(L.map(function (x) { return x.campeonato; }).filter(Boolean)));
       var h = head + '<div class="abas" id="fil" role="group" aria-label="Filtrar">' + ['todos'].concat(campos).map(function (k) { return '<button type="button" data-k="' + esc(k) + '" aria-pressed="' + (k === "todos") + '" style="--c:' + (k === "todos" ? "#10231c" : campCor(k)) + '">' + esc(k === "todos" ? "Todos" : (campNome(k) || k)) + "</button>"; }).join("") + '</div><div id="lista"></div><p class="nota">Dúvidas sobre uma decisão: fale com o capitão da sua equipe. Ele leva o assunto ao Diretor do Grid.</p></div>';
@@ -615,7 +625,7 @@
 
     pedido: function () {
       var s = S.site, p = s.pedido || {}, main = $("#app"), url = p.apps_script_url || "", maxmb = p.max_mb || 600;
-      var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite"; });
+      var grids = S.camps.filter(function (c) { return c.id === "mundial" || c.id === "elite" || c.id === "mc1t20"; });
       var head = '<div class="wrap"><div style="max-width:700px"><h1>Pedido de análise</h1><p style="font-family:var(--body);font-size:20px">Envie aqui o pedido de análise de incidente ou o vídeo de defesa. O vídeo e o relato seguem juntos para a Comissão de Análise.</p>' +
         '<div class="aviso" style="margin:12px 0"><strong>Prazos:</strong> pedido de análise em até 24 horas após a corrida; vídeo de defesa em até 5 dias após a corrida (se você não gravou, marque a opção \"não tenho vídeo de defesa\"). Envie o <strong>arquivo</strong> do vídeo (link do YouTube não vale). Veja o <a href="regulamento.html">regulamento</a>, capítulo 12 e Anexo D.</div>';
       if (!url) { main.innerHTML = head + '<div class="aviso erro"><strong>Envio ainda não configurado.</strong> Enquanto isso, mande o pedido ao capitão da sua equipe, como de costume.</div></div></div>'; return; }

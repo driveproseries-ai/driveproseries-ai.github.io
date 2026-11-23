@@ -113,6 +113,312 @@
     }
   },
   {
+    "id": "2026-11-18-mc1t20-espanha",
+    "tipo": "corrida",
+    "campeonato": "mc1t20",
+    "data": "2026-11-18",
+    "autor": "Redação DPS",
+    "titulo": "Gregório vence em Barcelona, Santiago sai do 13º para o pódio e três segundos custam caro a Rafa Hulk",
+    "linha_fina": "Matheus Gregório largou em terceiro e deu à Mercedes a vitória na segunda etapa do Modo Carreira 1 (T20); Phep foi segundo, Santiago terceiro e piloto do dia.",
+    "destaque": {
+      "piloto": "Santiago",
+      "motivo": "Largou em 13º e terminou em terceiro, dez posições acima; eleito o piloto do dia."
+    },
+    "corpo": [
+      "Há corridas que se decidem na largada, outras na estratégia, e algumas num detalhe que o piloto só descobre quando olha a tabela. Barcelona, na noite desta quarta-feira, teve um pouco de tudo. Matheus Gregório largou em terceiro, não se meteu em confusão e venceu a segunda etapa do Modo Carreira 1 (T20) em 45min52s173. Foi a primeira vitória da Mercedes na temporada, e com folga para ninguém reclamar: 1,9 segundo sobre o segundo colocado.",
+      "O segundo lugar ficou com Phep, da Red Bull, que largou em segundo e terminou em segundo, o tipo de corrida que não rende manchete, mas rende 22 pontos. Logo atrás, a apenas um centésimo, chegou Santiago. E aqui a história fica boa: o piloto da McLaren largou em 13º, passou dez carros ao longo de 33 voltas e ainda quase tirou o segundo lugar na linha de chegada. Foi eleito o piloto do dia, prêmio que, desta vez, ninguém precisou discutir.",
+      "Daniel Requena, que na Áustria não tinha visto a bandeirada, compensou em grande estilo: quarto lugar e a volta mais rápida da prova, 1min15s443. Jefferson Marchi fechou o top 5 pela Williams.",
+      "Agora, Rafa Hulk. O líder do campeonato cruzou a linha com tempo para ser o segundo colocado. Só que carregava três segundos de punição do jogo, e três segundos, numa corrida em que do segundo ao quinto cabiam pouco mais de um segundo, é uma eternidade. Resultado: sexto lugar. Ele continua líder, com 42 pontos, mas agora com Phep e Santiago a apenas três, empatados com 39.",
+      "A pole foi de Camilo, da Ferrari, com 1min24s605. A corrida, nem tanto: terminou em décimo. Pior foi a noite de Luca, que largou em quarto e caiu para 18º. Menezes, também da Ferrari, abandonou na volta 25. Ghost foi o sétimo, e Zanon fez uma estreia elogiável pela Red Bull: largou em 14º e terminou em oitavo, somando 15 pontos logo no primeiro dia de trabalho.",
+      "Entre os construtores, a Williams segue na frente com 80 pontos, seguida pela Alpine (60) e pela Red Bull (54), que com dois pilotos no top 8 foi quem mais cresceu na noite.",
+      "A próxima etapa é o GP da Grã-Bretanha, em Silverstone, na quarta-feira, 25 de novembro, às 21h. Rafa Hulk já sabe: lá, três segundos valem tanto quanto aqui."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Matheus Gregório",
+        "equipe": "Mercedes"
+      },
+      {
+        "pos": "2",
+        "piloto": "Phep",
+        "equipe": "Red Bull Racing"
+      },
+      {
+        "pos": "3",
+        "piloto": "Santiago",
+        "equipe": "McLaren"
+      },
+      {
+        "pos": "4",
+        "piloto": "Daniel Requena",
+        "equipe": "Racing Bulls"
+      },
+      {
+        "pos": "5",
+        "piloto": "Jefferson Marchi",
+        "equipe": "Williams"
+      },
+      {
+        "pos": "6",
+        "piloto": "Rafa Hulk",
+        "equipe": "Williams"
+      },
+      {
+        "pos": "7",
+        "piloto": "Ghost",
+        "equipe": "Aston Martin"
+      },
+      {
+        "pos": "8",
+        "piloto": "Zanon",
+        "equipe": "Red Bull Racing"
+      },
+      {
+        "pos": "9",
+        "piloto": "Matheus Leão",
+        "equipe": "Cadillac"
+      },
+      {
+        "pos": "10",
+        "piloto": "Camilo",
+        "equipe": "Ferrari"
+      },
+      {
+        "pos": "11",
+        "piloto": "Soares",
+        "equipe": "Haas"
+      },
+      {
+        "pos": "12",
+        "piloto": "Lucas Lolu",
+        "equipe": "Alpine"
+      },
+      {
+        "pos": "13",
+        "piloto": "Ricardo Garcia",
+        "equipe": "Racing Bulls"
+      },
+      {
+        "pos": "14",
+        "piloto": "Pilpro",
+        "equipe": "Alpine"
+      },
+      {
+        "pos": "15",
+        "piloto": "Fabinho Luz",
+        "equipe": "Cadillac"
+      },
+      {
+        "pos": "16",
+        "piloto": "Goku",
+        "equipe": "Haas"
+      },
+      {
+        "pos": "17",
+        "piloto": "Gomes",
+        "equipe": "Aston Martin"
+      },
+      {
+        "pos": "18",
+        "piloto": "Luca",
+        "equipe": "Mercedes"
+      },
+      {
+        "pos": "19",
+        "piloto": "Will Tefé",
+        "equipe": "McLaren"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Menezes",
+        "equipe": "Ferrari"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-mundial-brasil-anulada",
+    "tipo": "jornal",
+    "campeonato": "mundial",
+    "data": "2026-11-18",
+    "autor": "Redação DPS",
+    "titulo": "GP do Brasil do Mundial é anulado e será corrido de novo no domingo, 22 de novembro",
+    "linha_fina": "O jogo fechou na volta 43 de 71 por problemas no lobby; o calendário final do Mundial DPS 2026 agora termina em Abu Dhabi, no dia 13 de dezembro.",
+    "corpo": [
+      "A etapa do GP do Brasil do Mundial DPS 2026, disputada no domingo, 15 de novembro, foi anulada. O jogo fechou na volta 43 de 71 por problemas no lobby, e a corrida não pôde ser concluída.",
+      "A decisão segue o regulamento da temporada. Pelo item 13.4, quando 50% ou mais dos pilotos do lobby são desclassificados por bug e a prova ainda não completou 80% da distância, a corrida é cancelada e remarcada. Em Interlagos, a queda aconteceu com cerca de 60% da prova disputada. Nenhum ponto da corrida de domingo vale para o campeonato.",
+      "O GP do Brasil será disputado de novo no próximo domingo, 22 de novembro, às 21h30. Com isso, as etapas seguintes passam uma semana para frente: Miami em 29 de novembro, Catar em 6 de dezembro e Abu Dhabi em 13 de dezembro, no encerramento da temporada.",
+      "O calendário atualizado está na página Calendário do Portal DPS."
+    ],
+    "resultado": []
+  },
+  {
+    "id": "2026-11-13-como-entrar-liga-f1-virtual",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-13",
+    "autor": "Redação DPS",
+    "titulo": "Como entrar numa liga de F1 virtual: o passo a passo para correr na DPS em 2027",
+    "linha_fina": "Do primeiro tempo em Bahrein ao sorteio das duplas: o que uma liga organizada pede, como o grid é montado e o que muda em relação às corridas online abertas.",
+    "corpo": [
+      "Correr online no F1 25 é fácil: basta abrir uma sala pública e acelerar. Correr numa liga é outra coisa. Há calendário fixo, regulamento escrito, tabela de pontos, transmissão e alguém que julga os incidentes. Em troca, cada corrida passa a valer alguma coisa, e o adversário da curva 1 é o mesmo da etapa anterior. Este guia mostra como funciona a entrada numa liga organizada, com o exemplo do Mundial DPS 2027, da Drive Pro Series.",
+      "O primeiro passo é ler o regulamento. Parece burocracia, mas é ali que estão as respostas para quase todas as dúvidas: quantas etapas, que dia e horário, quais assistências são permitidas, como os pontos são contados e o que acontece num acidente. Na DPS, ao se inscrever, o piloto declara que leu e aceita o regulamento inteiro. O de 2027 está publicado no Portal DPS, na página Regulamento.",
+      "O segundo passo é a inscrição. Na DPS ela é feita pelo formulário da página Inscrições, que pede o nome completo, o nome que aparece no jogo, a plataforma, um contato para retorno, a cidade, o campeonato desejado (Mundial, Elite ou os dois), há quanto tempo a pessoa corre online e por quais ligas já passou. Também há espaço para o melhor tempo em Bahrein, se o piloto já tiver. A inscrição não é automática: toda ficha passa por uma comissão da liga, que avalia se o piloto tem nível para o grid e se não vai prejudicar a convivência. Ela pode ser aceita ou recusada.",
+      "O que a comissão quer ver não é só velocidade. Uma liga vive de pilotos que aparecem nas etapas, respeitam os adversários e aceitam as decisões. No Mundial DPS, quem falta a 6 etapas sem justificativa é excluído, e quem desiste não pode voltar na temporada seguinte. Antes de se inscrever, vale olhar o calendário com honestidade e ver se dá para estar presente na maioria das noites de corrida.",
+      "O terceiro passo é a pré-temporada. Todos os inscritos fazem um treino oficial em Bahrein, com o mesmo carro para todos, e vale a melhor volta válida de cada um. Esse tempo vira uma nota de 1 a 22. Quem já correu na DPS em 2026 ganha também uma nota de rendimento, calculada pelos pontos por etapa nos campeonatos da liga. A média das duas notas é o Índice de Nível, e quem estreia usa só a nota do tempo. É por isso que vale chegar à pré-temporada com o carro acertado e algumas voltas em Bahrein no currículo. Tentar esconder o ritmo no treino para cair num grupo mais fácil dá exclusão.",
+      "Pelo Índice de Nível, os 22 pilotos são divididos em quatro grupos de habilidade: A, com os 6 mais rápidos, B e C, com 5 cada, e D, com os 6 restantes. Os grupos servem para duas coisas. A primeira é a premiação: o melhor piloto de cada grupo ganha um troféu, então quem está começando disputa um campeonato à parte contra gente do mesmo nível. A segunda é a formação das equipes.",
+      "As equipes são duplas, e é aqui que a DPS tem uma regra própria. Os pilotos do grupo A sorteiam o parceiro entre os do grupo D, e os do B entre os do C. A soma dos índices de cada dupla precisa ficar entre 20 e 26. Se uma dupla sair fora dessa faixa, o sorteio todo é refeito. O resultado é que toda equipe tem um piloto mais rápido e um em evolução, e nenhuma dupla começa o campeonato muito mais forte que as outras. O sorteio é feito ao vivo ou gravado, com todas as tentativas à mostra. Depois, cada dupla escolhe o nome da equipe e indica um capitão, que conversa com a Direção.",
+      "Com o grid formado, vem a parte que mais surpreende quem chega de salas abertas: o lastro. Em 20 das 24 etapas, os carros são distribuídos pela tabela. O líder do campeonato corre com o carro mais fraco do jogo, o último colocado com o mais forte, e os 22 pilotos ocupam os 11 carros, dois por carro, nessa ordem. A ordem dos carros é a que a EA mostra no modo carreira do jogo. Nas outras 4 etapas, todos correm com o mesmo desempenho. Na prática, ninguém fica preso a um carro bom ou ruim a temporada inteira, e quem lidera precisa provar que é rápido também com o pior equipamento.",
+      "Na pista, a configuração é de corrida de verdade. Distância de 100%, dano padrão, safety car ligado, regras de bandeira ativas, corte de curva rígido, parque fechado e largada manual. As assistências são livres, exceto box, largada, ERS e DRS, que ficam no manual. O acerto do carro é livre, e cada piloto desenvolve o seu. A temporada de 2027 segue as 24 etapas do calendário real da F1, com 10 corridas sprint nos mesmos fins de semana da F1 e 6 etapas com clima igual ao do dia e horário da corrida oficial. Não há etapa surpresa nem grid invertido: tudo é conhecido desde a pré-temporada.",
+      "Há também o lado prático. A participação no Mundial tem taxa de inscrição prevista no regulamento, de R$ 300, que pode ser parcelada em até 4 vezes e precisa estar quitada até a 2ª etapa. Em troca, a premiação inclui troféus para os três primeiros, para o vencedor de cada etapa, para a dupla campeã de construtores, para o melhor de cada grupo e para o \"Piloto Limpinho\", que passa a temporada sem nenhum pedido de punição contra ele ou é inocentado em todos. Quem desiste no meio do campeonato não tem ressarcimento. As salas abrem 15 minutos antes do horário, que segue sempre o horário de Brasília, e atrasos são responsabilidade do piloto.",
+      "Por fim, um conselho que vale para qualquer liga: grave suas corridas. Na DPS isso é obrigatório. Em caso de toque, o vídeo da sua câmera é a sua prova, tanto para pedir análise quanto para se defender. A análise dos incidentes é feita por IA, com as regras de condução da F1 real, e conferida pela Direção. A matéria \"Punições na DPS: como a IA julga os incidentes com as regras da F1 real\", no Jornal DPS, explica esse processo.",
+      "Se depois de tudo isso a vontade de entrar no grid aumentou, o caminho é a página Inscrições do Portal DPS. Leia o regulamento, faça algumas voltas em Bahrein e mande a sua ficha."
+    ]
+  },
+  {
+    "id": "2026-11-13-punicoes-dps-analise-ia",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-13",
+    "autor": "Redação DPS",
+    "titulo": "Punições na DPS: como a IA julga os incidentes com as regras da F1 real",
+    "linha_fina": "Do pedido de análise à decisão publicada, entenda quem julga, que critérios valem numa disputa de posição e quanto custa cada tipo de infração na tabela.",
+    "corpo": [
+      "Toda liga de F1 virtual tem a mesma discussão depois da corrida: quem errou naquele toque da curva 1? Na Drive Pro Series (DPS), a resposta tem caminho definido. A análise dos incidentes é feita por inteligência artificial, que aplica as regras de condução da F1 real e as punições do regulamento da liga, e a Direção confere cada parecer antes de publicar. Este guia explica como isso funciona, do pedido à pontuação.",
+      "O processo começa com o piloto. Quem se sentir prejudicado tem até 24 horas depois da corrida para enviar o pedido de análise pela página Pedido de análise do site. O formulário pede o piloto que reclama, o piloto envolvido, a categoria, a pista, a volta do incidente e um relato curto do que aconteceu. O relato não é prova: ele orienta a análise e é comparado com as imagens, e se o texto contradisser o vídeo, isso fica registrado. O piloto acusado tem até 5 dias para mandar o vídeo de defesa. Quem não envia perde 5 pontos na tabela.",
+      "O vídeo precisa seguir algumas regras, porque é a partir dele que a análise acontece. Só vale gravação do próprio piloto, na câmera que ele usou na corrida, com a tela inteira, sem narração e sem cortar a telemetria. No celular, a gravação é na horizontal. O ideal é um trecho de uns 5 segundos antes do contato até uns 5 depois, enviado como arquivo: link do YouTube não vale, porque a IA precisa do arquivo para extrair os quadros. Mandar o vídeo nos grupos da liga anula o pedido.",
+      "Com o material em mãos, a IA faz um trabalho que antes levava horas de discussão. Primeiro confere se os vídeos cumprem as regras. Depois monta um dossiê do caso, com linha do tempo e quadros de antes, durante e depois do contato, com a telemetria visível. Em seguida compara o relato com as imagens, aplica o regulamento e os critérios da F1 real e sugere a categoria da punição, com um nível de confiança (alto, médio ou baixo) e as razões. Ela também guarda o histórico dos casos, para que incidentes parecidos recebam decisões parecidas ao longo da temporada.",
+      "A palavra final é da Direção. O parecer da IA é a base da decisão, mas a Direção confere antes de publicar e pode corrigir. Quando a imagem é ruim, o contato acontece fora do quadro ou só existe o vídeo de um lado, a IA não sugere punição: entrega o dossiê e a decisão fica com a Direção. O parecer, o dossiê e a decisão ficam disponíveis para os pilotos envolvidos, e os vídeos não são divulgados.",
+      "E quem tem razão numa disputa? A DPS usa como referência as regras de condução da F1 em vigor, o Regulamento Esportivo da FIA (artigo 33) e as Diretrizes de Padrões de Condução. Na ultrapassagem por dentro, o eixo dianteiro do carro que ataca precisa estar pelo menos na altura do espelho do outro antes do ponto de tangência (o apex), com o carro sob controle e dentro da pista. Cumprido isso, ele tem direito ao espaço, e quem defende deve evitar o toque. Por fora, o eixo dianteiro do atacante precisa estar à frente do eixo dianteiro do adversário no apex, e o carro tem de completar a curva dentro da pista. Nas chicanes, o critério vale para cada perna, com prioridade para a primeira.",
+      "Para quem defende, a regra também é a da F1: só uma mudança de direção para proteger a posição. Ao voltar para a linha, é preciso deixar pelo menos a largura de um carro até a borda da pista na chegada à curva, e é proibido empurrar o outro para fora. Depois de começar a frear, não se muda de direção, a não ser para seguir o traçado. O zigue-zague em excesso é infração leve. Quanto aos limites de pista, as linhas brancas fazem parte da pista, mas as zebras não, e quem sai da pista e volta ganhando ou mantendo a posição precisa devolvê-la.",
+      "Definida a responsabilidade, a punição segue uma escala de cinco níveis. Sem punição, quando o piloto é inocente ou o incidente é pouco grave. Leve, de 4 pontos, quando não houve dano nem perda de posição da vítima, mas houve infração. Média, de 6 pontos, quando não houve dano, mas a vítima perdeu posições. Grave, de 10 pontos, quando o carro foi danificado. E gravíssima, de 20 pontos, quando o dano foi grande (asa traseira, difusor ou assoalho) ou o acidente tirou o outro da corrida. Nem todo toque com dano tem culpado: o regulamento prevê o toque de corrida, sem punição.",
+      "Além dos pontos na tabela, cada piloto tem uma carteira virtual. Infrações somam 3 (leve), 6 (média), 8 (grave) ou 10 pontos (gravíssima), e quem chega a 20 fica fora da etapa seguinte e volta com a carteira zerada. Reincidir também pesa: a segunda leve vira média, a segunda média vira grave, a segunda grave vira gravíssima, e a segunda gravíssima tira o piloto da próxima etapa.",
+      "Algumas situações têm punição própria, porque se repetem nas corridas virtuais. Ultrapassar durante o safety car custa 5 pontos, e emparelhar com o carro da frente, 3. Ultrapassar sob bandeira amarela, no setor com amarela, custa 2 pontos por ultrapassagem, a não ser que o carro ultrapassado esteja fora da pista. Usar a opção Redefinir na pista custa 5 pontos, salvo para desatolar o carro, com vídeo que comprove. Na relargada depois do safety car, o \"brake-test\", acelerar e frear de repente para pegar o de trás, é punição gravíssima com perda da classificação seguinte. Abandonar de propósito com o carro na pista custa 3 pontos, e acidente proposital que tire alguém da prova leva à exclusão do grid.",
+      "As punições dadas pelo próprio jogo, como drive-through, segundos acrescidos ou desclassificação, não são retiradas pela liga. E a perda de pontos tem um momento certo para aparecer: durante a temporada, a classificação geral e o lastro usam os pontos do jogo, sem desconto, para que as punições não mexam no desempenho dos carros. As tabelas de grupos e de construtores já mostram o desconto, e na última etapa ele passa a valer em todas.",
+      "O pedido também tem limite. Cada piloto tem direito a quatro pedidos improcedentes: toda vez que o acusado é absolvido, o reclamante perde um. Se o acusado for considerado culpado ou advertido, o reclamante mantém os quatro. A regra existe para que o pedido de análise sirva para os casos que importam.",
+      "As decisões dos incidentes de cada etapa ficam publicadas na página Decisões de incidentes do Portal DPS, com a regra aplicada em cada caso. O regulamento completo, com todos os itens citados aqui (capítulo 12), está na página Regulamento."
+    ]
+  },
+  {
+    "id": "2026-11-11-mc1t20-austria",
+    "tipo": "corrida",
+    "campeonato": "mc1t20",
+    "data": "2026-11-11",
+    "autor": "Redação DPS",
+    "titulo": "Hulk esmaga na Áustria, Williams põe dois no pódio e o pole-position vai parar em 17º",
+    "linha_fina": "Rafa Hulk saiu de quinto e venceu a estreia do Modo Carreira 1 (T20) com Jefferson Marchi em terceiro; Pilpro foi segundo, Lucas Lolu ganhou sete posições e foi o piloto do dia.",
+    "corpo": [
+      "Existe um tipo de piloto que larga em quinto, olha os quatro carros na frente e pensa: \"isso aí é só decoração\". Rafa Hulk é desse tipo. Na estreia do Modo Carreira 1 (T20), no Red Bull Ring, na noite desta quarta-feira, ele fez de uma Williams o carro mais temido da Estíria e venceu em 45min50s008, com 2,4 segundos sobre Pilpro, da Alpine.",
+      "E a Williams não ficou só nisso. Jefferson Marchi, que além de piloto é o presidente da equipe, largou em quarto e completou o pódio. Resultado: a escuderia que o regulamento coloca no Grupo 3 sai da primeira etapa liderando os construtores com 45 pontos. Em algum lugar de Grove, um engenheiro aposentado chorou de emoção sem saber o motivo.",
+      "Pilpro largou em sétimo e terminou em segundo. Lucas Lolu, seu companheiro de Alpine, foi ainda mais longe: saiu de 12º e cruzou em quinto. Foram sete posições ganhas, e ele foi eleito o piloto do dia. A Alpine sai da Áustria em segundo nos construtores, com 40 pontos.",
+      "Agora, a parte da crônica que exige lenço. Will Tefé largou na pole com a McLaren e terminou em 17º, com punição do jogo. Luca, que saiu ao lado dele na primeira fila, de Mercedes, cruzou em 16º. Daniel Requena largou em sexto e nem viu a bandeirada: abandonou e saiu da Áustria sem pontos. Camilo, da Ferrari, saiu de terceiro e terminou em sétimo. Na Áustria, a primeira fila virou trampolim, só que para trás.",
+      "Do meio para trás, o pelotão parecia fila de banco em dia de pagamento. Santiago (McLaren) subiu de nono para quarto. Phep (Red Bull) ganhou cinco posições até o sexto e ainda fez a volta mais rápida da prova (1:06.685). A Aston Martin fez a festa da dupla do meio: Ghost saiu de 14º para nono e Gomes, de 15º para décimo, e os dois juntos já colocam a equipe em terceiro nos construtores, com 27 pontos. Matheus Leão (Cadillac) também ganhou cinco posições e terminou em oitavo. Soares, da Haas, saiu de último para 13º.",
+      "Nos grupos, a primeira foto do campeonato é esta: no Grupo 1, Santiago lidera com 19 pontos, à frente de Phep (17) e Camilo (16). No Grupo 2, Pilpro (22) está à frente de Lolu (18). No Grupo 3, a Williams é dona da casa, com Rafa Hulk (25) e Jefferson Marchi (20). No Grupo 4, a briga já começou apertada: Matheus Leão (15), Ghost (14) e Gomes (13) estão separados por dois pontos.",
+      "A próxima etapa é o GP da Espanha, em Barcelona-Catalunha, na quarta-feira, 18 de novembro. A pole da Áustria já avisou que não quer saber de primeira fila tão cedo."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Rafa Hulk",
+        "equipe": "Williams"
+      },
+      {
+        "pos": "2",
+        "piloto": "Pilpro",
+        "equipe": "Alpine"
+      },
+      {
+        "pos": "3",
+        "piloto": "Jefferson Marchi",
+        "equipe": "Williams"
+      },
+      {
+        "pos": "4",
+        "piloto": "Santiago",
+        "equipe": "McLaren"
+      },
+      {
+        "pos": "5",
+        "piloto": "Lucas Lolu",
+        "equipe": "Alpine"
+      },
+      {
+        "pos": "6",
+        "piloto": "Phep",
+        "equipe": "Red Bull Racing"
+      },
+      {
+        "pos": "7",
+        "piloto": "Camilo",
+        "equipe": "Ferrari"
+      },
+      {
+        "pos": "8",
+        "piloto": "Matheus Leão",
+        "equipe": "Cadillac"
+      },
+      {
+        "pos": "9",
+        "piloto": "Ghost",
+        "equipe": "Aston Martin"
+      },
+      {
+        "pos": "10",
+        "piloto": "Gomes",
+        "equipe": "Aston Martin"
+      },
+      {
+        "pos": "11",
+        "piloto": "BFernandes (reserva)",
+        "equipe": "Mercedes"
+      },
+      {
+        "pos": "12",
+        "piloto": "Goku",
+        "equipe": "Haas"
+      },
+      {
+        "pos": "13",
+        "piloto": "Soares",
+        "equipe": "Haas"
+      },
+      {
+        "pos": "14",
+        "piloto": "Rafaela (reserva)",
+        "equipe": "Ferrari"
+      },
+      {
+        "pos": "15",
+        "piloto": "Fabinho Luz",
+        "equipe": "Cadillac"
+      },
+      {
+        "pos": "16",
+        "piloto": "Luca",
+        "equipe": "Mercedes"
+      },
+      {
+        "pos": "17",
+        "piloto": "Will Tefé",
+        "equipe": "McLaren"
+      },
+      {
+        "pos": "18",
+        "piloto": "Ricardo Garcia",
+        "equipe": "Racing Bulls"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Daniel Requena",
+        "equipe": "Racing Bulls"
+      }
+    ],
+    "destaque": {
+      "piloto": "Lucas Lolu",
+      "motivo": "Largou em 12º e terminou em quinto, sete posições acima; eleito o piloto do dia."
+    }
+  },
+  {
     "id": "2026-11-10-elite-brasil",
     "tipo": "corrida",
     "campeonato": "elite",

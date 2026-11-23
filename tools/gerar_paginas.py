@@ -8,7 +8,7 @@ import html, json, os, re, sys
 from datetime import datetime, timezone, timedelta
 
 raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = "https://driveproseries-ai.github.io"
+BASE = "https://portaldps.com.br"
 
 
 def ler(nome, padrao):
@@ -121,7 +121,7 @@ for n in noticias:
 # ---------- sitemap ----------
 fixas = ["index.html", "jornal.html", "tabelas.html", "calendario.html", "lastro.html", "regulamento.html",
          "inscricoes.html", "contato.html", "f1.html", "estatisticas.html", "halldafama.html",
-         "incidentes.html", "sorteio.html", "videos.html", "avisos.html", "loja.html", "sobre.html", "privacidade.html"]
+         "incidentes.html", "sorteio.html", "videos.html", "avisos.html", "sobre.html", "privacidade.html"]
 urls = []
 for p in fixas:
     if os.path.exists(os.path.join(raiz, p)):
