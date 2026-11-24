@@ -113,5 +113,22 @@
     "categoria": "",
     "carteira_pts": 0,
     "alerta": ""
+  },
+  {
+    "id": "2026-11-18-mc1t20-espanha-luca-phep",
+    "campeonato": "mc1t20",
+    "etapa": 2,
+    "pista": "Espanha",
+    "volta": "33",
+    "data": "2026-11-18",
+    "titulo": "Luca × Phep",
+    "resumo": "Na última volta, Luca passou Phep na reta e os dois disputaram a liderança lado a lado nas curvas 1 e 2. Na curva 2, Phep fechou até a zebra interna e Luca, que estava por dentro, ficou sem pista e passou por dentro da zebra. Na volta à pista houve toque entre a roda dianteira esquerda de Phep e a traseira direita de Luca, que rodou e caiu de 1º para 7º.",
+    "analise": "Análise por IA com os vídeos dos dois pilotos, sincronizados pelo cronômetro da volta, decidida pela Direção. Na curva 1, Phep freou mais tarde por dentro e chegou ao ápice com as rodas dianteiras alinhadas às de Luca: manobra dura, mas regular, e Luca deixou espaço. Entre as curvas 1 e 2 os carros seguiram lado a lado, com Luca por dentro da curva 2. Phep fechou a trajetória até a zebra interna sem deixar um carro de largura, e Luca foi obrigado a sair da pista. O toque que rodou Luca aconteceu em seguida, na volta dele à pista, quando Phep já abria para a direita. A Direção entendeu que a origem do incidente foi a falta de espaço na curva 2. Não houve dano visível; Luca perdeu posições.",
+    "regra": "Diretrizes de condução da FIA (v4.1): quem está por dentro com o eixo dianteiro ao lado do outro carro tem direito a um carro de largura de pista. Item 12.14 do regulamento: Média (sem dano à vítima, mas com perda de posições), −6 pts; carteira 6 pts (12.18.2).",
+    "decisao": "Culpado: Phep",
+    "punicao": "Média (−6 pts)",
+    "categoria": "media",
+    "carteira_pts": 6,
+    "alerta": "Alerta ao Phep: em curvas em sequência, com um carro ao lado por dentro, é preciso deixar um carro de largura até o fim da curva. Se reincidir, a segunda punição vira grave (12.19). Alerta ao Luca: ao voltar à pista depois de sair dela, retorne com segurança, sem cruzar a trajetória de quem vem ao lado."
   }
 ]
