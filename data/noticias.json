@@ -1,5 +1,24 @@
 [
   {
+    "id": "2026-11-24-dps-narradores",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-24",
+    "autor": "Redação DPS",
+    "titulo": "Quem narra a F1 virtual merece um aumento (e um chá de camomila)",
+    "linha_fina": "Ele fala sem parar por mais de duas horas, enxerga 22 carros, lembra de 22 nomes e ainda ouve que errou o sobrenome de alguém. Uma homenagem a quem põe voz nas nossas corridas.",
+    "corpo": [
+      "Existe uma profissão que ninguém escolheria sozinho, de tão difícil. Narrar uma corrida de F1 virtual exige olhar 22 carros ao mesmo tempo, reconhecer cada um pela cor, pelo número e, às vezes, só pelo jeito de rodar na curva 1. E falar o tempo todo, sem pausa para respirar, enquanto o piloto da frente faz uma ultrapassagem e o de trás faz uma coisa que ainda não tem nome.",
+      "O nome do piloto na tela nem sempre é o que a gente usa no grupo. O apelido do WhatsApp, o nome no jogo e o nome no FGC parecem três pessoas diferentes, e o narrador precisa escolher em meio segundo qual delas está batendo na barreira. Quando acerta, ninguém comenta. Quando erra, o grupo inteiro acorda.",
+      "Por trás da voz tem investimento de verdade: microfone, computador que aguenta jogo, transmissão e gravação ao mesmo tempo, internet que não pode cair e horas de preparação antes de cada etapa, estudando pista, grid, lastro e quem briga com quem. Tudo isso para passar a noite dizendo \"olha o que ele fez!\" com a garganta já pedindo socorro.",
+      "Aí vêm as críticas. Algumas são injustas, como a de quem queria que o narrador tivesse visto a disputa no fundo do grid, no mesmo segundo em que três outras aconteciam na frente. Mas a grande maioria dos comentários vem de quem quer ajudar: sugere, corrige, pede mais ritmo, lembra um detalhe. O narrador não vê tudo, e o piloto que reclama só quer ver a corrida contada do jeito que ele viveu. No fim, os dois lados querem a mesma coisa, uma transmissão melhor.",
+      "Nessa cabine, ele nunca está sozinho. Os comentaristas, hoje Lucas Bueno e Menezes, são o copiloto da transmissão: completam a análise, seguram o tranco quando o narrador perde o fôlego e, na maioria das vezes, dão aquele apoio de quem sabe o quanto é difícil. Um narrador bom faz o comentarista brilhar, e um comentarista bom salva o narrador da curva 1 com 22 carros.",
+      "A DPS já ouviu várias vozes ao longo dos anos. Matheus Winter e Tancredo passaram por aqui, cada um com seu estilo, e ajudaram a dar cara e voz às nossas corridas. O grid agradece.",
+      "E hoje a voz que embala as nossas noites é a de Ron Bauer, que narra as etapas do Mundial, do Elite e da Carreira com a energia de quem acabou de ganhar na loteria, mesmo quando a corrida tem três voltas de safety car. Ron, obrigado por cada etapa. Se um dia faltar voz, o chá de camomila é por conta da casa, e a pizza, o Ricardinho manda as fotos."
+    ],
+    "resultado": []
+  },
+  {
     "id": "2026-11-22-mundial-brasil",
     "tipo": "corrida",
     "campeonato": "mundial",
