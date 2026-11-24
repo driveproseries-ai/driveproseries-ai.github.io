@@ -79,3 +79,8 @@ Quando um caso publicado (ou confirmado pelo usuário) tiver punição em pontos
 
 ## 6. Estado
 Arquivo `estado_incidentes.json` na pasta "DPS - Análises (Claude)" do Drive do usuário (criar se não existir): lista de casos com `chave` (grid|pista|par ordenado), `arquivos` (bases vistas), `status` (aguardando_defesa, rascunho_enviado, publicado, ignorado, fora_do_prazo), `atualizado_em`. Ler no início e gravar no fim. Se não conseguir gravar no Drive, avisar o usuário.
+
+## 7. Modo Carreira (MC1 T20, Carreira 2) - autorização do usuário em 24/11/2026
+- Punições do MC descontam do piloto na hora: ao publicar a decisão, somar os pontos negativos ao `pun` do piloto em `data/mc1t20.json` (ou `carreira2.json`) na mesma publicação, e também ao `pun` da equipe em `construtores`. O MC não tem lastro, então a regra do 12.9 (desconto só depois da penúltima etapa) não vale aqui. Registrar também a linha em `punicoes_pendentes.csv` (campeonato `mc1t20`, nome em MAIÚSCULAS).
+- Analisar e publicar automaticamente os incidentes do MC, sem esperar o "publicar" do usuário, e avisá-lo depois no celular. Continua valendo: dúvida de sincronia dos vídeos ou confiança baixa não gera punição (12.27.3); exclusão do grid (carteira em 20 pts) é só avisada ao usuário. O `campeonato` da entrada é `mc1t20` (ou `carreira2`). O usuário ainda lança a penalidade no FGC (avisar a linha pronta).
+
