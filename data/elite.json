@@ -1,64 +1,71 @@
 {
  "id": "elite",
  "nome": "Mundial DPS Elite 2026",
- "atualizado_em": "2026-11-10",
+ "atualizado_em": "2026-11-24",
  "fonte_dados": "Formula Game Companion (pontos) e controle de punições da liga",
  "pilotos": [
   {
    "nome": "Daniel Requena",
    "grupo": "A",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 360,
+   "pts": 380,
    "pun": 0
   },
   {
    "nome": "Gustavo Ferreira",
    "grupo": "A",
    "equipe": "Fúria do Asfalto",
-   "pts": 329,
+   "pts": 354,
    "pun": -6
   },
   {
    "nome": "Matheus Gregório",
    "grupo": "A",
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 302,
+   "pts": 315,
    "pun": -6
   },
   {
    "nome": "Thulio Mendes",
    "grupo": "B",
    "equipe": "Myeggsleft Racing Team",
-   "pts": 269,
+   "pts": 286,
+   "pun": 0
+  },
+  {
+   "nome": "Jefferson Marchi",
+   "grupo": "A",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 273,
    "pun": 0
   },
   {
    "nome": "Robinho",
    "grupo": "D",
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 260,
+   "pts": 270,
    "pun": -16
-  },
-  {
-   "nome": "Jefferson Marchi",
-   "grupo": "A",
-   "equipe": "Myeggsleft Racing Team",
-   "pts": 257,
-   "pun": 0
   },
   {
    "nome": "Leo Oliveira",
    "grupo": "C",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 254,
+   "pts": 268,
    "pun": 0
   },
   {
    "nome": "Welk",
    "grupo": "B",
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 253,
+   "pts": 265,
    "pun": 0
+  },
+  {
+   "nome": "Menezes",
+   "grupo": "D",
+   "equipe": "Myeggsleft Racing Team",
+   "pts": 242,
+   "pun": -10
   },
   {
    "nome": "Diogo Marin",
@@ -66,13 +73,6 @@
    "equipe": "Myeggsleft Racing Team",
    "pts": 233,
    "pun": -4
-  },
-  {
-   "nome": "Menezes",
-   "grupo": "D",
-   "equipe": "Myeggsleft Racing Team",
-   "pts": 231,
-   "pun": -10
   },
   {
    "nome": "Gustavo Isoppo",
@@ -148,27 +148,27 @@
  "construtores": [
   {
    "equipe": "DPS - Drama, Punição e Sofrimento",
-   "pts": 1098,
+   "pts": 1144,
    "pun": 0
   },
   {
    "equipe": "Myeggsleft Racing Team",
-   "pts": 992,
+   "pts": 1051,
    "pun": -14
   },
   {
    "equipe": "Papayas Verdes F1 Team",
-   "pts": 883,
+   "pts": 906,
    "pun": -38
   },
   {
    "equipe": "Simas Turbo",
-   "pts": 847,
+   "pts": 869,
    "pun": -10
   },
   {
    "equipe": "Fúria do Asfalto",
-   "pts": 636,
+   "pts": 661,
    "pun": -43
   }
  ],
@@ -356,7 +356,7 @@
    "tipos": [
     "invertido"
    ],
-   "status": "proxima"
+   "status": "realizada"
   },
   {
    "n": 23,
@@ -364,7 +364,7 @@
    "data": "2026-12-01",
    "hora": "21:00",
    "tipos": [],
-   "status": "futura"
+   "status": "proxima"
   },
   {
    "n": 24,

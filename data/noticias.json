@@ -1,5 +1,111 @@
 [
   {
+    "id": "2026-11-24-elite-catar-expectativa",
+    "tipo": "expectativa",
+    "campeonato": "elite",
+    "data": "2026-11-25",
+    "autor": "Redação DPS",
+    "titulo": "Requena chega ao Catar 26 pontos à frente de Ferreira, e sete pilotos largam sem classificação",
+    "linha_fina": "Terça-feira, 1º de dezembro, às 21h, o Elite disputa a penúltima etapa da temporada, a de número 23.",
+    "corpo": [
+      "O Mundial DPS Elite chega à etapa 23, o GP do Catar, na terça-feira, 1º de dezembro, às 21h. Depois dela, resta apenas Abu Dhabi, em 8 de dezembro, a decisão da temporada.",
+      "Daniel Requena lidera com 380 pontos, 26 à frente de Gustavo Ferreira (354), que venceu em Las Vegas. Uma vitória vale 25, então a diferença cabe em pouco mais de uma corrida. Matheus Gregório (315), Thulio Mendes (286) e Jefferson Marchi (273) completam os cinco primeiros.",
+      "Entre os construtores, a DPS - Drama, Punição e Sofrimento tem 1144 pontos, seguida pela Myeggsleft Racing Team (1051) e pela Papayas Verdes F1 Team (906).",
+      "Sete pilotos não correram em Las Vegas e, pelo item 12.22, largam sem fazer a classificação no Catar: Gustavo Isoppo, Meirelles, Rafa Almeida, Rafa Marques, Ricardo Garcia, Chrys e Gerson Bolha.",
+      "A etapa não tem sprint nem grid invertido, e a distribuição dos carros pelo lastro está na página Lastro."
+    ],
+    "resultado": []
+  },
+  {
+    "id": "2026-11-24-elite-las-vegas",
+    "tipo": "corrida",
+    "campeonato": "elite",
+    "data": "2026-11-24",
+    "autor": "Redação DPS",
+    "titulo": "Gustavo Ferreira sai do 12º e vence em Las Vegas; reserva Marck Bauer é segundo e Requena marca a volta mais rápida",
+    "linha_fina": "Em etapa de grid invertido, o piloto da Fúria do Asfalto cruzou a linha 0,4 segundo à frente de um reserva da Simas Turbo e foi eleito o piloto do dia.",
+    "corpo": [
+      "Gustavo Ferreira venceu a etapa 22 do Mundial DPS Elite 2026, o GP de Las Vegas, na noite desta terça-feira, 24 de novembro. Com a Fúria do Asfalto, ele largou em 12º, no grid invertido, e completou as 50 voltas 0,4 segundo à frente de Marck Bauer, que correu como reserva da Simas Turbo no lugar de Henrique Valente. Daniel Requena fechou o pódio.",
+      "A largada de ponta-cabeça virou a corrida do avesso: o líder do campeonato saiu em 13º, e Arthur Tuta e Bruno Fernandes, que largavam em primeiro e segundo, deixaram a pista cedo. Tuta completou 16 voltas e Bruno, apenas três; nenhum dos dois pontuou. Requena, que largou lá atrás, passou por muita gente, fez a volta mais rápida (1:34.161) e terminou em terceiro.",
+      "O fim foi apertado: segundo a telemetria, os quatro primeiros cruzaram a linha em pouco mais de meio segundo. Thulio Mendes foi o quarto, Jefferson Marchi o quinto, e Fabinho Luz, que correu como reserva da Myeggsleft no lugar de Diogo Marin, fechou em sexto. Jefferson e Fabinho receberam três segundos de punição do jogo.",
+      "Leo Oliveira foi o sétimo, Matheus Gregório o oitavo, depois de seis paradas nos boxes, e Welk o nono. Menezes terminou em décimo, uma volta atrás, com 16 segundos de punições do jogo. Robinho deixou a pista na volta 48 de 50, mas, com 96% da prova cumprida, a regra dos 90% (item 11.2) garantiu a pontuação.",
+      "O piloto do dia foi o vencedor: Gustavo Ferreira ganhou 11 posições em relação ao grid. Gustavo Isoppo, Meirelles, Rafa Almeida, Rafa Marques, Ricardo Garcia, Chrys e Gerson Bolha não correram e, pelo item 12.22, largam sem fazer a classificação no Catar. Henrique Valente e Diogo Marin tiveram reserva e não são afetados.",
+      "Requena segue líder, com 380 pontos, agora 26 à frente de Ferreira (354). Matheus Gregório tem 315, Thulio Mendes 286 e Jefferson Marchi 273. Entre os construtores, a DPS - Drama, Punição e Sofrimento tem 1144 pontos, à frente da Myeggsleft Racing Team (1051) e da Papayas Verdes F1 Team (906).",
+      "A próxima etapa é o GP do Catar, na terça-feira, 1º de dezembro, às 21h. A distribuição dos carros pelo lastro está na página Lastro."
+    ],
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "Gustavo Ferreira",
+        "equipe": "Fúria do Asfalto"
+      },
+      {
+        "pos": "2",
+        "piloto": "Marck Bauer",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "3",
+        "piloto": "Daniel Requena",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "4",
+        "piloto": "Thulio Mendes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "5",
+        "piloto": "Jefferson Marchi",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "6",
+        "piloto": "Fabinho Luz",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "7",
+        "piloto": "Leo Oliveira",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "8",
+        "piloto": "Matheus Gregório",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "9",
+        "piloto": "Welk",
+        "equipe": "DPS - Drama, Punição e Sofrimento"
+      },
+      {
+        "pos": "10",
+        "piloto": "Menezes",
+        "equipe": "Myeggsleft Racing Team"
+      },
+      {
+        "pos": "11",
+        "piloto": "Robinho",
+        "equipe": "Papayas Verdes F1 Team"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Arthur Tuta",
+        "equipe": "Simas Turbo"
+      },
+      {
+        "pos": "NC",
+        "piloto": "Bruno Fernandes",
+        "equipe": "Simas Turbo"
+      }
+    ],
+    "destaque": {
+      "piloto": "Gustavo Ferreira",
+      "motivo": "Largou em 12º e venceu, 11 posições acima; eleito o piloto do dia."
+    }
+  },
+  {
     "id": "2026-11-24-dps-narradores",
     "tipo": "jornal",
     "campeonato": null,
