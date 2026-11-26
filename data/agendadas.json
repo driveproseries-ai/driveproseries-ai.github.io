@@ -1,29 +1,5 @@
 [
   {
-    "id": "2026-11-26-perfil-matheus-gregorio",
-    "tipo": "jornal",
-    "campeonato": null,
-    "data": "2026-11-26",
-    "autor": "Redação DPS",
-    "capa": false,
-    "titulo": "Matheus Gregório, o campeão em título do Elite, em números",
-    "linha_fina": "Pelo histórico geral do FGC: 86 corridas, 9 vitórias, 28 pódios e 15 troféus de piloto do dia. E como anda o campeão de 2025 na temporada de 2026.",
-    "corpo": [
-      "A primeira linha da ficha de Matheus Gregório é difícil de ignorar: campeão do Mundial DPS Elite 2025, nos pilotos e nos construtores, com a American Bull. Neste ano ele defende a coroa a 65 pontos do líder, com duas etapas pela frente, mas a carreira completa dele na DPS conta mais do que a tabela do momento. Os números abaixo vêm do histórico geral do Formula Game Companion (FGC) e das tabelas do Portal DPS.",
-      "Em 86 corridas, o FGC soma 1.542 pontos, uma média de 18 pontos por corrida. A posição média de chegada é a sexta e ele ganhou, ao todo, 294 posições em relação ao grid. É um perfil de quem cresce durante a prova, o que ajuda a explicar os 15 troféus de piloto do dia que ele já levou.",
-      "No pódio, são 9 vitórias e 28 subidas ao pódio, algo como uma a cada três corridas, além de 1 pole e 1 volta mais rápida. Nas sprints, que ele disputou 16 vezes, ainda não ganhou nenhuma. É um dos poucos itens em branco do currículo.",
-      "A regularidade também aparece. São só 5 abandonos, nenhuma desclassificação e nenhuma corrida sem largar. O FGC registra 1 punição, 1 advertência e 24 pontos de punição acumulados, um saldo baixo para quem tem tantas corridas na conta.",
-      "O título do Elite de 2025 veio em 22 corridas, com 5 vitórias e 16 pódios, segundo os resultados guardados no site, e o troféu de construtores foi junto, com a American Bull.",
-      "Em 2026 o roteiro mudou. Na tabela do Elite, Matheus é o terceiro, com 315 pontos (mais 6 pontos de punição, que só são descontados na última etapa), atrás de Daniel Requena (380) e Gustavo Ferreira (354). Pela Papayas Verdes F1 Team, teve um começo irregular: nas 17 primeiras corridas, até 29 de setembro, foram 2 vitórias, 5 pódios e 1 pole. Nas etapas mais recentes ficou entre o quarto e o oitavo lugar: quinto em Texas, saindo em 15º com um dos carros de menor desempenho pelo lastro, o que lhe rendeu o troféu de piloto do dia; o sexto no México, saindo de 11º; o quarto no Brasil, quando cruzou à frente de Ferreira na pista, mas 13 segundos de punição do jogo o empurraram para trás; e o oitavo em Las Vegas, depois de seis paradas nos boxes.",
-      "Restam Catar (1º de dezembro, às 21h30) e Abu Dhabi (8 de dezembro, última etapa da temporada, sem lastro). Com 25 pontos por vitória, tirar 65 pontos do líder em duas provas é improvável, então o título de 2026 está praticamente fora de alcance. Já o vice-campeonato está a 39 pontos, uma diferença que cabe em pouco mais de uma vitória.",
-      "Fora do Elite, Gregório também é protagonista no Modo Carreira 1 (T20). Pela Mercedes, ele ganhou duas das três primeiras etapas, a mais recente em Silverstone, largando em sexto e levando também o troféu de piloto do dia. Soma 50 pontos e está em quarto lugar, a 11 do líder Rafa Hulk, com a Arábia Saudita marcada para 2 de dezembro.",
-      "O retrato final é o de um piloto de remontada e de regularidade, que costuma crescer justamente quando o carro não ajuda. Falta uma vitória em sprint para completar a ficha, e para quem tem 15 troféus de piloto do dia, isso parece só questão de tempo.",
-      "Dados: histórico geral do FGC (DPS League) e tabelas e resultados do Portal DPS, atualizados em 24 de novembro de 2026."
-    ],
-    "resultado": [],
-    "publicar_em": "2026-11-26T12:00:00-03:00"
-  },
-  {
     "id": "2026-11-27-f1-27-ea-confirmado-e-boatos",
     "tipo": "jornal",
     "campeonato": null,
