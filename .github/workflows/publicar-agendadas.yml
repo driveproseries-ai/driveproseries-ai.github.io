@@ -1,0 +1,58 @@
+name: Publicar matérias agendadas
+
+# De hora em hora (minuto 7), o GitHub confere data/agendadas.json e publica o que já está na hora.
+# Também dá para rodar na mão: aba Actions > "Publicar matérias agendadas" > Run workflow.
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publicar-agendadas
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Mover para o site o que já está na hora
+        id: pub
+        run: |
+          python3 tools/publicar_agendadas.py | tee "$RUNNER_TEMP/saida.txt"
+          if grep -q '^PUBLICADA:' "$RUNNER_TEMP/saida.txt"; then echo "novo=sim" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Gerar páginas, sitemap e feed
+        if: steps.pub.outputs.novo == 'sim'
+        run: python3 tools/gerar_paginas.py
+
+      - name: Validar os dados
+        if: steps.pub.outputs.novo == 'sim'
+        run: python3 tools/validar.py
+
+      - name: Gravar o texto nas páginas principais (se o Chrome do servidor deixar)
+        if: steps.pub.outputs.novo == 'sim'
+        continue-on-error: true
+        run: PRERENDER_NO_SANDBOX=1 python3 tools/prerender.py
+
+      - name: Publicar no GitHub
+        if: steps.pub.outputs.novo == 'sim'
+        run: |
+          git config user.name "Portal DPS (agendador)"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Publicação agendada: $(grep '^PUBLICADA:' "$RUNNER_TEMP/saida.txt" | sed 's/^PUBLICADA: //' | paste -sd, -)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Pedir a atualização do site
+        if: steps.pub.outputs.novo == 'sim'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"

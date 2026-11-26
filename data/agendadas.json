@@ -1,0 +1,51 @@
+[
+  {
+    "id": "2026-11-26-perfil-matheus-gregorio",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-26",
+    "autor": "Redação DPS",
+    "capa": false,
+    "titulo": "Matheus Gregório, o campeão em título do Elite, em números",
+    "linha_fina": "Pelo histórico geral do FGC: 86 corridas, 9 vitórias, 28 pódios e 15 troféus de piloto do dia. E como anda o campeão de 2025 na temporada de 2026.",
+    "corpo": [
+      "A primeira linha da ficha de Matheus Gregório é difícil de ignorar: campeão do Mundial DPS Elite 2025, nos pilotos e nos construtores, com a American Bull. Neste ano ele defende a coroa a 65 pontos do líder, com duas etapas pela frente, mas a carreira completa dele na DPS conta mais do que a tabela do momento. Os números abaixo vêm do histórico geral do Formula Game Companion (FGC) e das tabelas do Portal DPS.",
+      "Em 86 corridas, o FGC soma 1.542 pontos, uma média de 18 pontos por corrida. A posição média de chegada é a sexta e ele ganhou, ao todo, 294 posições em relação ao grid. É um perfil de quem cresce durante a prova, o que ajuda a explicar os 15 troféus de piloto do dia que ele já levou.",
+      "No pódio, são 9 vitórias e 28 subidas ao pódio, algo como uma a cada três corridas, além de 1 pole e 1 volta mais rápida. Nas sprints, que ele disputou 16 vezes, ainda não ganhou nenhuma. É um dos poucos itens em branco do currículo.",
+      "A regularidade também aparece. São só 5 abandonos, nenhuma desclassificação e nenhuma corrida sem largar. O FGC registra 1 punição, 1 advertência e 24 pontos de punição acumulados, um saldo baixo para quem tem tantas corridas na conta.",
+      "O título do Elite de 2025 veio em 22 corridas, com 5 vitórias e 16 pódios, segundo os resultados guardados no site, e o troféu de construtores foi junto, com a American Bull.",
+      "Em 2026 o roteiro mudou. Na tabela do Elite, Matheus é o terceiro, com 315 pontos (mais 6 pontos de punição, que só são descontados na última etapa), atrás de Daniel Requena (380) e Gustavo Ferreira (354). Pela Papayas Verdes F1 Team, teve um começo irregular: nas 17 primeiras corridas, até 29 de setembro, foram 2 vitórias, 5 pódios e 1 pole. Nas etapas mais recentes ficou entre o quarto e o oitavo lugar: quinto em Texas, saindo em 15º com um dos carros de menor desempenho pelo lastro, o que lhe rendeu o troféu de piloto do dia; o sexto no México, saindo de 11º; o quarto no Brasil, quando cruzou à frente de Ferreira na pista, mas 13 segundos de punição do jogo o empurraram para trás; e o oitavo em Las Vegas, depois de seis paradas nos boxes.",
+      "Restam Catar (1º de dezembro, às 21h30) e Abu Dhabi (8 de dezembro, última etapa da temporada, sem lastro). Com 25 pontos por vitória, tirar 65 pontos do líder em duas provas é improvável, então o título de 2026 está praticamente fora de alcance. Já o vice-campeonato está a 39 pontos, uma diferença que cabe em pouco mais de uma vitória.",
+      "Fora do Elite, Gregório também é protagonista no Modo Carreira 1 (T20). Pela Mercedes, ele ganhou duas das três primeiras etapas, a mais recente em Silverstone, largando em sexto e levando também o troféu de piloto do dia. Soma 50 pontos e está em quarto lugar, a 11 do líder Rafa Hulk, com a Arábia Saudita marcada para 2 de dezembro.",
+      "O retrato final é o de um piloto de remontada e de regularidade, que costuma crescer justamente quando o carro não ajuda. Falta uma vitória em sprint para completar a ficha, e para quem tem 15 troféus de piloto do dia, isso parece só questão de tempo.",
+      "Dados: histórico geral do FGC (DPS League) e tabelas e resultados do Portal DPS, atualizados em 24 de novembro de 2026."
+    ],
+    "resultado": [],
+    "publicar_em": "2026-11-26T12:00:00-03:00"
+  },
+  {
+    "id": "2026-11-27-f1-27-ea-confirmado-e-boatos",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-27",
+    "autor": "Redação DPS",
+    "capa": false,
+    "titulo": "F1 27: o que a EA confirmou, o que é boato e o que ainda ninguém sabe",
+    "linha_fina": "Não houve F1 26, só uma expansão do F1 25. E o novo jogo? Separamos o que é oficial, o que vem dos bastidores e o que é boato ou desejo dos fãs, inclusive o tal engenheiro de IA.",
+    "corpo": [
+      "Vamos começar pelo que está provado: o F1 de 2026 não é um jogo novo. Em 18 de novembro de 2025, a EA Sports e a Codemasters anunciaram que não haveria F1 26. A temporada de 2026 chegaria como uma expansão paga do F1 25, e o próximo jogo completo, o F1 27, ficaria para 2027. Quem diz que o F1 26 foi só um update do F1 25 está certo, porque foi a própria EA que descreveu assim. A expansão, chamada F1 25: 2026 Season Pack, saiu em 3 de junho de 2026, segundo o site Solox.",
+      "CONFIRMADO. O que a EA e a Codemasters disseram oficialmente sobre o F1 27 é pouco. Será um jogo completo e independente, não um DLC, descrito como uma versão reimaginada e mais ampla, com novas formas de jogar. O diretor criativo Lee Mather afirmou que o plano de vários anos prolonga a empolgação de 2026 com a expansão e que o estúdio está totalmente comprometido com a franquia.",
+      "AINDA SEM RESPOSTA. A EA não anunciou data de lançamento, preço, capa nem lista de recursos. Sobre as plataformas, há relatos divergentes: um levantamento do Solox, checado em 15 de outubro de 2026, diz que nenhuma plataforma foi anunciada; outro texto, da APKPure, cita PC, PS5 e Xbox Series, mas não aponta o anúncio oficial. Tratamos como não confirmado.",
+      "REPORTADO. Na GDC deste ano, uma palestra da Codemasters sobre o F1 25 mostrou um protótipo com path tracing (um tipo de iluminação mais realista) rodando em um PS5 Pro e um logotipo novo do EGO Engine, o motor dos jogos da série. Segundo o site Sports Gamers Online e o perfil F1 Game News, isso sugere mudanças grandes para o F1 27. É interpretação, não anúncio: a EA não disse que o recurso estará no jogo. Essa parte se apoia em resumos de busca, porque não conseguimos abrir as páginas completas.",
+      "REPORTADO. A licença da Codemasters para o jogo oficial da F1 vai até o fim de 2027, segundo uma notícia da Autosport relembrada pelo F1 Game News. Se for assim, o F1 27 seria o último jogo confirmado do estúdio com a EA, sem informação pública sobre uma nova renovação. De novo, é bastidor, não comunicado da EA.",
+      "BOATO. E o engenheiro de corrida com inteligência artificial, que conversa de verdade em vez de repetir perguntas prontas? Não encontramos nenhuma fonte oficial nem reportagem de peso que confirme isso no F1 27. O que existe é um pedido dos fãs: um tópico de recursos desejados no fórum da EA, de cerca de nove meses atrás, lista o engenheiro interativo. E existe também um aplicativo de terceiros, o AI Race Engineer, que lê a telemetria do jogo (do F1 2020 ao pacote 2026 do F1 25, além do Gran Turismo 7) e responde por voz. Ele não é da EA nem da Codemasters. Pode ter alimentado parte dos vídeos que circulam, mas isso é suposição nossa. Até a EA mostrar algo, é boato.",
+      "DESEJO DOS FÃS. As listas se repetem: melhor resposta do volante e do modelo de pilotagem, mais carros clássicos, um modo carreira mais forte e menos foco em personalização do avatar. No fórum da EA aparecem pedidos como falhas mecânicas no modo Grand Prix, grid personalizado, novo sistema de danos e manobras manuais nos boxes. São pedidos, não novidades.",
+      "O QUE NINGUÉM SABE AINDA. Um artigo de opinião da IGN, de outubro de 2026, levanta a dúvida de como o F1 27 vai tratar a gestão de energia dos carros de 2026 e as mudanças que vêm em 2027. É opinião do autor e a EA não comentou. O autor ainda especula que a Codemasters talvez só consiga fechar o modelo de pilotagem depois de ver os carros de 2027 em ação.",
+      "ATENÇÃO COM O QUE CIRCULA. A própria APKPure avisa que há vídeos falsos de gameplay, miniaturas feitas por IA e ofertas de acesso antecipado ou download que não são reais. Se algum vídeo promete mostrar o F1 27 antes da EA, desconfie.",
+      "Resumindo: confirmado é pouco, boato é bastante e o resto é esperar a EA abrir o jogo. Quando houver trailer, data ou lista de recursos oficial, atualizamos por aqui. Até lá, o F1 25 segue sendo o jogo da DPS, e o engenheiro de pista continua o de sempre: educado e previsível.",
+      "Fontes: Crash.net (19/11/2025); ESPN e Motorsport.com (novembro de 2025); UploadVR; Solox (checado em 15/10/2026); APKPure News; Sports Gamers Online; F1 Game News no X; IGN, via Yahoo Sports (19/10/2026); fórum da EA (F1 27 Requested Features); site e canal do AI Race Engineer."
+    ],
+    "resultado": [],
+    "publicar_em": "2026-11-27T12:00:00-03:00"
+  }
+]

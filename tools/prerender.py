@@ -17,7 +17,8 @@ BLOCOS = [("div", "topo"), ("main", "app"), ("div", "rodape")]
 NAVEGADORES = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
                r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
                r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-               shutil.which("msedge") or "", shutil.which("chrome") or "", shutil.which("chromium") or ""]
+               shutil.which("msedge") or "", shutil.which("chrome") or "", shutil.which("chromium") or "",
+               shutil.which("google-chrome") or "", shutil.which("chromium-browser") or ""]
 
 
 def navegador():
@@ -64,7 +65,7 @@ def main():
             if not os.path.exists(arq):
                 continue
             try:
-                r = subprocess.run([nav, "--headless=new", "--disable-gpu", "--no-first-run", "--disable-extensions",
+                r = subprocess.run([nav, "--headless=new", "--disable-gpu", "--no-first-run", "--disable-extensions"] + (["--no-sandbox"] if os.environ.get("PRERENDER_NO_SANDBOX") else []) + [
                                     "--virtual-time-budget=8000", "--dump-dom", f"http://127.0.0.1:{porta}/{p}"],
                                    capture_output=True, timeout=60)
                 dom = r.stdout.decode("utf-8", "replace")

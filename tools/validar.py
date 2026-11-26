@@ -24,6 +24,15 @@ for n in ler("noticias") or []:
         if k not in n: erros.append(f'noticias: item sem "{k}": {n.get("titulo")}')
     if n.get("id") in ids: erros.append(f'noticias: id repetido {n.get("id")}')
     ids.add(n.get("id"))
+from datetime import datetime as _dt
+_ag = ler("agendadas") or []
+for n in _ag:
+    for k in ("id", "titulo", "data", "corpo", "publicar_em"):
+        if k not in n: erros.append(f'agendadas: item sem "{k}": {n.get("titulo")}')
+    try:
+        if _dt.fromisoformat(str(n.get("publicar_em"))).tzinfo is None: erros.append(f'agendadas: publicar_em sem fuso ({n.get("id")}); use -03:00')
+    except Exception: erros.append(f'agendadas: publicar_em inválido ({n.get("id")})')
+    if n.get("id") in ids: erros.append(f'agendadas: id já existe em noticias ({n.get("id")})')
 for n in ler("f1") or []:
     for k in ("titulo", "resumo", "fonte", "url", "data"):
         if not n.get(k): erros.append(f'f1: item sem "{k}": {n.get("titulo")}')

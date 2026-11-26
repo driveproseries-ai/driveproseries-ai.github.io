@@ -77,7 +77,7 @@
     var lnk = function (m) { return '<a href="' + m[0] + '"' + (m[2] === PAGE || ((PAGE === "materia" || PAGE === "materia-fixa") && m[2] === "jornal") ? ' aria-current="page"' : "") + ">" + m[1] + "</a>"; };
     var maisAtivo = MAIS.some(function (m) { return m[2] === PAGE; });
     var nav = MENU.map(lnk).join("") + '<details class="mais"' + (maisAtivo ? ' data-ativo="1"' : "") + "><summary>Mais</summary><div>" + MAIS.map(lnk).join("") + "</div></details>";
-    var ult = noticias[0];
+    var ult = noticias.filter(function (x) { return x.capa !== false; })[0] || noticias[0]; /* capa:false = matéria que não vira manchete */
     var plantao = ult ? '<div class="plantao"><div class="wrap"><b>ÚLTIMA</b><a href="' + urlMateria(ult.id) + '">' + esc(ult.titulo) + "</a></div></div>" : "";
     var demo = DEMO ? '<div class="demo-aviso">Modo demonstração: textos, notícias e estatísticas desta visualização são de exemplo. <a href="?demo=0" style="color:#fff">Sair</a></div>' : "";
     $("#topo").innerHTML = demo + '<header class="topo"><div class="wrap"><a class="marca" href="index.html">DPS<span>.</span>Portal</a><nav class="menu" aria-label="Principal">' + nav + "</nav></div></header>" + plantao;
@@ -216,7 +216,7 @@
   var paginas = {
     home: function (ctx) {
       var n = ctx.noticias, main = $("#app");
-      var dest = n[0], cp = S.camps[0];
+      var dest = n.filter(function (x) { return x.capa !== false; })[0] || n[0], cp = S.camps[0];
       var capa = dest
         ? '<a class="destaque" style="--c:' + (dest.campeonato ? campCor(dest.campeonato) : "#10231c") + '" href="' + urlMateria(dest.id) + '"><span class="selo">' + esc((dest.campeonato ? campNome(dest.campeonato) : "DPS") + (dest.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(dest.data, true)) + "</span><h1>" + esc(dest.titulo) + "</h1><p>" + esc(dest.linha_fina || "") + "</p></a>"
         : '<div class="capa-vazia"><h1>A cobertura da DPS começa aqui.</h1><p>A matéria de cada corrida entra no ar logo depois da etapa. Enquanto isso, confira as tabelas e a próxima largada.</p></div>';
@@ -225,7 +225,7 @@
       var prox = []; S.camps.forEach(function (c) { var e = proximaEtapa(c); if (e) prox.push(etapaCard(c, e)); });
       html += '<section class="sec"><div class="sec-topo"><h2>Próximas etapas</h2><a href="calendario.html">Calendário completo</a></div>' + (prox.length ? '<div class="prox">' + prox.join("") + "</div>" : vazio("Sem etapas marcadas", "O calendário aparece aqui assim que a próxima data for confirmada.")) + "</section>";
       html += blocoDestaques(ctx);
-      var resto = n.slice(1, 7);
+      var resto = n.filter(function (x) { return x !== dest; }).slice(0, 6);
       html += '<section class="sec"><div class="sec-topo"><h2>Jornal DPS</h2><a href="jornal.html">Todas as matérias</a></div>' + (resto.length ? '<div class="cards">' + resto.map(cardNoticia).join("") + "</div>" : vazio("Nada por aqui ainda", "As próximas matérias e avisos da liga aparecem nesta área.")) + "</section>";
       html += '<section class="sec"><div class="sec-topo"><h2>F1 real</h2><a href="f1.html">Mais notícias</a></div>' + (ctx.f1.length ? '<div class="linhas">' + ctx.f1.slice(0, 4).map(linhaF1).join("") + "</div>" : vazio("Sem notícias da F1 por enquanto", "As notícias do campeonato real entram aqui, sempre com a fonte.")) + "</section>";
       var par = parceirosHTML();
