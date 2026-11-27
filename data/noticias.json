@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-11-27-f1-27-ea-confirmado-e-boatos",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-27",
+    "autor": "Redação DPS",
+    "capa": false,
+    "titulo": "F1 27: o que a EA confirmou, o que é boato e o que ainda ninguém sabe",
+    "linha_fina": "Não houve F1 26, só uma expansão do F1 25. E o novo jogo? Separamos o que é oficial, o que vem dos bastidores e o que é boato ou desejo dos fãs, inclusive o tal engenheiro de IA.",
+    "corpo": [
+      "Vamos começar pelo que está provado: o F1 de 2026 não é um jogo novo. Em 18 de novembro de 2025, a EA Sports e a Codemasters anunciaram que não haveria F1 26. A temporada de 2026 chegaria como uma expansão paga do F1 25, e o próximo jogo completo, o F1 27, ficaria para 2027. Quem diz que o F1 26 foi só um update do F1 25 está certo, porque foi a própria EA que descreveu assim. A expansão, chamada F1 25: 2026 Season Pack, saiu em 3 de junho de 2026, segundo o site Solox.",
+      "CONFIRMADO. O que a EA e a Codemasters disseram oficialmente sobre o F1 27 é pouco. Será um jogo completo e independente, não um DLC, descrito como uma versão reimaginada e mais ampla, com novas formas de jogar. O diretor criativo Lee Mather afirmou que o plano de vários anos prolonga a empolgação de 2026 com a expansão e que o estúdio está totalmente comprometido com a franquia.",
+      "AINDA SEM RESPOSTA. A EA não anunciou data de lançamento, preço, capa nem lista de recursos. Sobre as plataformas, há relatos divergentes: um levantamento do Solox, checado em 15 de outubro de 2026, diz que nenhuma plataforma foi anunciada; outro texto, da APKPure, cita PC, PS5 e Xbox Series, mas não aponta o anúncio oficial. Tratamos como não confirmado.",
+      "REPORTADO. Na GDC deste ano, uma palestra da Codemasters sobre o F1 25 mostrou um protótipo com path tracing (um tipo de iluminação mais realista) rodando em um PS5 Pro e um logotipo novo do EGO Engine, o motor dos jogos da série. Segundo o site Sports Gamers Online e o perfil F1 Game News, isso sugere mudanças grandes para o F1 27. É interpretação, não anúncio: a EA não disse que o recurso estará no jogo. Essa parte se apoia em resumos de busca, porque não conseguimos abrir as páginas completas.",
+      "REPORTADO. A licença da Codemasters para o jogo oficial da F1 vai até o fim de 2027, segundo uma notícia da Autosport relembrada pelo F1 Game News. Se for assim, o F1 27 seria o último jogo confirmado do estúdio com a EA, sem informação pública sobre uma nova renovação. De novo, é bastidor, não comunicado da EA.",
+      "BOATO. E o engenheiro de corrida com inteligência artificial, que conversa de verdade em vez de repetir perguntas prontas? Não encontramos nenhuma fonte oficial nem reportagem de peso que confirme isso no F1 27. O que existe é um pedido dos fãs: um tópico de recursos desejados no fórum da EA, de cerca de nove meses atrás, lista o engenheiro interativo. E existe também um aplicativo de terceiros, o AI Race Engineer, que lê a telemetria do jogo (do F1 2020 ao pacote 2026 do F1 25, além do Gran Turismo 7) e responde por voz. Ele não é da EA nem da Codemasters. Pode ter alimentado parte dos vídeos que circulam, mas isso é suposição nossa. Até a EA mostrar algo, é boato.",
+      "DESEJO DOS FÃS. As listas se repetem: melhor resposta do volante e do modelo de pilotagem, mais carros clássicos, um modo carreira mais forte e menos foco em personalização do avatar. No fórum da EA aparecem pedidos como falhas mecânicas no modo Grand Prix, grid personalizado, novo sistema de danos e manobras manuais nos boxes. São pedidos, não novidades.",
+      "O QUE NINGUÉM SABE AINDA. Um artigo de opinião da IGN, de outubro de 2026, levanta a dúvida de como o F1 27 vai tratar a gestão de energia dos carros de 2026 e as mudanças que vêm em 2027. É opinião do autor e a EA não comentou. O autor ainda especula que a Codemasters talvez só consiga fechar o modelo de pilotagem depois de ver os carros de 2027 em ação.",
+      "ATENÇÃO COM O QUE CIRCULA. A própria APKPure avisa que há vídeos falsos de gameplay, miniaturas feitas por IA e ofertas de acesso antecipado ou download que não são reais. Se algum vídeo promete mostrar o F1 27 antes da EA, desconfie.",
+      "Resumindo: confirmado é pouco, boato é bastante e o resto é esperar a EA abrir o jogo. Quando houver trailer, data ou lista de recursos oficial, atualizamos por aqui. Até lá, o F1 25 segue sendo o jogo da DPS, e o engenheiro de pista continua o de sempre: educado e previsível.",
+      "Fontes: Crash.net (19/11/2025); ESPN e Motorsport.com (novembro de 2025); UploadVR; Solox (checado em 15/10/2026); APKPure News; Sports Gamers Online; F1 Game News no X; IGN, via Yahoo Sports (19/10/2026); fórum da EA (F1 27 Requested Features); site e canal do AI Race Engineer."
+    ],
+    "resultado": []
+  },
+  {
     "id": "2026-11-26-perfil-matheus-gregorio",
     "tipo": "jornal",
     "campeonato": null,
