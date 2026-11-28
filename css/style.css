@@ -121,7 +121,14 @@ td.neg{color:#a3121f}
 .materia h1{font-size:clamp(38px,5.5vw,58px);margin:12px 0 14px}
 .materia .fina{font-family:var(--body);font-size:23px;line-height:1.35;color:#2b4137;margin:0 0 18px}
 .materia .corpo p{font-family:var(--body);font-size:20px;line-height:1.65;margin:0 0 1.1em}
-.materia .corpo p:first-child::first-line{font-weight:600}
+.materia .corpo p:first-of-type::first-line{font-weight:600}
+.materia .corpo::after{content:"";display:block;clear:both}
+.materia .fig{margin:0}
+.materia .fig img{display:block;width:100%;height:auto;border-radius:6px;background:#10231c}
+.materia .fig figcaption{font-family:var(--ui);font-size:14px;color:var(--muted);margin-top:6px}
+.materia .fig-card{float:right;width:250px;margin:6px 0 16px 26px}
+.materia .fig-larga{clear:both;margin:28px 0}
+@media(max-width:620px){.materia .fig-card{float:none;width:68%;margin:0 auto 20px}}
 .materia .res{margin:28px 0}
 .compart{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
 .botao{display:inline-block;font-family:var(--head);font-weight:700;font-size:20px;background:var(--ink);color:#fff;border:0;padding:8px 18px;text-decoration:none;cursor:pointer}

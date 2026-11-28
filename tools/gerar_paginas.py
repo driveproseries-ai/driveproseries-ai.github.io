@@ -63,7 +63,18 @@ def pagina(n):
     url = f"{BASE}/m/{n['id']}.html"
     desc = n.get("linha_fina") or (n.get("corpo") or [""])[0][:160]
     titulo = f"{n['titulo']} · {nome_site}"
-    corpo = "".join(f"<p>{esc(p)}</p>" for p in n.get("corpo", []))
+    figs = [f for f in n.get("imagens", []) if f.get("src")]
+
+    def fig(f):
+        card = f.get("tipo") == "card"
+        dim = f' width="{int(f["w"])}" height="{int(f["h"])}"' if f.get("w") and f.get("h") else ""
+        leg = f'<figcaption>{esc(f["legenda"])}</figcaption>' if f.get("legenda") else ""
+        return (f'<figure class="fig {"fig-card" if card else "fig-larga"}"><img src="{esc(f["src"])}" alt="{esc(f.get("alt", ""))}" loading="lazy"{dim}>{leg}</figure>')
+
+    corpo = "".join(fig(f) for f in figs if f.get("tipo") == "card")
+    for i, p in enumerate(n.get("corpo", []), 1):
+        corpo += f"<p>{esc(p)}</p>" + "".join(fig(f) for f in figs if f.get("tipo") != "card" and f.get("depois") == i)
+    og_img = f"{BASE}/{figs[0]['src']}" if figs else ""
     res = ""
     if n.get("resultado"):
         linhas = "".join(
@@ -78,6 +89,8 @@ def pagina(n):
         "publisher": {"@type": "Organization", "name": nome_site},
         "mainEntityOfPage": url, "inLanguage": "pt-BR",
     }
+    if og_img:
+        ld["image"] = og_img
     wa = "https://wa.me/?text=" + html.escape(
         __import__("urllib.parse").parse.quote(n["titulo"] + " " + url), quote=True)
     return f"""<!doctype html>
@@ -93,6 +106,7 @@ def pagina(n):
 <meta property="og:title" content="{esc(n['titulo'])}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="article">
+{f'<meta property="og:image" content="{esc(og_img)}">' if og_img else ''}
 <meta property="og:url" content="{esc(url)}">
 <meta property="og:locale" content="pt_BR">
 <meta name="theme-color" content="#10231c">

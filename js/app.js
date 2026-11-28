@@ -142,6 +142,21 @@
     var cal = c.dados.calendario || [];
     return cal.filter(function (e) { return e.status === "proxima"; })[0] || cal.filter(function (e) { return e.status !== "realizada"; })[0];
   }
+  function safeImg(u) { return /^(img\/[\w\-\/.]+|https?:\/\/\S+)$/i.test(u || "") ? u : ""; }
+  function figHtml(f) {
+    var card = f.tipo === "card";
+    return '<figure class="fig ' + (card ? "fig-card" : "fig-larga") + '"><img src="' + esc(safeImg(f.src)) + '" alt="' + esc(f.alt || "") + '" loading="lazy"' + (f.w && f.h ? ' width="' + (f.w | 0) + '" height="' + (f.h | 0) + '"' : "") + ">" + (f.legenda ? "<figcaption>" + esc(f.legenda) + "</figcaption>" : "") + "</figure>";
+  }
+  /* corpo da matéria; "imagens": tipo "card" abre a matéria (flutua à direita), outro tipo entra depois do parágrafo "depois" (1 = primeiro) */
+  function corpoHtml(n) {
+    var figs = (n.imagens || []).filter(function (f) { return f && safeImg(f.src); }), h = "";
+    figs.forEach(function (f) { if (f.tipo === "card") h += figHtml(f); });
+    (n.corpo || []).forEach(function (p, i) {
+      h += "<p>" + esc(p) + "</p>";
+      figs.forEach(function (f) { if (f.tipo !== "card" && f.depois === i + 1) h += figHtml(f); });
+    });
+    return h;
+  }
   function cardNoticia(n) {
     var cor = n.campeonato ? campCor(n.campeonato) : "#10231c";
     var selo = n.campeonato ? '<span class="selo" style="--c:' + cor + '">' + esc(campNome(n.campeonato) + (n.tipo === "expectativa" ? " · Expectativa" : "")) + "</span> " : '<span class="selo" style="--c:#10231c">DPS</span> ';
@@ -373,7 +388,7 @@
         res = '<div class="res"><h3>Resultado</h3><div class="rolagem"><table style="min-width:0"><thead><tr><th>Pos</th><th>Piloto</th><th>Equipe</th></tr></thead><tbody>' + n.resultado.map(function (r) { return '<tr><td class="p">' + esc(r.pos) + "</td><td>" + esc(r.piloto) + "</td><td>" + esc(r.equipe || "") + "</td></tr>"; }).join("") + "</tbody></table></div></div>";
       }
       var link = location.href.split("#")[0];
-      $("#app").innerHTML = '<div class="wrap"><article class="materia" style="--camp:' + cor + ";--c:" + cor + '"><span class="selo">' + esc((n.campeonato ? campNome(n.campeonato) : "DPS") + (n.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(n.data, true)) + " · " + esc(n.autor || "Redação DPS") + "</span><h1>" + esc(n.titulo) + '</h1><p class="fina">' + esc(n.linha_fina || "") + '</p><div class="corpo">' + (n.corpo || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div>" + res +
+      $("#app").innerHTML = '<div class="wrap"><article class="materia" style="--camp:' + cor + ";--c:" + cor + '"><span class="selo">' + esc((n.campeonato ? campNome(n.campeonato) : "DPS") + (n.tipo === "expectativa" ? " · Expectativa" : "")) + '</span> <span class="meta">' + esc(fmtData(n.data, true)) + " · " + esc(n.autor || "Redação DPS") + "</span><h1>" + esc(n.titulo) + '</h1><p class="fina">' + esc(n.linha_fina || "") + '</p><div class="corpo">' + corpoHtml(n) + "</div>" + res +
         '<div class="compart"><a class="botao" href="https://wa.me/?text=' + encodeURIComponent(n.titulo + " " + link) + '" rel="noopener">Compartilhar no WhatsApp</a><a class="botao claro" href="jornal.html">Mais matérias</a></div></article></div>';
     },
 
