@@ -1,5 +1,42 @@
 [
   {
+    "id": "2026-11-28-guia-catar",
+    "tipo": "jornal",
+    "campeonato": null,
+    "data": "2026-11-28",
+    "autor": "Redação DPS",
+    "capa": false,
+    "titulo": "Catar de ponta a ponta: pérolas, falcões, machboos e uma pista que nasceu para as motos",
+    "linha_fina": "Do país que já viveu de mergulhar atrás de pérolas até o circuito de Lusail, que estreou na F1 em 2021 e já rendeu título, calor de passar mal e limite de pneus. O que saber antes do GP do Catar no Elite (1º de dezembro) e no Mundial (6 de dezembro).",
+    "corpo": [
+      "O Elite corre o GP do Catar na terça-feira, 1º de dezembro, às 21h30, na penúltima etapa da temporada, sem sprint e sem grid invertido. O Mundial chega a Lusail no domingo, 6 de dezembro. A F1 de verdade também está por lá neste fim de semana, com largada no domingo, 29 de novembro, às 19h no horário local, que dá 13h em Brasília. Antes de abrir o acelerador, vale conhecer o país e a pista, que têm mais história do que o deserto deixa transparecer.",
+      "Pérolas antes do petróleo. Antes do gás e do petróleo, a economia do Catar vivia de pesca, comércio e mergulho atrás de pérolas, e a memória disso aparece em tudo. A Pearl-Qatar, ilha artificial de Doha, foi desenhada para lembrar um colar de pérolas, e os dhows, barcos de madeira à vela usados para pescar, comerciar e mergulhar, seguem como símbolo do país. Até a cidade onde fica a pista, Lusail, é planejada e tem marina na orla.",
+      "Majlis. É a sala de visitas e a praça pública da cultura local: um espaço em que família, amigos e visitantes se reúnem para conversar sobre tudo, de assunto de família a política, e o anfitrião recebe quem aparece. O café árabe, tradicionalmente preparado e servido pelos homens aos convidados, faz parte do ritual. A palavra vem do árabe para \"sentar\", o que explica por que ninguém tem pressa de ir embora.",
+      "Falcões e camelos. Falcoaria, corrida de camelos e cavalos árabes são esportes de tradição. No Souq Waqif, o mercado do centro antigo de Doha, existe uma feira só de falcões e até um hospital para eles, com check-up, cirurgia e microchip. Aves de competição podem passar de 1 milhão de riais catarianos, segundo o material oficial de turismo, e a Qatar Airways deixa cada passageiro levar um falcão na classe econômica, com limite de seis por avião. As corridas profissionais de camelo existem desde 1972 e hoje usam jóqueis-robô, pequenos robôs controlados por rádio pelos treinadores, o que é, de certa forma, uma corrida virtual.",
+      "Na mesa. O prato mais famoso é o machboos (também escrito kabsa ou majboos): arroz cozido na mesma panela com frango, cordeiro, peixe, camarão ou até camelo, temperado com alho, gengibre, pimentas e a mistura local de especiarias chamada bizar. Lembra um biryani e é o prato de celebração por excelência. O harees, mingau de trigo triturado com carne, aparece no Ramadã e no Eid; o balaleet é macarrão doce com açafrão, servido com omelete; e o doce clássico é o luqaimat, bolinhas fritas com calda de tâmara. Para beber, o karak: chá fervido com especiarias e leite evaporado, com cardamomo e açafrão. A despensa vem da antiga rota de especiarias, com cardamomo, cravo, limão seco (loomi) e cominho, e boa parte dos pratos é de uma panela só, o que combina com quem corre às 21h30.",
+      "A pista. O Lusail International Circuit (Losail, na grafia antiga) fica ao norte de Doha e nasceu para motos. Foi construído em pouco mais de um ano, por cerca de mil operários, com custo de 58 milhões de dólares, e abriu em 2004 com o primeiro GP do Catar de MotoGP, em 2 de outubro. Em 2008 ganhou iluminação permanente e, segundo o próprio MotoGP, sediou o primeiro GP noturno da história.",
+      "A F1 chega ao deserto. A F1 estreou ali em 2021, numa corrida de fim de tarde vencida por Lewis Hamilton, com Max Verstappen em segundo e Fernando Alonso no pódio pela primeira vez desde 2014. Em 2022 o país ficou de fora porque recebia a Copa do Mundo, e a F1 voltou em 2023 com contrato de dez anos. Desde então a corrida é noturna, sob refletores, mas o calor e a umidade continuam fortes.",
+      "O traçado. A volta de F1 tem 5,419 km e 16 curvas, 10 para a direita e 6 para a esquerda segundo a ficha do MotoGP, e uma reta principal de 1,068 km que termina na curva 1, o ponto mais óbvio de ultrapassagem. O resto é uma sequência de curvas rápidas e encadeadas, de média e alta velocidade, desenho típico de pista de motos e bem diferente do para-e-arranca dos circuitos urbanos. A corrida tem 57 voltas (308,611 km) e o circuito é cercado por grama artificial, para a areia do deserto não invadir a pista.",
+      "2023, o ano em que tudo apertou. A edição de 2023 entrou para a história por três motivos. Verstappen garantiu o tricampeonato na sprint de sábado. As zebras em formato de pirâmide levaram a Pirelli a alertar para risco de descolamento do pneu, e a FIA limitou cada jogo a 18 voltas, o que na prática exigiu três paradas em 57 voltas. E o calor e a umidade, mesmo depois do pôr do sol, deixaram quatro pilotos fisicamente mal, segundo o Autosport. Verstappen venceu no domingo, com Oscar Piastri em segundo e Alonso em terceiro.",
+      "Depois do susto. Em 2024, sete das 16 curvas ganharam zebras redesenhadas e faixas estreitas de brita para desencorajar quem pisa fora da pista. Em 2025, por precaução, foi imposto um limite de 25 voltas por jogo de pneus, e a Pirelli levou os compostos mais duros da gama. Verstappen venceu de novo, à frente de Piastri e de Carlos Sainz (Williams), e a decisão do título foi para Abu Dhabi, com Lando Norris em quarto. Foi a terceira vitória seguida dele em Lusail.",
+      "Para ter ordem de grandeza (no jogo os tempos são outros): a volta mais rápida em corrida no traçado atual é de Lando Norris, 1min22s384, em 2024; o recorde do traçado original, de 2021, é de Verstappen, 1min23s196; e a pole de 2025 foi de Oscar Piastri, com 1min19s387.",
+      "Outras curiosidades. A pista recebe também o Mundial de Endurance, com as 1812 km do Catar, e a F1 já tem data para voltar em 2027, de 3 a 5 de dezembro, de novo com sprint. Para quem corre aqui, o resumo é: uma reta de mais de um quilômetro, curvas rápidas em sequência e um traçado que, na vida real, é duro com pneu e com pescoço. No jogo, o clima e o desgaste dependem da configuração da sala, então confira antes de largar.",
+      "Fontes: Formula 1 (circuito, programação e resultados); MotoGP.com; FIA; Pirelli; Autosport; Motorsport Magazine; Motorsport.com; RacingNews365; Wikipedia (Lusail International Circuit); Honda Racing; Visit Qatar; Qatar Tourism; Michelin Guide Qatar; Middle East Eye; Culture Trip; Qatar Tribune; The Peninsula."
+    ],
+    "imagens": [
+      {
+        "tipo": "grafico",
+        "src": "img/m/2026-11-28-guia-catar-grafico.jpg",
+        "alt": "Lusail International Circuit em números: 5,419 km por volta, 57 voltas, 16 curvas, reta principal de 1,068 km, estreia em 2004 com o MotoGP e em 2021 com a F1. Vencedores da F1: Hamilton em 2021 e Verstappen em 2023, 2024 e 2025.",
+        "legenda": "Lusail em números. Fontes: Formula1.com, MotoGP.com e Wikipedia.",
+        "w": 1200,
+        "h": 675,
+        "depois": 8
+      }
+    ],
+    "resultado": []
+  },
+  {
     "id": "2026-11-28-cronica-arthur-tuta",
     "tipo": "jornal",
     "campeonato": null,
